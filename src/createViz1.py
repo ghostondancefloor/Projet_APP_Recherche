@@ -21,11 +21,21 @@ sorted_researchers = ['All Researchers'] + sorted(df['customAuthorName'].unique(
 # Select the researcher to view their publications
 researcher = st.selectbox("Select Researcher", sorted_researchers)
 
-# Filter data by the selected researcher
-if researcher == 'All Researchers':
-    filtered_df = df
-else:
-    filtered_df = df[df['customAuthorName'] == researcher]
+# Time period filter (year range slider)
+start_year, end_year = st.slider(
+    "Select time period",
+    min_value=int(df['publicationYear'].min()),  # Ensure min_value is int
+    max_value=int(df['publicationYear'].max()),  # Ensure max_value is int
+    value=(2005, 2010),
+    step=1
+)
+
+# Filter the data by the selected time period
+filtered_df = df[(df['publicationYear'] >= start_year) & (df['publicationYear'] <= end_year)]
+
+# Further filter by researcher selection
+if researcher != 'All Researchers':
+    filtered_df = filtered_df[filtered_df['customAuthorName'] == researcher]
 
 # Choose whether to view the data by Month or Year
 view_by = st.radio("View publications by:", ("Month", "Year"))
