@@ -15,8 +15,11 @@ df['publicationMonth'] = df['publicationDate_s'].dt.to_period('M')
 # Streamlit App for USMB (Université Savoie Mont Blanc)
 st.title("USMB Publication Tracker")
 
+# Sidebar for filters
+st.sidebar.title("Filters")
+
 # Time period filter (year range slider)
-start_year, end_year = st.slider(
+start_year, end_year = st.sidebar.slider(
     "Select time period",
     min_value=int(df['publicationYear'].min()),  # Ensure min_value is int
     max_value=int(df['publicationYear'].max()),  # Ensure max_value is int
@@ -32,7 +35,7 @@ usmb_df = df[df['instStructName_s'].str.contains('Université Savoie Mont Blanc'
 usmb_filtered_df = usmb_df[(usmb_df['publicationYear'] >= start_year) & (usmb_df['publicationYear'] <= end_year)]
 
 # Choose whether to view the data by Month or Year
-view_by = st.radio("View publications by:", ("Month", "Year"))
+view_by = st.sidebar.radio("View publications by:", ("Month", "Year"))
 
 if view_by == "Month":
     # Group by Month and Count publications
@@ -43,8 +46,8 @@ if view_by == "Month":
 
     # Plot using Plotly for better interactivity
     fig = px.bar(publication_count_by_month, x='publicationMonth', y='count', 
-                title="USMB Publications per Month",
-                labels={'publicationMonth': 'Month', 'count': 'Number of Publications'})
+                 title="USMB Publications per Month",
+                 labels={'publicationMonth': 'Month', 'count': 'Number of Publications'})
 
     # Show the plot
     st.plotly_chart(fig)
