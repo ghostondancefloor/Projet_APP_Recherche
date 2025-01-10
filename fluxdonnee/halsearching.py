@@ -48,7 +48,7 @@ for line in lines:
         print(f"Querying HAL API for: {full_name}")
         
         # Construct the full query URL
-        url = f"https://api.archives-ouvertes.fr/search/?q=authFullName_s:%22{encoded_name}%22%20AND%20instStructName_s:%22Université%20Savoie%20Mont%20Blanc%22&fl=instStructName_s,title_s,authFullName_s,publicationDate_s&wt=json&rows=10"
+        url = f"https://api.archives-ouvertes.fr/search/?q=authFullName_s:%22{encoded_name}%22&fl=instStructName_s,title_s,authFullName_s,publicationDate_s&wt=json&rows=10"
 
         # Send the request
         response = requests.get(url)
