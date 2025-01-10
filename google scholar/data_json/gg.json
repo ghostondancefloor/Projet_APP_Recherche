@@ -1,0 +1,2286 @@
+[
+    {
+      "title": "\"Principal component inverse\" algorithm for detection in the presence of reverberation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "-fCtTbcAAAAJ:u5HHmVD_uO8C",
+      "authors": "G Ginolhac, G Jourdain",
+      "publication": "Oceanic Engineering, IEEE Journal of 27 (2), 310-321, 2002",
+      "cited_by": {
+        "value": 91,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11769236647539602129",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11769236647539602129&engine=google_scholar&hl=en",
+        "cites_id": "11769236647539602129"
+      },
+      "year": "2002"
+    },
+    {
+      "title": "Robust adaptive detection of buried pipes using GPR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:ubry08Y2EpUC",
+      "citation_id": "-fCtTbcAAAAJ:ubry08Y2EpUC",
+      "authors": "Q Hoarau, G Ginolhac, AM Atto, JM Nicolas",
+      "publication": "Signal Processing 132, 293-305, 2017",
+      "cited_by": {
+        "value": 61,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13125160682556048270",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13125160682556048270&engine=google_scholar&hl=en",
+        "cites_id": "13125160682556048270"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Low-complexity algorithms for low rank clutter parameters estimation in radar systems",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:48xauSegjOkC",
+      "citation_id": "-fCtTbcAAAAJ:48xauSegjOkC",
+      "authors": "Y Sun, A Breloy, P Babu, DP Palomar, F Pascal, G Ginolhac",
+      "publication": "IEEE Transactions on Signal Processing 64 (8), 1986-1998, 2015",
+      "cited_by": {
+        "value": 60,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17927360533537387270",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17927360533537387270&engine=google_scholar&hl=en",
+        "cites_id": "17927360533537387270"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Performance of two low-rank STAP filters in a heterogeneous noise",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:4JMBOYKVnBMC",
+      "citation_id": "-fCtTbcAAAAJ:4JMBOYKVnBMC",
+      "authors": "G Ginolhac, P Forster, F Pascal, JP Ovarlez",
+      "publication": "IEEE Transactions on Signal Processing 61 (1), 57-61, 2012",
+      "cited_by": {
+        "value": 54,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2017392835244573689",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2017392835244573689&engine=google_scholar&hl=en",
+        "cites_id": "2017392835244573689"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Intrinsic Cramér–Rao bounds for scatter and shape matrices estimation in CES distributions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:WHdLCjDvYFkC",
+      "citation_id": "-fCtTbcAAAAJ:WHdLCjDvYFkC",
+      "authors": "A Breloy, G Ginolhac, A Renaux, F Bouchard",
+      "publication": "IEEE Signal Processing Letters 26 (2), 262-266, 2018",
+      "cited_by": {
+        "value": 45,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1578712265533921394",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1578712265533921394&engine=google_scholar&hl=en",
+        "cites_id": "1578712265533921394"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Detection in presence of reverberation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "-fCtTbcAAAAJ:u-x6o8ySG0sC",
+      "authors": "G Ginolhac, G Jourdain",
+      "publication": "OCEANS 2000 MTS/IEEE Conference and Exhibition. Conference Proceedings (Cat …, 2000",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4889877771454632539",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4889877771454632539&engine=google_scholar&hl=en",
+        "cites_id": "4889877771454632539"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "New robust statistics for change detection in time series of multivariate SAR images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:MhiOAD_qIWkC",
+      "citation_id": "-fCtTbcAAAAJ:MhiOAD_qIWkC",
+      "authors": "A Mian, G Ginolhac, JP Ovarlez, AM Atto",
+      "publication": "IEEE Transactions on Signal Processing 67 (2), 520-534, 2018",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10328901448776295130",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10328901448776295130&engine=google_scholar&hl=en",
+        "cites_id": "10328901448776295130"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Multistatic and multiple frequency imaging resolution analysis-application to GPS-based multistatic radar",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:RHpTSmoSYBkC",
+      "citation_id": "-fCtTbcAAAAJ:RHpTSmoSYBkC",
+      "authors": "F Daout, F Schmitt, G Ginolhac, P Fargette",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 48 (4), 3042-3057, 2012",
+      "cited_by": {
+        "value": 36,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3811013202786570330",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3811013202786570330&engine=google_scholar&hl=en",
+        "cites_id": "3811013202786570330"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Exploiting persymmetry for low-rank space time adaptive processing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:e5wmG9Sq2KIC",
+      "citation_id": "-fCtTbcAAAAJ:e5wmG9Sq2KIC",
+      "authors": "G Ginolhac, P Forster, F Pascal, JP Ovarlez",
+      "publication": "Signal Processing 97, 242-251, 2014",
+      "cited_by": {
+        "value": 33,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4390358596751584905",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4390358596751584905&engine=google_scholar&hl=en",
+        "cites_id": "4390358596751584905"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Robust covariance matrix estimation in heterogeneous low rank context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:43bX7VzcjpAC",
+      "citation_id": "-fCtTbcAAAAJ:43bX7VzcjpAC",
+      "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+      "publication": "IEEE Transactions on Signal Processing 64 (22), 5794-5806, 2016",
+      "cited_by": {
+        "value": 32,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1773528451682941145",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1773528451682941145&engine=google_scholar&hl=en",
+        "cites_id": "1773528451682941145"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Clutter subspace estimation in low rank heterogeneous noise context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:jL-93Qbq4QoC",
+      "citation_id": "-fCtTbcAAAAJ:jL-93Qbq4QoC",
+      "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+      "publication": "IEEE Transactions on Signal Processing 63 (9), 2173-2182, 2015",
+      "cited_by": {
+        "value": 32,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1054446627745727525",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1054446627745727525&engine=google_scholar&hl=en",
+        "cites_id": "1054446627745727525"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Numerical performance of a tensor MUSIC algorithm based on HOSVD for a mixture of polarized sources",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:isC4tDSrTZIC",
+      "citation_id": "-fCtTbcAAAAJ:isC4tDSrTZIC",
+      "authors": "M Boizard, G Ginolhac, F Pascal, S Miron, P Forster",
+      "publication": "21st European signal processing conference (EUSIPCO 2013), 1-5, 2013",
+      "cited_by": {
+        "value": 31,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18137966743170134645",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18137966743170134645&engine=google_scholar&hl=en",
+        "cites_id": "18137966743170134645"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "New SAR processor based on matched subspace detectors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:qjMakFHDy7sC",
+      "citation_id": "-fCtTbcAAAAJ:qjMakFHDy7sC",
+      "authors": "R Durand, G Ginolhac, L Thirion, P Forster",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 45 (1), 221-236, 2009",
+      "cited_by": {
+        "value": 26,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3120128019443551514",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3120128019443551514&engine=google_scholar&hl=en",
+        "cites_id": "3120128019443551514"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Three-mode data set analysis using higher order subspace method: application to sonar and seismo-acoustic signal processing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "-fCtTbcAAAAJ:9yKSN-GCB0IC",
+      "authors": "N Le Bihan, G Ginolhac",
+      "publication": "Signal Processing 84 (5), 919-942, 2004",
+      "cited_by": {
+        "value": 25,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12719388130623980672",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12719388130623980672&engine=google_scholar&hl=en",
+        "cites_id": "12719388130623980672"
+      },
+      "year": "2004"
+    },
+    {
+      "title": "Spatio-temporal adaptive detector in non-homogeneous and low-rank clutter",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "-fCtTbcAAAAJ:UeHWp8X0CEIC",
+      "authors": "G Ginolhac, P Forster, JP Ovarlez, F Pascal",
+      "publication": "2009 IEEE International Conference on Acoustics, Speech and Signal …, 2009",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12467928903636913289",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12467928903636913289&engine=google_scholar&hl=en",
+        "cites_id": "12467928903636913289"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Robust low-rank covariance matrix estimation with a general pattern of missing values",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:-7ulzOJl1JYC",
+      "citation_id": "-fCtTbcAAAAJ:-7ulzOJl1JYC",
+      "authors": "A Hippert-Ferrer, MN El Korso, A Breloy, G Ginolhac",
+      "publication": "Signal Processing 195, 108460, 2022",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2760227260678815370",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2760227260678815370&engine=google_scholar&hl=en",
+        "cites_id": "2760227260678815370"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Design of new wavelet packets adapted to high-resolution SAR images with an application to target detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:WC23djZS0W4C",
+      "citation_id": "-fCtTbcAAAAJ:WC23djZS0W4C",
+      "authors": "A Mian, JP Ovarlez, AM Atto, G Ginolhac",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing 57 (6), 3919-3932, 2019",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6945673152191133516",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6945673152191133516&engine=google_scholar&hl=en",
+        "cites_id": "6945673152191133516"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Derivation of the theoretical performance of a Tensor MUSIC algorithm",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:zCSUwVk65WsC",
+      "citation_id": "-fCtTbcAAAAJ:zCSUwVk65WsC",
+      "authors": "P Forster, G Ginolhac, M Boizard",
+      "publication": "Signal Processing 129, 97-105, 2016",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10883303840952075644",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10883303840952075644&engine=google_scholar&hl=en",
+        "cites_id": "10883303840952075644"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Multifrequency and multistatic inverse synthetic aperture radar, with application to FM passive radar",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "-fCtTbcAAAAJ:W7OEmFMy1HYC",
+      "authors": "G Ginolhac, F Schmitt, F Daout, P Forster",
+      "publication": "EURASIP Journal on Advances in Signal Processing 2010, 1-13, 2009",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4004443851614191996",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4004443851614191996&engine=google_scholar&hl=en",
+        "cites_id": "4004443851614191996"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Morphological and statistical approaches to improve detection in the presence of reverberation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "-fCtTbcAAAAJ:d1gkVwhDpl0C",
+      "authors": "G Ginolhac, J Chanussot, C Hory",
+      "publication": "IEEE Journal of Oceanic Engineering 30 (4), 881-899, 2005",
+      "cited_by": {
+        "value": 21,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1080701955279857485",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1080701955279857485&engine=google_scholar&hl=en",
+        "cites_id": "1080701955279857485"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Random matrix improved covariance estimation for a large class of metrics",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:AXkvAH5U_nMC",
+      "citation_id": "-fCtTbcAAAAJ:AXkvAH5U_nMC",
+      "authors": "M Tiomoko, R Couillet, F Bouchard, G Ginolhac",
+      "publication": "International Conference on Machine Learning, 6254-6263, 2019",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14563895050572661736",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14563895050572661736&engine=google_scholar&hl=en",
+        "cites_id": "14563895050572661736"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Back projection version of subspace detector SAR processors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:4DMP91E08xMC",
+      "citation_id": "-fCtTbcAAAAJ:4DMP91E08xMC",
+      "authors": "R Durand, G Ginolhac, L Thirion-Lefevre, P Forster",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 47 (2), 1489-1497, 2011",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5139451232450141658",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5139451232450141658&engine=google_scholar&hl=en",
+        "cites_id": "5139451232450141658"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Riemannian geometry for compound Gaussian distributions: Application to recursive change detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:WC9gN4BGCRcC",
+      "citation_id": "-fCtTbcAAAAJ:WC9gN4BGCRcC",
+      "authors": "F Bouchard, A Mian, J Zhou, S Said, G Ginolhac, Y Berthoumieu",
+      "publication": "Signal Processing 176, 107716, 2020",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15158360584600408971",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15158360584600408971&engine=google_scholar&hl=en",
+        "cites_id": "15158360584600408971"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Performances of low rank detectors based on random matrix theory with application to STAP",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:PVgj2kMGcgYC",
+      "citation_id": "-fCtTbcAAAAJ:PVgj2kMGcgYC",
+      "authors": "A Combernoux, F Pascal, M Lesturgie, G Ginolhac",
+      "publication": "2014 International Radar Conference, 1-4, 2014",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=454733246254861777",
+        "serpapi_link": "https://serpapi.com/search.json?cites=454733246254861777&engine=google_scholar&hl=en",
+        "cites_id": "454733246254861777"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "New SAR target imaging algorithm based on oblique projection for clutter reduction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:2tRrZ1ZAMYUC",
+      "citation_id": "-fCtTbcAAAAJ:2tRrZ1ZAMYUC",
+      "authors": "F Brigui, G Ginolhac, L Thirion-Lefevre, P Forster",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 50 (2), 1118-1137, 2014",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9743502461895507387",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9743502461895507387&engine=google_scholar&hl=en",
+        "cites_id": "9743502461895507387"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "GPS ISAR passive system characterization using point spread function",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:LkGwnXOMwfcC",
+      "citation_id": "-fCtTbcAAAAJ:LkGwnXOMwfcC",
+      "authors": "F Maussang, F Daout, G Ginolhac, F Schmitt",
+      "publication": "2008 New Trends for Environmental Monitoring Using Passive Systems, 1-4, 2008",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5695656148556205945",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5695656148556205945&engine=google_scholar&hl=en",
+        "cites_id": "5695656148556205945"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Subspace methods for 3D arrays",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "-fCtTbcAAAAJ:2osOgNQ5qMEC",
+      "authors": "N Le Bihan, G Ginolhac",
+      "publication": "Workshop on Physics in Signal and Image Processing (PSIP), 359-364, 2001",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11502987228361718452",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11502987228361718452&engine=google_scholar&hl=en",
+        "cites_id": "11502987228361718452"
+      },
+      "year": "2001"
+    },
+    {
+      "title": "A Riemannian framework for low-rank structured elliptical models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:3NQIlFlcGxIC",
+      "citation_id": "-fCtTbcAAAAJ:3NQIlFlcGxIC",
+      "authors": "F Bouchard, A Breloy, G Ginolhac, A Renaux, F Pascal",
+      "publication": "IEEE Transactions on Signal Processing 69, 1185-1199, 2021",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16058711746199914404",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16058711746199914404&engine=google_scholar&hl=en",
+        "cites_id": "16058711746199914404"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Robust rank constrained kronecker covariance matrix estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:v1_lew4L6wgC",
+      "citation_id": "-fCtTbcAAAAJ:v1_lew4L6wgC",
+      "authors": "A Breloy, Y Sun, P Babu, G Ginolhac, DP Palomar",
+      "publication": "2016 50th Asilomar Conference on Signals, Systems and Computers, 810-814, 2016",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8453741863991128415",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8453741863991128415&engine=google_scholar&hl=en",
+        "cites_id": "8453741863991128415"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "New SAR algorithm based on orthogonal projections for MMT detection and interference reduction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:hMod-77fHWUC",
+      "citation_id": "-fCtTbcAAAAJ:hMod-77fHWUC",
+      "authors": "F Brigui, L Thirion-Lefevre, G Ginolhac, P Forster",
+      "publication": "IEEE transactions on geoscience and remote sensing 52 (7), 3800-3811, 2013",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11766307415010551229",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11766307415010551229&engine=google_scholar&hl=en",
+        "cites_id": "11766307415010551229"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Multivariate change detection on high resolution monovariate SAR image using linear time-frequency analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:nRpfm8aw39MC",
+      "citation_id": "-fCtTbcAAAAJ:nRpfm8aw39MC",
+      "authors": "A Mian, JP Ovarlez, G Ginolhac, A Atto",
+      "publication": "2017 25th European Signal Processing Conference (EUSIPCO), 1942-1946, 2017",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6587890021292303529",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6587890021292303529&engine=google_scholar&hl=en",
+        "cites_id": "6587890021292303529"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Maximum likelihood estimation of clutter subspace in non homogeneous noise context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:k_IJM867U9cC",
+      "citation_id": "-fCtTbcAAAAJ:k_IJM867U9cC",
+      "authors": "A Breloy, L Le Magoarou, G Ginolhac, F Pascal, P Forster",
+      "publication": "21st European Signal Processing Conference (EUSIPCO 2013), 1-5, 2013",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16095824542074786589",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16095824542074786589&engine=google_scholar&hl=en",
+        "cites_id": "16095824542074786589"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Derivation of the bias of the normalized sample covariance matrix in a heterogeneous noise with application to low rank STAP filter",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:0EnyYjriUFMC",
+      "citation_id": "-fCtTbcAAAAJ:0EnyYjriUFMC",
+      "authors": "G Ginolhac, P Forster, F Pascal, JP Ovarlez",
+      "publication": "IEEE transactions on signal processing 60 (1), 514-518, 2011",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16061516264081830024",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16061516264081830024&engine=google_scholar&hl=en",
+        "cites_id": "16061516264081830024"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Probabilistic PCA from heteroscedastic signals: geometric framework and application to clustering",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:MAUkC_7iAq8C",
+      "citation_id": "-fCtTbcAAAAJ:MAUkC_7iAq8C",
+      "authors": "A Collas, F Bouchard, A Breloy, G Ginolhac, C Ren, JP Ovarlez",
+      "publication": "IEEE Transactions on Signal Processing 69, 6546-6560, 2021",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17606491277714795363",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17606491277714795363&engine=google_scholar&hl=en",
+        "cites_id": "17606491277714795363"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Robust low-rank change detection for multivariate sar image time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:PyEswDtIyv0C",
+      "citation_id": "-fCtTbcAAAAJ:PyEswDtIyv0C",
+      "authors": "A Mian, A Collas, A Breloy, G Ginolhac, JP Ovarlez",
+      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote …, 2020",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16759495725175709329",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16759495725175709329&engine=google_scholar&hl=en",
+        "cites_id": "16759495725175709329"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Robust adaptive detection of buried pipes using GPR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:wKETBy42zhYC",
+      "citation_id": "-fCtTbcAAAAJ:wKETBy42zhYC",
+      "authors": "Q Hoarau, G Ginolhac, AM Atto, JM Nicolas, JP Ovarlez",
+      "publication": "2016 24th European Signal Processing Conference (EUSIPCO), 533-537, 2016",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13198008023527704094",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13198008023527704094&engine=google_scholar&hl=en",
+        "cites_id": "13198008023527704094"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "A new tool for multidimensional low-rank STAP filter: Cross HOSVDs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "-fCtTbcAAAAJ:_Qo2XoVZTnwC",
+      "authors": "M Boizard, G Ginolhac, F Pascal, P Forster",
+      "publication": "2012 Proceedings of the 20th European Signal Processing Conference (EUSIPCO …, 2012",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6272429858344591801",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6272429858344591801&engine=google_scholar&hl=en",
+        "cites_id": "6272429858344591801"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "New polarimetric signal subspace detectors for SAR processors",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "-fCtTbcAAAAJ:IjCSPb-OGe4C",
+      "authors": "F Brigui, L Thirion-Lefevre, G Ginolhac, P Forster",
+      "publication": "Comptes Rendus. Physique 11 (1), 104-113, 2010",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16075194409796936835",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16075194409796936835&engine=google_scholar&hl=en",
+        "cites_id": "16075194409796936835"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Robust mean and covariance matrix estimation under heterogeneous mixed-effects model with missing values",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:KaMxkj08jr0C",
+      "citation_id": "-fCtTbcAAAAJ:KaMxkj08jr0C",
+      "authors": "AH Ferrer, MN El Korso, A Breloy, G Ginolhac",
+      "publication": "Signal Processing 188, 108195, 2021",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7241479551238473002",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7241479551238473002&engine=google_scholar&hl=en",
+        "cites_id": "7241479551238473002"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "New low-rank filters for MIMO-STAP based on an orthogonal tensorial decomposition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:7BrZ7Jt4UNcC",
+      "citation_id": "-fCtTbcAAAAJ:7BrZ7Jt4UNcC",
+      "authors": "F Brigui, M Boizard, G Ginolhac, F Pascal",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 54 (3), 1208-1220, 2017",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8883413587921526027",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8883413587921526027&engine=google_scholar&hl=en",
+        "cites_id": "8883413587921526027"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Low-rank filter and detector for multidimensional data based on an alternative unfolding HOSVD: application to polarimetric STAP",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:sJsF-0ZLhtgC",
+      "citation_id": "-fCtTbcAAAAJ:sJsF-0ZLhtgC",
+      "authors": "M Boizard, G Ginolhac, F Pascal, P Forster",
+      "publication": "EURASIP Journal on Advances in Signal Processing 2014, 1-14, 2014",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14072325805331041749",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14072325805331041749&engine=google_scholar&hl=en",
+        "cites_id": "14072325805331041749"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "SAR processors based on signal or interference subspace detector",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "-fCtTbcAAAAJ:Y0pCki6q_DkC",
+      "authors": "G Ginolhac, L Thirion-Lefevre, R Durand, P Forster",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 46 (3), 1006-1020, 2010",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4376448620009562302",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4376448620009562302&engine=google_scholar&hl=en",
+        "cites_id": "4376448620009562302"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Multistatic scenarios for a GPS SAR system",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "-fCtTbcAAAAJ:zYLM7Y9cAGgC",
+      "authors": "F Maussang, F Daout, G Ginolhac, F Schmitt",
+      "publication": "IGARSS 2008-2008 IEEE International Geoscience and Remote Sensing Symposium …, 2008",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13964072183157422985",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13964072183157422985&engine=google_scholar&hl=en",
+        "cites_id": "13964072183157422985"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Robust phase linking in InSAR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:pS0ncopqnHgC",
+      "citation_id": "-fCtTbcAAAAJ:pS0ncopqnHgC",
+      "authors": "PVH Vu, A Breloy, F Brigui, Y Yan, G Ginolhac",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing 61, 1-11, 2023",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7681022747172546728",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7681022747172546728&engine=google_scholar&hl=en",
+        "cites_id": "7681022747172546728"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Multivariate statistical modeling for multi-temporal SAR change detection using wavelet transforms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:buQ7SEKw-1sC",
+      "citation_id": "-fCtTbcAAAAJ:buQ7SEKw-1sC",
+      "authors": "N Bouhlel, G Ginolhac, E Jolibois, A Atto",
+      "publication": "2015 8th International Workshop on the Analysis of Multitemporal Remote …, 2015",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6849132278357466661",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6849132278357466661&engine=google_scholar&hl=en",
+        "cites_id": "6849132278357466661"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Asymptotic performance of the low rank adaptive normalized matched filter in a large dimensional regime",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:wMgC3FpKEyYC",
+      "citation_id": "-fCtTbcAAAAJ:wMgC3FpKEyYC",
+      "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+      "publication": "2015 IEEE International Conference on Acoustics, Speech and Signal …, 2015",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8615432065137004151",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8615432065137004151&engine=google_scholar&hl=en",
+        "cites_id": "8615432065137004151"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Traitement STAP et modélisation SIRV: Robustesse et Persymétrie",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "-fCtTbcAAAAJ:hqOjcs7Dif8C",
+      "authors": "JP Ovarlez, F Pascal, P Forster, G Ginolhac, M Mahot",
+      "publication": "Traitement du signal 28 (1-2), 113-142, 2011",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4782836984245863421",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4782836984245863421&engine=google_scholar&hl=en",
+        "cites_id": "4782836984245863421"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "A new phase linking algorithm for multi-temporal InSAR based on the maximum likelihood estimator",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:RoXSNcbkSzsC",
+      "citation_id": "-fCtTbcAAAAJ:RoXSNcbkSzsC",
+      "authors": "PVH Vu, F Brigui, A Breloy, Y Yan, G Ginolhac",
+      "publication": "IGARSS 2022-2022 IEEE International Geoscience and Remote Sensing Symposium …, 2022",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17146615608207098811",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17146615608207098811&engine=google_scholar&hl=en",
+        "cites_id": "17146615608207098811"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Riemannian geometry and Cramér-Rao bound for blind separation of Gaussian sources",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:CdxZDUztZiMC",
+      "citation_id": "-fCtTbcAAAAJ:CdxZDUztZiMC",
+      "authors": "F Bouchard, A Breloy, A Renaux, G Ginolhac",
+      "publication": "ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and …, 2020",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4693491100389221649,2353696910283321071",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4693491100389221649%2C2353696910283321071&engine=google_scholar&hl=en",
+        "cites_id": "4693491100389221649,2353696910283321071"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Performance of the low-rank adaptive normalized matched filter test under a large dimension regime",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:kw52XkFRtyQC",
+      "citation_id": "-fCtTbcAAAAJ:kw52XkFRtyQC",
+      "authors": "A Combernoux, F Pascal, G Ginolhac",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 55 (1), 459-468, 2018",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3065755398920239834",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3065755398920239834&engine=google_scholar&hl=en",
+        "cites_id": "3065755398920239834"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "A robust change detector for highly heterogeneous multivariate images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:j7_hQOaDUrUC",
+      "citation_id": "-fCtTbcAAAAJ:j7_hQOaDUrUC",
+      "authors": "A Mian, JP Ovarlez, G Ginolhac, AM Atto",
+      "publication": "2018 IEEE International Conference on Acoustics, Speech and Signal …, 2018",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7747854580900797504",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7747854580900797504&engine=google_scholar&hl=en",
+        "cites_id": "7747854580900797504"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "A robust signal subspace estimator",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:1lhNe0rCu4AC",
+      "citation_id": "-fCtTbcAAAAJ:1lhNe0rCu4AC",
+      "authors": "A Breloy, Y Sun, P Babu, G Ginolhac, DP Palomar, F Pascal",
+      "publication": "2016 IEEE Statistical Signal Processing Workshop (SSP), 1-4, 2016",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12347973579533165471",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12347973579533165471&engine=google_scholar&hl=en",
+        "cites_id": "12347973579533165471"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Robust estimation of the clutter subspace for a low rank heterogeneous noise under high clutter to noise ratio assumption",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:AHdEip9mkN0C",
+      "citation_id": "-fCtTbcAAAAJ:AHdEip9mkN0C",
+      "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+      "publication": "2014 IEEE International Conference on Acoustics, Speech and Signal …, 2014",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3700027875070142158",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3700027875070142158&engine=google_scholar&hl=en",
+        "cites_id": "3700027875070142158"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Random matrix theory applied to low rank stap detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:blknAaTinKkC",
+      "citation_id": "-fCtTbcAAAAJ:blknAaTinKkC",
+      "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+      "publication": "21st European Signal Processing Conference (EUSIPCO 2013), 1-5, 2013",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10417179686317941790",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10417179686317941790&engine=google_scholar&hl=en",
+        "cites_id": "10417179686317941790"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Low rank tensor STAP filter based on multilinear SVD",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:R3hNpaxXUhUC",
+      "citation_id": "-fCtTbcAAAAJ:R3hNpaxXUhUC",
+      "authors": "M Boizard, G Ginolhac, F Pascal, P Forster",
+      "publication": "2012 IEEE 7th Sensor Array and Multichannel Signal Processing Workshop (SAM …, 2012",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16415534527699856305",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16415534527699856305&engine=google_scholar&hl=en",
+        "cites_id": "16415534527699856305"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Robust pca for through-the-wall radar imaging",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:O0nohqN1r9EC",
+      "citation_id": "-fCtTbcAAAAJ:O0nohqN1r9EC",
+      "authors": "H Brehier, A Breloy, C Ren, I Hinostroza, G Ginolhac",
+      "publication": "2022 30th European Signal Processing Conference (EUSIPCO), 2246-2250, 2022",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11413869612159825713",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11413869612159825713&engine=google_scholar&hl=en",
+        "cites_id": "11413869612159825713"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Multivariate linear time-frequency modeling and adaptive robust target detection in highly textured monovariate sar image",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:kVjdVfd2voEC",
+      "citation_id": "-fCtTbcAAAAJ:kVjdVfd2voEC",
+      "authors": "JP Ovarlez, G Ginolhac, AM Atto",
+      "publication": "2017 IEEE International Conference on Acoustics, Speech and Signal …, 2017",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11334105232976693975",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11334105232976693975&engine=google_scholar&hl=en",
+        "cites_id": "11334105232976693975"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Approximate distribution of the low-rank adaptive normalized matched filter test statistic under the null hypothesis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:U4n9YNQMCAIC",
+      "citation_id": "-fCtTbcAAAAJ:U4n9YNQMCAIC",
+      "authors": "G Ginolhac, P Forster",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 52 (4), 2016",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6323985985162572992",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6323985985162572992&engine=google_scholar&hl=en",
+        "cites_id": "6323985985162572992"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Performance analysis of a robust low-rank STAP filter in low-rank Gaussian clutter",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "-fCtTbcAAAAJ:MXK_kJrjxJIC",
+      "authors": "G Ginolhac, P Forster",
+      "publication": "2010 IEEE International Conference on Acoustics, Speech and Signal …, 2010",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14931336039666817204",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14931336039666817204&engine=google_scholar&hl=en",
+        "cites_id": "14931336039666817204"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "SAR processor based on a CFAR signal or interference subspace detector matched to man made target detection in a forest",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:WF5omc3nYNoC",
+      "citation_id": "-fCtTbcAAAAJ:WF5omc3nYNoC",
+      "authors": "R Durand, G Ginolhac, L Thirion, P Forster",
+      "publication": "2007 IEEE International Conference on Acoustics, Speech and Signal …, 2007",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10910824787270102998",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10910824787270102998&engine=google_scholar&hl=en",
+        "cites_id": "10910824787270102998"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Through the Wall Radar Imaging via Kronecker-structured Huber-type RPCA",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:F2UWTTQJPOcC",
+      "citation_id": "-fCtTbcAAAAJ:F2UWTTQJPOcC",
+      "authors": "H Brehier, A Breloy, C Ren, G Ginolhac",
+      "publication": "Signal Processing 214, 109228, 2024",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17506008158252563251",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17506008158252563251&engine=google_scholar&hl=en",
+        "cites_id": "17506008158252563251"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Riemannian optimization for non-centered mixture of scaled Gaussian distributions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:uVUOdF_882EC",
+      "citation_id": "-fCtTbcAAAAJ:uVUOdF_882EC",
+      "authors": "A Collas, A Breloy, C Ren, G Ginolhac, JP Ovarlez",
+      "publication": "IEEE Transactions on Signal Processing, 2023",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8914967267425216299",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8914967267425216299&engine=google_scholar&hl=en",
+        "cites_id": "8914967267425216299"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "New robust sparse convolutional coding inversion algorithm for ground penetrating radar images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:FiDNX6EVdGUC",
+      "citation_id": "-fCtTbcAAAAJ:FiDNX6EVdGUC",
+      "authors": "M Gallet, A Mian, G Ginolhac, E Ollila, N Stelzenmuller",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing 61, 1-14, 2023",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5566196640837750559",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5566196640837750559&engine=google_scholar&hl=en",
+        "cites_id": "5566196640837750559"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Classification of GPR signals via covariance pooling on CNN features within a riemannian framework",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:mKu_rENv82IC",
+      "citation_id": "-fCtTbcAAAAJ:mKu_rENv82IC",
+      "authors": "M Gallet, A Mian, G Ginolhac, N Stelzenmuller",
+      "publication": "IGARSS 2022-2022 IEEE International Geoscience and Remote Sensing Symposium …, 2022",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8057368993595009158",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8057368993595009158&engine=google_scholar&hl=en",
+        "cites_id": "8057368993595009158"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Robust geometric metric learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:NDuN12AVoxsC",
+      "citation_id": "-fCtTbcAAAAJ:NDuN12AVoxsC",
+      "authors": "A Collas, A Breloy, G Ginolhac, C Ren, JP Ovarlez",
+      "publication": "2022 30th European Signal Processing Conference (EUSIPCO), 1447-1451, 2022",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10653837715831420564",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10653837715831420564&engine=google_scholar&hl=en",
+        "cites_id": "10653837715831420564"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "On the use of geodesic triangles between gaussian distributions for classification problems",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:U_HPUtbDl20C",
+      "citation_id": "-fCtTbcAAAAJ:U_HPUtbDl20C",
+      "authors": "A Collas, F Bouchard, G Ginolhac, A Breloy, C Ren, JP Ovarlez",
+      "publication": "ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and …, 2022",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14201501999593113300",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14201501999593113300&engine=google_scholar&hl=en",
+        "cites_id": "14201501999593113300"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "A Tyler-type estimator of location and scatter leveraging Riemannian optimization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:6_hjMsCP8ZoC",
+      "citation_id": "-fCtTbcAAAAJ:6_hjMsCP8ZoC",
+      "authors": "A Collas, F Bouchard, A Breloy, C Ren, G Ginolhac, JP Ovarlez",
+      "publication": "ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and …, 2021",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3364554414708894079",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3364554414708894079&engine=google_scholar&hl=en",
+        "cites_id": "3364554414708894079"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Theoretical performance of low rank adaptive filters in the large dimensional regime",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:L1USKYWJimsC",
+      "citation_id": "-fCtTbcAAAAJ:L1USKYWJimsC",
+      "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+      "publication": "IEEE Transactions on Aerospace and Electronic Systems 55 (6), 3347-3364, 2019",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5620951581840730590",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5620951581840730590&engine=google_scholar&hl=en",
+        "cites_id": "5620951581840730590"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "An overview of covariance-based change detection methodologies in multivariate SAR image time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:HGTzPopzzJcC",
+      "citation_id": "-fCtTbcAAAAJ:HGTzPopzzJcC",
+      "authors": "A Mian, G Ginolhac, JP Ovarlez, A Breloy, F Pascal, AM Atto, F Bovolo, ...",
+      "publication": "Change Detection and Image Time Series Analysis 1, 2021",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=203541168796899389",
+        "serpapi_link": "https://serpapi.com/search.json?cites=203541168796899389&engine=google_scholar&hl=en",
+        "cites_id": "203541168796899389"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "CFAR property and robustness of the lowrank adaptive normalized matched filters detectors in low rank compound gaussian context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:4X0JR2_MtJMC",
+      "citation_id": "-fCtTbcAAAAJ:4X0JR2_MtJMC",
+      "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+      "publication": "2014 IEEE 8th Sensor Array and Multichannel Signal Processing Workshop (SAM …, 2014",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6427088427428390979",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6427088427428390979&engine=google_scholar&hl=en",
+        "cites_id": "6427088427428390979"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Developpement de filtres stap tensoriels appliques à des donnees multidimensionnelles",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "-fCtTbcAAAAJ:YOwf2qJgpHMC",
+      "authors": "M Boizard, G Ginolhac, F Pascal, P Forster",
+      "publication": "Proc. of the GRETSI Conf, 2011",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1472964524826948331",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1472964524826948331&engine=google_scholar&hl=en",
+        "cites_id": "1472964524826948331"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "STAP à Rand Réduit, Robuste et Persymétrique",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:UebtZRa9Y70C",
+      "citation_id": "-fCtTbcAAAAJ:UebtZRa9Y70C",
+      "authors": "G Ginolhac, P Forster, JP Ovarlez, F Pascal",
+      "publication": "Traitement du signal 28 (1-2), 143-170, 2011",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16592973052300079592",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16592973052300079592&engine=google_scholar&hl=en",
+        "cites_id": "16592973052300079592"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Narrowband multistatic ISAR imagery system",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "-fCtTbcAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "G Ginolhac, F Daout, F Schmitt",
+      "publication": "Proceedings. 2005 IEEE International Geoscience and Remote Sensing Symposium …, 2005",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3539041656102415375",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3539041656102415375&engine=google_scholar&hl=en",
+        "cites_id": "3539041656102415375"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Passive bistatic radar imagery of targets modelled by NEC",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "-fCtTbcAAAAJ:_FxGoFyzp5QC",
+      "authors": "F Daout, G Ginolhac, F Schmitt, M Lesturgie",
+      "publication": "RADAR 2004, Toulouse, FRANCE, 2004",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5430828838191516670",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5430828838191516670&engine=google_scholar&hl=en",
+        "cites_id": "5430828838191516670"
+      },
+      "year": "2004"
+    },
+    {
+      "title": "The Fisher–Rao Geometry of CES Distributions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:YsrPvlHIBpEC",
+      "citation_id": "-fCtTbcAAAAJ:YsrPvlHIBpEC",
+      "authors": "F Bouchard, A Breloy, A Collas, A Renaux, G Ginolhac",
+      "publication": "Elliptically Symmetric Distributions in Signal Processing and Machine …, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5333341552223005565",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5333341552223005565&engine=google_scholar&hl=en",
+        "cites_id": "5333341552223005565"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Through-The-Wall Radar Imaging With Wall Clutter Removal Via Riemannian Optimization On The Fixed-Rank Manifold",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:EPG8bYD4jVwC",
+      "citation_id": "-fCtTbcAAAAJ:EPG8bYD4jVwC",
+      "authors": "H Brehier, A Breloy, C Ren, G Ginolhac",
+      "publication": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and …, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4016539954984688686",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4016539954984688686&engine=google_scholar&hl=en",
+        "cites_id": "4016539954984688686"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "On-line Kronecker Product Structured Covariance Estimation with Riemannian geometry for t-distributed data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:QyXJ3EUuO1IC",
+      "citation_id": "-fCtTbcAAAAJ:QyXJ3EUuO1IC",
+      "authors": "F Bouchard, A Breloy, A Mian, G Ginolhac",
+      "publication": "2021 29th European Signal Processing Conference (EUSIPCO), 856-859, 2021",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10022373348397315155",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10022373348397315155&engine=google_scholar&hl=en",
+        "cites_id": "10022373348397315155"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Riemannian framework for robust covariance matrix estimation in spiked models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:6bLC7aUMtPcC",
+      "citation_id": "-fCtTbcAAAAJ:6bLC7aUMtPcC",
+      "authors": "F Bouchard, A Breloy, G Ginolhac, F Pascal",
+      "publication": "ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and …, 2020",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=936688809637621025",
+        "serpapi_link": "https://serpapi.com/search.json?cites=936688809637621025&engine=google_scholar&hl=en",
+        "cites_id": "936688809637621025"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Multidimensional Low-Rank Filter based on the AU-HOSVD for MIMO STAP",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:NMxIlDl6LWMC",
+      "citation_id": "-fCtTbcAAAAJ:NMxIlDl6LWMC",
+      "authors": "M Boizard, F Brigui, G Ginolhac, F Pascal, P Forster, HB Sun",
+      "publication": "2013 5th IEEE International Workshop on Computational Advances in Multi …, 2013",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11621207869038028206",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11621207869038028206&engine=google_scholar&hl=en",
+        "cites_id": "11621207869038028206"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Oblique polarimetric SAR processor based on signal and interference subspace models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:Se3iqnhoufwC",
+      "citation_id": "-fCtTbcAAAAJ:Se3iqnhoufwC",
+      "authors": "F Brigui, L Thiron-Lefevre, G Ginolhac, P Forster",
+      "publication": "2010 IEEE International Geoscience and Remote Sensing Symposium, 4027-4030, 2010",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12358962464521384058",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12358962464521384058&engine=google_scholar&hl=en",
+        "cites_id": "12358962464521384058"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "New SAR processor based on a Subspace Detector",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "-fCtTbcAAAAJ:eQOLeE2rZwMC",
+      "authors": "R Durand, G Ginolhac, P Forster, L Thirion",
+      "publication": "2006 14th European Signal Processing Conference, 1-5, 2006",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10764630380731256275",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10764630380731256275&engine=google_scholar&hl=en",
+        "cites_id": "10764630380731256275"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Man Made Target Detection in a Forest with a Subspace Detector SAR Processor",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "-fCtTbcAAAAJ:YsMSGLbcyi4C",
+      "authors": "R Durand, L Thirion, G Ginolhac, P Forster",
+      "publication": "2006 IEEE International Symposium on Geoscience and Remote Sensing, 149-152, 2006",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8822293324963794013",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8822293324963794013&engine=google_scholar&hl=en",
+        "cites_id": "8822293324963794013"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Nouvel algorithme d'inversion robuste pour le RADAR GPR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:-95Q15plzcUC",
+      "citation_id": "-fCtTbcAAAAJ:-95Q15plzcUC",
+      "authors": "M Gallet, A Mian, G Ginolhac, N Stelzenmuller",
+      "publication": "GRETSI, XXVIIIème Colloque Francophone de Traitement du Signal et des Images, 2022",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14667761386922240242",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14667761386922240242&engine=google_scholar&hl=en",
+        "cites_id": "14667761386922240242"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Apprentissage robuste de distance par géométrie riemannienne",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:ce2CqMG-AY4C",
+      "citation_id": "-fCtTbcAAAAJ:ce2CqMG-AY4C",
+      "authors": "A Collas, A Breloy, G Ginolhac, C Ren, JP Ovarlez",
+      "publication": "GRETSI 2022 XXVIIIème colloque, 2022",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8027225684533260742",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8027225684533260742&engine=google_scholar&hl=en",
+        "cites_id": "8027225684533260742"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "MIMO filters based on robust rank-constrained Kronecker covariance matrix estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:1Ye0OR6EYb4C",
+      "citation_id": "-fCtTbcAAAAJ:1Ye0OR6EYb4C",
+      "authors": "A Breloy, G Ginolhac, Y Gao, F Pascal",
+      "publication": "Signal Processing 187, 108116, 2021",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14737371819807863560",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14737371819807863560&engine=google_scholar&hl=en",
+        "cites_id": "14737371819807863560"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "An improved low rank detector in the high dimensional regime",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:jU7OWUQzBzMC",
+      "citation_id": "-fCtTbcAAAAJ:jU7OWUQzBzMC",
+      "authors": "P Vallet, G Ginolhac, F Pascal, P Forster",
+      "publication": "ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and …, 2019",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15019818055044163346",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15019818055044163346&engine=google_scholar&hl=en",
+        "cites_id": "15019818055044163346"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Detection of Swerling III-IV rank-one signals in Gaussian noise with unknown statistics",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:owLR8QvbtFgC",
+      "citation_id": "-fCtTbcAAAAJ:owLR8QvbtFgC",
+      "authors": "E Chaumette, F Vincent, G Ginolhac",
+      "publication": "2018 52nd Asilomar Conference on Signals, Systems, and Computers, 2072-2076, 2018",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9650413327717275163",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9650413327717275163&engine=google_scholar&hl=en",
+        "cites_id": "9650413327717275163"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "A subspace approach for shrinkage parameter selection in undersampled configuration for Regularised Tyler Estimators",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:cK4Rrx0J3m0C",
+      "citation_id": "-fCtTbcAAAAJ:cK4Rrx0J3m0C",
+      "authors": "Q Hoarau, A Breloy, G Ginolhac, AM Atto, JM Nicolas",
+      "publication": "2017 IEEE International Conference on Acoustics, Speech and Signal …, 2017",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=449629835440064199",
+        "serpapi_link": "https://serpapi.com/search.json?cites=449629835440064199&engine=google_scholar&hl=en",
+        "cites_id": "449629835440064199"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Convergence of structured quadratic forms with application to theoretical performances of adaptive filters in low rank Gaussian context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:QD3KBmkZPeQC",
+      "citation_id": "-fCtTbcAAAAJ:QD3KBmkZPeQC",
+      "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+      "publication": "arXiv preprint arXiv:1503.05480, 2015",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9932973202313454330",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9932973202313454330&engine=google_scholar&hl=en",
+        "cites_id": "9932973202313454330"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Detection of a target hidden in a forest: Performance of a SAR processor based on a subspace detector",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:LdasjJ6CEcoC",
+      "citation_id": "-fCtTbcAAAAJ:LdasjJ6CEcoC",
+      "authors": "R Durand, G Ginolhac, P Forster, L Thirion",
+      "publication": "European Conference on Synthetic Aperture Radar (EUSAR 2006), 4 pages sur CD-ROM, 2006",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13999202263947492275",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13999202263947492275&engine=google_scholar&hl=en",
+        "cites_id": "13999202263947492275"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Computation of bistatic ser with nec2 in a context of passive isar system",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:8k81kl-MbHgC",
+      "citation_id": "-fCtTbcAAAAJ:8k81kl-MbHgC",
+      "authors": "F Daout, F Schmitt, G Ginolhac, P Forster",
+      "publication": "IEEE IGARSS 2005, inconnues, 2005",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10921900639665855458",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10921900639665855458&engine=google_scholar&hl=en",
+        "cites_id": "10921900639665855458"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Utilisation de la diversité temporelle pour la détection en présence de réverbération",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:roLk4NBRz8UC",
+      "citation_id": "-fCtTbcAAAAJ:roLk4NBRz8UC",
+      "authors": "G GINOLHAC, G JOURDAIN",
+      "publication": "GRETSI'01: 18e colloque sur le traitement du signal et des images (Toulouse …, 2001",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10058953337552666183",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10058953337552666183&engine=google_scholar&hl=en",
+        "cites_id": "10058953337552666183"
+      },
+      "year": "2001"
+    },
+    {
+      "title": "Quelques résultats concernant la méthode «Principal Component Inverse» pour la détection en présence de réverbération",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:ufrVoPGSRksC",
+      "citation_id": "-fCtTbcAAAAJ:ufrVoPGSRksC",
+      "authors": "G GINOLHAC, G JOURDAIN",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2308950143629111451",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2308950143629111451&engine=google_scholar&hl=en",
+        "cites_id": "2308950143629111451"
+      },
+      "year": "1999"
+    },
+    {
+      "title": "Technical note on clutter subspace projector MLE computation: Algorithm analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:NyGDZy8z5eUC",
+      "citation_id": "-fCtTbcAAAAJ:NyGDZy8z5eUC",
+      "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+      "publication": "supelec. fr/offres/file_inline_src/426/426_P_13413_547e056b16508_18. pdf, 1997",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8252502797225499783",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8252502797225499783&engine=google_scholar&hl=en",
+        "cites_id": "8252502797225499783"
+      },
+      "year": "1997"
+    },
+    {
+      "title": "Online change detection in SAR time-series with Kronecker product structured scaled Gaussian models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:kzcSZmkxUKAC",
+      "citation_id": "-fCtTbcAAAAJ:kzcSZmkxUKAC",
+      "authors": "A Mian, G Ginolhac, F Bouchard, A Breloy",
+      "publication": "Signal Processing 224, 109589, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16386052148171862850",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16386052148171862850&engine=google_scholar&hl=en",
+        "cites_id": "16386052148171862850"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep unrolling of Robust PCA and Convolutional Sparse Coding for stationary target localization in through wall radar imaging",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:mWEH9CqjF64C",
+      "citation_id": "-fCtTbcAAAAJ:mWEH9CqjF64C",
+      "authors": "H Brehier, A Breloy, C Ren, G Ginolhac",
+      "publication": "2024 32nd European Signal Processing Conference (EUSIPCO), 1881-1885, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9411751597932694895",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9411751597932694895&engine=google_scholar&hl=en",
+        "cites_id": "9411751597932694895"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Robust Detection for Mills Cross Sonar",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:HhcuHIWmDEUC",
+      "citation_id": "-fCtTbcAAAAJ:HhcuHIWmDEUC",
+      "authors": "O Lerda, A Mian, G Ginolhac, JP Ovarlez, D Charlot",
+      "publication": "IEEE Journal of Oceanic Engineering, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15684365103204647020",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15684365103204647020&engine=google_scholar&hl=en",
+        "cites_id": "15684365103204647020"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Random matrix theory improved Fr\\'echet mean of symmetric positive definite matrices",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:2l5NCbZemmgC",
+      "citation_id": "-fCtTbcAAAAJ:2l5NCbZemmgC",
+      "authors": "F Bouchard, A Mian, M Tiomoko, G Ginolhac, F Pascal",
+      "publication": "arXiv preprint arXiv:2405.06558, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1442348174617312379",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1442348174617312379&engine=google_scholar&hl=en",
+        "cites_id": "1442348174617312379"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "A New Statistic for Testing Covariance Equality in High-Dimensional Gaussian Low-Rank Models",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:An6A6Jpfc1oC",
+      "citation_id": "-fCtTbcAAAAJ:An6A6Jpfc1oC",
+      "authors": "R Beisson, P Vallet, A Giremus, G Ginolhac",
+      "publication": "IEEE Transactions on Signal Processing, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5194422942633381709",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5194422942633381709&engine=google_scholar&hl=en",
+        "cites_id": "5194422942633381709"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Atténuation robuste du fouillis mural en imagerie radar à travers murs par optimisation riemannienne",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&pagesize=100&citation_for_view=-fCtTbcAAAAJ:oi2SiIJ9l4AC",
+      "citation_id": "-fCtTbcAAAAJ:oi2SiIJ9l4AC",
+      "authors": "H Brehier, A Breloy, C Ren, G Ginolhac",
+      "publication": "GRETSI, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3192286544101704930",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3192286544101704930&engine=google_scholar&hl=en",
+        "cites_id": "3192286544101704930"
+      },
+      "year": "2023"
+    },
+    {
+        "title": "Détection de changements dans les modèles gaussiens de rang 1",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:VN7nJs4JPk0C",
+        "citation_id": "-fCtTbcAAAAJ:VN7nJs4JPk0C",
+        "authors": "R Beisson, P Vallet, A Giremus, G Ginolhac",
+        "publication": "GRETSI, XXVIIIème Colloque Francophone de Traitement du Signal et des Images …, 2022",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4065429385411697805",
+          "serpapi_link": "https://serpapi.com/search.json?cites=4065429385411697805&engine=google_scholar&hl=en",
+          "cites_id": "4065429385411697805"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Robust PCA pour l'imagerie Radar à travers les murs",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:KNjnJ3z-R6IC",
+        "citation_id": "-fCtTbcAAAAJ:KNjnJ3z-R6IC",
+        "authors": "H Brehier, A Breloy, C Ren, I Hinostroza, G Ginolhac",
+        "publication": "GRETSI, XXVIIIème Colloque Francophone de Traitement du Signal et des Images …, 2022",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16622875168136907171",
+          "serpapi_link": "https://serpapi.com/search.json?cites=16622875168136907171&engine=google_scholar&hl=en",
+          "cites_id": "16622875168136907171"
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Change detection in the covariance structure of high-dimensional Gaussian low-rank models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:Dem6FJhTUoYC",
+        "citation_id": "-fCtTbcAAAAJ:Dem6FJhTUoYC",
+        "authors": "R Beisson, P Vallet, A Giremus, G Ginolhac",
+        "publication": "2021 IEEE Statistical Signal Processing Workshop (SSP), 421-425, 2021",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15339972272300472013",
+          "serpapi_link": "https://serpapi.com/search.json?cites=15339972272300472013&engine=google_scholar&hl=en",
+          "cites_id": "15339972272300472013"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "A Riemannian approach to blind separation of t-distributed sources",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:SjuI4pbJlxcC",
+        "citation_id": "-fCtTbcAAAAJ:SjuI4pbJlxcC",
+        "authors": "F Bouchard, A Breloy, G Ginolhac, A Renaux",
+        "publication": "2020 28th European Signal Processing Conference (EUSIPCO), 965-969, 2021",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7110948616594160983",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7110948616594160983&engine=google_scholar&hl=en",
+          "cites_id": "7110948616594160983"
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Robust low-rank change detection for SAR image time series",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:prdVHNxh-e8C",
+        "citation_id": "-fCtTbcAAAAJ:prdVHNxh-e8C",
+        "authors": "A Mian, A Breloy, G Ginolhac, JP Ovarlez",
+        "publication": "IGARSS 2019-2019 IEEE International Geoscience and Remote Sensing Symposium …, 2019",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4130678126162019735",
+          "serpapi_link": "https://serpapi.com/search.json?cites=4130678126162019735&engine=google_scholar&hl=en",
+          "cites_id": "4130678126162019735"
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Robust detection and estimation of Change-Points in a time series of multivariate images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:IaI1MmNe2tcC",
+        "citation_id": "-fCtTbcAAAAJ:IaI1MmNe2tcC",
+        "authors": "A Mian, JP Ovarlez, G Ginolhac, A Atto",
+        "publication": "2018 26th European Signal Processing Conference (EUSIPCO), 1097-1101, 2018",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10533176005212422271",
+          "serpapi_link": "https://serpapi.com/search.json?cites=10533176005212422271&engine=google_scholar&hl=en",
+          "cites_id": "10533176005212422271"
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Borne de Cramér-Rao intrinsèque pour la matrice de covariance des distributions elliptiques complexes",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:7Hz3ACDFbsoC",
+        "citation_id": "-fCtTbcAAAAJ:7Hz3ACDFbsoC",
+        "authors": "A Breloy, A Renaux, G Ginolhac, F Bouchard",
+        "publication": "GRETSI 2017-XXVIème Colloque francophone de traitement du signal et des images, 2017",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6143029096981945202",
+          "serpapi_link": "https://serpapi.com/search.json?cites=6143029096981945202&engine=google_scholar&hl=en",
+          "cites_id": "6143029096981945202"
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Filtres adaptatifs rang faible: analyse de performances en grandes dimensions",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:otzGkya1bYkC",
+        "citation_id": "-fCtTbcAAAAJ:otzGkya1bYkC",
+        "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+        "publication": "25eme Colloque francophone de traitement du signal et des images (GRETSI …, 2015",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15532080775092503633",
+          "serpapi_link": "https://serpapi.com/search.json?cites=15532080775092503633&engine=google_scholar&hl=en",
+          "cites_id": "15532080775092503633"
+        },
+        "year": "2015"
+      },
+      {
+        "title": "Numerical performances of low rank stap based on different heterogeneous clutter subspace estimators",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:0CzhzZyukY4C",
+        "citation_id": "-fCtTbcAAAAJ:0CzhzZyukY4C",
+        "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+        "publication": "2014 International Radar Conference, 1-5, 2014",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3191889288940860667",
+          "serpapi_link": "https://serpapi.com/search.json?cites=3191889288940860667&engine=google_scholar&hl=en",
+          "cites_id": "3191889288940860667"
+        },
+        "year": "2014"
+      },
+      {
+        "title": "Théorie des matrices aléatoires appliquée à la détection STAP rang faible",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:JV2RwH3_ST0C",
+        "citation_id": "-fCtTbcAAAAJ:JV2RwH3_ST0C",
+        "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+        "publication": "GRETSI 2013, 1-4, 2013",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18398186134091038932",
+          "serpapi_link": "https://serpapi.com/search.json?cites=18398186134091038932&engine=google_scholar&hl=en",
+          "cites_id": "18398186134091038932"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Une nouvelle décomposition tensorielle orthogonale, l'Alternative Unfolding HOSVD. Application au STAP Polarimétrique",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:M3NEmzRMIkIC",
+        "citation_id": "-fCtTbcAAAAJ:M3NEmzRMIkIC",
+        "authors": "M Boizard, G Ginolhac, F Pascal, P Forster",
+        "publication": "GRETSI 2013, 1-4, 2013",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3918761629172959284",
+          "serpapi_link": "https://serpapi.com/search.json?cites=3918761629172959284&engine=google_scholar&hl=en",
+          "cites_id": "3918761629172959284"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Estimation par Maximum de Vraisemblance du sous espace clutter dans un bruit hétérogène rang faible avec application au STAP",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:maZDTaKrznsC",
+        "citation_id": "-fCtTbcAAAAJ:maZDTaKrznsC",
+        "authors": "A Breloy, L Le Magoarou, G Ginolhac, F Pascal, P Forster",
+        "publication": "GRETSI 2013, 1-4, 2013",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11821342412272055292",
+          "serpapi_link": "https://serpapi.com/search.json?cites=11821342412272055292&engine=google_scholar&hl=en",
+          "cites_id": "11821342412272055292"
+        },
+        "year": "2013"
+      },
+      {
+        "title": "Generalized rectification in the L1-norm with application to robust array processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:IWHjjKOFINEC",
+        "citation_id": "-fCtTbcAAAAJ:IWHjjKOFINEC",
+        "authors": "A Combernoux, G Ginolhac, P Forster",
+        "publication": "2011 19th European Signal Processing Conference, 619-623, 2011",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11754630055846482930",
+          "serpapi_link": "https://serpapi.com/search.json?cites=11754630055846482930&engine=google_scholar&hl=en",
+          "cites_id": "11754630055846482930"
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Contribution of the polarimetric information in order to discriminate target from interference subspaces. Application to FoPen detection with SAR processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:mB3voiENLucC",
+        "citation_id": "-fCtTbcAAAAJ:mB3voiENLucC",
+        "authors": "F Brigui, L Thirion-Lefevre, G Ginolhac, P Forster",
+        "publication": "2011 IEEE International Geoscience and Remote Sensing Symposium, 138-141, 2011",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17422742699483719823",
+          "serpapi_link": "https://serpapi.com/search.json?cites=17422742699483719823&engine=google_scholar&hl=en",
+          "cites_id": "17422742699483719823"
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Orthogonal polarimetric SAR processor based on signal and interference subspace models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:7H_MAutzIkAC",
+        "citation_id": "-fCtTbcAAAAJ:7H_MAutzIkAC",
+        "authors": "F Brigui, L Thiron-Lefevre, G Ginolhac, P Forster",
+        "publication": "2010 IEEE International Geoscience and Remote Sensing Symposium, 2523-2526, 2010",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7878300796803326429",
+          "serpapi_link": "https://serpapi.com/search.json?cites=7878300796803326429&engine=google_scholar&hl=en",
+          "cites_id": "7878300796803326429"
+        },
+        "year": "2010"
+      },
+      {
+        "title": "A procedure for efficient estimation of multiple parameters in some nonlinear cases",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:ZeXyd9-uunAC",
+        "citation_id": "-fCtTbcAAAAJ:ZeXyd9-uunAC",
+        "authors": "G Ginolhac, P Forster",
+        "publication": "Signal processing 89 (4), 680-684, 2009",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8382072982662881270",
+          "serpapi_link": "https://serpapi.com/search.json?cites=8382072982662881270&engine=google_scholar&hl=en",
+          "cites_id": "8382072982662881270"
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Implemetation and optimization of a SAR processor based on a subspace detector. Application to Man Made Target detection in a forest.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:3fE2CSJIrl8C",
+        "citation_id": "-fCtTbcAAAAJ:3fE2CSJIrl8C",
+        "authors": "R Durand, L Thirion, G Ginolhac, P Forster",
+        "publication": "SAS & SAR 2006, inconnues, 2006",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16455530285236414367",
+          "serpapi_link": "https://serpapi.com/search.json?cites=16455530285236414367&engine=google_scholar&hl=en",
+          "cites_id": "16455530285236414367"
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Computation of bistatic RCS with NEC2 in a context of passive ISAR system",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:4TOpqqG69KYC",
+        "citation_id": "-fCtTbcAAAAJ:4TOpqqG69KYC",
+        "authors": "F Daout, F Schmitt, G Ginolhac",
+        "publication": "Proceedings. 2005 IEEE International Geoscience and Remote Sensing Symposium …, 2005",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2483982521954783518",
+          "serpapi_link": "https://serpapi.com/search.json?cites=2483982521954783518&engine=google_scholar&hl=en",
+          "cites_id": "2483982521954783518"
+        },
+        "year": "2005"
+      },
+      {
+        "title": "False alarm reduction for the buried mine detection",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:kNdYIx-mwKoC",
+        "citation_id": "-fCtTbcAAAAJ:kNdYIx-mwKoC",
+        "authors": "G Ginolhac, P Gounon, S Ioan, A Hetet",
+        "publication": "PSIP 2003, inonnues, 2003",
+        "cited_by": {
+          "value": 1,
+          "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17485074404095682947",
+          "serpapi_link": "https://serpapi.com/search.json?cites=17485074404095682947&engine=google_scholar&hl=en",
+          "cites_id": "17485074404095682947"
+        },
+        "year": "2003"
+      },
+      {
+        "title": "Intrinsic Bayesian Cramér-Rao Bound with an Application to Covariance Matrix Estimation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:DrR-2ekChdkC",
+        "citation_id": "-fCtTbcAAAAJ:DrR-2ekChdkC",
+        "authors": "F Bouchard, A Renaux, G Ginolhac, A Breloy",
+        "publication": "IEEE Transactions on Information Theory, 2024",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2024"
+      },
+      {
+        "title": "Classification of Buried Objects from Ground Penetrating Radar Images by using Second Order Deep Learning Models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:TlpoogIpr_IC",
+        "citation_id": "-fCtTbcAAAAJ:TlpoogIpr_IC",
+        "authors": "D Jafuno, A Mian, G Ginolhac, N Stelzenmuller",
+        "publication": "arXiv preprint arXiv:2410.07117, 2024",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2024"
+      },
+      {
+        "title": "Buried Object Classification from GPR Data by using Second Order Deep Learning Models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:SnGPuo6Feq8C",
+        "citation_id": "-fCtTbcAAAAJ:SnGPuo6Feq8C",
+        "authors": "D Jafuno, A Mian, G Ginolhac, N Stelzenmuller",
+        "publication": "IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium …, 2024",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2024"
+      },
+      {
+        "title": "Sequential Phase Linking: Progressive Integration of SAR Images for Operational Phase Estimation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:69ZgNCALVd0C",
+        "citation_id": "-fCtTbcAAAAJ:69ZgNCALVd0C",
+        "authors": "D El Hajjar, Y Yan, G Ginolhac, MN El Korso",
+        "publication": "IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium …, 2024",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2024"
+      },
+      {
+        "title": "Covariance Fitting Interferometric Phase Linking: Modular Framework and Optimization Algorithms",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:BrOSOlqYqPUC",
+        "citation_id": "-fCtTbcAAAAJ:BrOSOlqYqPUC",
+        "authors": "PVH Vu, A Breloy, F Brigui, Y Yan, G Ginolhac",
+        "publication": "arXiv preprint arXiv:2403.08646, 2024",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2024"
+      },
+      {
+        "title": "Natural Bayesian Cram\\'er-Rao Bound with an Application to Covariance Estimation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:kF1pexMAQbMC",
+        "citation_id": "-fCtTbcAAAAJ:kF1pexMAQbMC",
+        "authors": "F Bouchard, A Renaux, G Ginolhac, A Breloy",
+        "publication": "arXiv preprint arXiv:2311.04748, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "InSAR Phase Linking for non-Gaussian data",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:ziOE8S1-AIUC",
+        "citation_id": "-fCtTbcAAAAJ:ziOE8S1-AIUC",
+        "authors": "PVH VU, A Breloy, F Brigui, Y Yan, G Ginolhac",
+        "publication": "FRINGE 2023, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Détection de changements dans les modèles gaussiens de rang K appliquée à l'imagerie SAR",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:raTqNPD5sRQC",
+        "citation_id": "-fCtTbcAAAAJ:raTqNPD5sRQC",
+        "authors": "R Beisson, G Ginolhac, P Vallet, A Giremus",
+        "publication": "29° COLLOQUE SUR LE TRAITEMENT DU SIGNAL ET DES IMAGES (GRETSI 2023), 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Détecteur de Rao robuste pour un sonar à croix de Mills",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:w1MjKQ0l0TYC",
+        "citation_id": "-fCtTbcAAAAJ:w1MjKQ0l0TYC",
+        "authors": "O Lerda, A Mian, G Ginolhac, JP Ovarlez",
+        "publication": "GRETSI, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Classification d'objets enfouis par un modèle du second d'ordre en utilisant des données GPR",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:-nhnvRiOwuoC",
+        "citation_id": "-fCtTbcAAAAJ:-nhnvRiOwuoC",
+        "authors": "D Jafuno, A Mian, G Ginolhac, N Stelzenmuller",
+        "publication": "GRETSI, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Covariance fitting based InSAR Phase Linking",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:mUJArPsKIAAC",
+        "citation_id": "-fCtTbcAAAAJ:mUJArPsKIAAC",
+        "authors": "PVH Vu, A Breloy, F Brigui, Y Yan, G Ginolhac",
+        "publication": "IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium …, 2023",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2023"
+      },
+      {
+        "title": "Nouvel Algorithme d'estimation de phases pour InSAR multi-temporelle basé sur le maximum de vraisemblance",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:pAkWuXOU-OoC",
+        "citation_id": "-fCtTbcAAAAJ:pAkWuXOU-OoC",
+        "authors": "PVH Vu, F Brigui, A Breloy, Y Yan, G Ginolhac",
+        "publication": "GRETSI, XXVIIIème Colloque Francophone de Traitement du Signal et des Images …, 2022",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2022"
+      },
+      {
+        "title": "Fractional Field Image Time Series Modeling and Application to Cyclone Tracking",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:OBSaB-F7qqsC",
+        "citation_id": "-fCtTbcAAAAJ:OBSaB-F7qqsC",
+        "authors": "AM Atto, A Pinheiro, G Ginolhac, P Morettin",
+        "publication": "Change Detection and Image Time Series Analysis 1: Unsupervised Methods, 145-165, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "On Change Detection for Polsar Image Time Series: A New Clustering Approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:jE2MZjpN3IcC",
+        "citation_id": "-fCtTbcAAAAJ:jE2MZjpN3IcC",
+        "authors": "V Roizman, G Ginolhac, M Jonckheere, F Pascal",
+        "publication": "2021 IEEE Statistical Signal Processing Workshop (SSP), 56-60, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Robust Mean and Covariance Matrix Estimation Under Heterogeneous Mixed-Effects Model",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:jFemdcug13IC",
+        "citation_id": "-fCtTbcAAAAJ:jFemdcug13IC",
+        "authors": "A Hippert-Ferrer, MN El Korso, A Breloy, G Ginolhac",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Robust Clustering for Satellite Images Time-Series",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:-jrNzM816MMC",
+        "citation_id": "-fCtTbcAAAAJ:-jrNzM816MMC",
+        "authors": "A Collas, JP Ovarlez, G Ginolhac, C Ren, A Breloy",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Performance Analysis of a Low-Rank Detector Under Training Data Contamination",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:1yWc8FF-_SYC",
+        "citation_id": "-fCtTbcAAAAJ:1yWc8FF-_SYC",
+        "authors": "P Vallet, G Ginolhac, F Pascal, P Forster",
+        "publication": "2019 IEEE 8th International Workshop on Computational Advances in Multi …, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Détection de Changement Robuste en Rang Faible pour les Séries Temporelles d'Images SAR",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:hsZV8lGYWTMC",
+        "citation_id": "-fCtTbcAAAAJ:hsZV8lGYWTMC",
+        "authors": "A Mian, A Breloy, G Ginolhac, JP Ovarlez",
+        "publication": "GRETSI 2019, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Bornes de Cramér-Rao Intrinsèques pour l'estimation de la matrice de dispersion normalisée dans les distributions elliptiques",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:Br1UauaknNIC",
+        "citation_id": "-fCtTbcAAAAJ:Br1UauaknNIC",
+        "authors": "F Bouchard, A Breloy, A Renaux, G Ginolhac",
+        "publication": "GRETSI 2019, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Designing SAR images change-point estimation strategies using an MSE lower bound",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:XUvXOeBm_78C",
+        "citation_id": "-fCtTbcAAAAJ:XUvXOeBm_78C",
+        "authors": "A Mian, L Bacharach, G Ginolhac, A Renaux, MN El Korso, JP Ovarlez",
+        "publication": "ICASSP 2019-2019 IEEE International Conference on Acoustics, Speech and …, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Intrinsic Cramér-Rao Bounds for Scatter and Shape Matrices Estimation in Complex Elliptically Symmetric Distributions",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:7wO8s98CvbsC",
+        "citation_id": "-fCtTbcAAAAJ:7wO8s98CvbsC",
+        "authors": "A Breloy, G Ginolhac, A Renaux, F Bouchard",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Robust Covariance and Subspace Learning: Dealing with Small Sample Support",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:CB2v5VPnA5kC",
+        "citation_id": "-fCtTbcAAAAJ:CB2v5VPnA5kC",
+        "authors": "A Breloy, F Pascal, G Ginolhac",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Estimateur de Tyler régularisé dans le cas sous-déterminé. Application à la détection d'objets enfouis",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:PaBasH6fAo0C",
+        "citation_id": "-fCtTbcAAAAJ:PaBasH6fAo0C",
+        "authors": "Q Hoarau, A Breloy, G Ginolhac, A Atto, JM Nicolas",
+        "publication": "GRETSI 2017, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Détection de changement sur images SAR monovariées par analyse temps-fréquence linéaire",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:MpfHP-DdYjUC",
+        "citation_id": "-fCtTbcAAAAJ:MpfHP-DdYjUC",
+        "authors": "A Mian, JP Ovarlez, G Ginolhac, A Atto",
+        "publication": "GRETSI 2017, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Estimation Robuste de la Matrice de Covariance en contexte Hétérogène Rang Faible",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:CaZNVDsoPx4C",
+        "citation_id": "-fCtTbcAAAAJ:CaZNVDsoPx4C",
+        "authors": "A Breloy, G Ginolhac, F Pascal, P Forster",
+        "publication": "25eme Colloque francophone de traitement du signal et des images (GRETSI …, 2015",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2015"
+      },
+      {
+        "title": "Sensor Array and Multichannel Processing-Derivation of the Bias of the Normalized Sample Covariance Matrix in a Heterogeneous Noise With Application to Low Rank STAP Filter",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:TQgYirikUcIC",
+        "citation_id": "-fCtTbcAAAAJ:TQgYirikUcIC",
+        "authors": "G Ginolhac, P Forster, F Pascal, JP Ovarlez",
+        "publication": "IEEE Transactions on Signal Processing 60 (1), 514, 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Analyse des performances d’algorithmes d’imagerie SAR basés sur des modèles à sous-espace.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:7PzlFSSx8tAC",
+        "citation_id": "-fCtTbcAAAAJ:7PzlFSSx8tAC",
+        "authors": "F Brigui, G Ginolhac, L Thirion-Lefèvre, P Forster",
+        "publication": "GRETSI 2011, nc, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Performances of polarimetric subspace SAR processors for target detection and interference rejection",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:QIV2ME_5wuYC",
+        "citation_id": "-fCtTbcAAAAJ:QIV2ME_5wuYC",
+        "authors": "F Brigui, G Ginolhac, L Thirion-Lefevre, P Forster",
+        "publication": "2011 19th European Signal Processing Conference, 1703-1707, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Détection: application au domainde du RADAR",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:q-HalDI95KYC",
+        "citation_id": "-fCtTbcAAAAJ:q-HalDI95KYC",
+        "authors": "G Ginolhac",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Persymmetric and robust low-rank STAP filter",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:bEWYMUwI8FkC",
+        "citation_id": "-fCtTbcAAAAJ:bEWYMUwI8FkC",
+        "authors": "G Ginolhac, P Forster, JP Ovarlez, F Pascal",
+        "publication": "TRAITEMENT DU SIGNAL 28 (1-2), 143-169, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "STAP processing and SIRV modeling: robustness and persymmetty",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:iH-uZ7U-co4C",
+        "citation_id": "-fCtTbcAAAAJ:iH-uZ7U-co4C",
+        "authors": "JP Ovarlez, F Pascal, P Forster, G Ginolhac, M Mahot",
+        "publication": "TRAITEMENT DU SIGNAL 28 (1-2), 113-142, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Performances of subspace SAR processors for target detection and interference rejection",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:L8Ckcad2t8MC",
+        "citation_id": "-fCtTbcAAAAJ:L8Ckcad2t8MC",
+        "authors": "F Brigui, G Ginolhac, L Thirion-Lefèvre, P Forster",
+        "publication": "2nd SONDRA Workshop, 2010",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "Research Article Multifrequency and Multistatic Inverse Synthetic Aperture Radar, with Application to FM Passive Radar",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:PYBJJbyH-FwC",
+        "citation_id": "-fCtTbcAAAAJ:PYBJJbyH-FwC",
+        "authors": "G Ginolhac, F Schmitt, F Daout, P Forster",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "New polarimetric SAR processors based on signal and interference subspace models",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:qxL8FJ1GzNcC",
+        "citation_id": "-fCtTbcAAAAJ:qxL8FJ1GzNcC",
+        "authors": "F Brigui, L Thirion-Lefèvre, G Ginolhac, P Forster",
+        "publication": "2009 International Radar Conference\" Surveillance for a Safer World\"(RADAR …, 2009",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2009"
+      },
+      {
+        "title": "New Polarimetric signal and interference subspace detectors for SAR processors",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:9ZlFYXVOiuMC",
+        "citation_id": "-fCtTbcAAAAJ:9ZlFYXVOiuMC",
+        "authors": "F Brigui, L Thirion-Lefevre, G Ginolhac, P Forster",
+        "publication": "2009 International Radar Conference\" Surveillance for a Safer World\"(RADAR …, 2009",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Processeurs SAR basés sur des détecteurs à sous-espaces",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:KlAtU1dfN6UC",
+        "citation_id": "-fCtTbcAAAAJ:KlAtU1dfN6UC",
+        "authors": "F Brigui, L Thirion-Lefevre, G Ginolhac, P Forster",
+        "publication": "Journées scientifiques d'URSI-FRANCE. Propagation et Télédétection, 2009",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Détection de cibles cachées sous couvert forestier au moyen d'un processeur SAR basé sur un détecteur de sous-espaces",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:M3ejUd6NZC8C",
+        "citation_id": "-fCtTbcAAAAJ:M3ejUd6NZC8C",
+        "authors": "R Durand, L Thirion-Lefevre, G Ginolhac, P Forster",
+        "publication": "GDR Ondes, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Narrowband Multistatic Imagery",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:hFOr9nPyWt4C",
+        "citation_id": "-fCtTbcAAAAJ:hFOr9nPyWt4C",
+        "authors": "G Ginolhac, F Schmitt, F Daout, P Forster",
+        "publication": "IEEE Transactions on Aerospace and Electronic Systems, inconnues, 2006",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Man Made Target Detection in a Forest with a Subspace SAR Processor",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:hC7cP41nSMkC",
+        "citation_id": "-fCtTbcAAAAJ:hC7cP41nSMkC",
+        "authors": "R Durand, L Thirion, G Ginolhac, P Forster",
+        "publication": "IEEE IGARSS 2006, inconnues, 2006",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Algorithme de Synthese d’Ouverture Basé sur un Détecteura Sous Espace",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:dhFuZR0502QC",
+        "citation_id": "-fCtTbcAAAAJ:dhFuZR0502QC",
+        "authors": "R DURAND, G Ginolhac, P Forster, L THIRION, M LESTURGIE",
+        "publication": "GRETSI 2005, inonnues, 2005",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Imagerie d’objets mobiles à l’aide d’un radar bande étroite multistatique",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:mVmsd5A6BfQC",
+        "citation_id": "-fCtTbcAAAAJ:mVmsd5A6BfQC",
+        "authors": "G Ginolhac, F Daout, F Schmitt",
+        "publication": "GRETSI 2005, inconnues, 2005",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Une procédure générale d’estimation efficace de paramètres multiples avec application en localisation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:Wp0gIr-vW9MC",
+        "citation_id": "-fCtTbcAAAAJ:Wp0gIr-vW9MC",
+        "authors": "P Forster, G Ginolhac",
+        "publication": "GRETSI 2005, inconnues, 2005",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Application de l'algorithme Principal Component Inverse 3D pour la détection de mines enfouies",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:HDshCWvjkbEC",
+        "citation_id": "-fCtTbcAAAAJ:HDshCWvjkbEC",
+        "authors": "G Ginolhac, P Gounon, A Hetet",
+        "publication": "GRETSI 2003, inconnues, 2003",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2003"
+      },
+      {
+        "title": "Utilisation de modèles de réverbération pour améliorer la détection en acoustique sous-marine",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:ULOm3_A8WrAC",
+        "citation_id": "-fCtTbcAAAAJ:ULOm3_A8WrAC",
+        "authors": "G Ginolhac",
+        "publication": "Grenoble INPG, 2001",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2001"
+      },
+      {
+        "title": "Comparison between different inversion methods for ocean acoustic tomography (comparison on experimental data)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:qUcmZB5y_30C",
+        "citation_id": "-fCtTbcAAAAJ:qUcmZB5y_30C",
+        "authors": "P Pignot, B Faure, G Ginolhac",
+        "publication": "IEEE Oceanic Engineering Society. OCEANS'98. Conference Proceedings (Cat. No …, 1998",
+        "cited_by": {
+          "value": null
+        },
+        "year": "1998"
+      },
+      {
+        "title": "Modèle d’interaction et performances du traitement du signal multimodal Interaction model and performance of multimodal signal processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:QUX0mv85b1cC",
+        "citation_id": "-fCtTbcAAAAJ:QUX0mv85b1cC",
+        "authors": "G GINOLHAC, P Annecy-Chambéry, PI FIJALKOW, JF BERCHER, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Traitement STAP et Modélisation SIRV: Robustesse et Persymétrie Traitement STAP et Modélisation SIRV: Robustesse et Persymétrie",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:rTD5ala9j4wC",
+        "citation_id": "-fCtTbcAAAAJ:rTD5ala9j4wC",
+        "authors": "JP Ovarlez, F Pascal, P Forster, G Ginolhac, M Mahot",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "ctorat",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:eO3_k5sD8BwC",
+        "citation_id": "-fCtTbcAAAAJ:eO3_k5sD8BwC",
+        "authors": "L Ferro-Famil, G Ginolhac, JP Ovarlez, C Adnet, O Rabaste",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Bornes de Cramér-Rao intrinsèques et matrices de covariance",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:5bg8sr1QxYwC",
+        "citation_id": "-fCtTbcAAAAJ:5bg8sr1QxYwC",
+        "authors": "F Bouchard, A Breloy, G Ginolhac, A Renaux",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "HAL Id: hal-04234464",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:WAzi4Gm8nLoC",
+        "citation_id": "-fCtTbcAAAAJ:WAzi4Gm8nLoC",
+        "authors": "O Lerda, A Mian, G Ginolhac, JP Ovarlez",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "EUSIPCO 2013 1569746601",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:3bvyWxjaHKcC",
+        "citation_id": "-fCtTbcAAAAJ:3bvyWxjaHKcC",
+        "authors": "A Combernoux, F Pascal, G Ginolhac, M Lesturgie",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "STAP à Rang Réduit, Robust et Persymétrique STAP à Rang Réduit, Robust et Persymétrique",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:rHJHxKgnXwkC",
+        "citation_id": "-fCtTbcAAAAJ:rHJHxKgnXwkC",
+        "authors": "G Ginolhac, P Forster, JP Ovarlez, F Pascal",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Signal-Adapted Tight Frames on Graphs....................... H. Behjat, U. Richter, D. Van De Ville, and L. Sörnmo 6017 Optimization Methods for Signal Processing Weighted ADMM …",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:BzfGm06jWhQC",
+        "citation_id": "-fCtTbcAAAAJ:BzfGm06jWhQC",
+        "authors": "G Gassier, G Chabriel, J Barrere, F Briolle, C Jauffret, A Breloy, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Nouvelles techniques d’imagerie pour le Radar à Synthèse d’Ouverture",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:TFP_iSt0sucC",
+        "citation_id": "-fCtTbcAAAAJ:TFP_iSt0sucC",
+        "authors": "F Brigui, R Durand, G Ginolhac, L Thirion-Lefevre, P Forster",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Imagerie radar multicapteur",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:r0BpntZqJG4C",
+        "citation_id": "-fCtTbcAAAAJ:r0BpntZqJG4C",
+        "authors": "F Daout, F Schmitt, G Ginolhac, P Fargette",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Cross HOSVD and covariance approach",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:j3f4tGmQtD8C",
+        "citation_id": "-fCtTbcAAAAJ:j3f4tGmQtD8C",
+        "authors": "M Boizard, G Ginolhac, F Pascal, P Forster",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Fusion algorithms for detection in presence of reverberation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:-f6ydRqryjwC",
+        "citation_id": "-fCtTbcAAAAJ:-f6ydRqryjwC",
+        "authors": "G Ginolhac, J Chanussot, C Pichat",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Imagerie radar multistatique utilisant des émetteurs d’opportunité GPS",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-fCtTbcAAAAJ&cstart=100&pagesize=100&citation_for_view=-fCtTbcAAAAJ:aqlVkmm33-oC",
+        "citation_id": "-fCtTbcAAAAJ:aqlVkmm33-oC",
+        "authors": "F Maussang, F Daout, G Ginolhac, F Schmitt",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      }
+  ]

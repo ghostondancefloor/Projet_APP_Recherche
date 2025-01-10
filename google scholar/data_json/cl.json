@@ -1,0 +1,200 @@
+[
+    {
+      "title": "A review of adaptive neural control applied to proton exchange membrane fuel cell systems",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "-P4eB6oAAAAJ:YsMSGLbcyi4C",
+      "authors": "C Lin-Kwong-Chon, B Grondin-Perez, JJA Kadjo, C Damour, M Benne",
+      "publication": "Annual Reviews in Control 47, 133-154, 2019",
+      "cited_by": {
+        "value": 25,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14278265143461155889",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14278265143461155889&engine=google_scholar&hl=en",
+        "cites_id": "14278265143461155889"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Adaptive neural control of PEMFC system based on data-driven and reinforcement learning approaches",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "-P4eB6oAAAAJ:u-x6o8ySG0sC",
+      "authors": "C Lin-Kwong-Chon, C Damour, M Benne, JJA Kadjo, B Grondin-Pérez",
+      "publication": "Control Engineering Practice 120, 105022, 2022",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2430558693889745051",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2430558693889745051&engine=google_scholar&hl=en",
+        "cites_id": "2430558693889745051"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Oxygen Bubble Dynamics in PEM Water Electrolyzers with a Deep-Learning-Based Approach",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "-P4eB6oAAAAJ:UeHWp8X0CEIC",
+      "authors": "I Sinapan, C Lin-Kwong-Chon, C Damour, JJA Kadjo, M Benne",
+      "publication": "Hydrogen 4 (3), 556-572, 2023",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10638455899295358982",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10638455899295358982&engine=google_scholar&hl=en",
+        "cites_id": "10638455899295358982"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Using Deep Learning for Glacier Thickness Estimation at a Regional Scale",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "-P4eB6oAAAAJ:u5HHmVD_uO8C",
+      "authors": "LL Uroz, Y Yan, A Benoit, A Rabatel, S Giffard-Roisin, C Lin-Kwong-Chon",
+      "publication": "IEEE Geoscience and Remote Sensing Letters, 2024",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=486921942998990321",
+        "serpapi_link": "https://serpapi.com/search.json?cites=486921942998990321&engine=google_scholar&hl=en",
+        "cites_id": "486921942998990321"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Revealing anodic multi-class bubble dynamics in PEMWE systems using deep learning and post-processing detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:qjMakFHDy7sC",
+      "citation_id": "-P4eB6oAAAAJ:qjMakFHDy7sC",
+      "authors": "I Sinapan, C Lin-Kwong-Chon, C Damour, JJA Kadjo, M Benne",
+      "publication": "Fuel 364, 131112, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8080774518653053384",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8080774518653053384&engine=google_scholar&hl=en",
+        "cites_id": "8080774518653053384"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Explaining the decisions and the functioning of a convolutional spatiotemporal land cover classifier with channel attention and redescription mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "-P4eB6oAAAAJ:2osOgNQ5qMEC",
+      "authors": "E Pelous, N Méger, A Benoit, A Atto, D Ienco, H Courteille, ...",
+      "publication": "ISPRS Journal of Photogrammetry and Remote Sensing 215, 256-270, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6564292182899626783",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6564292182899626783&engine=google_scholar&hl=en",
+        "cites_id": "6564292182899626783"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Empirical Mode Decomposition Applied to Proton Exchange Membrane Electrolyzer for Non-Intrusive Diagnosis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "-P4eB6oAAAAJ:Y0pCki6q_DkC",
+      "authors": "F Aubras, C Damour, M Benne, M Bessafi, C Lin-Kwong-Chon, ...",
+      "publication": "Electrochemical Society Meeting Abstracts prime2020, 3762-3762, 2020",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13361198594957170691",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13361198594957170691&engine=google_scholar&hl=en",
+        "cites_id": "13361198594957170691"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Approches neuronales adaptatives pour le contrôle tolérant aux défauts de systèmes pile à combustible",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:WF5omc3nYNoC",
+      "citation_id": "-P4eB6oAAAAJ:WF5omc3nYNoC",
+      "authors": "C Lin-Kwong-Chon",
+      "publication": "Université de la Réunion, 2020",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16335429714794310435",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16335429714794310435&engine=google_scholar&hl=en",
+        "cites_id": "16335429714794310435"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "OPTICAL MONITORING OF AVALANCHE REALEASE ZONES IN BESSANS, HAUTE MAURIENNE VALLEY, FRANCE, WITH A REMOTE AND ENERGY SELF-SUFFICIENT CAMERA SYSTEM",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "-P4eB6oAAAAJ:W7OEmFMy1HYC",
+      "authors": "I Barkat, C Lin-Kwong-Chon, A Duclos, M Carrel, S Staehly, G Bourgeois, ...",
+      "publication": "ISSW-International Snow Science Workshop, 1041-1048, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Supervised Classification For Analysis Of Cryospheric Zones Using SAR Statistical Timeseries",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "-P4eB6oAAAAJ:zYLM7Y9cAGgC",
+      "authors": "C Lin-Kwong-Chon, M Gallet, S Kaushik, E Trouvé",
+      "publication": "IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium …, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Multi-level deep-based classification of land use and land cover: a case study on Réunion Island",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "-P4eB6oAAAAJ:eQOLeE2rZwMC",
+      "authors": "C Lin-Kwong-Chon, P Todoroff, L Le Mezo, M Benne, AJJ Kadjo",
+      "publication": "XXXIe Congrès International Society of Sugar Cane Technologists, 9, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep learning multimodal methods for geophysical inversion: application to glacier ice thickness estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "-P4eB6oAAAAJ:d1gkVwhDpl0C",
+      "authors": "L Lopez Uroz, A Benoit, Y Yan, C Lin-Kwong-Chon, S Giffard-Roisin, ...",
+      "publication": "Proceedings of the 20th International Conference on Content-based Multimedia …, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "A Path Towards Fair and Equitable AI Advancing Bias Mitigation in Federated Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:ufrVoPGSRksC",
+      "citation_id": "-P4eB6oAAAAJ:ufrVoPGSRksC",
+      "authors": "F Lynda, A Benoit, F Loukil, M Bettinelli, C Lin-Kwong-Chon",
+      "publication": "The IEEE International Symposium on Women in Services Computing (WISC 2023), 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Méthode de diagnostic non intrusive appliquée aux électrolyseurs à membrane échangeuse de protons",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "-P4eB6oAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "F Aubras, C Damour, M Benne, C Lin-Kwong-Chon, J Deseure, AJJ Kadjo",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Exploration des régimes bulleux au sein d’un système électrolyseur à membrane échangeuse de protons",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "-P4eB6oAAAAJ:IjCSPb-OGe4C",
+      "authors": "F Aubras, C Damour, M Benne, C Lin-Kwong-Chon, AJJ Kadjo, ...",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Digital Processing of the Different Operating Modes of a PEM Electrolyser Viafast Camera",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=-P4eB6oAAAAJ&pagesize=100&citation_for_view=-P4eB6oAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "-P4eB6oAAAAJ:9yKSN-GCB0IC",
+      "authors": "J Rohe, C Lin Kwong Chon, S Boulevard, C Damour, B Grondin-Perez, ...",
+      "publication": "Electrochemical Society Meeting Abstracts prime2020, 3856-3856, 2020",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2020"
+    }
+  ]

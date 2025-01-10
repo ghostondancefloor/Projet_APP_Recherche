@@ -1,0 +1,136 @@
+researcher,title,authors,value of cited by,year
+Didier Coquin,Understanding leaves in natural images–a model-based approach for tree species identification,"G Cerutti, L Tougne, J Mille, A Vacavant, D Coquin",159,2013
+Didier Coquin,Dynamic hand gesture recognition using the skeleton of the hand,"B Ionescu, D Coquin, P Lambert, V Buzuloiu",137,2005
+Didier Coquin,A parametric active polygon for leaf segmentation and shape estimation,"G Cerutti, L Tougne, A Vacavant, D Coquin",92,2011
+Didier Coquin,Multi-sensor information fusion: Combination of fuzzy systems and evidence theory approaches in color recognition for the NAO humanoid robot,"R Boukezzoula, D Coquin, TL Nguyen, S Perrin",41,2018
+Didier Coquin,Leaf margins as sequences: A structural approach to leaf identification,"G Cerutti, L Tougne, D Coquin, A Vacavant",41,2014
+Didier Coquin,A model-based approach for compound leaves understanding and identification,"G Cerutti, L Tougne, J Mille, A Vacavant, D Coquin",41,2013
+Didier Coquin,High-resolution prediction of organic matter concentration with hyperspectral imaging on a sediment core,"K Jacq, Y Perrette, B Fanget, P Sabatier, D Coquin, R Martinez-Lamas, ...",39,2019
+Didier Coquin,Discrete distance operator on rectangular grids,"D Coquin, P Bolon",38,1995
+Didier Coquin,Application of Baddeley's distance to dissimilarity measurement between gray scale images,"D Coquin, P Bolon",37,2001
+Didier Coquin,Bark and leaf fusion systems to improve automatic tree species recognition,"S Bertrand, RB Ameur, G Cerutti, D Coquin, L Valet, L Tougne",36,2018
+Didier Coquin,Guiding active contours for tree leaf segmentation and identification,"G Cerutti, L Tougne, J Mille, A Vacavant, D Coquin",35,2011
+Didier Coquin,Improved cut detection for the segmentation of animation movies,"B Ionescu, V Buzuloiu, P Lambert, D Coquin",32,2006
+Didier Coquin,Curvature-scale-based contour understanding for leaf margin shape recognition and species identification,"G Cerutti, L Tougne, D Coquin, A Vacavant",30,2013
+Didier Coquin,A fuzzy color-based approach for understanding animated movies content in the indexing task,"B Ionescu, D Coquin, P Lambert, V Buzuloiu",29,2008
+Didier Coquin,Reves participation-tree species classification using random forests and botanical features,"G Cerutti, V Antoine, L Tougne, J Mille, L Valet, D Coquin, A Vacavant",25,2012
+Didier Coquin,A decision-making computational methodology for a class of type-2 fuzzy intervals: An interval-based approach,"R Boukezzoula, D Coquin",24,2020
+Didier Coquin,High-resolution grain size distribution of sediment core with hyperspectral imaging,"K Jacq, C Giguet-Covex, P Sabatier, Y Perrette, B Fanget, D Coquin, ...",24,2019
+Didier Coquin,A skeletonization algorithm using chamfer distance transformation adapted to rectangular grids,"Y Chehadeh, D Coquin, P Bolon",24,1996
+Didier Coquin,From fuzzy regression to gradual regression: Interval-based analysis and extensions,"R Boukezzoula, S Galichet, D Coquin",21,2018
+Didier Coquin,Leaf species classification based on a botanical shape sub-classifier strategy,"H Liu, D Coquin, L Valet, G Cerutti",21,2014
+Didier Coquin,XRF and hyperspectral analyses as an automatic way to detect flood events in sediment cores,"W Rapuc, K Jacq, AL Develle, P Sabatier, B Fanget, Y Perrette, D Coquin, ...",19,2020
+Didier Coquin,Dissimilarity measures in color spaces,"D Coquin, P Bolon, B Ionescu",19,2002
+Didier Coquin,A new methodology for solving fuzzy systems of equations: Thick fuzzy sets based approach,"R Boukezzoula, L Jaulin, D Coquin",17,2022
+Didier Coquin,Gradual interval arithmetic and fuzzy interval arithmetic,"R Boukezzoula, L Foulloy, D Coquin, S Galichet",17,2021
+Didier Coquin,Sedimentary structure discrimination with hyperspectral imaging in sediment cores,"K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget, Y Perrette, P Sabatier, ...",16,2022
+Didier Coquin,Animation movie abstraction: Key frame adaptative selection based on color histogram filtering,"L Ott, P Lambert, B Ionescu, D Coquin",16,2007
+Didier Coquin,Animation movies trailer computation,"B Ionescu, P Lambert, D Coquin, L Ott, V Buzuloiu",15,2006
+Didier Coquin,Late information fusion for multi-modality plant species identification,"G Cerutti, L Tougne, C Sacca, T Joliveau, PO Mazagol, D Coquin, ...",14,2013
+Didier Coquin,Color-based semantic characterization of cartoons,"B Ionescu, P Lambert, D Coquin, L Darlea",14,2005
+Didier Coquin,Evaluation quantitative d’images filtrées,"D Coquin, P Bolon, Y Chehadeh",14,1997
+Didier Coquin,Interval-valued fuzzy regression: Philosophical and methodological issues,"R Boukezzoula, D Coquin",12,2021
+Didier Coquin,Color-Based Content Retrieval of Animation Movies: A Study.,"B Ionescu, P Lambert, D Coquin, V Buzuloiu",11,2007
+Didier Coquin,Assistance via IoT networking cameras and evidence theory for 3D object instance recognition: Application for the NAO humanoid robot,"D Coquin, R Boukezzoula, A Benoit, TL Nguyen",10,2020
+Didier Coquin,Treex: a Python package for manipulating rooted trees,"R Azaïs, G Cerutti, D Gemmerlé, F Ingels",10,2019
+Didier Coquin,Gestures recognition based on the fusion of Hand positioning and Arm gestures,"D Coquin, E Benoit, H Sawada, B Ionescu",10,2006
+Didier Coquin,3D local distance operator on parallelepipedic grids,"D Coquin, Y Chehadeh, P Bolon",10,1994
+Didier Coquin,"A single smart cut POI substrate design for UHF, l and s band filters","E Butaud, T Laroche, V Barec, A Clairet, M Bousquet, F Bernard, ...",9,2021
+Didier Coquin,Influence of basic belief assignments construction on the behaviour of a fusion system for tree species recognition,"RB Ameur, D Coquin, L Valet",9,2017
+Didier Coquin,Local versus global evaluation of a cooperative fusion system for 3D image interpretation,"A Lamallem, L Valet, D Coquin",9,2009
+Didier Coquin,Fuzzy semantic action and color characterization of animation movies in the video indexing task context,"BE Ionescu, D Coquin, P Lambert, V Buzuloiu",9,2006
+Didier Coquin,Binarisation of various images by detecting local thresholds with a validation test,"K Chehdi, D Coquin",9,1991
+Didier Coquin,Theoretical principles and perspectives of hyperspectral imaging applied to sediment core analysis,"K Jacq, M Debret, B Fanget, D Coquin, P Sabatier, C Pignol, F Arnaud, ...",8,2022
+Didier Coquin,Objective metric for colour image comparison,"D Coquin, P Bolon, A Onea",8,2000
+Didier Coquin,Color recognition for NAO robot using sugeno fuzzy system and evidence theory,"TL Nguyen, R Boukezzoula, D Coquin, S Perrin",7,2015
+Didier Coquin,The cut detection issue in the animation movie domain.,"B Ionescu, P Lambert, D Coquin, V Buzuloiu",7,2007
+Didier Coquin,Comparaison d’opérateurs locaux de distance,"D Coquin, P Bolon",7,1993
+Didier Coquin,Thick fuzzy sets (TFSs) and their potential use in uncertain fuzzy computations and modeling,"R Boukezzoula, L Jaulin, B Desrochers, D Coquin",6,2020
+Didier Coquin,Evidential two-step tree species recognition approach from leaves and bark,"S Jendoubi, D Coquin, R Boukezzoula",6,2020
+Didier Coquin,"Interaction between humans, NAO robot and multiple cameras for colored objects recognition using information fusion","TL Nguyen, R Boukezzoula, D Coquin, E Benoit, S Perrin",6,2015
+Didier Coquin,Quantitative evaluation of color image segmentation results using fuzzy neural network,D Coquin,6,2008
+Didier Coquin,"Structure-from-motion, multi-view stereo photogrammetry applied to line-scan sediment core images","K Jacq, E Ployon, W Rapuc, C Blanchet, C Pignol, D Coquin, B Fanget",5,2021
+Didier Coquin,Sub-classification strategies for tree species recognition,"RB Ameur, L Valet, D Coquin",5,2016
+Didier Coquin,Fuzzy color-based semantic characterization of animation movies,"B Ionescu, P Lambert, D Coquin, V Buzuloiu",5,2006
+Didier Coquin,Quantitative assessment of two skeletonization algorithms adapted to rectangular grids,"M Ciuc, D Coquin, P Bolon",5,1997
+Didier Coquin,Study of pansharpening methods applied to hyperspectral images of sediment cores (Poster),"K Jacq, D Coquin, B Fanget, Y Perrette, M Debret",4,2019
+Didier Coquin,Combination of Sugeno fuzzy system and evidence theory for NAO robot in colors recognition,"TL Nguyen, R Boukezzoula, D Coquin, S Perrin",4,2015
+Didier Coquin,Tackling action-based video abstraction of animated movies for video browsing,"B Ionescu, L Ott, P Lambert, D Coquin, A Pacureanu, V Buzuloiu",4,2010
+Didier Coquin,Analyse et Caractérisation de séquences de films d’animation,"B Ionescu, D Coquin, P Lambert, V Buzuloiu",4,2005
+Didier Coquin,An Approach to Scene Detection in Animation Movies and its Applications,"B Ionescu, D Coquin, P Lambert, V Buzuloiu",4,2005
+Didier Coquin,Segmentation automatique des images couleur à base d'indicateurs de performance,"N Bouloudani, P Lambert, D Coquin",4,2003
+Didier Coquin,Opérateurs de distance 3D-Application à. la comparaison d’images,"D Coquin, P Bolon, Y Chehadeh",4,1995
+Didier Coquin,Binarisation d'images par seuillage local optimal maximisant un critère d'homogénéte,"K Chehdi, D Coquin",4,1991
+Didier Coquin,An Evidential k-nearest Neighbors Combination Rule for Tree Species Recognition,"S Jendoubi, D Coquin, R Boukezzoula",3,2018
+Didier Coquin,Fusion system based on belief functions theory and approximated belief functions for tree species recognition,"RB Ameur, L Valet, D Coquin",3,2016
+Didier Coquin,A fusion system for tree species recognition through leaves and barks,"RB Ameur, L Valet, D Coquin",3,2016
+Didier Coquin,Recognition of confusing objects for NaO robot,"TL Nguyen, D Coquin, R Boukezzoula",3,2016
+Didier Coquin,Local evaluation of a fusion system for 3-d tomographic image interpretation,"A Lamallem, L Valet, D Coquin",3,2010
+Didier Coquin,Aggregation evaluation of a fusion system devoted to image interpretation,"A Lamallem, D Coquin, L Valet",3,2010
+Didier Coquin,Performance evaluation of a fusion system devoted to image interpretation,"A Lamallem, L Valet, D Coquin",3,2010
+Didier Coquin,A 3D image-segmented evaluation procedure in a cooperative fusion system context,"L Valet, D Coquin, S Jullien, S Teyssier",3,2007
+Didier Coquin,Reconnaissance de gestes dynamiques de la main,"B Ionescu, D Coquin, P Lambert",3,2003
+Didier Coquin,3D nonstationary local distance operator,"D Coquin, P Bolon, A Onea",3,2000
+Didier Coquin,Pattern recognition by image analysis. Application to marine biology,"K Chehdi, D Coquin",3,1992
+Didier Coquin,A possibilistic regression based on gradual interval B-splines: application for hyperspectral imaging lake sediments,"R Boukezzoula, D Coquin, K Jacq",2,2020
+Didier Coquin,Decision method choice in a human posture recognition context,"S Perrin, E Benoit, D Coquin",2,2018
+Didier Coquin,Fusion method choice driven by user constraints in a human gesture recognition context,"S Perrin, E Benoit, D Coquin",2,2015
+Didier Coquin,Body posture measurement in a context of example-based teaching,"E Benoit, S Perrin, D Coquin",2,2015
+Didier Coquin,Symbolic evaluation of a fusion system devoted to 3D image interpretation,"A Lamallem, L Valet, D Coquin, B de Lima, S Galichet",2,2011
+Didier Coquin,A separability index based on earth mover's distance for local evaluation of fusion systems,"A Lamallem, L Valet, D Coquin",2,2010
+Didier Coquin,A multilevel clustering method for risky areas in the context of avalanche danger management,"F Pagnier, F Pourraz, D Coquin, H Verjus, G Mauris",1,2022
+Didier Coquin,A Global System for Avalanche Risk Assessment,"F Pagnier, F Pourraz, H Verjus, D Coquin, G Mauris",1,2022
+Didier Coquin,Classification des précipitations sur les massifs alpins français,"F Pagnier, D Coquin, F Pourraz, H Verjus, G Mauris",1,2021
+Didier Coquin,Laboratory hyperspectral imaging a powerful tool for a fast-high-resolution analysis of natural sample: application to sediment core.,"K Jacq, Y Perrette, B Fanget, P Sabatier, D Coquin, M Debret, F Arnaud",1,2019
+Didier Coquin,K-NN crédibiliste pour la reconnaissance automatique des espèces d'arbres,"S Jendoubi, D Coquin, R Boukezzoula",1,2018
+Didier Coquin,Hyperspectral imaging for lake sediment cores analysis,"K Jacq, Y Perrette, B Fanget, D Coquin, P Sabatier, W Rapuc, C Blanchet, ...",1,2018
+Didier Coquin,An evidential system for color recognition using multi-cameras,"TL Nguyen, D Coquin, R Boukezzoula",1,2017
+Didier Coquin,A content-driven system architecture for tackling automatic cataloging of animated movie databases,"B Ionescu, A Marin, P Lambert, D Coquin, C Vertan",1,2012
+Didier Coquin,Towards the supervision of a fusion system for 3d image interpretation,"A Lamallem, L Valet, D Coquin",1,2011
+Didier Coquin,Analyzing Animated Movie Contents for Automatic Video Indexing,"B Ionescu, P Lambert, D Coquin, A Marin, C Vertan",1,2011
+Didier Coquin,Lower and upper bounds for scaling factors used for integer approximation of 3D anisotropic chamfer distance operator,"D Coquin, P Bolon",1,2009
+Didier Coquin,Fusion of hand and arm gestures,"D Coquin, E Benoit, H Sawada, B Ionescu",1,2005
+Didier Coquin,Influence de la Réduction des Couleurs sur la Détection des Changements de Plan dans les Films d’Animation,"B IONESCU, P LAMBERT, D COQUIN, V BUZULOIU",1,2005
+Didier Coquin,Distributed data fusion applied to human gesture measurement,"E Benoit, D Coquin, H Sawada",1,2005
+Didier Coquin,STATIC HAND GESTURE RECOGNITION SYSTEM,"B Ionescu, D Coquin, P Lambert, V Buzuloiu",1,2004
+Didier Coquin,A new method to compute the distortion vector field from two images,"D Coquin, P Bolon",1,2002
+Didier Coquin,Quantitative assessment of image filtering: comparison of objective metrics,"D Coquin, P Bolon",1,2001
+Didier Coquin,Segmentation et analyse d'Images pour la classification automatique: application au zooplancton,D Coquin,1,1991
+Didier Coquin,L'imagerie hyperspectrale pour comprendre le passé: application en sédimentologie et en archéologie pariétale,"K Jacq, M Debret, C Defrasne, B Schmitt, M Masse, M Giraud, D Fligiel, ...",,2024
+Didier Coquin,"L’Université Grenoble Alpes a adopté son schéma directeur de la science ouverte, présenté et voté à l’unanimité au CA du 13 octobre 2022.","K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget",,2022
+Didier Coquin,Fuzzification de la distance d’arrêt des avalanches dans les Alpes françaises pour l’aide à la décision en ski de randonnée,"F Pagnier, F Pourraz, G Mauris, D Coquin, H Verjus",,2021
+Didier Coquin,Machine learning and deep learning for retro-observation of critical zone processes with hyperspectral imaging,"K Jacq, K Humbert, J Auboiron, T Gardes, B Fanget, A Benoit, D Coquin, ...",,2021
+Didier Coquin,Structure-from-motion multi-view photogrammetry applied to linear-scan sediment cores images,"K Jacq, W Rapuc, C Blanchet, E Ployon, C Pignol, D Coquin, B Fanget",,2021
+Didier Coquin,From XRF and hyperspectral analyses to an automatic way to detect flood events on sediment cores,"R William, K Jacq, AL Develle, P Sabatier, F Bernard, Y Perrette, C Didier, ...",,2020
+Didier Coquin,Correction of Belief Function to Improve the Performances of a Fusion System,"D Coquin, R Boukezzoula, R Ben Ameur",,2020
+Didier Coquin,Combining hyperspectral and XRF analyses to reconstruct high-resolution past flood frequency from lake sediments,"K Jacq, W Rapuc, AL Develle, P Sabatier, B Fanget, D Coquin, M Debret, ...",,2020
+Didier Coquin,Fusion multimodale pour la reconnaissance des espèces d'arbres à partir des feuilles et des écorces,"S Jendoubi, D Coquin, R Boukezzoula",,2019
+Didier Coquin,"L’analyse multi-capteurs, un enjeu pour une connaissance plus précise des échantillons","K Jacq, Y Perrette, B Fanget, P Sabatier, D Coquin, M Debret, F Arnaud",,2019
+Didier Coquin,Internet of Things,"D Coquin, R Boukezzoula, A Benoit, TL Nguyen",,2019
+Didier Coquin,Micrometric mapping of total organic carbon in lake sediment cores combining fusion of multiresolution hyperspectral images and PLSR analysis,"K Jacq, Y Perrette, B Fanget, D Coquin, P Sabatier, M Debret, RM Lamas, ...",,2018
+Didier Coquin,Fusion of multiresolution hyperspectral and fluorescence images for the analysis of sediment cores,"K Jacq, D Coquin, Y Perrette, B Fanget, P Sabatier, M Debret, RM Lamas, ...",,2018
+Didier Coquin,"Hyperspectral Imaging for high resolution, non-destructive and fast analysis of sediment cores: application to Lake Le Bourget and Black Sea sediment cores.","K Jacq, RM Lamas, Y Perrette, B Fanget, M Debret, D Coquin, P Sabatier, ...",,2017
+Didier Coquin,Conception d'applications ludo-éducatives mobiles en botanique,"S George, D Coquin, T Joliveau, V Malécot, L Tougne",,2016
+Didier Coquin,"Système d’aide à la reconnaissance d’espèces d’arbres à partir d’une base de connaissance incomplète, partielle et conflictuelle","RB Ameur, L Valet, D Coquin, S Galichet",,2016
+Didier Coquin,Color Recognition for NAO Robot Using Sugeno Fuzzy System and Evidence,"TL Nuyen, R Boukezzoula, D Coquin, S Perrin",,2015
+Didier Coquin,Reconnaissance de feuilles d'arbres par fusion de décisions partielles,"H Liu, D Coquin, L Valet",,2013
+Didier Coquin,A multi level evaluation for fusion system interaction improvement,"A Lamallem, L Valet, D Coquin",,2012
+Didier Coquin,Evaluation locale de la performance basée sur un critère Mission/Qualité,"A Lamallem, D Coquin, L Valet",,2011
+Didier Coquin,Integer approximation of 3D chamfer mask coefficients using a scaling factor in anisotropic grids,"D Coquin, P Bolon",,2011
+Didier Coquin,Front Matter: Volume 7266,"J Kofman, D Coquin, S Kaneko, T Fukuda, D Hodko, Y Bellouard, Y Otani, ...",,2008
+Didier Coquin,Optomechatronic Technologies 2008,"Y Otani, Y Bellouard, JTY Wen, D Hodko, Y Katagiri, SK Kassegne, ...",,2008
+Didier Coquin,Optomechatronic Computer-Vision Systems II,"Y Li, H Takauji, S Kaneko, T Tanaka, I Ohmura, D Hong, K Park, H Cho, ...",,2007
+Didier Coquin,Event detection for car park entries by video-surveillance,"D Coquin, J Tailland, M Cintract",,2007
+Didier Coquin,Optomechatronic Computer-Vision Systems II,"J Kofman, Y Lopez de Meneses, S Kaneko, CA Perez, D Coquin",,2007
+Didier Coquin,Computer-Vision Systems II,"J Kofman, YL de Meneses, S Kaneko, CA Perez, D Coquin",,2007
+Didier Coquin,Event detection for car park entries by video-surveillance [6718-15],"D Coquin, J Tailland, M Cintract",,2007
+Didier Coquin,CHARACTERIZATION OF THE MOVEMENT IN CARTOON FILMS,"B Ionescu, P Lambert, D Coquin, V Buzuloiu",,2007
+Didier Coquin,"ANALYSIS OF ANIMATION MOVIES: SEGMENTATION, ABSTRACTION AND ANNOTATION","B Ionescu, P Lambert, D Coquin, V Buzuloiu",,2005
+Didier Coquin,Segmentation of range and reflectance images with an expert system,"D Coquin, M Bohner",,2003
+Didier Coquin,Signature de la déformation entre deux images à niveaux de gris,"P BOLON, D COQUIN",,2001
+Didier Coquin,NEURAL NETWORKS & VISION Location: Chair,"K Chehdi, D Coquin, E IASTI, FM Session, SJ Eady, C Rose, E Velez, ...",,1991
+Didier Coquin,to reconstruct high-resolution past flood frequency from lake sediments,"K Jacq, W Rapuc, AL Develle, P Sabatier, B Fanget, D Coquin, M Debret, ...",,
+Didier Coquin,La couleur dans les séquences d’images,"P Lambert, B Ionescu, D Coquin",,
+Didier Coquin,Mesures Objectives de comparaison d'images: Application à la comparaison d'images couleurs,D COQUIN,,
+Didier Coquin,CARACTERISATION DU MOUVEMENT DANS LES FILMS D’ANIMATION,"B IONESCU, P LAMBERT, D COQUIN, V BUZULOIU",,
+Didier Coquin,"Contribution à la comparaison d’images pour l’évaluation des traitements, la reconnaissance de formes et l’indexation des séquences d’images",D COQUIN,,

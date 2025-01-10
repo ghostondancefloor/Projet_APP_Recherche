@@ -1,0 +1,1581 @@
+[
+    {
+      "title": "3-D deep learning approach for remote sensing image classification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:P5F9QuxV20EC",
+      "citation_id": "QGrO3D0AAAAJ:P5F9QuxV20EC",
+      "authors": "AB Hamida, A Benoit, P Lambert, CB Amar",
+      "publication": "IEEE Transactions on geoscience and remote sensing 56 (8), 4420-4434, 2018",
+      "cited_by": {
+        "value": 702,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14683398948417972189,9165128741418141215",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14683398948417972189%2C9165128741418141215&engine=google_scholar&hl=en",
+        "cites_id": "14683398948417972189,9165128741418141215"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Quality assessment of stereoscopic images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:2osOgNQ5qMEC",
+      "citation_id": "QGrO3D0AAAAJ:2osOgNQ5qMEC",
+      "authors": "A Benoit, P Le Callet, P Campisi, R Cousseau",
+      "publication": "EURASIP journal on image and video processing 2008, 1-13, 2009",
+      "cited_by": {
+        "value": 449,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4707556198667198616",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4707556198667198616&engine=google_scholar&hl=en",
+        "cites_id": "4707556198667198616"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Using human visual system modeling for bio-inspired low level image processing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:eQOLeE2rZwMC",
+      "citation_id": "QGrO3D0AAAAJ:eQOLeE2rZwMC",
+      "authors": "A Benoit, A Caplier, B Durette, J Hérault",
+      "publication": "Computer vision and Image understanding 114 (7), 758-773, 2010",
+      "cited_by": {
+        "value": 143,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13643502905067837761",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13643502905067837761&engine=google_scholar&hl=en",
+        "cites_id": "13643502905067837761"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Using disparity for quality assessment of stereoscopic images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:W7OEmFMy1HYC",
+      "citation_id": "QGrO3D0AAAAJ:W7OEmFMy1HYC",
+      "authors": "A Benoit, P Le Callet, P Campisi, R Cousseau",
+      "publication": "2008 15th IEEE International Conference on Image Processing, 389-392, 2008",
+      "cited_by": {
+        "value": 115,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6961218953226759727",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6961218953226759727&engine=google_scholar&hl=en",
+        "cites_id": "6961218953226759727"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Signtutor: An interactive system for sign language tutoring",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:u-x6o8ySG0sC",
+      "citation_id": "QGrO3D0AAAAJ:u-x6o8ySG0sC",
+      "authors": "O Aran, I Ari, L Akarun, B Sankur, A Benoit, A Caplier, P Campr, ...",
+      "publication": "IEEE multimedia 16 (01), 81-93, 2009",
+      "cited_by": {
+        "value": 104,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7060162499376151279",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7060162499376151279&engine=google_scholar&hl=en",
+        "cites_id": "7060162499376151279"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Privacy and security in federated learning: A survey",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:9vf0nzSNQJEC",
+      "citation_id": "QGrO3D0AAAAJ:9vf0nzSNQJEC",
+      "authors": "R Gosselin, L Vieu, F Loukil, A Benoit",
+      "publication": "Applied Sciences 12 (19), 9901, 2022",
+      "cited_by": {
+        "value": 84,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14727428475397737663",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14727428475397737663&engine=google_scholar&hl=en",
+        "cites_id": "14727428475397737663"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Multimodal focus attention and stress detection and feedback in an augmented driver simulator",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "QGrO3D0AAAAJ:Tyk-4Ss8FVUC",
+      "authors": "A Benoit, L Bonnaud, A Caplier, P Ngo, L Lawson, DG Trevisan, ...",
+      "publication": "Personal and Ubiquitous Computing 13, 33-41, 2009",
+      "cited_by": {
+        "value": 54,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17439219100322909555",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17439219100322909555&engine=google_scholar&hl=en",
+        "cites_id": "17439219100322909555"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Sign language tutoring tool",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:u5HHmVD_uO8C",
+      "citation_id": "QGrO3D0AAAAJ:u5HHmVD_uO8C",
+      "authors": "O Aran, C Keskin, L Akarun",
+      "publication": "2005 13th European Signal Processing Conference, 1-4, 2005",
+      "cited_by": {
+        "value": 52,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7755808959266009246",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7755808959266009246&engine=google_scholar&hl=en",
+        "cites_id": "7755808959266009246"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Spatio-temporal tone mapping operator based on a retina model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:ufrVoPGSRksC",
+      "citation_id": "QGrO3D0AAAAJ:ufrVoPGSRksC",
+      "authors": "A Benoit, D Alleysson, J Herault, P Le Callet",
+      "publication": "Computational Color Imaging: Second International Workshop, CCIW 2009, Saint …, 2009",
+      "cited_by": {
+        "value": 51,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=191552049276761990",
+        "serpapi_link": "https://serpapi.com/search.json?cites=191552049276761990&engine=google_scholar&hl=en",
+        "cites_id": "191552049276761990"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Hypovigilence analysis: open or closed eye or mouth? Blinking or yawning frequency?",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:qjMakFHDy7sC",
+      "citation_id": "QGrO3D0AAAAJ:qjMakFHDy7sC",
+      "authors": "A Benoit, A Caplier",
+      "publication": "IEEE Conference on Advanced Video and Signal Based Surveillance, 2005., 207-212, 2005",
+      "cited_by": {
+        "value": 46,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17388660108042074078,12264078578790805592",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17388660108042074078%2C12264078578790805592&engine=google_scholar&hl=en",
+        "cites_id": "17388660108042074078,12264078578790805592"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Quality assessment of stereoscopic images. EURASIP J",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:738O_yMBCRsC",
+      "citation_id": "QGrO3D0AAAAJ:738O_yMBCRsC",
+      "authors": "A Benoit, P Le Callet, P Campisi, R Cousseau",
+      "publication": "Image Video Process 659024, 2008, 2008",
+      "cited_by": {
+        "value": 44,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8055670552010576078",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8055670552010576078&engine=google_scholar&hl=en",
+        "cites_id": "8055670552010576078"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "PDE-based enhancement of color images in RGB space",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Zph67rFs4hoC",
+      "citation_id": "QGrO3D0AAAAJ:Zph67rFs4hoC",
+      "authors": "S Bettahar, AB Stambouli, P Lambert, A Benoit",
+      "publication": "IEEE transactions on image processing 21 (5), 2500-2512, 2011",
+      "cited_by": {
+        "value": 35,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1927615784232012228",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1927615784232012228&engine=google_scholar&hl=en",
+        "cites_id": "1927615784232012228"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Hierarchical late fusion for concept detection in videos",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:dhFuZR0502QC",
+      "citation_id": "QGrO3D0AAAAJ:dhFuZR0502QC",
+      "authors": "ST Strat, A Benoit, P Lambert, H Bredin, G Quénot",
+      "publication": "Fusion in Computer Vision: Understanding Complex Visual Content, 53-77, 2014",
+      "cited_by": {
+        "value": 32,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11137709456915278371",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11137709456915278371&engine=google_scholar&hl=en",
+        "cites_id": "11137709456915278371"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Multimodal signal processing and interaction for a driving simulator: Component-based architecture",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:UeHWp8X0CEIC",
+      "citation_id": "QGrO3D0AAAAJ:UeHWp8X0CEIC",
+      "authors": "A Benoit, L Bonnaud, A Caplier, F Jourde, L Nigay, M Serrano, ...",
+      "publication": "Journal on Multimodal User Interfaces 1, 49-58, 2007",
+      "cited_by": {
+        "value": 32,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3670125127636499750",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3670125127636499750&engine=google_scholar&hl=en",
+        "cites_id": "3670125127636499750"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Irim at TRECVID 2014: Semantic indexing and instance search",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:ZeXyd9-uunAC",
+      "citation_id": "QGrO3D0AAAAJ:ZeXyd9-uunAC",
+      "authors": "N Ballas, B Labbé, H Le Borgne, P Gosselin, D Picard, M Redi, ...",
+      "publication": "Proceedings of TRECVID, 2014",
+      "cited_by": {
+        "value": 30,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15297105274334615272,10473289444134255983",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15297105274334615272%2C10473289444134255983&engine=google_scholar&hl=en",
+        "cites_id": "15297105274334615272,10473289444134255983"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Deep learning for semantic segmentation of remote sensing images with rich spectral content",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:EUQCXRtRnyEC",
+      "citation_id": "QGrO3D0AAAAJ:EUQCXRtRnyEC",
+      "authors": "AB Hamida, A Benoit, P Lambert, L Klein, CB Amar, N Audebert, ...",
+      "publication": "2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS …, 2017",
+      "cited_by": {
+        "value": 29,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18266268401595037744",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18266268401595037744&engine=google_scholar&hl=en",
+        "cites_id": "18266268401595037744"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Open or closed mouth state detection: static supervised classification based on log-polar signature",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Se3iqnhoufwC",
+      "citation_id": "QGrO3D0AAAAJ:Se3iqnhoufwC",
+      "authors": "C Bouvier, A Benoit, A Caplier, PY Coulon",
+      "publication": "Advanced Concepts for Intelligent Vision Systems: 10th International …, 2008",
+      "cited_by": {
+        "value": 29,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9885255376418359520",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9885255376418359520&engine=google_scholar&hl=en",
+        "cites_id": "9885255376418359520"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "IRIM at TRECVID 2010: Semantic Indexing and Instance Search",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:_FxGoFyzp5QC",
+      "citation_id": "QGrO3D0AAAAJ:_FxGoFyzp5QC",
+      "authors": "D Gorisse, F Precioso, P Gosselin, L Granjon, D Pellerin, M Rombaut, ...",
+      "publication": "TREC Video Retrieval Evaluation workshop, Gaithersburg, MD USA, 2010",
+      "cited_by": {
+        "value": 27,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1122018374648056646,5318920016915094016",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1122018374648056646%2C5318920016915094016&engine=google_scholar&hl=en",
+        "cites_id": "1122018374648056646,5318920016915094016"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Head nods analysis: interpretation of non verbal communication gestures",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:IjCSPb-OGe4C",
+      "citation_id": "QGrO3D0AAAAJ:IjCSPb-OGe4C",
+      "authors": "A Benoit, A Caplier",
+      "publication": "IEEE International Conference on Image Processing 2005 3, III-425, 2005",
+      "cited_by": {
+        "value": 27,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14424389296840604342",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14424389296840604342&engine=google_scholar&hl=en",
+        "cites_id": "14424389296840604342"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Timed-image based deep learning for action recognition in video sequences",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Tiz5es2fbqcC",
+      "citation_id": "QGrO3D0AAAAJ:Tiz5es2fbqcC",
+      "authors": "AM Atto, A Benoit, P Lambert",
+      "publication": "Pattern Recognition 104, 107353, 2020",
+      "cited_by": {
+        "value": 26,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3683790582881433583",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3683790582881433583&engine=google_scholar&hl=en",
+        "cites_id": "3683790582881433583"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Multiscale fully convolutional densenet for semantic segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:KxtntwgDAa4C",
+      "citation_id": "QGrO3D0AAAAJ:KxtntwgDAa4C",
+      "authors": "S Brahimi, N Ben Aoun, C Ben Amar, A Benoit, P Lambert",
+      "publication": "Václav Skala-UNION Agency, 2018",
+      "cited_by": {
+        "value": 21,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18152597570462834029",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18152597570462834029&engine=google_scholar&hl=en",
+        "cites_id": "18152597570462834029"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Semantic segmentation using reinforced fully convolutional densenet with multiscale kernel",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:tS2w5q8j5-wC",
+      "citation_id": "QGrO3D0AAAAJ:tS2w5q8j5-wC",
+      "authors": "S Brahimi, N Ben Aoun, A Benoit, P Lambert, C Ben Amar",
+      "publication": "Multimedia Tools and Applications 78, 22077-22098, 2019",
+      "cited_by": {
+        "value": 20,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3172461120421780395",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3172461120421780395&engine=google_scholar&hl=en",
+        "cites_id": "3172461120421780395"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Indexed operations for non-rectangular lattices applied to convolutional neural networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:vRqMK49ujn8C",
+      "citation_id": "QGrO3D0AAAAJ:vRqMK49ujn8C",
+      "authors": "M Jacquemont, L Antiga, T Vuillaume, G Silvestri, A Benoit, P Lambert, ...",
+      "publication": "VISAPP, 14th International Conference on Computer Vision Theory and Applications, 2019",
+      "cited_by": {
+        "value": 20,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13964638865982966712",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13964638865982966712&engine=google_scholar&hl=en",
+        "cites_id": "13964638865982966712"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Deep Learning for automatic sale receipt understanding",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:_xSYboBqXhAC",
+      "citation_id": "QGrO3D0AAAAJ:_xSYboBqXhAC",
+      "authors": "R Raoui-Outach, C Million-Rousseau, A Benoit, P Lambert",
+      "publication": "2017 Seventh International Conference on Image Processing Theory, Tools and …, 2017",
+      "cited_by": {
+        "value": 20,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12673413693102341069",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12673413693102341069&engine=google_scholar&hl=en",
+        "cites_id": "12673413693102341069"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Motion estimator inspired from biological model for head motion interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "QGrO3D0AAAAJ:zYLM7Y9cAGgC",
+      "authors": "A Benoit, A Caplier",
+      "publication": "WIAMIS05, 2005",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8203228072282913619",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8203228072282913619&engine=google_scholar&hl=en",
+        "cites_id": "8203228072282913619"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "First full-event reconstruction from imaging atmospheric cherenkov telescope real data with deep learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:XiVPGOgt02cC",
+      "citation_id": "QGrO3D0AAAAJ:XiVPGOgt02cC",
+      "authors": "M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert, G Lamanna",
+      "publication": "2021 International Conference on Content-Based Multimedia Indexing (CBMI), 1-6, 2021",
+      "cited_by": {
+        "value": 18,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16100842760919709235",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16100842760919709235&engine=google_scholar&hl=en",
+        "cites_id": "16100842760919709235"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "GammaLearn: a Deep Learning framework for IACT data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:geHnlv5EZngC",
+      "citation_id": "QGrO3D0AAAAJ:geHnlv5EZngC",
+      "authors": "M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert, G Lamanna, ...",
+      "publication": "36th International Cosmic Ray Conference, 705, 2019",
+      "cited_by": {
+        "value": 18,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5030770615477453662",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5030770615477453662&engine=google_scholar&hl=en",
+        "cites_id": "5030770615477453662"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Explainability of image semantic segmentation through shap values",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:dTyEYWd-f8wC",
+      "citation_id": "QGrO3D0AAAAJ:dTyEYWd-f8wC",
+      "authors": "P Dardouillet, A Benoit, E Amri, P Bolon, D Dubucq, A Crédoz",
+      "publication": "International Conference on Pattern Recognition, 188-202, 2022",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17829266499432070917",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17829266499432070917&engine=google_scholar&hl=en",
+        "cites_id": "17829266499432070917"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Deep learning approach for remote sensing image analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:3s1wT3WcHBgC",
+      "citation_id": "QGrO3D0AAAAJ:3s1wT3WcHBgC",
+      "authors": "AB Hamida, A Benoit, P Lambert, C Ben-Amar",
+      "publication": "Big Data from Space (BiDS'16), 133, 2016",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11739835840893133375",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11739835840893133375&engine=google_scholar&hl=en",
+        "cites_id": "11739835840893133375"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Retina enhanced SIFT descriptors for video indexing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:TQgYirikUcIC",
+      "citation_id": "QGrO3D0AAAAJ:TQgYirikUcIC",
+      "authors": "ST Strat, A Benoit, P Lambert",
+      "publication": "2013 11th International workshop on content-based multimedia indexing (CBMI …, 2013",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11993570610770056029",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11993570610770056029&engine=google_scholar&hl=en",
+        "cites_id": "11993570610770056029"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Sedimentary structure discrimination with hyperspectral imaging in sediment cores",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:eMMeJKvmdy0C",
+      "citation_id": "QGrO3D0AAAAJ:eMMeJKvmdy0C",
+      "authors": "K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget, Y Perrette, P Sabatier, ...",
+      "publication": "Science of the Total Environment 817, 152018, 2022",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7689431027722976140",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7689431027722976140&engine=google_scholar&hl=en",
+        "cites_id": "7689431027722976140"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Offshore oil slick detection: From photo-interpreter to explainable multi-modal deep learning models using SAR images and contextual data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:JoZmwDi-zQgC",
+      "citation_id": "QGrO3D0AAAAJ:JoZmwDi-zQgC",
+      "authors": "E Amri, P Dardouillet, A Benoit, H Courteille, P Bolon, D Dubucq, ...",
+      "publication": "Remote Sensing 14 (15), 3565, 2022",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5065419673419394473",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5065419673419394473&engine=google_scholar&hl=en",
+        "cites_id": "5065419673419394473"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Irim at trecvid 2011: Semantic indexing and instance search",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:hqOjcs7Dif8C",
+      "citation_id": "QGrO3D0AAAAJ:hqOjcs7Dif8C",
+      "authors": "B Delezoide, F Precioso, PH Gosselin, M Redi, B Merialdo, L Granjon, ...",
+      "publication": "TRECVID 2011-TREC Video Retrieval Evaluation Online, 12p., 2011",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=113278481446356881",
+        "serpapi_link": "https://serpapi.com/search.json?cites=113278481446356881&engine=google_scholar&hl=en",
+        "cites_id": "113278481446356881"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Biological approach for head motion detection and analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Y0pCki6q_DkC",
+      "citation_id": "QGrO3D0AAAAJ:Y0pCki6q_DkC",
+      "authors": "A Benoit, A Caplier",
+      "publication": "2005 13th European Signal Processing Conference, 1-4, 2005",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14466228310544599098",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14466228310544599098&engine=google_scholar&hl=en",
+        "cites_id": "14466228310544599098"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Retina enhanced SURF descriptors for spatio-temporal concept detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:L8Ckcad2t8MC",
+      "citation_id": "QGrO3D0AAAAJ:L8Ckcad2t8MC",
+      "authors": "ST Strat, A Benoit, P Lambert, A Caplier",
+      "publication": "Multimedia tools and applications 69, 443-469, 2014",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10149800725554308129",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10149800725554308129&engine=google_scholar&hl=en",
+        "cites_id": "10149800725554308129"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "A color-action perceptual approach to the classification of animated movies",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:M3ejUd6NZC8C",
+      "citation_id": "QGrO3D0AAAAJ:M3ejUd6NZC8C",
+      "authors": "B Ionescu, C Vertan, P Lambert, A Benoit",
+      "publication": "Proceedings of the 1st ACM International Conference on Multimedia Retrieval, 1-8, 2011",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12807332440996925523",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12807332440996925523&engine=google_scholar&hl=en",
+        "cites_id": "12807332440996925523"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Offshore oil slicks detection from sar images through the mask-rcnn deep learning model",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:q3oQSFYPqjQC",
+      "citation_id": "QGrO3D0AAAAJ:q3oQSFYPqjQC",
+      "authors": "A Emna, B Alexandre, P Bolon, M Véronique, C Bruno, O Georges",
+      "publication": "2020 International Joint Conference on Neural Networks (IJCNN), 1-8, 2020",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=164618314936163377",
+        "serpapi_link": "https://serpapi.com/search.json?cites=164618314936163377&engine=google_scholar&hl=en",
+        "cites_id": "164618314936163377"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Analysis of the Cherenkov Telescope Array first Large-Sized Telescope real data using convolutional neural networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:t6usbXjVLHcC",
+      "citation_id": "QGrO3D0AAAAJ:t6usbXjVLHcC",
+      "authors": "T Vuillaume, M Jacquemont, MB de Lavergne, DA Sanchez, V Poireau, ...",
+      "publication": "arXiv preprint arXiv:2108.04130, 2021",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17488325125199131603",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17488325125199131603&engine=google_scholar&hl=en",
+        "cites_id": "17488325125199131603"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Fusing bio-inspired vision data for simplified high level scene interpretation: Application to face motion analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:8k81kl-MbHgC",
+      "citation_id": "QGrO3D0AAAAJ:8k81kl-MbHgC",
+      "authors": "A Benoit, A Caplier",
+      "publication": "Computer Vision and Image Understanding 114 (7), 774-789, 2010",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11979368687567489342",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11979368687567489342&engine=google_scholar&hl=en",
+        "cites_id": "11979368687567489342"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "The human visual system as a complete solution for image processing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:j3f4tGmQtD8C",
+      "citation_id": "QGrO3D0AAAAJ:j3f4tGmQtD8C",
+      "authors": "A Benoit",
+      "publication": "Presses univ. de Louvain, 2007",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7707268526901647264",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7707268526901647264&engine=google_scholar&hl=en",
+        "cites_id": "7707268526901647264"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Assistance via IoT networking cameras and evidence theory for 3D object instance recognition: Application for the NAO humanoid robot",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:LPZeul_q3PIC",
+      "citation_id": "QGrO3D0AAAAJ:LPZeul_q3PIC",
+      "authors": "D Coquin, R Boukezzoula, A Benoit, TL Nguyen",
+      "publication": "Internet of Things 9, 100128, 2020",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2668621774646971054",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2668621774646971054&engine=google_scholar&hl=en",
+        "cites_id": "2668621774646971054"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Deep learning for dehazing: Comparison and analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:p2g8aNsByqUC",
+      "citation_id": "QGrO3D0AAAAJ:p2g8aNsByqUC",
+      "authors": "LC Valeriano, JB Thomas, A Benoit",
+      "publication": "2018 Colour and Visual Computing Symposium (CVCS), 1-6, 2018",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13842631699069110603",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13842631699069110603&engine=google_scholar&hl=en",
+        "cites_id": "13842631699069110603"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Explaining a deep spatiotemporal land cover classifier with attention and redescription mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:PELIpwtuRlgC",
+      "citation_id": "QGrO3D0AAAAJ:PELIpwtuRlgC",
+      "authors": "N Méger, H Courteille, A Benoit, A Atto, D Ienco",
+      "publication": "The International Archives of the Photogrammetry, Remote Sensing and Spatial …, 2022",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7429849541647246856",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7429849541647246856&engine=google_scholar&hl=en",
+        "cites_id": "7429849541647246856"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Multimodal focus attention and stress detection and feedback in an augmented driver simulator",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:WbkHhVStYXYC",
+      "citation_id": "QGrO3D0AAAAJ:WbkHhVStYXYC",
+      "authors": "A Benoit, L Bonnaud, A Caplier, P Ngo, L Lawson, DG Trevisan, ...",
+      "publication": "IFIP International Conference on Artificial Intelligence Applications and …, 2006",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13996959665222445527",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13996959665222445527&engine=google_scholar&hl=en",
+        "cites_id": "13996959665222445527"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Multi-task architecture with attention for imaging atmospheric cherenkov telescope data analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:kRWSkSYxWN8C",
+      "citation_id": "QGrO3D0AAAAJ:kRWSkSYxWN8C",
+      "authors": "M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert",
+      "publication": "VISAPP 2021, 2021",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9433447262487078189",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9433447262487078189&engine=google_scholar&hl=en",
+        "cites_id": "9433447262487078189"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Retina enhanced bag of words descriptors for video classification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:hMod-77fHWUC",
+      "citation_id": "QGrO3D0AAAAJ:hMod-77fHWUC",
+      "authors": "ST Strat, A Benoit, P Lambert",
+      "publication": "2014 22nd European Signal Processing Conference (EUSIPCO), 1307-1311, 2014",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2117524425710106347",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2117524425710106347&engine=google_scholar&hl=en",
+        "cites_id": "2117524425710106347"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Le système visuel humain au secours de la vision par ordinateur",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:0EnyYjriUFMC",
+      "citation_id": "QGrO3D0AAAAJ:0EnyYjriUFMC",
+      "authors": "A Benoît",
+      "publication": "Institut National Polytechnique de Grenoble-INPG, 2007",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4359529495938214272",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4359529495938214272&engine=google_scholar&hl=en",
+        "cites_id": "4359529495938214272"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Intercepting static hand gestures in dynamic context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:WF5omc3nYNoC",
+      "citation_id": "QGrO3D0AAAAJ:WF5omc3nYNoC",
+      "authors": "T Burger, A Benoit, A Caplier",
+      "publication": "Proc. Int. Conf. Image Processing, Atlanta, USA, 2006",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14713648742538043674",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14713648742538043674&engine=google_scholar&hl=en",
+        "cites_id": "14713648742538043674"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Single imaging atmospheric cherenkov telescope full-event reconstruction with a deep multi-task learning architecture",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:1qzjygNMrQYC",
+      "citation_id": "QGrO3D0AAAAJ:1qzjygNMrQYC",
+      "authors": "M Jacquemont, T Vuillaume, A Benoît, G Maurin, P Lambert",
+      "publication": "Astronomical Data Analysis Software and Systems ADASS XXX, 2020",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15307751609094850424",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15307751609094850424&engine=google_scholar&hl=en",
+        "cites_id": "15307751609094850424"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "IRIM at TRECVID 2018: Instance search",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:zA6iFVUQeVQC",
+      "citation_id": "QGrO3D0AAAAJ:zA6iFVUQeVQC",
+      "authors": "B Mansencal, J Benois-Pineau, H Bredin, G Quénot",
+      "publication": "TRECVid workshop 2018, 2018",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5713786469104730224",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5713786469104730224&engine=google_scholar&hl=en",
+        "cites_id": "5713786469104730224"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Deep learning vs spectral clustering into an active clustering with pairwise constraints propagation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:HoB7MX3m0LUC",
+      "citation_id": "QGrO3D0AAAAJ:HoB7MX3m0LUC",
+      "authors": "N Voiron, A Benoit, P Lambert, B Ionescu",
+      "publication": "2016 14th international workshop on content-based multimedia indexing (CBMI …, 2016",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10568060084965257591",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10568060084965257591&engine=google_scholar&hl=en",
+        "cites_id": "10568060084965257591"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Gaze direction estimation tool based on head motion analysis or iris position estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:roLk4NBRz8UC",
+      "citation_id": "QGrO3D0AAAAJ:roLk4NBRz8UC",
+      "authors": "A Benoit, A Caplier, L Bonnaud",
+      "publication": "2005 13th European Signal Processing Conference, 1-4, 2005",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17376928273007971366",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17376928273007971366&engine=google_scholar&hl=en",
+        "cites_id": "17376928273007971366"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Motion Estimator Inspired from Biological Model for Head Motion Interpretation–WIAMIS05",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:lSLTfruPkqcC",
+      "citation_id": "QGrO3D0AAAAJ:lSLTfruPkqcC",
+      "authors": "A Benoit, A Caplier",
+      "publication": "Montreux, Suisse, April, 2005",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16593498424929238637",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16593498424929238637&engine=google_scholar&hl=en",
+        "cites_id": "16593498424929238637"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Using Deep Learning for Glacier Thickness Estimation at a Regional Scale",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:kzcrU_BdoSEC",
+      "citation_id": "QGrO3D0AAAAJ:kzcrU_BdoSEC",
+      "authors": "LL Uroz, Y Yan, A Benoit, A Rabatel, S Giffard-Roisin, C Lin-Kwong-Chon",
+      "publication": "IEEE Geoscience and Remote Sensing Letters, 2024",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=486921942998990321",
+        "serpapi_link": "https://serpapi.com/search.json?cites=486921942998990321&engine=google_scholar&hl=en",
+        "cites_id": "486921942998990321"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep learning based automatic detection of offshore oil slicks using SAR data and contextual information",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:AXPGKjj_ei8C",
+      "citation_id": "QGrO3D0AAAAJ:AXPGKjj_ei8C",
+      "authors": "E Amri, H Courteille, A Benoit, P Bolon, D Dubucq, G Poulain, A Credoz",
+      "publication": "Remote Sensing of the Ocean, Sea Ice, Coastal Waters, and Large Water …, 2021",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17995987900930634913",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17995987900930634913&engine=google_scholar&hl=en",
+        "cites_id": "17995987900930634913"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "GammaLearn-first steps to apply Deep Learning to the Cherenkov Telescope Array data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:B3FOqHPlNUQC",
+      "citation_id": "QGrO3D0AAAAJ:B3FOqHPlNUQC",
+      "authors": "T Vuillaume, J Mikael, L Antiga, A Benoit, P Lambert, G Maurin, G Silvestri",
+      "publication": "EPJ Web of Conferences 214, 06020, 2019",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6194375790414222944",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6194375790414222944&engine=google_scholar&hl=en",
+        "cites_id": "6194375790414222944"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "IRIM at TRECVid 2015: semantic indexing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:SeFeTyx0c_EC",
+      "citation_id": "QGrO3D0AAAAJ:SeFeTyx0c_EC",
+      "authors": "H Le Borgne, P Gosselin, D Picard, M Redi, B Mérialdo, B Mansencal, ...",
+      "publication": "Proceedings of TRECVID, 2015",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12136411515682375804",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12136411515682375804&engine=google_scholar&hl=en",
+        "cites_id": "12136411515682375804"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "A biomimetic real time retinal simulation software with non separable spatiotemporal processing, chromaticity and non linear local adaptivity",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:UebtZRa9Y70C",
+      "citation_id": "QGrO3D0AAAAJ:UebtZRa9Y70C",
+      "authors": "B Durette, A Benoit, BC De Lavarène, D Alleysson, J Hérault",
+      "publication": "European Retina Meeting, S4-P03, 2007",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16945457756575614062",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16945457756575614062&engine=google_scholar&hl=en",
+        "cites_id": "16945457756575614062"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Deep unsupervised domain adaptation applied to the Cherenkov Telescope Array Large-Sized Telescope",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:1yQoGdGgb4wC",
+      "citation_id": "QGrO3D0AAAAJ:1yQoGdGgb4wC",
+      "authors": "M Dell'Aiera, T Vuillaume, M Jacquemont, A Benoit",
+      "publication": "Proceedings of the 20th International Conference on Content-based Multimedia …, 2023",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14899288822355415850",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14899288822355415850&engine=google_scholar&hl=en",
+        "cites_id": "14899288822355415850"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Channel-based attention for land cover classification using Sentinel-2 time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:5ugPr518TE4C",
+      "citation_id": "QGrO3D0AAAAJ:5ugPr518TE4C",
+      "authors": "H Courteille, A Benoît, N Méger, A Atto, D Ienco",
+      "publication": "2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS, 1077 …, 2021",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4299022039765740083",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4299022039765740083&engine=google_scholar&hl=en",
+        "cites_id": "4299022039765740083"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Semi-supervised Spectral Clustering with automatic propagation of pairwise constraints",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:RYcK_YlVTxYC",
+      "citation_id": "QGrO3D0AAAAJ:RYcK_YlVTxYC",
+      "authors": "N Voiron, A Benoit, A Filip, P Lambert, B Ionescu",
+      "publication": "2015 13th International Workshop on Content-Based Multimedia Indexing (CBMI …, 2015",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4282799830077973950",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4282799830077973950&engine=google_scholar&hl=en",
+        "cites_id": "4282799830077973950"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Bags of Trajectory Words for video indexing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:blknAaTinKkC",
+      "citation_id": "QGrO3D0AAAAJ:blknAaTinKkC",
+      "authors": "ST Strat, A Benoit, P Lambert",
+      "publication": "2014 12th International Workshop on Content-Based Multimedia Indexing (CBMI …, 2014",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11015699645907561784",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11015699645907561784&engine=google_scholar&hl=en",
+        "cites_id": "11015699645907561784"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Automatic difference measure between movies using dissimilarity measure fusion and rank correlation coefficients",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:mVmsd5A6BfQC",
+      "citation_id": "QGrO3D0AAAAJ:mVmsd5A6BfQC",
+      "authors": "N Voiron, A Benoit, P Lambert",
+      "publication": "2012 10th International Workshop on Content-Based Multimedia Indexing (CBMI …, 2012",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8812692006351124287",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8812692006351124287&engine=google_scholar&hl=en",
+        "cites_id": "8812692006351124287"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Extracting static hand gestures in dynamic context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:LkGwnXOMwfcC",
+      "citation_id": "QGrO3D0AAAAJ:LkGwnXOMwfcC",
+      "authors": "T Burger, A Benoit, A Caplier",
+      "publication": "2006 International Conference on Image Processing, 2081-2084, 2006",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10958665126792540428",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10958665126792540428&engine=google_scholar&hl=en",
+        "cites_id": "10958665126792540428"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "A multitask deep learning model for classification and regression of hyperspectral images: Application to the large-scale dataset",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:2KloaMYe4IUC",
+      "citation_id": "QGrO3D0AAAAJ:2KloaMYe4IUC",
+      "authors": "K Chhapariya, A Benoit, KM Buddhiraju, A Kumar",
+      "publication": "arXiv preprint arXiv:2407.16384, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=493658732178644816",
+        "serpapi_link": "https://serpapi.com/search.json?cites=493658732178644816&engine=google_scholar&hl=en",
+        "cites_id": "493658732178644816"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "A deep learning-based multitasking model for hyperspectral image analysis using novel taiga dataset",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:35r97b3x0nAC",
+      "citation_id": "QGrO3D0AAAAJ:35r97b3x0nAC",
+      "authors": "K Chhapariya, A Benoit, KM Buddhiraju, A Kumar",
+      "publication": "IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium …, 2024",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13514719946974336164",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13514719946974336164&engine=google_scholar&hl=en",
+        "cites_id": "13514719946974336164"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep learning for astrophysics, understanding the impact of attention on variability induced by parameter initialization",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:V3AGJWp-ZtQC",
+      "citation_id": "QGrO3D0AAAAJ:V3AGJWp-ZtQC",
+      "authors": "M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert",
+      "publication": "International Conference on Pattern Recognition, 174-188, 2021",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2511035613225850153",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2511035613225850153&engine=google_scholar&hl=en",
+        "cites_id": "2511035613225850153"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Deep learning for semantic segmentation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:bnK-pcrLprsC",
+      "citation_id": "QGrO3D0AAAAJ:bnK-pcrLprsC",
+      "authors": "A Benoit, B Ghattas, E Amri, J Fournel, P Lambert",
+      "publication": "Multi-faceted Deep Learning: Models and Data, 39-72, 2021",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16313606733432794391",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16313606733432794391&engine=google_scholar&hl=en",
+        "cites_id": "16313606733432794391"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Generative Adversarial Network (GAN) for remote sensing images unsupervised learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:u9iWguZQMMsC",
+      "citation_id": "QGrO3D0AAAAJ:u9iWguZQMMsC",
+      "authors": "AB Hamida, A Benoit, P Lambert, CB Amar",
+      "publication": "RFIAP 2018, 2018",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=313394520429662033",
+        "serpapi_link": "https://serpapi.com/search.json?cites=313394520429662033&engine=google_scholar&hl=en",
+        "cites_id": "313394520429662033"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Fast Semi-numerical Algorithms for Chebyshev Series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:eflP2zaiRacC",
+      "citation_id": "QGrO3D0AAAAJ:eflP2zaiRacC",
+      "authors": "A Benoit",
+      "publication": "Theses. Ecole Polytechnique X, 38, 2012",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15411718896654684129",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15411718896654684129&engine=google_scholar&hl=en",
+        "cites_id": "15411718896654684129"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Enhancement of multi-valued images using PDE coupling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:YOwf2qJgpHMC",
+      "citation_id": "QGrO3D0AAAAJ:YOwf2qJgpHMC",
+      "authors": "S Bettahar, AB Stambouli, P Lambert, A Benoit",
+      "publication": "2011 19th European Signal Processing Conference, 308-312, 2011",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11406125535414450985",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11406125535414450985&engine=google_scholar&hl=en",
+        "cites_id": "11406125535414450985"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Similarity measurement for animation movies",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:4TOpqqG69KYC",
+      "citation_id": "QGrO3D0AAAAJ:4TOpqqG69KYC",
+      "authors": "A Benoit, M Ciobotaru, P Lambert, B Ionescu",
+      "publication": "Advances in Multimedia Modeling: 17th International Multimedia Modeling …, 2011",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12299805402085558528",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12299805402085558528&engine=google_scholar&hl=en",
+        "cites_id": "12299805402085558528"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "From bio-inspired vision toolbox to real-time computer vision algorithms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:4DMP91E08xMC",
+      "citation_id": "QGrO3D0AAAAJ:4DMP91E08xMC",
+      "authors": "A Benoit, A Caplier, B Durette, J Hérault",
+      "publication": "European Retina Meeting, S4-P02, 2007",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18082742043056791141",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18082742043056791141&engine=google_scholar&hl=en",
+        "cites_id": "18082742043056791141"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Explaining the decisions and the functioning of a convolutional spatiotemporal land cover classifier with channel attention and redescription mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:tzM49s52ZIMC",
+      "citation_id": "QGrO3D0AAAAJ:tzM49s52ZIMC",
+      "authors": "E Pelous, N Méger, A Benoit, A Atto, D Ienco, H Courteille, ...",
+      "publication": "ISPRS Journal of Photogrammetry and Remote Sensing 215, 256-270, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6564292182899626783",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6564292182899626783&engine=google_scholar&hl=en",
+        "cites_id": "6564292182899626783"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "A low-cost machine learning process for gait measurement using an electrostatic sensors network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:SdhP9T11ey4C",
+      "citation_id": "QGrO3D0AAAAJ:SdhP9T11ey4C",
+      "authors": "B Pichon, E Benoit, S Perrin, A Benoit, N Berton, D Coves, J Cruvieux, ...",
+      "publication": "ACTA IMEKO 13 (1), 1-5, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6182870883828593243",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6182870883828593243&engine=google_scholar&hl=en",
+        "cites_id": "6182870883828593243"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Improving ice thickness estimation of glaciers using deep learning methods: a case study in the Swiss Alps",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:N5tVd3kTz84C",
+      "citation_id": "QGrO3D0AAAAJ:N5tVd3kTz84C",
+      "authors": "L Lopez Uroz, Y Yan, A Benoit, A Rabatel, A Dehecq, S Giffard-Roisin",
+      "publication": "EGU General Assembly Conference Abstracts, EGU-8339, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8037052665154168871",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8037052665154168871&engine=google_scholar&hl=en",
+        "cites_id": "8037052665154168871"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Receipt automatic reader",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:sSrBHYA8nusC",
+      "citation_id": "QGrO3D0AAAAJ:sSrBHYA8nusC",
+      "authors": "O Maslova, L Klein, D Dabernat, A Benoit, P Lambert",
+      "publication": "2019 International Conference on Content-Based Multimedia Indexing (CBMI), 1-6, 2019",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4592095326814218446",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4592095326814218446&engine=google_scholar&hl=en",
+        "cites_id": "4592095326814218446"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Aluminium/copper heterogeneous welding",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:5Ul4iDaHHb8C",
+      "citation_id": "QGrO3D0AAAAJ:5Ul4iDaHHb8C",
+      "authors": "A Benoit, D Schleich, P Paillard, T Baudin",
+      "publication": "US Patent 10,259,068, 2019",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11633320092485799288",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11633320092485799288&engine=google_scholar&hl=en",
+        "cites_id": "11633320092485799288"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Deep learning for dehazing: Benchmark and analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:nb7KW1ujOQ8C",
+      "citation_id": "QGrO3D0AAAAJ:nb7KW1ujOQ8C",
+      "authors": "LC Valeriano, JB Thomas, A Benoit",
+      "publication": "NOBIM 2018, 2018",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9249489137511712913",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9249489137511712913&engine=google_scholar&hl=en",
+        "cites_id": "9249489137511712913"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Lecture automatique d'un ticket de caisse par vision embarquee sur un telephone mobile",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:pqnbT2bcN3wC",
+      "citation_id": "QGrO3D0AAAAJ:pqnbT2bcN3wC",
+      "authors": "R Raoui-Outach, C Million-Rousseau, A Benoit, P Lambert",
+      "publication": "RFIA 2016, 2016",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2251161424822163873",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2251161424822163873&engine=google_scholar&hl=en",
+        "cites_id": "2251161424822163873"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Analyse de trajectoires pour l'indexation sémantique des vidéos à grande échelle",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:maZDTaKrznsC",
+      "citation_id": "QGrO3D0AAAAJ:maZDTaKrznsC",
+      "authors": "ST Strat, A Benoit, P Lambert",
+      "publication": "Reconnaissance de Formes et Intelligence Artificielle (RFIA) 2014, 2014",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3772781934153777927",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3772781934153777927&engine=google_scholar&hl=en",
+        "cites_id": "3772781934153777927"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Retina-enhanced surf descriptors for semantic concept detection in videos",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:QIV2ME_5wuYC",
+      "citation_id": "QGrO3D0AAAAJ:QIV2ME_5wuYC",
+      "authors": "ST Strat, A Benoit, P Lambert, A Caplier",
+      "publication": "2012 3rd International Conference on Image Processing Theory, Tools and …, 2012",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14046615980193407792",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14046615980193407792&engine=google_scholar&hl=en",
+        "cites_id": "14046615980193407792"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Study of 6061 weld heat affected zones made with GMAW",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:wbdj-CoPYUoC",
+      "citation_id": "QGrO3D0AAAAJ:wbdj-CoPYUoC",
+      "authors": "A Benoit, M Besse, R Louahdi, H Paul, P Paillard, T Baudin",
+      "publication": "9th International Conference on Trends in Welding Research, 2012",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14238654596251306612",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14238654596251306612&engine=google_scholar&hl=en",
+        "cites_id": "14238654596251306612"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Mémoire de Fin d’Etudes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:aqlVkmm33-oC",
+      "citation_id": "QGrO3D0AAAAJ:aqlVkmm33-oC",
+      "authors": "HV LUONG, A CAPLIER, A BENOÎT",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15854749526518087653",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15854749526518087653&engine=google_scholar&hl=en",
+        "cites_id": "15854749526518087653"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Biological Approach for Head Detection and Analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:35N4QoGY0k4C",
+      "citation_id": "QGrO3D0AAAAJ:35N4QoGY0k4C",
+      "authors": "A Benoit, A Caplier",
+      "publication": "13th European Signal Processing Conference, EUSIPCO-2005, ?, 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5292862698172838411",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5292862698172838411&engine=google_scholar&hl=en",
+        "cites_id": "5292862698172838411"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Motion Head Nods analaysis: interpretation of non verbal communication gestures",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:5nxA0vEk-isC",
+      "citation_id": "QGrO3D0AAAAJ:5nxA0vEk-isC",
+      "authors": "A Benoit, A Caplier",
+      "publication": "ICIP, ?, 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11702784412423970790",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11702784412423970790&engine=google_scholar&hl=en",
+        "cites_id": "11702784412423970790"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "JOINT MULTITASK LEARNING FOR IMAGE SEGMENTATION AND SALIENT OBJECT DETECTION IN HYPERSPECTRAL IMAGERY",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:uJ-U7cs_P_0C",
+      "citation_id": "QGrO3D0AAAAJ:uJ-U7cs_P_0C",
+      "authors": "K Chhapariya, A Benoit, KI Anil",
+      "publication": "Workshop on Hyperspectral Images and Signal Processing (WHISPERS 2024), 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Exploring Deep Learning for Volcanic Source Inversion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:j8SEvjWlNXcC",
+      "citation_id": "QGrO3D0AAAAJ:j8SEvjWlNXcC",
+      "authors": "LL Uroz, Y Yan, A Benoit, F Albino, P Bouygues, S Giffard-Roisin, V Pinel",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep‐learning Analysis of Cherenkov Telescope Array Images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:fEOibwPWpKIC",
+      "citation_id": "QGrO3D0AAAAJ:fEOibwPWpKIC",
+      "authors": "M JACQUEMONT, T VUILLAUME, A BENOIT, G MAURIN, P LAMBERT",
+      "publication": "Inversion and Data Assimilation in Remote Sensing: Estimation of Geophysical …, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Discovering Communities With Clustered Federated Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:-_dYPAW6P2MC",
+      "citation_id": "QGrO3D0AAAAJ:-_dYPAW6P2MC",
+      "authors": "M Bettinelli, A Benoit, K Grandjean",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep Learning and IACT: Bridging the gap between Monte-Carlo simulations and LST-1 data using domain adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:tKAzc9rXhukC",
+      "citation_id": "QGrO3D0AAAAJ:tKAzc9rXhukC",
+      "authors": "M Dellaiera, C Plard, T Vuillaume, A Benoit, S Caroff",
+      "publication": "arXiv preprint arXiv:2403.13633, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Unsupervised Domain Adaptation for Multitask Image Analysis in Realistic Context with Extreme Label Shift; Application to the Ctao First Large Sized Telescope",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:evX43VCCuoAC",
+      "citation_id": "QGrO3D0AAAAJ:evX43VCCuoAC",
+      "authors": "M Dell'aiera, T Vuillaume, A Benoit",
+      "publication": "Application to the Ctao First Large Sized Telescope, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep learning multimodal methods for geophysical inversion: application to glacier ice thickness estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:dQ2og3OwTAUC",
+      "citation_id": "QGrO3D0AAAAJ:dQ2og3OwTAUC",
+      "authors": "L Lopez Uroz, A Benoit, Y Yan, C Lin-Kwong-Chon, S Giffard-Roisin, ...",
+      "publication": "Proceedings of the 20th International Conference on Content-based Multimedia …, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "A Path Towards Fair and Equitable AI Advancing Bias Mitigation in Federated Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:VL0QpB8kHFEC",
+      "citation_id": "QGrO3D0AAAAJ:VL0QpB8kHFEC",
+      "authors": "F Lynda, A Benoit, F Loukil, M Bettinelli, C Lin-Kwong-Chon",
+      "publication": "The IEEE International Symposium on Women in Services Computing (WISC 2023), 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Improving ice thickness estimation of glaciers using deep learning methods: a case study in the Swiss Alps",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:LjlpjdlvIbIC",
+      "citation_id": "QGrO3D0AAAAJ:LjlpjdlvIbIC",
+      "authors": "LL Uroz, Y Yan, A Benoit, A Rabatel, A Dehecq, S Giffard-Roisin",
+      "publication": "EGU General Assembly 2023, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Bias mitigation for collaborative and ethical learning on dynamic data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:eq2jaN3J8jMC",
+      "citation_id": "QGrO3D0AAAAJ:eq2jaN3J8jMC",
+      "authors": "L Ferraguig, A Benoit, F Loukil, M Bettinelli",
+      "publication": "Symposium on Intelligent Data Analysis (IDA 2023), 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "L’Université Grenoble Alpes a adopté son schéma directeur de la science ouverte, présenté et voté à l’unanimité au CA du 13 octobre 2022.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:7T2F9Uy0os0C",
+      "citation_id": "QGrO3D0AAAAJ:7T2F9Uy0os0C",
+      "authors": "K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget",
+      "publication": "Évolution 15, 11, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Machine learning and deep learning for retro-observation of critical zone processes with hyperspectral imaging",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Mojj43d5GZwC",
+      "citation_id": "QGrO3D0AAAAJ:Mojj43d5GZwC",
+      "authors": "K Jacq, K Humbert, J Auboiron, T Gardes, B Fanget, A Benoit, D Coquin, ...",
+      "publication": "OZCAR TERENO International Conference, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Content-based multimedia indexing (CBMI 2018)[SI 1104]",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:Y5dfb0dijaUC",
+      "citation_id": "QGrO3D0AAAAJ:Y5dfb0dijaUC",
+      "authors": "R Péteri, G Quénot, P Joly",
+      "publication": "Multimedia Tools and Applications 80, 22321-22322, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Analyse automatique d'images, de l'expert à l'apprenti",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&pagesize=100&citation_for_view=QGrO3D0AAAAJ:eJXPG6dFmWUC",
+      "citation_id": "QGrO3D0AAAAJ:eJXPG6dFmWUC",
+      "authors": "A Benoit",
+      "publication": "Université Savoie Mont Blanc, 2019",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2019"
+    },
+    {
+        "title": "Internet of Things",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:mvPsJ3kp5DgC",
+        "citation_id": "QGrO3D0AAAAJ:mvPsJ3kp5DgC",
+        "authors": "D Coquin, R Boukezzoula, A Benoit, TL Nguyen",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Hilbert Based Video To Timed-Image Filling and Learning To Recognize Visual Violence",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:J-pR_7NvFogC",
+        "citation_id": "QGrO3D0AAAAJ:J-pR_7NvFogC",
+        "authors": "AM ATTO, A Benoît, P Lambert",
+        "publication": "HAL 2018, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Method for welding and for hard surface deposition of metal parts made of aluminium by a MIG method with pulsed current and filler wire",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:l7t_Zn2s7bgC",
+        "citation_id": "QGrO3D0AAAAJ:l7t_Zn2s7bgC",
+        "authors": "JB Mottin, JF Castagne, T Baudin, AYM Benoit, P Paillard",
+        "publication": "US Patent 9,731,373, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Could Multimedia approaches help Remote Sensing Analysis?",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:ldfaerwXgEUC",
+        "citation_id": "QGrO3D0AAAAJ:ldfaerwXgEUC",
+        "authors": "AB Hamida, A Benoit, P Lambert, C Ben-Amar",
+        "publication": "IIM 2015 Conference Image Information Mining: Earth Observation meets Multimedia, 2015",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2015"
+      },
+      {
+        "title": "Clustering Spectral semi-supervisé avec propagation des contraintes par paires",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:J_g5lzvAfSwC",
+        "citation_id": "QGrO3D0AAAAJ:J_g5lzvAfSwC",
+        "authors": "N Voiron, A Benoit, A Filip, P Lambert, B Ionescu",
+        "publication": "12ème COnference en Recherche d’Information et Applications-CORIA, 2015",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2015"
+      },
+      {
+        "title": "IRIM-Indexation et Recherche d'Information Multimedia GDR-ISIS",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:fQNAKQ3IYiAC",
+        "citation_id": "QGrO3D0AAAAJ:fQNAKQ3IYiAC",
+        "authors": "N Ballas, B Labbé, A Shabou, H Le Borgne, P Gosselin, M Redi, ...",
+        "publication": "TRECVID, 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Algorithmique semi-numérique rapide des séries de Tchebychev| Theses. fr",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:_Re3VWB3Y0AC",
+        "citation_id": "QGrO3D0AAAAJ:_Re3VWB3Y0AC",
+        "authors": "A Benoit",
+        "publication": "Palaiseau, Ecole polytechnique, 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Emotion Classification or face identification depend on which part of the face is analyzed",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:kNdYIx-mwKoC",
+        "citation_id": "QGrO3D0AAAAJ:kNdYIx-mwKoC",
+        "authors": "A Benoit, N Guyader, A Caplier, J Hérault",
+        "publication": "ECVP 2007-European Conference on Visual Preception, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Emotion classification and face identification, a bio-inspired model",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:MXK_kJrjxJIC",
+        "citation_id": "QGrO3D0AAAAJ:MXK_kJrjxJIC",
+        "authors": "A Benoit, N Guyader, A Caplier, J Herault",
+        "publication": "PERCEPTION 36, 144-145, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Real-time bio-inspired retina simulation software with non-linear, adaptive and chromatic spatio-temporal processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:ULOm3_A8WrAC",
+        "citation_id": "QGrO3D0AAAAJ:ULOm3_A8WrAC",
+        "authors": "B Durette, A Benoit, D Alleysson, J Hérault",
+        "publication": "NIPS-2006, 201, 2006",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Real-time bio-inspired retina simulation software.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:_kc_bZDykSQC",
+        "citation_id": "QGrO3D0AAAAJ:_kc_bZDykSQC",
+        "authors": "A Benoit, B Durette, BC de Lavarène, D Alleysson, J Hérault",
+        "publication": "Advances in Neural Information Processing Systems (NIPS), 2006",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Résumé-vulgarisation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:3fE2CSJIrl8C",
+        "citation_id": "QGrO3D0AAAAJ:3fE2CSJIrl8C",
+        "authors": "A BENOIT",
+        "publication": "IEEE Conference on 15, 16, 2005",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Multimodal Focus Attention in an Augmented Driver Simulator",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:_B80troHkn4C",
+        "citation_id": "QGrO3D0AAAAJ:_B80troHkn4C",
+        "authors": "A Benoit, L Bonnaud, A Caplier, P Ngo, L Lawson, D Trevisan, V Levacic, ...",
+        "publication": "eNTERFACE Summer Workshop on Multimodal Interfaces, 2005",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Aanund Jupskaas Nordskog",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:olpn-zPbct0C",
+        "citation_id": "QGrO3D0AAAAJ:olpn-zPbct0C",
+        "authors": "AM Obeso, A Chatziagapi, AF Smeaton, A Messina, AA Ramírez, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Hilbert Based Video To Timed-Image Filling and Learning To Recognize Visual Violence",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:VOx2b1Wkg3QC",
+        "citation_id": "QGrO3D0AAAAJ:VOx2b1Wkg3QC",
+        "authors": "A Abdourrahmane Mahamane, A BENOIT, P LAMBERT",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "DEEP LEARNING APPROACH FOR REMOTE SENSING IMAGE ANALYSIS",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:8AbLer7MMksC",
+        "citation_id": "QGrO3D0AAAAJ:8AbLer7MMksC",
+        "authors": "A Benoit",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "GAZE DIRECTION ESTIMATION TOOL BASED ON HEAD MOTION ANALYSIS OR IRIS POSITION ESTIMATION (SunPmPO1)",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:4OULZ7Gr8RgC",
+        "citation_id": "QGrO3D0AAAAJ:4OULZ7Gr8RgC",
+        "authors": "A Benoit, A Caplier, L Bonnaud",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "IRIM@ TRECVID2012",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:M05iB0D1s5AC",
+        "citation_id": "QGrO3D0AAAAJ:M05iB0D1s5AC",
+        "authors": "A Benoit",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Damak M., 377",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:_Qo2XoVZTnwC",
+        "citation_id": "QGrO3D0AAAAJ:_Qo2XoVZTnwC",
+        "authors": "Z Abdulkader, J Abdul-Jabbar, O Abou Khaled, K Ait Saadi, M Akhloufi, ...",
+        "publication": "Graña 1000, 19, 0",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Interprétation des mouvements de tête Impliqués dans le processus de communication non verbale Interpretation of Head Motions involved in Non Verbal Communication",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:KlAtU1dfN6UC",
+        "citation_id": "QGrO3D0AAAAJ:KlAtU1dfN6UC",
+        "authors": "A Benoit, A Caplier",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Sign Language Tutoring Tool",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QGrO3D0AAAAJ&cstart=100&pagesize=100&citation_for_view=QGrO3D0AAAAJ:d1gkVwhDpl0C",
+        "citation_id": "QGrO3D0AAAAJ:d1gkVwhDpl0C",
+        "authors": "O Aran¹, I Ari¹, A Benoit, AH Carrillo, FX Fanard, P Campr, L Akarun¹, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      }
+  ]
