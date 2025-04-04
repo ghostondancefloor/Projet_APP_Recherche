@@ -284,19 +284,12 @@ if st.session_state.page == 1:
             size=10,
             colorbar=dict(
                 thickness=15,
-<<<<<<< HEAD
                 title=dict(
                     text="Node Connections"  # ✅ structure correcte
                 ),
                 xanchor="left"
             )
         )
-=======
-                title=dict(text="Node Connections"),  # ✅ structure correcte
-                xanchor="left",
-            ),
-        ),
->>>>>>> 481801a7c637aae4f7fc2dbf29ca2a0e7f623762
     )
 
 
