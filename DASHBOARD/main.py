@@ -264,12 +264,14 @@ with col2:
             size=10,
             colorbar=dict(
                 thickness=15,
-                title="Node Connections",
-                xanchor="left",
-                titleside="right"
+                title=dict(
+                    text="Node Connections"  # ✅ structure correcte
+                ),
+                xanchor="left"
             )
         )
     )
+
 
     node_text = [f"{node}" for node in G.nodes()]
     node_trace.marker.color = [len(list(G.neighbors(node))) for node in G.nodes()]
