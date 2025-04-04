@@ -1,0 +1,359 @@
+[
+    {
+      "title": "Blockchain smart contracts: Applications, challenges, and future trends",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:-f6ydRqryjwC",
+      "citation_id": "_IrFMcsAAAAJ:-f6ydRqryjwC",
+      "authors": "SN Khan, F Loukil, C Ghedira-Guegan, E Benkhelifa, A Bani-Hani",
+      "publication": "Peer-to-peer Networking and Applications 14, 2901-2925, 2021",
+      "cited_by": {
+        "value": 770,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6010713931414166246",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6010713931414166246&engine=google_scholar&hl=en",
+        "cites_id": "6010713931414166246"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Blockchain adoption in education: A systematic literature review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:hFOr9nPyWt4C",
+      "citation_id": "_IrFMcsAAAAJ:hFOr9nPyWt4C",
+      "authors": "F Loukil, M Abed, K Boukadi",
+      "publication": "Education and information technologies 26 (5), 5779-5797, 2021",
+      "cited_by": {
+        "value": 110,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3518681429842336692",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3518681429842336692&engine=google_scholar&hl=en",
+        "cites_id": "3518681429842336692"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Privacy and security in federated learning: A survey",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:j3f4tGmQtD8C",
+      "citation_id": "_IrFMcsAAAAJ:j3f4tGmQtD8C",
+      "authors": "R Gosselin, L Vieu, F Loukil, A Benoit",
+      "publication": "Applied Sciences 12 (19), 9901, 2022",
+      "cited_by": {
+        "value": 84,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14727428475397737663",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14727428475397737663&engine=google_scholar&hl=en",
+        "cites_id": "14727428475397737663"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Privacy-preserving IoT data aggregation based on blockchain and homomorphic encryption",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:hC7cP41nSMkC",
+      "citation_id": "_IrFMcsAAAAJ:hC7cP41nSMkC",
+      "authors": "F Loukil, C Ghedira-Guegan, K Boukadi, AN Benharkat",
+      "publication": "Sensors 21 (7), 2452, 2021",
+      "cited_by": {
+        "value": 57,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12619707554311117184",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12619707554311117184&engine=google_scholar&hl=en",
+        "cites_id": "12619707554311117184"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Ciosy: A collaborative blockchain-based insurance system",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:HDshCWvjkbEC",
+      "citation_id": "_IrFMcsAAAAJ:HDshCWvjkbEC",
+      "authors": "F Loukil, K Boukadi, R Hussain, M Abed",
+      "publication": "Electronics 10 (11), 1343, 2021",
+      "cited_by": {
+        "value": 42,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5355012958575719739",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5355012958575719739&engine=google_scholar&hl=en",
+        "cites_id": "5355012958575719739"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Data privacy based on IoT device behavior control using blockchain",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "_IrFMcsAAAAJ:Y0pCki6q_DkC",
+      "authors": "F Loukil, C Ghedira-Guegan, K Boukadi, AN Benharkat, E Benkhelifa",
+      "publication": "ACM Transactions on Internet Technology (TOIT) 21 (1), 1-20, 2021",
+      "cited_by": {
+        "value": 40,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10676408622366521106",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10676408622366521106&engine=google_scholar&hl=en",
+        "cites_id": "10676408622366521106"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Privacy-aware in the IoT applications: a systematic literature review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "_IrFMcsAAAAJ:2osOgNQ5qMEC",
+      "authors": "F Loukil, C Ghedira-Guegan, AN Benharkat, K Boukadi, Z Maamar",
+      "publication": "On the Move to Meaningful Internet Systems. OTM 2017 Conferences …, 2017",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9925168776745182418",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9925168776745182418&engine=google_scholar&hl=en",
+        "cites_id": "9925168776745182418"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "LIoPY: A legal compliant ontology to preserve privacy for the Internet of Things",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "_IrFMcsAAAAJ:UeHWp8X0CEIC",
+      "authors": "F Loukil, C Ghedira-Guegan, K Boukadi, AN Benharkat",
+      "publication": "2018 IEEE 42nd Annual Computer Software and Applications Conference (COMPSAC …, 2018",
+      "cited_by": {
+        "value": 35,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10744112826883696731",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10744112826883696731&engine=google_scholar&hl=en",
+        "cites_id": "10744112826883696731"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Decentralized collaborative business process execution using blockchain",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:TQgYirikUcIC",
+      "citation_id": "_IrFMcsAAAAJ:TQgYirikUcIC",
+      "authors": "F Loukil, K Boukadi, M Abed, C Ghedira-Guegan",
+      "publication": "World Wide Web 24 (5), 1645-1663, 2021",
+      "cited_by": {
+        "value": 28,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10927941704283484164",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10927941704283484164&engine=google_scholar&hl=en",
+        "cites_id": "10927941704283484164"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Towards an end-to-end IoT data privacy-preserving framework using blockchain technology",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "_IrFMcsAAAAJ:9yKSN-GCB0IC",
+      "authors": "F Loukil, C Ghedira-Guegan, K Boukadi, AN Benharkat",
+      "publication": "Web Information Systems Engineering–WISE 2018: 19th International Conference …, 2018",
+      "cited_by": {
+        "value": 28,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9102242375702792037",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9102242375702792037&engine=google_scholar&hl=en",
+        "cites_id": "9102242375702792037"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Blockchain smart contracts: applications, challenges, and future trends. Peer-to-Peer Netw. Appl. 14, 2901–2925 (2021)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:isC4tDSrTZIC",
+      "citation_id": "_IrFMcsAAAAJ:isC4tDSrTZIC",
+      "authors": "SN Khan, F Loukil, C Ghedira-Guegan, E Benkhelifa, A Bani-Hani",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2206622167458880606",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2206622167458880606&engine=google_scholar&hl=en",
+        "cites_id": "2206622167458880606"
+      },
+      "year": ""
+    },
+    {
+      "title": "A blockchain-based framework for circular end-of-life vehicle processing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:TFP_iSt0sucC",
+      "citation_id": "_IrFMcsAAAAJ:TFP_iSt0sucC",
+      "authors": "R Grati, F Loukil, K Boukadi, M Abed",
+      "publication": "Cluster Computing 27 (1), 707-720, 2024",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7083096767058757658",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7083096767058757658&engine=google_scholar&hl=en",
+        "cites_id": "7083096767058757658"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Blockchain smart contracts: applications, challenges, and future trends. Peer-to-Peer Netw. Appl. 14 (5), 2901–2925 (2021)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:YFjsv_pBGBYC",
+      "citation_id": "_IrFMcsAAAAJ:YFjsv_pBGBYC",
+      "authors": "SN Khan, F Loukil, C Ghedira-Guegan, E Benkhelifa, A Bani-Hani",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4332772319949059792",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4332772319949059792&engine=google_scholar&hl=en",
+        "cites_id": "4332772319949059792"
+      },
+      "year": ""
+    },
+    {
+      "title": "Semantic IoT gateway: Towards automated generation of privacy-preserving smart contracts in the Internet of Things",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "_IrFMcsAAAAJ:d1gkVwhDpl0C",
+      "authors": "F Loukil, C Ghedira-Guegan, K Boukadi, AN Benharkat",
+      "publication": "On the Move to Meaningful Internet Systems. OTM 2018 Conferences …, 2018",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4362124843066924050",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4362124843066924050&engine=google_scholar&hl=en",
+        "cites_id": "4362124843066924050"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "BELONG: Blockchain basEd pLatform fOr donation & social project fuNdinG",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:bEWYMUwI8FkC",
+      "citation_id": "_IrFMcsAAAAJ:bEWYMUwI8FkC",
+      "authors": "E Feki, K Boukadi, F Loukil, M Abed",
+      "publication": "2022 IEEE/ACS 19th International Conference on Computer Systems and …, 2022",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9594586071788534918",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9594586071788534918&engine=google_scholar&hl=en",
+        "cites_id": "9594586071788534918"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Early detection of diabetes mellitus using differentially private SGD in federated learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:iH-uZ7U-co4C",
+      "citation_id": "_IrFMcsAAAAJ:iH-uZ7U-co4C",
+      "authors": "B Dolo, F Loukil, K Boukadi",
+      "publication": "2022 IEEE/ACS 19th International Conference on Computer Systems and …, 2022",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5760862706788887701",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5760862706788887701&engine=google_scholar&hl=en",
+        "cites_id": "5760862706788887701"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "PATRIoT: A data sharing platform for IoT using a service-oriented approach based on Blockchain",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "_IrFMcsAAAAJ:W7OEmFMy1HYC",
+      "authors": "F Loukil, C Ghedira-Guegan, AN Benharkat",
+      "publication": "Service-Oriented Computing: 18th International Conference, ICSOC 2020, Dubai …, 2020",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17150999585820717720",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17150999585820717720&engine=google_scholar&hl=en",
+        "cites_id": "17150999585820717720"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Machine learning for text anomaly detection: A systematic review",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:maZDTaKrznsC",
+      "citation_id": "_IrFMcsAAAAJ:maZDTaKrznsC",
+      "authors": "K Boutalbi, F Loukil, H Verjus, D Telisson, K Salamatian",
+      "publication": "2023 IEEE 47th Annual Computers, Software, and Applications Conference …, 2023",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17138160151054340199",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17138160151054340199&engine=google_scholar&hl=en",
+        "cites_id": "17138160151054340199"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Antipattren-based cloud ontology evaluation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:qjMakFHDy7sC",
+      "citation_id": "_IrFMcsAAAAJ:qjMakFHDy7sC",
+      "authors": "F Loukil, M Rekik, K Boukadi",
+      "publication": "2016 IEEE/ACS 13th International Conference of Computer Systems and …, 2016",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10020018527698234543",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10020018527698234543&engine=google_scholar&hl=en",
+        "cites_id": "10020018527698234543"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Towards a new data privacy-based approach for IoT",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "_IrFMcsAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "F Loukil",
+      "publication": "Université Jean Moulin Lyon 3, 2019",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7479510332964531492",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7479510332964531492&engine=google_scholar&hl=en",
+        "cites_id": "7479510332964531492"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "A Clustering Approach Combining Lines and Text Detection for Table Extraction",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:JV2RwH3_ST0C",
+      "citation_id": "_IrFMcsAAAAJ:JV2RwH3_ST0C",
+      "authors": "K Boutalbi, V Sylejmani, P Dardouillet, O Le Van, K Salamatian, H Verjus, ...",
+      "publication": "International Conference on Document Analysis and Recognition, 139-145, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16433588884702156730",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16433588884702156730&engine=google_scholar&hl=en",
+        "cites_id": "16433588884702156730"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "LLM-centric pipeline for information extraction from invoices",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:BqipwSGYUEgC",
+      "citation_id": "_IrFMcsAAAAJ:BqipwSGYUEgC",
+      "authors": "F Loukil, S Cadereau, H Verjus, M Galfré, K Salamatian, D Telisson, ...",
+      "publication": "International Conference on Foundation and Large Language Models (FLLM2024), 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Strategic Integration of Context for Fine-Tuning Topic Model Performance",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:NMxIlDl6LWMC",
+      "citation_id": "_IrFMcsAAAAJ:NMxIlDl6LWMC",
+      "authors": "P Dardouillet, K Salamatian, H Verjus, F Loukil, D Telisson",
+      "publication": "2024 IEEE 48th Annual Computers, Software, and Applications Conference …, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Data Distribution Impact on Preserving Privacy in Centralized and Decentralized Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:M3NEmzRMIkIC",
+      "citation_id": "_IrFMcsAAAAJ:M3NEmzRMIkIC",
+      "authors": "B Dolo, F Loukil, K Boukadi",
+      "publication": "IFIP Annual Conference on Data and Applications Security and Privacy, 153-164, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "A Path Towards Fair and Equitable AI Advancing Bias Mitigation in Federated Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:blknAaTinKkC",
+      "citation_id": "_IrFMcsAAAAJ:blknAaTinKkC",
+      "authors": "F Lynda, A Benoit, F Loukil, M Bettinelli, C Lin-Kwong-Chon",
+      "publication": "The IEEE International Symposium on Women in Services Computing (WISC 2023), 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Bias mitigation for collaborative and ethical learning on dynamic data",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:k_IJM867U9cC",
+      "citation_id": "_IrFMcsAAAAJ:k_IJM867U9cC",
+      "authors": "L Ferraguig, A Benoit, F Loukil, M Bettinelli",
+      "publication": "Symposium on Intelligent Data Analysis (IDA 2023), 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Privacy-Aware in the IoT Applications: A Systematic",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=_IrFMcsAAAAJ&pagesize=100&citation_for_view=_IrFMcsAAAAJ:hMod-77fHWUC",
+      "citation_id": "_IrFMcsAAAAJ:hMod-77fHWUC",
+      "authors": "F Loukil, C Ghedira, B Aïcha-Nabila, K Boukadi, Z Maamar",
+      "cited_by": {
+        "value": null
+      },
+      "year": ""
+    }
+  ]

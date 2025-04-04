@@ -1,0 +1,1768 @@
+[
+    {
+      "title": "Understanding leaves in natural images–a model-based approach for tree species identification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "Cpzn1noAAAAJ:_Qo2XoVZTnwC",
+      "authors": "G Cerutti, L Tougne, J Mille, A Vacavant, D Coquin",
+      "publication": "Computer Vision and Image Understanding 117 (10), 1482-1501, 2013",
+      "cited_by": {
+        "value": 159,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7777013623078086285",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7777013623078086285&engine=google_scholar&hl=en",
+        "cites_id": "7777013623078086285"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Dynamic hand gesture recognition using the skeleton of the hand",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "Cpzn1noAAAAJ:u5HHmVD_uO8C",
+      "authors": "B Ionescu, D Coquin, P Lambert, V Buzuloiu",
+      "publication": "EURASIP Journal on Advances in Signal Processing 2005, 1-9, 2005",
+      "cited_by": {
+        "value": 137,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5710718961354446440",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5710718961354446440&engine=google_scholar&hl=en",
+        "cites_id": "5710718961354446440"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "A parametric active polygon for leaf segmentation and shape estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "Cpzn1noAAAAJ:IjCSPb-OGe4C",
+      "authors": "G Cerutti, L Tougne, A Vacavant, D Coquin",
+      "publication": "International symposium on visual computing, 202-213, 2011",
+      "cited_by": {
+        "value": 92,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11667753669559280499",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11667753669559280499&engine=google_scholar&hl=en",
+        "cites_id": "11667753669559280499"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Multi-sensor information fusion: Combination of fuzzy systems and evidence theory approaches in color recognition for the NAO humanoid robot",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:zA6iFVUQeVQC",
+      "citation_id": "Cpzn1noAAAAJ:zA6iFVUQeVQC",
+      "authors": "R Boukezzoula, D Coquin, TL Nguyen, S Perrin",
+      "publication": "Robotics and Autonomous Systems 100, 302-316, 2018",
+      "cited_by": {
+        "value": 41,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5222072788322386808",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5222072788322386808&engine=google_scholar&hl=en",
+        "cites_id": "5222072788322386808"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Leaf margins as sequences: A structural approach to leaf identification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:NaGl4SEjCO4C",
+      "citation_id": "Cpzn1noAAAAJ:NaGl4SEjCO4C",
+      "authors": "G Cerutti, L Tougne, D Coquin, A Vacavant",
+      "publication": "Pattern Recognition Letters 49, 177-184, 2014",
+      "cited_by": {
+        "value": 41,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15907137680869963037",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15907137680869963037&engine=google_scholar&hl=en",
+        "cites_id": "15907137680869963037"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "A model-based approach for compound leaves understanding and identification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:GnPB-g6toBAC",
+      "citation_id": "Cpzn1noAAAAJ:GnPB-g6toBAC",
+      "authors": "G Cerutti, L Tougne, J Mille, A Vacavant, D Coquin",
+      "publication": "2013 IEEE International Conference on Image Processing, 1471-1475, 2013",
+      "cited_by": {
+        "value": 41,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4262979301690910365",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4262979301690910365&engine=google_scholar&hl=en",
+        "cites_id": "4262979301690910365"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "High-resolution prediction of organic matter concentration with hyperspectral imaging on a sediment core",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:pyW8ca7W8N0C",
+      "citation_id": "Cpzn1noAAAAJ:pyW8ca7W8N0C",
+      "authors": "K Jacq, Y Perrette, B Fanget, P Sabatier, D Coquin, R Martinez-Lamas, ...",
+      "publication": "Science of the Total Environment 663, 236-244, 2019",
+      "cited_by": {
+        "value": 39,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7259611080703350237",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7259611080703350237&engine=google_scholar&hl=en",
+        "cites_id": "7259611080703350237"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Discrete distance operator on rectangular grids",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "Cpzn1noAAAAJ:u-x6o8ySG0sC",
+      "authors": "D Coquin, P Bolon",
+      "publication": "Pattern Recognition Letters 16 (9), 911-923, 1995",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9047975147518814766",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9047975147518814766&engine=google_scholar&hl=en",
+        "cites_id": "9047975147518814766"
+      },
+      "year": "1995"
+    },
+    {
+      "title": "Application of Baddeley's distance to dissimilarity measurement between gray scale images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "Cpzn1noAAAAJ:d1gkVwhDpl0C",
+      "authors": "D Coquin, P Bolon",
+      "publication": "Pattern Recognition Letters 22 (14), 1483-1502, 2001",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5779370352567365059",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5779370352567365059&engine=google_scholar&hl=en",
+        "cites_id": "5779370352567365059"
+      },
+      "year": "2001"
+    },
+    {
+      "title": "Bark and leaf fusion systems to improve automatic tree species recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:dfsIfKJdRG4C",
+      "citation_id": "Cpzn1noAAAAJ:dfsIfKJdRG4C",
+      "authors": "S Bertrand, RB Ameur, G Cerutti, D Coquin, L Valet, L Tougne",
+      "publication": "Ecological Informatics 46, 57-73, 2018",
+      "cited_by": {
+        "value": 36,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11105035898502596910",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11105035898502596910&engine=google_scholar&hl=en",
+        "cites_id": "11105035898502596910"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Guiding active contours for tree leaf segmentation and identification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "Cpzn1noAAAAJ:YsMSGLbcyi4C",
+      "authors": "G Cerutti, L Tougne, J Mille, A Vacavant, D Coquin",
+      "publication": "CLEF 2011, Conference on Multilingual and Multimodal Information Access …, 2011",
+      "cited_by": {
+        "value": 35,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11619447183163550603",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11619447183163550603&engine=google_scholar&hl=en",
+        "cites_id": "11619447183163550603"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Improved cut detection for the segmentation of animation movies",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "Cpzn1noAAAAJ:9yKSN-GCB0IC",
+      "authors": "B Ionescu, V Buzuloiu, P Lambert, D Coquin",
+      "publication": "2006 IEEE International Conference on Acoustics Speech and Signal Processing …, 2006",
+      "cited_by": {
+        "value": 32,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16074463457472895330",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16074463457472895330&engine=google_scholar&hl=en",
+        "cites_id": "16074463457472895330"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Curvature-scale-based contour understanding for leaf margin shape recognition and species identification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:blknAaTinKkC",
+      "citation_id": "Cpzn1noAAAAJ:blknAaTinKkC",
+      "authors": "G Cerutti, L Tougne, D Coquin, A Vacavant",
+      "publication": "International Conference on Computer Vision Theory and Applications (VISAPP …, 2013",
+      "cited_by": {
+        "value": 30,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16158169161157859731",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16158169161157859731&engine=google_scholar&hl=en",
+        "cites_id": "16158169161157859731"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "A fuzzy color-based approach for understanding animated movies content in the indexing task",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:Zph67rFs4hoC",
+      "citation_id": "Cpzn1noAAAAJ:Zph67rFs4hoC",
+      "authors": "B Ionescu, D Coquin, P Lambert, V Buzuloiu",
+      "publication": "Eurasip Journal on Image and Video Processing 2008, 1-17, 2008",
+      "cited_by": {
+        "value": 29,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4553498863853790556",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4553498863853790556&engine=google_scholar&hl=en",
+        "cites_id": "4553498863853790556"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Reves participation-tree species classification using random forests and botanical features",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:4TOpqqG69KYC",
+      "citation_id": "Cpzn1noAAAAJ:4TOpqqG69KYC",
+      "authors": "G Cerutti, V Antoine, L Tougne, J Mille, L Valet, D Coquin, A Vacavant",
+      "publication": "Conference and Labs of the Evaluation Forum (CLEF), 1, 2012",
+      "cited_by": {
+        "value": 25,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7206574579915440140",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7206574579915440140&engine=google_scholar&hl=en",
+        "cites_id": "7206574579915440140"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "A decision-making computational methodology for a class of type-2 fuzzy intervals: An interval-based approach",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:NhqRSupF_l8C",
+      "citation_id": "Cpzn1noAAAAJ:NhqRSupF_l8C",
+      "authors": "R Boukezzoula, D Coquin",
+      "publication": "Information sciences 510, 256-282, 2020",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13196878017796039366",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13196878017796039366&engine=google_scholar&hl=en",
+        "cites_id": "13196878017796039366"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "High-resolution grain size distribution of sediment core with hyperspectral imaging",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:CHSYGLWDkRkC",
+      "citation_id": "Cpzn1noAAAAJ:CHSYGLWDkRkC",
+      "authors": "K Jacq, C Giguet-Covex, P Sabatier, Y Perrette, B Fanget, D Coquin, ...",
+      "publication": "Sedimentary Geology 393, 105536, 2019",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18105411023000603146",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18105411023000603146&engine=google_scholar&hl=en",
+        "cites_id": "18105411023000603146"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "A skeletonization algorithm using chamfer distance transformation adapted to rectangular grids",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "Cpzn1noAAAAJ:2osOgNQ5qMEC",
+      "authors": "Y Chehadeh, D Coquin, P Bolon",
+      "publication": "Proceedings of 13th International Conference on Pattern Recognition 2, 131-135, 1996",
+      "cited_by": {
+        "value": 24,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8471210351317546914",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8471210351317546914&engine=google_scholar&hl=en",
+        "cites_id": "8471210351317546914"
+      },
+      "year": "1996"
+    },
+    {
+      "title": "From fuzzy regression to gradual regression: Interval-based analysis and extensions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:fPk4N6BV_jEC",
+      "citation_id": "Cpzn1noAAAAJ:fPk4N6BV_jEC",
+      "authors": "R Boukezzoula, S Galichet, D Coquin",
+      "publication": "Information Sciences 441, 18-40, 2018",
+      "cited_by": {
+        "value": 21,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18315930904160970935",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18315930904160970935&engine=google_scholar&hl=en",
+        "cites_id": "18315930904160970935"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Leaf species classification based on a botanical shape sub-classifier strategy",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:J_g5lzvAfSwC",
+      "citation_id": "Cpzn1noAAAAJ:J_g5lzvAfSwC",
+      "authors": "H Liu, D Coquin, L Valet, G Cerutti",
+      "publication": "2014 22nd International Conference on Pattern Recognition, 1496-1501, 2014",
+      "cited_by": {
+        "value": 21,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7888768337825892640",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7888768337825892640&engine=google_scholar&hl=en",
+        "cites_id": "7888768337825892640"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "XRF and hyperspectral analyses as an automatic way to detect flood events in sediment cores",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:p2g8aNsByqUC",
+      "citation_id": "Cpzn1noAAAAJ:p2g8aNsByqUC",
+      "authors": "W Rapuc, K Jacq, AL Develle, P Sabatier, B Fanget, Y Perrette, D Coquin, ...",
+      "publication": "Sedimentary Geology 409, 105776, 2020",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16267771552847497062",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16267771552847497062&engine=google_scholar&hl=en",
+        "cites_id": "16267771552847497062"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Dissimilarity measures in color spaces",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:qjMakFHDy7sC",
+      "citation_id": "Cpzn1noAAAAJ:qjMakFHDy7sC",
+      "authors": "D Coquin, P Bolon, B Ionescu",
+      "publication": "2002 International Conference on Pattern Recognition 1, 612-615, 2002",
+      "cited_by": {
+        "value": 19,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5992974757154206853",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5992974757154206853&engine=google_scholar&hl=en",
+        "cites_id": "5992974757154206853"
+      },
+      "year": "2002"
+    },
+    {
+      "title": "A new methodology for solving fuzzy systems of equations: Thick fuzzy sets based approach",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:l7t_Zn2s7bgC",
+      "citation_id": "Cpzn1noAAAAJ:l7t_Zn2s7bgC",
+      "authors": "R Boukezzoula, L Jaulin, D Coquin",
+      "publication": "Fuzzy Sets and Systems 435, 107-128, 2022",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4946322599084673634",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4946322599084673634&engine=google_scholar&hl=en",
+        "cites_id": "4946322599084673634"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Gradual interval arithmetic and fuzzy interval arithmetic",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:1sJd4Hv_s6UC",
+      "citation_id": "Cpzn1noAAAAJ:1sJd4Hv_s6UC",
+      "authors": "R Boukezzoula, L Foulloy, D Coquin, S Galichet",
+      "publication": "Granular Computing 6 (2), 451-471, 2021",
+      "cited_by": {
+        "value": 17,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12651494510539329705",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12651494510539329705&engine=google_scholar&hl=en",
+        "cites_id": "12651494510539329705"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Sedimentary structure discrimination with hyperspectral imaging in sediment cores",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:XiSMed-E-HIC",
+      "citation_id": "Cpzn1noAAAAJ:XiSMed-E-HIC",
+      "authors": "K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget, Y Perrette, P Sabatier, ...",
+      "publication": "Science of the Total Environment 817, 152018, 2022",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7689431027722976140",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7689431027722976140&engine=google_scholar&hl=en",
+        "cites_id": "7689431027722976140"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Animation movie abstraction: Key frame adaptative selection based on color histogram filtering",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:ufrVoPGSRksC",
+      "citation_id": "Cpzn1noAAAAJ:ufrVoPGSRksC",
+      "authors": "L Ott, P Lambert, B Ionescu, D Coquin",
+      "publication": "14th International Conference of Image Analysis and Processing-Workshops …, 2007",
+      "cited_by": {
+        "value": 16,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16005078184709059539",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16005078184709059539&engine=google_scholar&hl=en",
+        "cites_id": "16005078184709059539"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Animation movies trailer computation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "Cpzn1noAAAAJ:eQOLeE2rZwMC",
+      "authors": "B Ionescu, P Lambert, D Coquin, L Ott, V Buzuloiu",
+      "publication": "Proceedings of the 14th ACM international conference on Multimedia, 631-634, 2006",
+      "cited_by": {
+        "value": 15,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1353806223860121914",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1353806223860121914&engine=google_scholar&hl=en",
+        "cites_id": "1353806223860121914"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Late information fusion for multi-modality plant species identification",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:ns9cj8rnVeAC",
+      "citation_id": "Cpzn1noAAAAJ:ns9cj8rnVeAC",
+      "authors": "G Cerutti, L Tougne, C Sacca, T Joliveau, PO Mazagol, D Coquin, ...",
+      "publication": "Conference and Labs of the Evaluation Forum, Working Notes, 2013",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=183990518662635522",
+        "serpapi_link": "https://serpapi.com/search.json?cites=183990518662635522&engine=google_scholar&hl=en",
+        "cites_id": "183990518662635522"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Color-based semantic characterization of cartoons",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "Cpzn1noAAAAJ:Y0pCki6q_DkC",
+      "authors": "B Ionescu, P Lambert, D Coquin, L Darlea",
+      "publication": "International Symposium on Signals, Circuits and Systems, 2005. ISSCS 2005 …, 2005",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3836082615116889350",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3836082615116889350&engine=google_scholar&hl=en",
+        "cites_id": "3836082615116889350"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Evaluation quantitative d’images filtrées",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:zYLM7Y9cAGgC",
+      "citation_id": "Cpzn1noAAAAJ:zYLM7Y9cAGgC",
+      "authors": "D Coquin, P Bolon, Y Chehadeh",
+      "publication": "GRETSI97 2, 1351-1354, 1997",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17120036289289441554",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17120036289289441554&engine=google_scholar&hl=en",
+        "cites_id": "17120036289289441554"
+      },
+      "year": "1997"
+    },
+    {
+      "title": "Interval-valued fuzzy regression: Philosophical and methodological issues",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:738O_yMBCRsC",
+      "citation_id": "Cpzn1noAAAAJ:738O_yMBCRsC",
+      "authors": "R Boukezzoula, D Coquin",
+      "publication": "Applied Soft Computing 103, 107145, 2021",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9282033394062190797",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9282033394062190797&engine=google_scholar&hl=en",
+        "cites_id": "9282033394062190797"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Color-Based Content Retrieval of Animation Movies: A Study.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:3fE2CSJIrl8C",
+      "citation_id": "Cpzn1noAAAAJ:3fE2CSJIrl8C",
+      "authors": "B Ionescu, P Lambert, D Coquin, V Buzuloiu",
+      "publication": "CBMI, 295-302, 2007",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4338916004927435946",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4338916004927435946&engine=google_scholar&hl=en",
+        "cites_id": "4338916004927435946"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Assistance via IoT networking cameras and evidence theory for 3D object instance recognition: Application for the NAO humanoid robot",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:P5F9QuxV20EC",
+      "citation_id": "Cpzn1noAAAAJ:P5F9QuxV20EC",
+      "authors": "D Coquin, R Boukezzoula, A Benoit, TL Nguyen",
+      "publication": "Internet of Things 9, 100128, 2020",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2668621774646971054",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2668621774646971054&engine=google_scholar&hl=en",
+        "cites_id": "2668621774646971054"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Treex: a Python package for manipulating rooted trees",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:b0M2c_1WBrUC",
+      "citation_id": "Cpzn1noAAAAJ:b0M2c_1WBrUC",
+      "authors": "R Azaïs, G Cerutti, D Gemmerlé, F Ingels",
+      "publication": "Journal of Open Source Software 4 (38), 1351, 2019",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1806493461391292651",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1806493461391292651&engine=google_scholar&hl=en",
+        "cites_id": "1806493461391292651"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Gestures recognition based on the fusion of Hand positioning and Arm gestures",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:LkGwnXOMwfcC",
+      "citation_id": "Cpzn1noAAAAJ:LkGwnXOMwfcC",
+      "authors": "D Coquin, E Benoit, H Sawada, B Ionescu",
+      "publication": "Journal of Robotics and Mechatronics 18 (6), 751, 2006",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1672035677273329672",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1672035677273329672&engine=google_scholar&hl=en",
+        "cites_id": "1672035677273329672"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "3D local distance operator on parallelepipedic grids",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "Cpzn1noAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "D Coquin, Y Chehadeh, P Bolon",
+      "publication": "Proc. 4th Discrete Geometry for Computer Imagery, 147-156, 1994",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3008980780314386855",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3008980780314386855&engine=google_scholar&hl=en",
+        "cites_id": "3008980780314386855"
+      },
+      "year": "1994"
+    },
+    {
+      "title": "A single smart cut POI substrate design for UHF, l and s band filters",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:fQNAKQ3IYiAC",
+      "citation_id": "Cpzn1noAAAAJ:fQNAKQ3IYiAC",
+      "authors": "E Butaud, T Laroche, V Barec, A Clairet, M Bousquet, F Bernard, ...",
+      "publication": "2020 50th European Microwave Conference (EuMC), 654-657, 2021",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3804529951043943983",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3804529951043943983&engine=google_scholar&hl=en",
+        "cites_id": "3804529951043943983"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Influence of basic belief assignments construction on the behaviour of a fusion system for tree species recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:SeFeTyx0c_EC",
+      "citation_id": "Cpzn1noAAAAJ:SeFeTyx0c_EC",
+      "authors": "RB Ameur, D Coquin, L Valet",
+      "publication": "2017 20th International Conference on Information Fusion (Fusion), 1-8, 2017",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13063449797854386747",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13063449797854386747&engine=google_scholar&hl=en",
+        "cites_id": "13063449797854386747"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Local versus global evaluation of a cooperative fusion system for 3D image interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:WF5omc3nYNoC",
+      "citation_id": "Cpzn1noAAAAJ:WF5omc3nYNoC",
+      "authors": "A Lamallem, L Valet, D Coquin",
+      "publication": "2009 International Symposium on Optomechatronic Technologies, 360-365, 2009",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10816251196120803495",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10816251196120803495&engine=google_scholar&hl=en",
+        "cites_id": "10816251196120803495"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Fuzzy semantic action and color characterization of animation movies in the video indexing task context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:W7OEmFMy1HYC",
+      "citation_id": "Cpzn1noAAAAJ:W7OEmFMy1HYC",
+      "authors": "BE Ionescu, D Coquin, P Lambert, V Buzuloiu",
+      "publication": "International Workshop on Adaptive Multimedia Retrieval, 119-135, 2006",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16610606362405280373",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16610606362405280373&engine=google_scholar&hl=en",
+        "cites_id": "16610606362405280373"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Binarisation of various images by detecting local thresholds with a validation test",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "Cpzn1noAAAAJ:UeHWp8X0CEIC",
+      "authors": "K Chehdi, D Coquin",
+      "publication": "[1991] IEEE Pacific Rim Conference on Communications, Computers and Signal …, 1991",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6895346306572628455",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6895346306572628455&engine=google_scholar&hl=en",
+        "cites_id": "6895346306572628455"
+      },
+      "year": "1991"
+    },
+    {
+      "title": "Theoretical principles and perspectives of hyperspectral imaging applied to sediment core analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:B3FOqHPlNUQC",
+      "citation_id": "Cpzn1noAAAAJ:B3FOqHPlNUQC",
+      "authors": "K Jacq, M Debret, B Fanget, D Coquin, P Sabatier, C Pignol, F Arnaud, ...",
+      "publication": "Quaternary 5 (2), 28, 2022",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16519748712021988660",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16519748712021988660&engine=google_scholar&hl=en",
+        "cites_id": "16519748712021988660"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Objective metric for colour image comparison",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:Se3iqnhoufwC",
+      "citation_id": "Cpzn1noAAAAJ:Se3iqnhoufwC",
+      "authors": "D Coquin, P Bolon, A Onea",
+      "publication": "2000 10th European Signal Processing Conference, 1-4, 2000",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6051939136995485497",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6051939136995485497&engine=google_scholar&hl=en",
+        "cites_id": "6051939136995485497"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Color recognition for NAO robot using sugeno fuzzy system and evidence theory",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:2P1L_qKh6hAC",
+      "citation_id": "Cpzn1noAAAAJ:2P1L_qKh6hAC",
+      "authors": "TL Nguyen, R Boukezzoula, D Coquin, S Perrin",
+      "publication": "16th World Congress of the International Fuzzy Systems Association (IFSA …, 2015",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13159694801614877259",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13159694801614877259&engine=google_scholar&hl=en",
+        "cites_id": "13159694801614877259"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "The cut detection issue in the animation movie domain.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:5nxA0vEk-isC",
+      "citation_id": "Cpzn1noAAAAJ:5nxA0vEk-isC",
+      "authors": "B Ionescu, P Lambert, D Coquin, V Buzuloiu",
+      "publication": "Journal of Multimedia 2 (4), 2007",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17790101767873937660",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17790101767873937660&engine=google_scholar&hl=en",
+        "cites_id": "17790101767873937660"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Comparaison d’opérateurs locaux de distance",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:roLk4NBRz8UC",
+      "citation_id": "Cpzn1noAAAAJ:roLk4NBRz8UC",
+      "authors": "D Coquin, P Bolon",
+      "publication": "3rd Discrete Geometry for Computer Image, 182-191, 1993",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13501344559791172881",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13501344559791172881&engine=google_scholar&hl=en",
+        "cites_id": "13501344559791172881"
+      },
+      "year": "1993"
+    },
+    {
+      "title": "Thick fuzzy sets (TFSs) and their potential use in uncertain fuzzy computations and modeling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:u9iWguZQMMsC",
+      "citation_id": "Cpzn1noAAAAJ:u9iWguZQMMsC",
+      "authors": "R Boukezzoula, L Jaulin, B Desrochers, D Coquin",
+      "publication": "IEEE Transactions on Fuzzy Systems 29 (11), 3334-3348, 2020",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10898885669304675632",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10898885669304675632&engine=google_scholar&hl=en",
+        "cites_id": "10898885669304675632"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Evidential two-step tree species recognition approach from leaves and bark",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:KxtntwgDAa4C",
+      "citation_id": "Cpzn1noAAAAJ:KxtntwgDAa4C",
+      "authors": "S Jendoubi, D Coquin, R Boukezzoula",
+      "publication": "Expert Systems with Applications 146, 113154, 2020",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10362531272939083119",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10362531272939083119&engine=google_scholar&hl=en",
+        "cites_id": "10362531272939083119"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Interaction between humans, NAO robot and multiple cameras for colored objects recognition using information fusion",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:vV6vV6tmYwMC",
+      "citation_id": "Cpzn1noAAAAJ:vV6vV6tmYwMC",
+      "authors": "TL Nguyen, R Boukezzoula, D Coquin, E Benoit, S Perrin",
+      "publication": "2015 8th International Conference on Human System Interaction (HSI), 322-328, 2015",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1128760253779465574",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1128760253779465574&engine=google_scholar&hl=en",
+        "cites_id": "1128760253779465574"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Quantitative evaluation of color image segmentation results using fuzzy neural network",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:BqipwSGYUEgC",
+      "citation_id": "Cpzn1noAAAAJ:BqipwSGYUEgC",
+      "authors": "D Coquin",
+      "publication": "Optomechatronic Technologies 2008 7266, 454-461, 2008",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18233480227293997068",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18233480227293997068&engine=google_scholar&hl=en",
+        "cites_id": "18233480227293997068"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Structure-from-motion, multi-view stereo photogrammetry applied to line-scan sediment core images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:K3LRdlH-MEoC",
+      "citation_id": "Cpzn1noAAAAJ:K3LRdlH-MEoC",
+      "authors": "K Jacq, E Ployon, W Rapuc, C Blanchet, C Pignol, D Coquin, B Fanget",
+      "publication": "Journal of Paleolimnology 66 (3), 249-260, 2021",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5350457571969801049",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5350457571969801049&engine=google_scholar&hl=en",
+        "cites_id": "5350457571969801049"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Sub-classification strategies for tree species recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:pqnbT2bcN3wC",
+      "citation_id": "Cpzn1noAAAAJ:pqnbT2bcN3wC",
+      "authors": "RB Ameur, L Valet, D Coquin",
+      "publication": "2016 23rd International Conference on Pattern Recognition (ICPR), 2139-2144, 2016",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3008786150753276017",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3008786150753276017&engine=google_scholar&hl=en",
+        "cites_id": "3008786150753276017"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Fuzzy color-based semantic characterization of animation movies",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:0EnyYjriUFMC",
+      "citation_id": "Cpzn1noAAAAJ:0EnyYjriUFMC",
+      "authors": "B Ionescu, P Lambert, D Coquin, V Buzuloiu",
+      "publication": "Conference on Colour in Graphics, Imaging, and Vision 3, 65-69, 2006",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16197419603614975619",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16197419603614975619&engine=google_scholar&hl=en",
+        "cites_id": "16197419603614975619"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Quantitative assessment of two skeletonization algorithms adapted to rectangular grids",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "Cpzn1noAAAAJ:KlAtU1dfN6UC",
+      "authors": "M Ciuc, D Coquin, P Bolon",
+      "publication": "Image Analysis and Processing: 9th International Conference, ICIAP'97 …, 1997",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13585736779169150816",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13585736779169150816&engine=google_scholar&hl=en",
+        "cites_id": "13585736779169150816"
+      },
+      "year": "1997"
+    },
+    {
+      "title": "Study of pansharpening methods applied to hyperspectral images of sediment cores (Poster)",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:EUQCXRtRnyEC",
+      "citation_id": "Cpzn1noAAAAJ:EUQCXRtRnyEC",
+      "authors": "K Jacq, D Coquin, B Fanget, Y Perrette, M Debret",
+      "publication": "2019 22th International Conference on Information Fusion (FUSION), 1-6, 2019",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5207859408916736967",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5207859408916736967&engine=google_scholar&hl=en",
+        "cites_id": "5207859408916736967"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Combination of Sugeno fuzzy system and evidence theory for NAO robot in colors recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:70eg2SAEIzsC",
+      "citation_id": "Cpzn1noAAAAJ:70eg2SAEIzsC",
+      "authors": "TL Nguyen, R Boukezzoula, D Coquin, S Perrin",
+      "publication": "2015 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE), 1-8, 2015",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16572616268494326446",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16572616268494326446&engine=google_scholar&hl=en",
+        "cites_id": "16572616268494326446"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Tackling action-based video abstraction of animated movies for video browsing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "Cpzn1noAAAAJ:hqOjcs7Dif8C",
+      "authors": "B Ionescu, L Ott, P Lambert, D Coquin, A Pacureanu, V Buzuloiu",
+      "publication": "Journal of Electronic Imaging 19 (3), 033002-033002-14, 2010",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14315255927962501089",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14315255927962501089&engine=google_scholar&hl=en",
+        "cites_id": "14315255927962501089"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Analyse et Caractérisation de séquences de films d’animation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "Cpzn1noAAAAJ:_FxGoFyzp5QC",
+      "authors": "B Ionescu, D Coquin, P Lambert, V Buzuloiu",
+      "publication": "ORASIS journées francophones des jeunes chercheurs en vision par ordinateur …, 2005",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18120966330037471875",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18120966330037471875&engine=google_scholar&hl=en",
+        "cites_id": "18120966330037471875"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "An Approach to Scene Detection in Animation Movies and its Applications",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:isC4tDSrTZIC",
+      "citation_id": "Cpzn1noAAAAJ:isC4tDSrTZIC",
+      "authors": "B Ionescu, D Coquin, P Lambert, V Buzuloiu",
+      "publication": "University\" Politehnica\" of Bucharest Scientific Bulletin, Series C …, 2005",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13883306766517945289",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13883306766517945289&engine=google_scholar&hl=en",
+        "cites_id": "13883306766517945289"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Segmentation automatique des images couleur à base d'indicateurs de performance",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:qxL8FJ1GzNcC",
+      "citation_id": "Cpzn1noAAAAJ:qxL8FJ1GzNcC",
+      "authors": "N Bouloudani, P Lambert, D Coquin",
+      "publication": "CORESA'03, 2003",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13464271235008325286",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13464271235008325286&engine=google_scholar&hl=en",
+        "cites_id": "13464271235008325286"
+      },
+      "year": "2003"
+    },
+    {
+      "title": "Opérateurs de distance 3D-Application à. la comparaison d’images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:UebtZRa9Y70C",
+      "citation_id": "Cpzn1noAAAAJ:UebtZRa9Y70C",
+      "authors": "D Coquin, P Bolon, Y Chehadeh",
+      "publication": "15ecolloque GRETSI, 761-764, 1995",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13027948703967862691",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13027948703967862691&engine=google_scholar&hl=en",
+        "cites_id": "13027948703967862691"
+      },
+      "year": "1995"
+    },
+    {
+      "title": "Binarisation d'images par seuillage local optimal maximisant un critère d'homogénéte",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "Cpzn1noAAAAJ:YOwf2qJgpHMC",
+      "authors": "K Chehdi, D Coquin",
+      "publication": "GRETSI, Groupe d’Etudes du Traitement du Signal et des Images, 1991",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1239786224369074",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1239786224369074&engine=google_scholar&hl=en",
+        "cites_id": "1239786224369074"
+      },
+      "year": "1991"
+    },
+    {
+      "title": "An Evidential k-nearest Neighbors Combination Rule for Tree Species Recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:D03iK_w7-QYC",
+      "citation_id": "Cpzn1noAAAAJ:D03iK_w7-QYC",
+      "authors": "S Jendoubi, D Coquin, R Boukezzoula",
+      "publication": "International Conference on Belief Functions, 129-136, 2018",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2112400025120567415",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2112400025120567415&engine=google_scholar&hl=en",
+        "cites_id": "2112400025120567415"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Fusion system based on belief functions theory and approximated belief functions for tree species recognition",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:g5m5HwL7SMYC",
+      "citation_id": "Cpzn1noAAAAJ:g5m5HwL7SMYC",
+      "authors": "RB Ameur, L Valet, D Coquin",
+      "publication": "2016 Sixth International Conference on Image Processing Theory, Tools and …, 2016",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13365167362844861811",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13365167362844861811&engine=google_scholar&hl=en",
+        "cites_id": "13365167362844861811"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "A fusion system for tree species recognition through leaves and barks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:HoB7MX3m0LUC",
+      "citation_id": "Cpzn1noAAAAJ:HoB7MX3m0LUC",
+      "authors": "RB Ameur, L Valet, D Coquin",
+      "publication": "2016 IEEE Symposium Series on Computational Intelligence (SSCI), 1-8, 2016",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14515829829245962989",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14515829829245962989&engine=google_scholar&hl=en",
+        "cites_id": "14515829829245962989"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Recognition of confusing objects for NaO robot",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:ldfaerwXgEUC",
+      "citation_id": "Cpzn1noAAAAJ:ldfaerwXgEUC",
+      "authors": "TL Nguyen, D Coquin, R Boukezzoula",
+      "publication": "Information Processing and Management of Uncertainty in Knowledge-Based …, 2016",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6649457747683385696",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6649457747683385696&engine=google_scholar&hl=en",
+        "cites_id": "6649457747683385696"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Local evaluation of a fusion system for 3-d tomographic image interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "Cpzn1noAAAAJ:kNdYIx-mwKoC",
+      "authors": "A Lamallem, L Valet, D Coquin",
+      "publication": "International Journal of Optomechatronics 4 (4), 362-378, 2010",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4423730031402078691",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4423730031402078691&engine=google_scholar&hl=en",
+        "cites_id": "4423730031402078691"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Aggregation evaluation of a fusion system devoted to image interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:ULOm3_A8WrAC",
+      "citation_id": "Cpzn1noAAAAJ:ULOm3_A8WrAC",
+      "authors": "A Lamallem, D Coquin, L Valet",
+      "publication": "2010 13th International Conference on Information Fusion, 1-8, 2010",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18020223423864567760",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18020223423864567760&engine=google_scholar&hl=en",
+        "cites_id": "18020223423864567760"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Performance evaluation of a fusion system devoted to image interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:aqlVkmm33-oC",
+      "citation_id": "Cpzn1noAAAAJ:aqlVkmm33-oC",
+      "authors": "A Lamallem, L Valet, D Coquin",
+      "publication": "Computational Intelligence for Knowledge-Based Systems Design: 13th …, 2010",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14596933456653156098",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14596933456653156098&engine=google_scholar&hl=en",
+        "cites_id": "14596933456653156098"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "A 3D image-segmented evaluation procedure in a cooperative fusion system context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:8k81kl-MbHgC",
+      "citation_id": "Cpzn1noAAAAJ:8k81kl-MbHgC",
+      "authors": "L Valet, D Coquin, S Jullien, S Teyssier",
+      "publication": "2007 10th International Conference on Information Fusion, 1-8, 2007",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=78780419543655497",
+        "serpapi_link": "https://serpapi.com/search.json?cites=78780419543655497&engine=google_scholar&hl=en",
+        "cites_id": "78780419543655497"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Reconnaissance de gestes dynamiques de la main",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:M3ejUd6NZC8C",
+      "citation_id": "Cpzn1noAAAAJ:M3ejUd6NZC8C",
+      "authors": "B Ionescu, D Coquin, P Lambert",
+      "publication": "Proc. 19eme Colloque sur le traitement du signal et des images (GRETSI’03 …, 2003",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8860783839443308602",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8860783839443308602&engine=google_scholar&hl=en",
+        "cites_id": "8860783839443308602"
+      },
+      "year": "2003"
+    },
+    {
+      "title": "3D nonstationary local distance operator",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "Cpzn1noAAAAJ:MXK_kJrjxJIC",
+      "authors": "D Coquin, P Bolon, A Onea",
+      "publication": "Proceedings 15th International Conference on Pattern Recognition. ICPR-2000 …, 2000",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1449164120988739736",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1449164120988739736&engine=google_scholar&hl=en",
+        "cites_id": "1449164120988739736"
+      },
+      "year": "2000"
+    },
+    {
+      "title": "Pattern recognition by image analysis. Application to marine biology",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:NMxIlDl6LWMC",
+      "citation_id": "Cpzn1noAAAAJ:NMxIlDl6LWMC",
+      "authors": "K Chehdi, D Coquin",
+      "publication": "11th IAPR International Conference on Pattern Recognition. Vol. II …, 1992",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16843531717647684555",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16843531717647684555&engine=google_scholar&hl=en",
+        "cites_id": "16843531717647684555"
+      },
+      "year": "1992"
+    },
+    {
+      "title": "A possibilistic regression based on gradual interval B-splines: application for hyperspectral imaging lake sediments",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:xtRiw3GOFMkC",
+      "citation_id": "Cpzn1noAAAAJ:xtRiw3GOFMkC",
+      "authors": "R Boukezzoula, D Coquin, K Jacq",
+      "publication": "Information Sciences 510, 183-204, 2020",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3885364728699511823",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3885364728699511823&engine=google_scholar&hl=en",
+        "cites_id": "3885364728699511823"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Decision method choice in a human posture recognition context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:3s1wT3WcHBgC",
+      "citation_id": "Cpzn1noAAAAJ:3s1wT3WcHBgC",
+      "authors": "S Perrin, E Benoit, D Coquin",
+      "publication": "Human-Computer Systems Interaction: Backgrounds and Applications 4, 129-139, 2018",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16820410029724685677",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16820410029724685677&engine=google_scholar&hl=en",
+        "cites_id": "16820410029724685677"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Fusion method choice driven by user constraints in a human gesture recognition context",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:lSLTfruPkqcC",
+      "citation_id": "Cpzn1noAAAAJ:lSLTfruPkqcC",
+      "authors": "S Perrin, E Benoit, D Coquin",
+      "publication": "2015 8th International Conference on Human System Interaction (HSI), 316-321, 2015",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1284020131287612638",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1284020131287612638&engine=google_scholar&hl=en",
+        "cites_id": "1284020131287612638"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Body posture measurement in a context of example-based teaching",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:RYcK_YlVTxYC",
+      "citation_id": "Cpzn1noAAAAJ:RYcK_YlVTxYC",
+      "authors": "E Benoit, S Perrin, D Coquin",
+      "publication": "Journal of Physics: Conference Series 588 (1), 012055, 2015",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2809505641140237683",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2809505641140237683&engine=google_scholar&hl=en",
+        "cites_id": "2809505641140237683"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Symbolic evaluation of a fusion system devoted to 3D image interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:_kc_bZDykSQC",
+      "citation_id": "Cpzn1noAAAAJ:_kc_bZDykSQC",
+      "authors": "A Lamallem, L Valet, D Coquin, B de Lima, S Galichet",
+      "publication": "32th Iberian Latin American Congress on Computational Methods in Engineering …, 2011",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5620469289699137468",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5620469289699137468&engine=google_scholar&hl=en",
+        "cites_id": "5620469289699137468"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "A separability index based on earth mover's distance for local evaluation of fusion systems",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:7PzlFSSx8tAC",
+      "citation_id": "Cpzn1noAAAAJ:7PzlFSSx8tAC",
+      "authors": "A Lamallem, L Valet, D Coquin",
+      "publication": "2010 International Symposium on Optomechatronic Technologies, 1-7, 2010",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12773693044433323182",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12773693044433323182&engine=google_scholar&hl=en",
+        "cites_id": "12773693044433323182"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "A multilevel clustering method for risky areas in the context of avalanche danger management",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:sSrBHYA8nusC",
+      "citation_id": "Cpzn1noAAAAJ:sSrBHYA8nusC",
+      "authors": "F Pagnier, F Pourraz, D Coquin, H Verjus, G Mauris",
+      "publication": "International Conference on Information Processing and Management of …, 2022",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15268510648794288835",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15268510648794288835&engine=google_scholar&hl=en",
+        "cites_id": "15268510648794288835"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "A Global System for Avalanche Risk Assessment",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:5Ul4iDaHHb8C",
+      "citation_id": "Cpzn1noAAAAJ:5Ul4iDaHHb8C",
+      "authors": "F Pagnier, F Pourraz, H Verjus, D Coquin, G Mauris",
+      "publication": "2022 IEEE 24th Conference on Business Informatics (CBI) 2, 57-64, 2022",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11531043604482010844",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11531043604482010844&engine=google_scholar&hl=en",
+        "cites_id": "11531043604482010844"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Classification des précipitations sur les massifs alpins français",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:tOudhMTPpwUC",
+      "citation_id": "Cpzn1noAAAAJ:tOudhMTPpwUC",
+      "authors": "F Pagnier, D Coquin, F Pourraz, H Verjus, G Mauris",
+      "publication": "ORASIS 2021, 2021",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12987785781671491047",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12987785781671491047&engine=google_scholar&hl=en",
+        "cites_id": "12987785781671491047"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Laboratory hyperspectral imaging a powerful tool for a fast-high-resolution analysis of natural sample: application to sediment core.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:_xSYboBqXhAC",
+      "citation_id": "Cpzn1noAAAAJ:_xSYboBqXhAC",
+      "authors": "K Jacq, Y Perrette, B Fanget, P Sabatier, D Coquin, M Debret, F Arnaud",
+      "publication": "Geophysical Research Abstracts 21, 2019",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13851414682097358261",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13851414682097358261&engine=google_scholar&hl=en",
+        "cites_id": "13851414682097358261"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "K-NN crédibiliste pour la reconnaissance automatique des espèces d'arbres",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:abG-DnoFyZgC",
+      "citation_id": "Cpzn1noAAAAJ:abG-DnoFyZgC",
+      "authors": "S Jendoubi, D Coquin, R Boukezzoula",
+      "publication": "LFA 2018-Rencontres francophones sur la Logique Floue et ses Applications, 2018",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16119279215622426546",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16119279215622426546&engine=google_scholar&hl=en",
+        "cites_id": "16119279215622426546"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Hyperspectral imaging for lake sediment cores analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:yD5IFk8b50cC",
+      "citation_id": "Cpzn1noAAAAJ:yD5IFk8b50cC",
+      "authors": "K Jacq, Y Perrette, B Fanget, D Coquin, P Sabatier, W Rapuc, C Blanchet, ...",
+      "publication": "Proceedings of the IPAIAL Stockholm 2018 Conference, 735-743, 2018",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7978131023015464136",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7978131023015464136&engine=google_scholar&hl=en",
+        "cites_id": "7978131023015464136"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "An evidential system for color recognition using multi-cameras",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:ZHo1McVdvXMC",
+      "citation_id": "Cpzn1noAAAAJ:ZHo1McVdvXMC",
+      "authors": "TL Nguyen, D Coquin, R Boukezzoula",
+      "publication": "2017 IEEE International Conference on Computational Intelligence and Virtual …, 2017",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14721288562869765066",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14721288562869765066&engine=google_scholar&hl=en",
+        "cites_id": "14721288562869765066"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "A content-driven system architecture for tackling automatic cataloging of animated movie databases",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:IWHjjKOFINEC",
+      "citation_id": "Cpzn1noAAAAJ:IWHjjKOFINEC",
+      "authors": "B Ionescu, A Marin, P Lambert, D Coquin, C Vertan",
+      "publication": "Multimedia Storage and Retrieval Innovations for Digital Library Systems …, 2012",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17673498169061162999",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17673498169061162999&engine=google_scholar&hl=en",
+        "cites_id": "17673498169061162999"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Towards the supervision of a fusion system for 3d image interpretation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:Wp0gIr-vW9MC",
+      "citation_id": "Cpzn1noAAAAJ:Wp0gIr-vW9MC",
+      "authors": "A Lamallem, L Valet, D Coquin",
+      "publication": "2011 11th International Conference on Intelligent Systems Design and …, 2011",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1059263151661218313",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1059263151661218313&engine=google_scholar&hl=en",
+        "cites_id": "1059263151661218313"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Analyzing Animated Movie Contents for Automatic Video Indexing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:maZDTaKrznsC",
+      "citation_id": "Cpzn1noAAAAJ:maZDTaKrznsC",
+      "authors": "B Ionescu, P Lambert, D Coquin, A Marin, C Vertan",
+      "publication": "Machine Learning Techniques for Adaptive Multimedia Retrieval: Technologies …, 2011",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15069854929538805998",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15069854929538805998&engine=google_scholar&hl=en",
+        "cites_id": "15069854929538805998"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Lower and upper bounds for scaling factors used for integer approximation of 3D anisotropic chamfer distance operator",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:QIV2ME_5wuYC",
+      "citation_id": "Cpzn1noAAAAJ:QIV2ME_5wuYC",
+      "authors": "D Coquin, P Bolon",
+      "publication": "Discrete Geometry for Computer Imagery: 15th IAPR International Conference …, 2009",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5630711057259409841",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5630711057259409841&engine=google_scholar&hl=en",
+        "cites_id": "5630711057259409841"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Fusion of hand and arm gestures",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:mVmsd5A6BfQC",
+      "citation_id": "Cpzn1noAAAAJ:mVmsd5A6BfQC",
+      "authors": "D Coquin, E Benoit, H Sawada, B Ionescu",
+      "publication": "Optomechatronic Machine Vision 6051, 127-137, 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2638196760451769665",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2638196760451769665&engine=google_scholar&hl=en",
+        "cites_id": "2638196760451769665"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Influence de la Réduction des Couleurs sur la Détection des Changements de Plan dans les Films d’Animation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:dhFuZR0502QC",
+      "citation_id": "Cpzn1noAAAAJ:dhFuZR0502QC",
+      "authors": "B IONESCU, P LAMBERT, D COQUIN, V BUZULOIU",
+      "publication": "soumis au 20eme colloque sur le traitement du signal et des images (GRETSI 2005), 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7827520587778950874",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7827520587778950874&engine=google_scholar&hl=en",
+        "cites_id": "7827520587778950874"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "Distributed data fusion applied to human gesture measurement",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:9ZlFYXVOiuMC",
+      "citation_id": "Cpzn1noAAAAJ:9ZlFYXVOiuMC",
+      "authors": "E Benoit, D Coquin, H Sawada",
+      "publication": "REM 2005, 92-96, 2005",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5031904272777823849",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5031904272777823849&engine=google_scholar&hl=en",
+        "cites_id": "5031904272777823849"
+      },
+      "year": "2005"
+    },
+    {
+      "title": "STATIC HAND GESTURE RECOGNITION SYSTEM",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:iH-uZ7U-co4C",
+      "citation_id": "Cpzn1noAAAAJ:iH-uZ7U-co4C",
+      "authors": "B Ionescu, D Coquin, P Lambert, V Buzuloiu",
+      "publication": "University\" Politehnica\" of Bucharest Scientific Bulletin, Series C …, 2004",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11873340183107462796",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11873340183107462796&engine=google_scholar&hl=en",
+        "cites_id": "11873340183107462796"
+      },
+      "year": "2004"
+    },
+    {
+      "title": "A new method to compute the distortion vector field from two images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:ZeXyd9-uunAC",
+      "citation_id": "Cpzn1noAAAAJ:ZeXyd9-uunAC",
+      "authors": "D Coquin, P Bolon",
+      "publication": "2002 International Conference on Pattern Recognition 1, 279-282, 2002",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16697911647805071688",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16697911647805071688&engine=google_scholar&hl=en",
+        "cites_id": "16697911647805071688"
+      },
+      "year": "2002"
+    },
+    {
+      "title": "Quantitative assessment of image filtering: comparison of objective metrics",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:L8Ckcad2t8MC",
+      "citation_id": "Cpzn1noAAAAJ:L8Ckcad2t8MC",
+      "authors": "D Coquin, P Bolon",
+      "publication": "Imaging and vision systems: theory, assessment and applications, 129-139, 2001",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14278164193103385938",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14278164193103385938&engine=google_scholar&hl=en",
+        "cites_id": "14278164193103385938"
+      },
+      "year": "2001"
+    },
+    {
+      "title": "Segmentation et analyse d'Images pour la classification automatique: application au zooplancton",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:-f6ydRqryjwC",
+      "citation_id": "Cpzn1noAAAAJ:-f6ydRqryjwC",
+      "authors": "D Coquin",
+      "publication": "Rennes 1, 1991",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12526403577825284068",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12526403577825284068&engine=google_scholar&hl=en",
+        "cites_id": "12526403577825284068"
+      },
+      "year": "1991"
+    },
+    {
+      "title": "L'imagerie hyperspectrale pour comprendre le passé: application en sédimentologie et en archéologie pariétale",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:eJXPG6dFmWUC",
+      "citation_id": "Cpzn1noAAAAJ:eJXPG6dFmWUC",
+      "authors": "K Jacq, M Debret, C Defrasne, B Schmitt, M Masse, M Giraud, D Fligiel, ...",
+      "publication": "9ème colloque scientifique du groupe hyperspectral de la SFPT, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "L’Université Grenoble Alpes a adopté son schéma directeur de la science ouverte, présenté et voté à l’unanimité au CA du 13 octobre 2022.",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:VOx2b1Wkg3QC",
+      "citation_id": "Cpzn1noAAAAJ:VOx2b1Wkg3QC",
+      "authors": "K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget",
+      "publication": "Évolution 15, 11, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Fuzzification de la distance d’arrêt des avalanches dans les Alpes françaises pour l’aide à la décision en ski de randonnée",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&pagesize=100&citation_for_view=Cpzn1noAAAAJ:tS2w5q8j5-wC",
+      "citation_id": "Cpzn1noAAAAJ:tS2w5q8j5-wC",
+      "authors": "F Pagnier, F Pourraz, G Mauris, D Coquin, H Verjus",
+      "publication": "LFA 2021-Rencontres francophones sur la Logique Floue et ses Applications, 77-84, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+        "title": "Machine learning and deep learning for retro-observation of critical zone processes with hyperspectral imaging",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:08ZZubdj9fEC",
+        "citation_id": "Cpzn1noAAAAJ:08ZZubdj9fEC",
+        "authors": "K Jacq, K Humbert, J Auboiron, T Gardes, B Fanget, A Benoit, D Coquin, ...",
+        "publication": "OZCAR TERENO International Conference, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Structure-from-motion multi-view photogrammetry applied to linear-scan sediment cores images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:LPZeul_q3PIC",
+        "citation_id": "Cpzn1noAAAAJ:LPZeul_q3PIC",
+        "authors": "K Jacq, W Rapuc, C Blanchet, E Ployon, C Pignol, D Coquin, B Fanget",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "From XRF and hyperspectral analyses to an automatic way to detect flood events on sediment cores",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:OU6Ihb5iCvQC",
+        "citation_id": "Cpzn1noAAAAJ:OU6Ihb5iCvQC",
+        "authors": "R William, K Jacq, AL Develle, P Sabatier, F Bernard, Y Perrette, C Didier, ...",
+        "publication": "EarthArXiv, 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Correction of Belief Function to Improve the Performances of a Fusion System",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:SP6oXDckpogC",
+        "citation_id": "Cpzn1noAAAAJ:SP6oXDckpogC",
+        "authors": "D Coquin, R Boukezzoula, R Ben Ameur",
+        "publication": "International Conference on Information Processing and Management of …, 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Combining hyperspectral and XRF analyses to reconstruct high-resolution past flood frequency from lake sediments",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:uWQEDVKXjbEC",
+        "citation_id": "Cpzn1noAAAAJ:uWQEDVKXjbEC",
+        "authors": "K Jacq, W Rapuc, AL Develle, P Sabatier, B Fanget, D Coquin, M Debret, ...",
+        "publication": "EGU2020, 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Fusion multimodale pour la reconnaissance des espèces d'arbres à partir des feuilles et des écorces",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:nb7KW1ujOQ8C",
+        "citation_id": "Cpzn1noAAAAJ:nb7KW1ujOQ8C",
+        "authors": "S Jendoubi, D Coquin, R Boukezzoula",
+        "publication": "LFA'19, 28ème Rencontres Francophones sur la Logique Floue et ses …, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "L’analyse multi-capteurs, un enjeu pour une connaissance plus précise des échantillons",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:bFI3QPDXJZMC",
+        "citation_id": "Cpzn1noAAAAJ:bFI3QPDXJZMC",
+        "authors": "K Jacq, Y Perrette, B Fanget, P Sabatier, D Coquin, M Debret, F Arnaud",
+        "publication": "Journée thématique du GdR ISIS:\" Images et data: méthodes d'analyse et …, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Internet of Things",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:Tiz5es2fbqcC",
+        "citation_id": "Cpzn1noAAAAJ:Tiz5es2fbqcC",
+        "authors": "D Coquin, R Boukezzoula, A Benoit, TL Nguyen",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Micrometric mapping of total organic carbon in lake sediment cores combining fusion of multiresolution hyperspectral images and PLSR analysis",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:a0OBvERweLwC",
+        "citation_id": "Cpzn1noAAAAJ:a0OBvERweLwC",
+        "authors": "K Jacq, Y Perrette, B Fanget, D Coquin, P Sabatier, M Debret, RM Lamas, ...",
+        "publication": "2018 Chemometrics in Analytical Chemistry, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Fusion of multiresolution hyperspectral and fluorescence images for the analysis of sediment cores",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:cFHS6HbyZ2cC",
+        "citation_id": "Cpzn1noAAAAJ:cFHS6HbyZ2cC",
+        "authors": "K Jacq, D Coquin, Y Perrette, B Fanget, P Sabatier, M Debret, RM Lamas, ...",
+        "publication": "2018 Chemometrics in Analytical Chemistry, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Hyperspectral Imaging for high resolution, non-destructive and fast analysis of sediment cores: application to Lake Le Bourget and Black Sea sediment cores.",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:4OULZ7Gr8RgC",
+        "citation_id": "Cpzn1noAAAAJ:4OULZ7Gr8RgC",
+        "authors": "K Jacq, RM Lamas, Y Perrette, B Fanget, M Debret, D Coquin, P Sabatier, ...",
+        "publication": "International Meeting of Sedimentology, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Conception d'applications ludo-éducatives mobiles en botanique",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:rO6llkc54NcC",
+        "citation_id": "Cpzn1noAAAAJ:rO6llkc54NcC",
+        "authors": "S George, D Coquin, T Joliveau, V Malécot, L Tougne",
+        "publication": "Ludovia 2016, 2016",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2016"
+      },
+      {
+        "title": "Système d’aide à la reconnaissance d’espèces d’arbres à partir d’une base de connaissance incomplète, partielle et conflictuelle",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:M05iB0D1s5AC",
+        "citation_id": "Cpzn1noAAAAJ:M05iB0D1s5AC",
+        "authors": "RB Ameur, L Valet, D Coquin, S Galichet",
+        "publication": "25 ièmes rencontres francophones sur la Logique Floue et ses Applications …, 2016",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2016"
+      },
+      {
+        "title": "Color Recognition for NAO Robot Using Sugeno Fuzzy System and Evidence",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:f2IySw72cVMC",
+        "citation_id": "Cpzn1noAAAAJ:f2IySw72cVMC",
+        "authors": "TL Nuyen, R Boukezzoula, D Coquin, S Perrin",
+        "publication": "2015 Conference of the International Fuzzy Systems Association and the …, 2015",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2015"
+      },
+      {
+        "title": "Reconnaissance de feuilles d'arbres par fusion de décisions partielles",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:O3NaXMp0MMsC",
+        "citation_id": "Cpzn1noAAAAJ:O3NaXMp0MMsC",
+        "authors": "H Liu, D Coquin, L Valet",
+        "publication": "24ième Colloque GRETSI en Traitement du Signal et des Images, 4, 2013",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2013"
+      },
+      {
+        "title": "A multi level evaluation for fusion system interaction improvement",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:4DMP91E08xMC",
+        "citation_id": "Cpzn1noAAAAJ:4DMP91E08xMC",
+        "authors": "A Lamallem, L Valet, D Coquin",
+        "publication": "Advances on Computational Intelligence: 14th International Conference on …, 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Evaluation locale de la performance basée sur un critère Mission/Qualité",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:r0BpntZqJG4C",
+        "citation_id": "Cpzn1noAAAAJ:r0BpntZqJG4C",
+        "authors": "A Lamallem, D Coquin, L Valet",
+        "publication": "23ième colloque GRETSI en Traitement du Signal et des Images (GRETSI 2011 …, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Integer approximation of 3D chamfer mask coefficients using a scaling factor in anisotropic grids",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:hC7cP41nSMkC",
+        "citation_id": "Cpzn1noAAAAJ:hC7cP41nSMkC",
+        "authors": "D Coquin, P Bolon",
+        "publication": "Pattern recognition letters 32 (9), 1365-1373, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Front Matter: Volume 7266",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:D_sINldO8mEC",
+        "citation_id": "Cpzn1noAAAAJ:D_sINldO8mEC",
+        "authors": "J Kofman, D Coquin, S Kaneko, T Fukuda, D Hodko, Y Bellouard, Y Otani, ...",
+        "publication": "SPIE Proceedings, 2008",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2008"
+      },
+      {
+        "title": "Optomechatronic Technologies 2008",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:mB3voiENLucC",
+        "citation_id": "Cpzn1noAAAAJ:mB3voiENLucC",
+        "authors": "Y Otani, Y Bellouard, JTY Wen, D Hodko, Y Katagiri, SK Kassegne, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2008"
+      },
+      {
+        "title": "Optomechatronic Computer-Vision Systems II",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:hFOr9nPyWt4C",
+        "citation_id": "Cpzn1noAAAAJ:hFOr9nPyWt4C",
+        "authors": "Y Li, H Takauji, S Kaneko, T Tanaka, I Ohmura, D Hong, K Park, H Cho, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Event detection for car park entries by video-surveillance",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:qUcmZB5y_30C",
+        "citation_id": "Cpzn1noAAAAJ:qUcmZB5y_30C",
+        "authors": "D Coquin, J Tailland, M Cintract",
+        "publication": "Optomechatronic Computer-Vision Systems II 6718, 123-130, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Optomechatronic Computer-Vision Systems II",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:TFP_iSt0sucC",
+        "citation_id": "Cpzn1noAAAAJ:TFP_iSt0sucC",
+        "authors": "J Kofman, Y Lopez de Meneses, S Kaneko, CA Perez, D Coquin",
+        "publication": "Optomechatronic Computer-Vision Systems II 6718, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Computer-Vision Systems II",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:YFjsv_pBGBYC",
+        "citation_id": "Cpzn1noAAAAJ:YFjsv_pBGBYC",
+        "authors": "J Kofman, YL de Meneses, S Kaneko, CA Perez, D Coquin",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Event detection for car park entries by video-surveillance [6718-15]",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:j3f4tGmQtD8C",
+        "citation_id": "Cpzn1noAAAAJ:j3f4tGmQtD8C",
+        "authors": "D Coquin, J Tailland, M Cintract",
+        "publication": "PROCEEDINGS-SPIE THE INTERNATIONAL SOCIETY FOR OPTICAL ENGINEERING 6718, 6718, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "CHARACTERIZATION OF THE MOVEMENT IN CARTOON FILMS",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:HDshCWvjkbEC",
+        "citation_id": "Cpzn1noAAAAJ:HDshCWvjkbEC",
+        "authors": "B Ionescu, P Lambert, D Coquin, V Buzuloiu",
+        "publication": "University\" Politehnica\" of Bucharest Scientific Bulletin, Series C …, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "ANALYSIS OF ANIMATION MOVIES: SEGMENTATION, ABSTRACTION AND ANNOTATION",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:hMod-77fHWUC",
+        "citation_id": "Cpzn1noAAAAJ:hMod-77fHWUC",
+        "authors": "B Ionescu, P Lambert, D Coquin, V Buzuloiu",
+        "publication": "University\" Politehnica\" of Bucharest Scientific Bulletin, Series C …, 2005",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2005"
+      },
+      {
+        "title": "Segmentation of range and reflectance images with an expert system",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:M3NEmzRMIkIC",
+        "citation_id": "Cpzn1noAAAAJ:M3NEmzRMIkIC",
+        "authors": "D Coquin, M Bohner",
+        "publication": "Sixth International Conference of Information Fusion, 2003. Proceedings of …, 2003",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2003"
+      },
+      {
+        "title": "Signature de la déformation entre deux images à niveaux de gris",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:TQgYirikUcIC",
+        "citation_id": "Cpzn1noAAAAJ:TQgYirikUcIC",
+        "authors": "P BOLON, D COQUIN",
+        "publication": "GRETSI'01: 18e colloque sur le traitement du signal et des images (Toulouse …, 2001",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2001"
+      },
+      {
+        "title": "NEURAL NETWORKS & VISION Location: Chair",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:R3hNpaxXUhUC",
+        "citation_id": "Cpzn1noAAAAJ:R3hNpaxXUhUC",
+        "authors": "K Chehdi, D Coquin, E IASTI, FM Session, SJ Eady, C Rose, E Velez, ...",
+        "publication": "Conference proceedings 1, 1991",
+        "cited_by": {
+          "value": null
+        },
+        "year": "1991"
+      },
+      {
+        "title": "to reconstruct high-resolution past flood frequency from lake sediments",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:vRqMK49ujn8C",
+        "citation_id": "Cpzn1noAAAAJ:vRqMK49ujn8C",
+        "authors": "K Jacq, W Rapuc, AL Develle, P Sabatier, B Fanget, D Coquin, M Debret, ...",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "La couleur dans les séquences d’images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:JV2RwH3_ST0C",
+        "citation_id": "Cpzn1noAAAAJ:JV2RwH3_ST0C",
+        "authors": "P Lambert, B Ionescu, D Coquin",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Mesures Objectives de comparaison d'images: Application à la comparaison d'images couleurs",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:bEWYMUwI8FkC",
+        "citation_id": "Cpzn1noAAAAJ:bEWYMUwI8FkC",
+        "authors": "D COQUIN",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "CARACTERISATION DU MOUVEMENT DANS LES FILMS D’ANIMATION",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:4JMBOYKVnBMC",
+        "citation_id": "Cpzn1noAAAAJ:4JMBOYKVnBMC",
+        "authors": "B IONESCU, P LAMBERT, D COQUIN, V BUZULOIU",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Contribution à la comparaison d’images pour l’évaluation des traitements, la reconnaissance de formes et l’indexation des séquences d’images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Cpzn1noAAAAJ&cstart=100&pagesize=100&citation_for_view=Cpzn1noAAAAJ:e5wmG9Sq2KIC",
+        "citation_id": "Cpzn1noAAAAJ:e5wmG9Sq2KIC",
+        "authors": "D COQUIN",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      }
+  ]

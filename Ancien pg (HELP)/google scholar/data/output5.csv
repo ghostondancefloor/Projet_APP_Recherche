@@ -1,0 +1,122 @@
+researcher,title,authors,value of cited by,year
+Alexandre Benoit,3-D deep learning approach for remote sensing image classification,"AB Hamida, A Benoit, P Lambert, CB Amar",702,2018
+Alexandre Benoit,Quality assessment of stereoscopic images,"A Benoit, P Le Callet, P Campisi, R Cousseau",449,2009
+Alexandre Benoit,Using human visual system modeling for bio-inspired low level image processing,"A Benoit, A Caplier, B Durette, J Hérault",143,2010
+Alexandre Benoit,Using disparity for quality assessment of stereoscopic images,"A Benoit, P Le Callet, P Campisi, R Cousseau",115,2008
+Alexandre Benoit,Signtutor: An interactive system for sign language tutoring,"O Aran, I Ari, L Akarun, B Sankur, A Benoit, A Caplier, P Campr, ...",104,2009
+Alexandre Benoit,Privacy and security in federated learning: A survey,"R Gosselin, L Vieu, F Loukil, A Benoit",84,2022
+Alexandre Benoit,Multimodal focus attention and stress detection and feedback in an augmented driver simulator,"A Benoit, L Bonnaud, A Caplier, P Ngo, L Lawson, DG Trevisan, ...",54,2009
+Alexandre Benoit,Sign language tutoring tool,"O Aran, C Keskin, L Akarun",52,2005
+Alexandre Benoit,Spatio-temporal tone mapping operator based on a retina model,"A Benoit, D Alleysson, J Herault, P Le Callet",51,2009
+Alexandre Benoit,Hypovigilence analysis: open or closed eye or mouth? Blinking or yawning frequency?,"A Benoit, A Caplier",46,2005
+Alexandre Benoit,Quality assessment of stereoscopic images. EURASIP J,"A Benoit, P Le Callet, P Campisi, R Cousseau",44,2008
+Alexandre Benoit,PDE-based enhancement of color images in RGB space,"S Bettahar, AB Stambouli, P Lambert, A Benoit",35,2011
+Alexandre Benoit,Hierarchical late fusion for concept detection in videos,"ST Strat, A Benoit, P Lambert, H Bredin, G Quénot",32,2014
+Alexandre Benoit,Multimodal signal processing and interaction for a driving simulator: Component-based architecture,"A Benoit, L Bonnaud, A Caplier, F Jourde, L Nigay, M Serrano, ...",32,2007
+Alexandre Benoit,Irim at TRECVID 2014: Semantic indexing and instance search,"N Ballas, B Labbé, H Le Borgne, P Gosselin, D Picard, M Redi, ...",30,2014
+Alexandre Benoit,Deep learning for semantic segmentation of remote sensing images with rich spectral content,"AB Hamida, A Benoit, P Lambert, L Klein, CB Amar, N Audebert, ...",29,2017
+Alexandre Benoit,Open or closed mouth state detection: static supervised classification based on log-polar signature,"C Bouvier, A Benoit, A Caplier, PY Coulon",29,2008
+Alexandre Benoit,IRIM at TRECVID 2010: Semantic Indexing and Instance Search,"D Gorisse, F Precioso, P Gosselin, L Granjon, D Pellerin, M Rombaut, ...",27,2010
+Alexandre Benoit,Head nods analysis: interpretation of non verbal communication gestures,"A Benoit, A Caplier",27,2005
+Alexandre Benoit,Timed-image based deep learning for action recognition in video sequences,"AM Atto, A Benoit, P Lambert",26,2020
+Alexandre Benoit,Multiscale fully convolutional densenet for semantic segmentation,"S Brahimi, N Ben Aoun, C Ben Amar, A Benoit, P Lambert",21,2018
+Alexandre Benoit,Semantic segmentation using reinforced fully convolutional densenet with multiscale kernel,"S Brahimi, N Ben Aoun, A Benoit, P Lambert, C Ben Amar",20,2019
+Alexandre Benoit,Indexed operations for non-rectangular lattices applied to convolutional neural networks,"M Jacquemont, L Antiga, T Vuillaume, G Silvestri, A Benoit, P Lambert, ...",20,2019
+Alexandre Benoit,Deep Learning for automatic sale receipt understanding,"R Raoui-Outach, C Million-Rousseau, A Benoit, P Lambert",20,2017
+Alexandre Benoit,Motion estimator inspired from biological model for head motion interpretation,"A Benoit, A Caplier",19,2005
+Alexandre Benoit,First full-event reconstruction from imaging atmospheric cherenkov telescope real data with deep learning,"M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert, G Lamanna",18,2021
+Alexandre Benoit,GammaLearn: a Deep Learning framework for IACT data,"M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert, G Lamanna, ...",18,2019
+Alexandre Benoit,Explainability of image semantic segmentation through shap values,"P Dardouillet, A Benoit, E Amri, P Bolon, D Dubucq, A Crédoz",17,2022
+Alexandre Benoit,Deep learning approach for remote sensing image analysis,"AB Hamida, A Benoit, P Lambert, C Ben-Amar",17,2016
+Alexandre Benoit,Retina enhanced SIFT descriptors for video indexing,"ST Strat, A Benoit, P Lambert",17,2013
+Alexandre Benoit,Sedimentary structure discrimination with hyperspectral imaging in sediment cores,"K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget, Y Perrette, P Sabatier, ...",16,2022
+Alexandre Benoit,Offshore oil slick detection: From photo-interpreter to explainable multi-modal deep learning models using SAR images and contextual data,"E Amri, P Dardouillet, A Benoit, H Courteille, P Bolon, D Dubucq, ...",15,2022
+Alexandre Benoit,Irim at trecvid 2011: Semantic indexing and instance search,"B Delezoide, F Precioso, PH Gosselin, M Redi, B Merialdo, L Granjon, ...",15,2011
+Alexandre Benoit,Biological approach for head motion detection and analysis,"A Benoit, A Caplier",15,2005
+Alexandre Benoit,Retina enhanced SURF descriptors for spatio-temporal concept detection,"ST Strat, A Benoit, P Lambert, A Caplier",14,2014
+Alexandre Benoit,A color-action perceptual approach to the classification of animated movies,"B Ionescu, C Vertan, P Lambert, A Benoit",13,2011
+Alexandre Benoit,Offshore oil slicks detection from sar images through the mask-rcnn deep learning model,"A Emna, B Alexandre, P Bolon, M Véronique, C Bruno, O Georges",12,2020
+Alexandre Benoit,Analysis of the Cherenkov Telescope Array first Large-Sized Telescope real data using convolutional neural networks,"T Vuillaume, M Jacquemont, MB de Lavergne, DA Sanchez, V Poireau, ...",11,2021
+Alexandre Benoit,Fusing bio-inspired vision data for simplified high level scene interpretation: Application to face motion analysis,"A Benoit, A Caplier",11,2010
+Alexandre Benoit,The human visual system as a complete solution for image processing,A Benoit,11,2007
+Alexandre Benoit,Assistance via IoT networking cameras and evidence theory for 3D object instance recognition: Application for the NAO humanoid robot,"D Coquin, R Boukezzoula, A Benoit, TL Nguyen",10,2020
+Alexandre Benoit,Deep learning for dehazing: Comparison and analysis,"LC Valeriano, JB Thomas, A Benoit",10,2018
+Alexandre Benoit,Explaining a deep spatiotemporal land cover classifier with attention and redescription mining,"N Méger, H Courteille, A Benoit, A Atto, D Ienco",9,2022
+Alexandre Benoit,Multimodal focus attention and stress detection and feedback in an augmented driver simulator,"A Benoit, L Bonnaud, A Caplier, P Ngo, L Lawson, DG Trevisan, ...",9,2006
+Alexandre Benoit,Multi-task architecture with attention for imaging atmospheric cherenkov telescope data analysis,"M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert",8,2021
+Alexandre Benoit,Retina enhanced bag of words descriptors for video classification,"ST Strat, A Benoit, P Lambert",8,2014
+Alexandre Benoit,Le système visuel humain au secours de la vision par ordinateur,A Benoît,8,2007
+Alexandre Benoit,Intercepting static hand gestures in dynamic context,"T Burger, A Benoit, A Caplier",7,2006
+Alexandre Benoit,Single imaging atmospheric cherenkov telescope full-event reconstruction with a deep multi-task learning architecture,"M Jacquemont, T Vuillaume, A Benoît, G Maurin, P Lambert",6,2020
+Alexandre Benoit,IRIM at TRECVID 2018: Instance search,"B Mansencal, J Benois-Pineau, H Bredin, G Quénot",5,2018
+Alexandre Benoit,Deep learning vs spectral clustering into an active clustering with pairwise constraints propagation,"N Voiron, A Benoit, P Lambert, B Ionescu",5,2016
+Alexandre Benoit,Gaze direction estimation tool based on head motion analysis or iris position estimation,"A Benoit, A Caplier, L Bonnaud",5,2005
+Alexandre Benoit,Motion Estimator Inspired from Biological Model for Head Motion Interpretation–WIAMIS05,"A Benoit, A Caplier",5,2005
+Alexandre Benoit,Using Deep Learning for Glacier Thickness Estimation at a Regional Scale,"LL Uroz, Y Yan, A Benoit, A Rabatel, S Giffard-Roisin, C Lin-Kwong-Chon",4,2024
+Alexandre Benoit,Deep learning based automatic detection of offshore oil slicks using SAR data and contextual information,"E Amri, H Courteille, A Benoit, P Bolon, D Dubucq, G Poulain, A Credoz",4,2021
+Alexandre Benoit,GammaLearn-first steps to apply Deep Learning to the Cherenkov Telescope Array data,"T Vuillaume, J Mikael, L Antiga, A Benoit, P Lambert, G Maurin, G Silvestri",4,2019
+Alexandre Benoit,IRIM at TRECVid 2015: semantic indexing,"H Le Borgne, P Gosselin, D Picard, M Redi, B Mérialdo, B Mansencal, ...",4,2015
+Alexandre Benoit,"A biomimetic real time retinal simulation software with non separable spatiotemporal processing, chromaticity and non linear local adaptivity","B Durette, A Benoit, BC De Lavarène, D Alleysson, J Hérault",4,2007
+Alexandre Benoit,Deep unsupervised domain adaptation applied to the Cherenkov Telescope Array Large-Sized Telescope,"M Dell'Aiera, T Vuillaume, M Jacquemont, A Benoit",3,2023
+Alexandre Benoit,Channel-based attention for land cover classification using Sentinel-2 time series,"H Courteille, A Benoît, N Méger, A Atto, D Ienco",3,2021
+Alexandre Benoit,Semi-supervised Spectral Clustering with automatic propagation of pairwise constraints,"N Voiron, A Benoit, A Filip, P Lambert, B Ionescu",3,2015
+Alexandre Benoit,Bags of Trajectory Words for video indexing,"ST Strat, A Benoit, P Lambert",3,2014
+Alexandre Benoit,Automatic difference measure between movies using dissimilarity measure fusion and rank correlation coefficients,"N Voiron, A Benoit, P Lambert",3,2012
+Alexandre Benoit,Extracting static hand gestures in dynamic context,"T Burger, A Benoit, A Caplier",3,2006
+Alexandre Benoit,A multitask deep learning model for classification and regression of hyperspectral images: Application to the large-scale dataset,"K Chhapariya, A Benoit, KM Buddhiraju, A Kumar",2,2024
+Alexandre Benoit,A deep learning-based multitasking model for hyperspectral image analysis using novel taiga dataset,"K Chhapariya, A Benoit, KM Buddhiraju, A Kumar",2,2024
+Alexandre Benoit,"Deep learning for astrophysics, understanding the impact of attention on variability induced by parameter initialization","M Jacquemont, T Vuillaume, A Benoit, G Maurin, P Lambert",2,2021
+Alexandre Benoit,Deep learning for semantic segmentation,"A Benoit, B Ghattas, E Amri, J Fournel, P Lambert",2,2021
+Alexandre Benoit,Generative Adversarial Network (GAN) for remote sensing images unsupervised learning,"AB Hamida, A Benoit, P Lambert, CB Amar",2,2018
+Alexandre Benoit,Fast Semi-numerical Algorithms for Chebyshev Series,A Benoit,2,2012
+Alexandre Benoit,Enhancement of multi-valued images using PDE coupling,"S Bettahar, AB Stambouli, P Lambert, A Benoit",2,2011
+Alexandre Benoit,Similarity measurement for animation movies,"A Benoit, M Ciobotaru, P Lambert, B Ionescu",2,2011
+Alexandre Benoit,From bio-inspired vision toolbox to real-time computer vision algorithms,"A Benoit, A Caplier, B Durette, J Hérault",2,2007
+Alexandre Benoit,Explaining the decisions and the functioning of a convolutional spatiotemporal land cover classifier with channel attention and redescription mining,"E Pelous, N Méger, A Benoit, A Atto, D Ienco, H Courteille, ...",1,2024
+Alexandre Benoit,A low-cost machine learning process for gait measurement using an electrostatic sensors network,"B Pichon, E Benoit, S Perrin, A Benoit, N Berton, D Coves, J Cruvieux, ...",1,2024
+Alexandre Benoit,Improving ice thickness estimation of glaciers using deep learning methods: a case study in the Swiss Alps,"L Lopez Uroz, Y Yan, A Benoit, A Rabatel, A Dehecq, S Giffard-Roisin",1,2023
+Alexandre Benoit,Receipt automatic reader,"O Maslova, L Klein, D Dabernat, A Benoit, P Lambert",1,2019
+Alexandre Benoit,Aluminium/copper heterogeneous welding,"A Benoit, D Schleich, P Paillard, T Baudin",1,2019
+Alexandre Benoit,Deep learning for dehazing: Benchmark and analysis,"LC Valeriano, JB Thomas, A Benoit",1,2018
+Alexandre Benoit,Lecture automatique d'un ticket de caisse par vision embarquee sur un telephone mobile,"R Raoui-Outach, C Million-Rousseau, A Benoit, P Lambert",1,2016
+Alexandre Benoit,Analyse de trajectoires pour l'indexation sémantique des vidéos à grande échelle,"ST Strat, A Benoit, P Lambert",1,2014
+Alexandre Benoit,Retina-enhanced surf descriptors for semantic concept detection in videos,"ST Strat, A Benoit, P Lambert, A Caplier",1,2012
+Alexandre Benoit,Study of 6061 weld heat affected zones made with GMAW,"A Benoit, M Besse, R Louahdi, H Paul, P Paillard, T Baudin",1,2012
+Alexandre Benoit,Mémoire de Fin d’Etudes,"HV LUONG, A CAPLIER, A BENOÎT",1,2006
+Alexandre Benoit,Biological Approach for Head Detection and Analysis,"A Benoit, A Caplier",1,2005
+Alexandre Benoit,Motion Head Nods analaysis: interpretation of non verbal communication gestures,"A Benoit, A Caplier",1,2005
+Alexandre Benoit,JOINT MULTITASK LEARNING FOR IMAGE SEGMENTATION AND SALIENT OBJECT DETECTION IN HYPERSPECTRAL IMAGERY,"K Chhapariya, A Benoit, KI Anil",,2024
+Alexandre Benoit,Exploring Deep Learning for Volcanic Source Inversion,"LL Uroz, Y Yan, A Benoit, F Albino, P Bouygues, S Giffard-Roisin, V Pinel",,2024
+Alexandre Benoit,Deep‐learning Analysis of Cherenkov Telescope Array Images,"M JACQUEMONT, T VUILLAUME, A BENOIT, G MAURIN, P LAMBERT",,2024
+Alexandre Benoit,Discovering Communities With Clustered Federated Learning,"M Bettinelli, A Benoit, K Grandjean",,2024
+Alexandre Benoit,Deep Learning and IACT: Bridging the gap between Monte-Carlo simulations and LST-1 data using domain adaptation,"M Dellaiera, C Plard, T Vuillaume, A Benoit, S Caroff",,2024
+Alexandre Benoit,Unsupervised Domain Adaptation for Multitask Image Analysis in Realistic Context with Extreme Label Shift; Application to the Ctao First Large Sized Telescope,"M Dell'aiera, T Vuillaume, A Benoit",,2024
+Alexandre Benoit,Deep learning multimodal methods for geophysical inversion: application to glacier ice thickness estimation,"L Lopez Uroz, A Benoit, Y Yan, C Lin-Kwong-Chon, S Giffard-Roisin, ...",,2023
+Alexandre Benoit,A Path Towards Fair and Equitable AI Advancing Bias Mitigation in Federated Learning,"F Lynda, A Benoit, F Loukil, M Bettinelli, C Lin-Kwong-Chon",,2023
+Alexandre Benoit,Improving ice thickness estimation of glaciers using deep learning methods: a case study in the Swiss Alps,"LL Uroz, Y Yan, A Benoit, A Rabatel, A Dehecq, S Giffard-Roisin",,2023
+Alexandre Benoit,Bias mitigation for collaborative and ethical learning on dynamic data,"L Ferraguig, A Benoit, F Loukil, M Bettinelli",,2023
+Alexandre Benoit,"L’Université Grenoble Alpes a adopté son schéma directeur de la science ouverte, présenté et voté à l’unanimité au CA du 13 octobre 2022.","K Jacq, W Rapuc, A Benoit, D Coquin, B Fanget",,2022
+Alexandre Benoit,Machine learning and deep learning for retro-observation of critical zone processes with hyperspectral imaging,"K Jacq, K Humbert, J Auboiron, T Gardes, B Fanget, A Benoit, D Coquin, ...",,2021
+Alexandre Benoit,Content-based multimedia indexing (CBMI 2018)[SI 1104],"R Péteri, G Quénot, P Joly",,2021
+Alexandre Benoit,"Analyse automatique d'images, de l'expert à l'apprenti",A Benoit,,2019
+Alexandre Benoit,Internet of Things,"D Coquin, R Boukezzoula, A Benoit, TL Nguyen",,2019
+Alexandre Benoit,Hilbert Based Video To Timed-Image Filling and Learning To Recognize Visual Violence,"AM ATTO, A Benoît, P Lambert",,2018
+Alexandre Benoit,Method for welding and for hard surface deposition of metal parts made of aluminium by a MIG method with pulsed current and filler wire,"JB Mottin, JF Castagne, T Baudin, AYM Benoit, P Paillard",,2017
+Alexandre Benoit,Could Multimedia approaches help Remote Sensing Analysis?,"AB Hamida, A Benoit, P Lambert, C Ben-Amar",,2015
+Alexandre Benoit,Clustering Spectral semi-supervisé avec propagation des contraintes par paires,"N Voiron, A Benoit, A Filip, P Lambert, B Ionescu",,2015
+Alexandre Benoit,IRIM-Indexation et Recherche d'Information Multimedia GDR-ISIS,"N Ballas, B Labbé, A Shabou, H Le Borgne, P Gosselin, M Redi, ...",,2012
+Alexandre Benoit,Algorithmique semi-numérique rapide des séries de Tchebychev| Theses. fr,A Benoit,,2012
+Alexandre Benoit,Emotion Classification or face identification depend on which part of the face is analyzed,"A Benoit, N Guyader, A Caplier, J Hérault",,2007
+Alexandre Benoit,"Emotion classification and face identification, a bio-inspired model","A Benoit, N Guyader, A Caplier, J Herault",,2007
+Alexandre Benoit,"Real-time bio-inspired retina simulation software with non-linear, adaptive and chromatic spatio-temporal processing","B Durette, A Benoit, D Alleysson, J Hérault",,2006
+Alexandre Benoit,Real-time bio-inspired retina simulation software.,"A Benoit, B Durette, BC de Lavarène, D Alleysson, J Hérault",,2006
+Alexandre Benoit,Résumé-vulgarisation,A BENOIT,,2005
+Alexandre Benoit,Multimodal Focus Attention in an Augmented Driver Simulator,"A Benoit, L Bonnaud, A Caplier, P Ngo, L Lawson, D Trevisan, V Levacic, ...",,2005
+Alexandre Benoit,Aanund Jupskaas Nordskog,"AM Obeso, A Chatziagapi, AF Smeaton, A Messina, AA Ramírez, ...",,
+Alexandre Benoit,Hilbert Based Video To Timed-Image Filling and Learning To Recognize Visual Violence,"A Abdourrahmane Mahamane, A BENOIT, P LAMBERT",,
+Alexandre Benoit,DEEP LEARNING APPROACH FOR REMOTE SENSING IMAGE ANALYSIS,A Benoit,,
+Alexandre Benoit,GAZE DIRECTION ESTIMATION TOOL BASED ON HEAD MOTION ANALYSIS OR IRIS POSITION ESTIMATION (SunPmPO1),"A Benoit, A Caplier, L Bonnaud",,
+Alexandre Benoit,IRIM@ TRECVID2012,A Benoit,,
+Alexandre Benoit,"Damak M., 377","Z Abdulkader, J Abdul-Jabbar, O Abou Khaled, K Ait Saadi, M Akhloufi, ...",,
+Alexandre Benoit,Interprétation des mouvements de tête Impliqués dans le processus de communication non verbale Interpretation of Head Motions involved in Non Verbal Communication,"A Benoit, A Caplier",,
+Alexandre Benoit,Sign Language Tutoring Tool,"O Aran¹, I Ari¹, A Benoit, AH Carrillo, FX Fanard, P Campr, L Akarun¹, ...",,

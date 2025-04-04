@@ -1,0 +1,1754 @@
+[
+    {
+      "title": "On joint parameterizations of linear and nonlinear functionals in neural networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:SP6oXDckpogC",
+      "citation_id": "jUEAlrcAAAAJ:SP6oXDckpogC",
+      "authors": "AM Atto, S Galichet, D Pastor, N Méger",
+      "publication": "Neural Networks 160, 12-21, 2023",
+      "cited_by": {
+        "value": 114,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17745569021288973576",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17745569021288973576&engine=google_scholar&hl=en",
+        "cites_id": "17745569021288973576"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Robust adaptive detection of buried pipes using GPR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:e5wmG9Sq2KIC",
+      "citation_id": "jUEAlrcAAAAJ:e5wmG9Sq2KIC",
+      "authors": "Q Hoarau, G Ginolhac, AM Atto, JM Nicolas",
+      "publication": "Signal Processing 132, 293-305, 2017",
+      "cited_by": {
+        "value": 61,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13125160682556048270",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13125160682556048270&engine=google_scholar&hl=en",
+        "cites_id": "13125160682556048270"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Adaptive multitemporal SAR image filtering based on the change detection matrix",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:ULOm3_A8WrAC",
+      "citation_id": "jUEAlrcAAAAJ:ULOm3_A8WrAC",
+      "authors": "TT Lê, AM Atto, E Trouvé, JM Nicolas",
+      "publication": "IEEE Geoscience and Remote Sensing Letters 11 (10), 1826-1830, 2014",
+      "cited_by": {
+        "value": 59,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6313584435828693402",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6313584435828693402&engine=google_scholar&hl=en",
+        "cites_id": "6313584435828693402"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Multidate divergence matrices for the analysis of SAR image time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "jUEAlrcAAAAJ:YsMSGLbcyi4C",
+      "authors": "AM Atto, E Trouvé, Y Berthoumieu, G Mercier",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing 51 (4), 1922-1938, 2012",
+      "cited_by": {
+        "value": 54,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11509124262751148309",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11509124262751148309&engine=google_scholar&hl=en",
+        "cites_id": "11509124262751148309"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Smooth sigmoid wavelet shrinkage for non-parametric estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:4JMBOYKVnBMC",
+      "citation_id": "jUEAlrcAAAAJ:4JMBOYKVnBMC",
+      "authors": "AM Atto, D Pastor, G Mercier",
+      "publication": "2008 IEEE International Conference on Acoustics, Speech and Signal …, 2008",
+      "cited_by": {
+        "value": 52,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13395879747915695174",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13395879747915695174&engine=google_scholar&hl=en",
+        "cites_id": "13395879747915695174"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Change detection matrix for multitemporal filtering and change analysis of SAR and PolSAR image time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:maZDTaKrznsC",
+      "citation_id": "jUEAlrcAAAAJ:maZDTaKrznsC",
+      "authors": "TT Lê, AM Atto, E Trouvé, A Solikhin, V Pinel",
+      "publication": "ISPRS Journal of Photogrammetry and Remote Sensing 107, 64-76, 2015",
+      "cited_by": {
+        "value": 50,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15027780645699154704",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15027780645699154704&engine=google_scholar&hl=en",
+        "cites_id": "15027780645699154704"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "2-D wavelet packet spectrum for texture analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:bEWYMUwI8FkC",
+      "citation_id": "jUEAlrcAAAAJ:bEWYMUwI8FkC",
+      "authors": "AM Atto, Y Berthoumieu, P Bolon",
+      "publication": "IEEE Transactions on Image Processing 22 (6), 2495-2500, 2013",
+      "cited_by": {
+        "value": 47,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14352266344689029686",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14352266344689029686&engine=google_scholar&hl=en",
+        "cites_id": "14352266344689029686"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Wavelet shrinkage: unification of basic thresholding functions and thresholds",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:mVmsd5A6BfQC",
+      "citation_id": "jUEAlrcAAAAJ:mVmsd5A6BfQC",
+      "authors": "AM Atto, D Pastor, G Mercier",
+      "publication": "Signal, image and video processing 5, 11-28, 2011",
+      "cited_by": {
+        "value": 43,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9864258535547848138",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9864258535547848138&engine=google_scholar&hl=en",
+        "cites_id": "9864258535547848138"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "On the statistical decorrelation of the wavelet packet coefficients of a band-limited wide-sense stationary random process",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:-f6ydRqryjwC",
+      "citation_id": "jUEAlrcAAAAJ:-f6ydRqryjwC",
+      "authors": "AM Atto, D Pastor, A Isar",
+      "publication": "Signal Processing 87 (10), 2320-2335, 2007",
+      "cited_by": {
+        "value": 43,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11450067439218970270",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11450067439218970270&engine=google_scholar&hl=en",
+        "cites_id": "11450067439218970270"
+      },
+      "year": "2007"
+    },
+    {
+      "title": "Detection threshold for non-parametric estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:hC7cP41nSMkC",
+      "citation_id": "jUEAlrcAAAAJ:hC7cP41nSMkC",
+      "authors": "AM Atto, D Pastor, G Mercier",
+      "publication": "Signal, Image and Video processing 2, 207-223, 2008",
+      "cited_by": {
+        "value": 38,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11387296653405690458",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11387296653405690458&engine=google_scholar&hl=en",
+        "cites_id": "11387296653405690458"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "New robust statistics for change detection in time series of multivariate SAR images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:2osOgNQ5qMEC",
+      "citation_id": "jUEAlrcAAAAJ:2osOgNQ5qMEC",
+      "authors": "A Mian, G Ginolhac, JP Ovarlez, AM Atto",
+      "publication": "IEEE Transactions on Signal Processing 67 (2), 520-534, 2018",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10328901448776295130",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10328901448776295130&engine=google_scholar&hl=en",
+        "cites_id": "10328901448776295130"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Control of discrete event systems with respect to strict duration: Supervision of an industrial manufacturing plant",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:isC4tDSrTZIC",
+      "citation_id": "jUEAlrcAAAAJ:isC4tDSrTZIC",
+      "authors": "AM Atto, C Martinez, S Amari",
+      "publication": "Computers & Industrial Engineering 61 (4), 1149-1159, 2011",
+      "cited_by": {
+        "value": 37,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14808847951464714702",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14808847951464714702&engine=google_scholar&hl=en",
+        "cites_id": "14808847951464714702"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Wavelet packets of nonstationary random processes: Contributing factors for stationarity and decorrelation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:Y0pCki6q_DkC",
+      "citation_id": "jUEAlrcAAAAJ:Y0pCki6q_DkC",
+      "authors": "AM Atto, Y Berthoumieu",
+      "publication": "IEEE Transactions on Information Theory 58 (1), 317-330, 2011",
+      "cited_by": {
+        "value": 33,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6852675036942446599",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6852675036942446599&engine=google_scholar&hl=en",
+        "cites_id": "6852675036942446599"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Wavelet packets of fractional brownian motion: Asymptotic analysis and spectrum estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:M3ejUd6NZC8C",
+      "citation_id": "jUEAlrcAAAAJ:M3ejUd6NZC8C",
+      "authors": "AM Atto, D Pastor, G Mercier",
+      "publication": "IEEE Transactions on Information Theory 56 (9), 4741-4753, 2010",
+      "cited_by": {
+        "value": 29,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7632463083607523608",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7632463083607523608&engine=google_scholar&hl=en",
+        "cites_id": "7632463083607523608"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Timed-image based deep learning for action recognition in video sequences",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:WF5omc3nYNoC",
+      "citation_id": "jUEAlrcAAAAJ:WF5omc3nYNoC",
+      "authors": "AM Atto, A Benoit, P Lambert",
+      "publication": "Pattern Recognition 104, 107353, 2020",
+      "cited_by": {
+        "value": 26,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3683790582881433583",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3683790582881433583&engine=google_scholar&hl=en",
+        "cites_id": "3683790582881433583"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Design of new wavelet packets adapted to high-resolution SAR images with an application to target detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:_kc_bZDykSQC",
+      "citation_id": "jUEAlrcAAAAJ:_kc_bZDykSQC",
+      "authors": "A Mian, JP Ovarlez, AM Atto, G Ginolhac",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing 57 (6), 3919-3932, 2019",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6945673152191133516",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6945673152191133516&engine=google_scholar&hl=en",
+        "cites_id": "6945673152191133516"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Central limit theorems for wavelet packet decompositions of stationary random processes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:TFP_iSt0sucC",
+      "citation_id": "jUEAlrcAAAAJ:TFP_iSt0sucC",
+      "authors": "AM Atto, D Pastor",
+      "publication": "IEEE Transactions on Signal Processing 58 (2), 896-901, 2009",
+      "cited_by": {
+        "value": 23,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12078667404598702686",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12078667404598702686&engine=google_scholar&hl=en",
+        "cites_id": "12078667404598702686"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Wavelet operators and multiplicative observation models—Application to sar image time-series analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:BqipwSGYUEgC",
+      "citation_id": "jUEAlrcAAAAJ:BqipwSGYUEgC",
+      "authors": "AM Atto, E Trouvé, JM Nicolas, TT Lê",
+      "publication": "IEEE Transactions on Geoscience and Remote Sensing 54 (11), 6606-6624, 2016",
+      "cited_by": {
+        "value": 22,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=18220661773889207293",
+        "serpapi_link": "https://serpapi.com/search.json?cites=18220661773889207293&engine=google_scholar&hl=en",
+        "cites_id": "18220661773889207293"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Time-lapse optical flow regularization for geophysical complex phenomena monitoring",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "jUEAlrcAAAAJ:eQOLeE2rZwMC",
+      "authors": "H Hadhri, F Vernier, AM Atto, E Trouvé",
+      "publication": "ISPRS Journal of photogrammetry and remote sensing 150, 135-156, 2019",
+      "cited_by": {
+        "value": 18,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2664975636088693230",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2664975636088693230&engine=google_scholar&hl=en",
+        "cites_id": "2664975636088693230"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Wavelet shrinkage: from sparsity and robust testing to smooth adaptation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:MXK_kJrjxJIC",
+      "citation_id": "jUEAlrcAAAAJ:MXK_kJrjxJIC",
+      "authors": "D Pastor, AM Atto",
+      "publication": "Recent Developments in Fractals and Related Fields, 207-232, 2010",
+      "cited_by": {
+        "value": 14,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4954686901215050845",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4954686901215050845&engine=google_scholar&hl=en",
+        "cites_id": "4954686901215050845"
+      },
+      "year": "2010"
+    },
+    {
+      "title": "Multivariate change detection on high resolution monovariate SAR image using linear time-frequency analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:RGFaLdJalmkC",
+      "citation_id": "jUEAlrcAAAAJ:RGFaLdJalmkC",
+      "authors": "A Mian, JP Ovarlez, G Ginolhac, A Atto",
+      "publication": "2017 25th European Signal Processing Conference (EUSIPCO), 1942-1946, 2017",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6587890021292303529",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6587890021292303529&engine=google_scholar&hl=en",
+        "cites_id": "6587890021292303529"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Non-stationary texture synthesis from random field modeling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:Zph67rFs4hoC",
+      "citation_id": "jUEAlrcAAAAJ:Zph67rFs4hoC",
+      "authors": "AM Atto, Z Tan, O Alata, M Moreaud",
+      "publication": "2014 IEEE International Conference on Image Processing (ICIP), 4266-4270, 2014",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6206204452977264885",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6206204452977264885&engine=google_scholar&hl=en",
+        "cites_id": "6206204452977264885"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "How to perform texture recognition from stochastic modeling in the wavelet domain",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:4TOpqqG69KYC",
+      "citation_id": "jUEAlrcAAAAJ:4TOpqqG69KYC",
+      "authors": "AM Atto, Y Berthoumieu",
+      "publication": "2011 IEEE International Conference on Acoustics, Speech and Signal …, 2011",
+      "cited_by": {
+        "value": 13,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7521178863809409775",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7521178863809409775&engine=google_scholar&hl=en",
+        "cites_id": "7521178863809409775"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Robust adaptive detection of buried pipes using GPR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:RHpTSmoSYBkC",
+      "citation_id": "jUEAlrcAAAAJ:RHpTSmoSYBkC",
+      "authors": "Q Hoarau, G Ginolhac, AM Atto, JM Nicolas, JP Ovarlez",
+      "publication": "2016 24th European Signal Processing Conference (EUSIPCO), 533-537, 2016",
+      "cited_by": {
+        "value": 12,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13198008023527704094",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13198008023527704094&engine=google_scholar&hl=en",
+        "cites_id": "13198008023527704094"
+      },
+      "year": "2016"
+    },
+    {
+      "title": "Smooth adaptation by sigmoid shrinkage",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:r0BpntZqJG4C",
+      "citation_id": "jUEAlrcAAAAJ:r0BpntZqJG4C",
+      "authors": "AM Atto, D Pastor, G Mercier",
+      "publication": "EURASIP Journal on Image and Video Processing 2009, 1-16, 2009",
+      "cited_by": {
+        "value": 11,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13834301251452510354",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13834301251452510354&engine=google_scholar&hl=en",
+        "cites_id": "13834301251452510354"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Wavelet spatio-temporal change detection on multitemporal sar images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:Tiz5es2fbqcC",
+      "citation_id": "jUEAlrcAAAAJ:Tiz5es2fbqcC",
+      "authors": "RV Fonseca, RG Negri, A Pinheiro, AM Atto",
+      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote …, 2023",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12027811044595245671",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12027811044595245671&engine=google_scholar&hl=en",
+        "cites_id": "12027811044595245671"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Explaining a deep spatiotemporal land cover classifier with attention and redescription mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:_xSYboBqXhAC",
+      "citation_id": "jUEAlrcAAAAJ:_xSYboBqXhAC",
+      "authors": "N Méger, H Courteille, A Benoit, A Atto, D Ienco",
+      "publication": "The International Archives of the Photogrammetry, Remote Sensing and Spatial …, 2022",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7429849541647246856",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7429849541647246856&engine=google_scholar&hl=en",
+        "cites_id": "7429849541647246856"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Frames learned by prime convolution layers in a deep learning framework",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:lSLTfruPkqcC",
+      "citation_id": "jUEAlrcAAAAJ:lSLTfruPkqcC",
+      "authors": "AM Atto, RR Bisset, E Trouvé",
+      "publication": "IEEE Transactions on Neural Networks and Learning Systems 32 (7), 3247-3255, 2020",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15908312995198916044",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15908312995198916044&engine=google_scholar&hl=en",
+        "cites_id": "15908312995198916044"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Change analysis using multitemporal sentinel-1 SAR images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:IWHjjKOFINEC",
+      "citation_id": "jUEAlrcAAAAJ:IWHjjKOFINEC",
+      "authors": "TT Lê, AM Atto, E Trouvé",
+      "publication": "2015 IEEE International Geoscience and Remote Sensing Symposium (IGARSS …, 2015",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11272063810220687956",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11272063810220687956&engine=google_scholar&hl=en",
+        "cites_id": "11272063810220687956"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Multivariate statistical modeling for multi-temporal SAR change detection using wavelet transforms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:YOwf2qJgpHMC",
+      "citation_id": "jUEAlrcAAAAJ:YOwf2qJgpHMC",
+      "authors": "N Bouhlel, G Ginolhac, E Jolibois, A Atto",
+      "publication": "2015 8th International Workshop on the Analysis of Multitemporal Remote …, 2015",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6849132278357466661",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6849132278357466661&engine=google_scholar&hl=en",
+        "cites_id": "6849132278357466661"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "A robust change detector for highly heterogeneous multivariate images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:35N4QoGY0k4C",
+      "citation_id": "jUEAlrcAAAAJ:35N4QoGY0k4C",
+      "authors": "A Mian, JP Ovarlez, G Ginolhac, AM Atto",
+      "publication": "2018 IEEE International Conference on Acoustics, Speech and Signal …, 2018",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7747854580900797504",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7747854580900797504&engine=google_scholar&hl=en",
+        "cites_id": "7747854580900797504"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "High order structural image decomposition by using non-linear and non-convex regularizing objectives",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:k_IJM867U9cC",
+      "citation_id": "jUEAlrcAAAAJ:k_IJM867U9cC",
+      "authors": "AM Atto, G Mercier",
+      "publication": "Computer Vision and Image Understanding 138, 38-50, 2015",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14933552778818774865",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14933552778818774865&engine=google_scholar&hl=en",
+        "cites_id": "14933552778818774865"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Change Detection and Image Time Series Analysis 2: Supervised Methods",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:b0M2c_1WBrUC",
+      "citation_id": "jUEAlrcAAAAJ:b0M2c_1WBrUC",
+      "authors": "AM Atto, F Bovolo, L Bruzzone",
+      "publication": "John Wiley & Sons, 2021",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16745164045606405444",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16745164045606405444&engine=google_scholar&hl=en",
+        "cites_id": "16745164045606405444"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Multivariate linear time-frequency modeling and adaptive robust target detection in highly textured monovariate sar image",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:qUcmZB5y_30C",
+      "citation_id": "jUEAlrcAAAAJ:qUcmZB5y_30C",
+      "authors": "JP Ovarlez, G Ginolhac, AM Atto",
+      "publication": "2017 IEEE International Conference on Acoustics, Speech and Signal …, 2017",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11334105232976693975",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11334105232976693975&engine=google_scholar&hl=en",
+        "cites_id": "11334105232976693975"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Sparsity from binary hypothesis testing and application to non-parametric estimation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:kNdYIx-mwKoC",
+      "citation_id": "jUEAlrcAAAAJ:kNdYIx-mwKoC",
+      "authors": "D Pastor, AM Atto",
+      "publication": "2008 16th European Signal Processing Conference, 1-5, 2008",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5338241794882636789",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5338241794882636789&engine=google_scholar&hl=en",
+        "cites_id": "5338241794882636789"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Reviewer Summary for Transactions on Image Processing",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:WbkHhVStYXYC",
+      "citation_id": "jUEAlrcAAAAJ:WbkHhVStYXYC",
+      "authors": "A Abbasi, A AbdelQader, M Abid, L Abrahamyan, A Abuolaim, B Acar, ...",
+      "publication": "IEEE Transactions on Image Processing 30, 9483, 2021",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11876990596402733549,11033078308996508194",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11876990596402733549%2C11033078308996508194&engine=google_scholar&hl=en",
+        "cites_id": "11876990596402733549,11033078308996508194"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "On elliptical possibility distributions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:GnPB-g6toBAC",
+      "citation_id": "jUEAlrcAAAAJ:GnPB-g6toBAC",
+      "authors": "C Lesniewska-Choquet, G Mauris, AM Atto, G Mercier",
+      "publication": "IEEE Transactions on Fuzzy Systems 28 (8), 1631-1639, 2019",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2163860418119675894",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2163860418119675894&engine=google_scholar&hl=en",
+        "cites_id": "2163860418119675894"
+      },
+      "year": "2019"
+    },
+    {
+      "title": "Limit distributions for wavelet packet coefficients of band-limited stationary random processes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:4DMP91E08xMC",
+      "citation_id": "jUEAlrcAAAAJ:4DMP91E08xMC",
+      "authors": "AM Atto, D Pastor",
+      "publication": "2008 16th European Signal Processing Conference, 1-5, 2008",
+      "cited_by": {
+        "value": 6,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8821994481722742152",
+        "serpapi_link": "https://serpapi.com/search.json?cites=8821994481722742152&engine=google_scholar&hl=en",
+        "cites_id": "8821994481722742152"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "Thresholds and distances to better detect wet snow over mountains with Sentinel-1 image time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:yD5IFk8b50cC",
+      "citation_id": "jUEAlrcAAAAJ:yD5IFk8b50cC",
+      "authors": "F Karbou, G James, P Durand, A Atto",
+      "publication": "Change Detection and Image Time Series Analysis 1, 1-18, 2021",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17123497299130148406",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17123497299130148406&engine=google_scholar&hl=en",
+        "cites_id": "17123497299130148406"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "ARFBF model for non stationary random fields and application in HRTEM images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:hqOjcs7Dif8C",
+      "citation_id": "jUEAlrcAAAAJ:hqOjcs7Dif8C",
+      "authors": "Z Tan, AM Atto, O Alata, M Moreaud",
+      "publication": "2015 IEEE International Conference on Image Processing (ICIP), 2651-2655, 2015",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3780467898702726097",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3780467898702726097&engine=google_scholar&hl=en",
+        "cites_id": "3780467898702726097"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Stochasticity: a feature for the structuring of large and heterogeneous image databases",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:0EnyYjriUFMC",
+      "citation_id": "jUEAlrcAAAAJ:0EnyYjriUFMC",
+      "authors": "AM Atto, Y Berthoumieu, R Mégret",
+      "publication": "Entropy 15 (11), 4782-4801, 2013",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3849779783321992601",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3849779783321992601&engine=google_scholar&hl=en",
+        "cites_id": "3849779783321992601"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Wet Snow Detection from Satellite SAR Images by Machine Learning with Physical Snowpack Model Labelling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:4fKUyHm3Qg0C",
+      "citation_id": "jUEAlrcAAAAJ:4fKUyHm3Qg0C",
+      "authors": "M Gallet, A Atto, F Karbou, E Trouvé",
+      "publication": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15033856638257002322",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15033856638257002322&engine=google_scholar&hl=en",
+        "cites_id": "15033856638257002322"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "An overview of covariance-based change detection methodologies in multivariate SAR image time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:p2g8aNsByqUC",
+      "citation_id": "jUEAlrcAAAAJ:p2g8aNsByqUC",
+      "authors": "A Mian, G Ginolhac, JP Ovarlez, A Breloy, F Pascal, AM Atto, F Bovolo, ...",
+      "publication": "Change Detection and Image Time Series Analysis 1, 2021",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=203541168796899389",
+        "serpapi_link": "https://serpapi.com/search.json?cites=203541168796899389&engine=google_scholar&hl=en",
+        "cites_id": "203541168796899389"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Supervision of an industrial plant subject to a maximal duration constraint",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:ufrVoPGSRksC",
+      "citation_id": "jUEAlrcAAAAJ:ufrVoPGSRksC",
+      "authors": "AM Atto, C Martinez, S Amari",
+      "publication": "2008 9th International Workshop on Discrete Event Systems, 254-259, 2008",
+      "cited_by": {
+        "value": 4,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2709950030395271584",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2709950030395271584&engine=google_scholar&hl=en",
+        "cites_id": "2709950030395271584"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "ISSLIDE: A new InSAR dataset for Slow SLIding area DEtection with machine learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:geHnlv5EZngC",
+      "citation_id": "jUEAlrcAAAAJ:geHnlv5EZngC",
+      "authors": "A Bralet, E Trouvé, J Chanussot, AM Atto",
+      "publication": "IEEE Geoscience and Remote Sensing Letters, 2024",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15391374297965766953",
+        "serpapi_link": "https://serpapi.com/search.json?cites=15391374297965766953&engine=google_scholar&hl=en",
+        "cites_id": "15391374297965766953"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Deep learning of radiometrical and geometrical SAR distorsions for image modality translations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:dshw04ExmUIC",
+      "citation_id": "jUEAlrcAAAAJ:dshw04ExmUIC",
+      "authors": "A Bralet, AM Atto, J Chanussot, E Trouve",
+      "publication": "2022 IEEE International Conference on Image Processing (ICIP), 1766-1770, 2022",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4417083444808646355",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4417083444808646355&engine=google_scholar&hl=en",
+        "cites_id": "4417083444808646355"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Channel-based attention for land cover classification using Sentinel-2 time series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:3s1wT3WcHBgC",
+      "citation_id": "jUEAlrcAAAAJ:3s1wT3WcHBgC",
+      "authors": "H Courteille, A Benoît, N Méger, A Atto, D Ienco",
+      "publication": "2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS, 1077 …, 2021",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4299022039765740083",
+        "serpapi_link": "https://serpapi.com/search.json?cites=4299022039765740083&engine=google_scholar&hl=en",
+        "cites_id": "4299022039765740083"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Image change detection by possibility distribution dissemblance",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:KlAtU1dfN6UC",
+      "citation_id": "jUEAlrcAAAAJ:KlAtU1dfN6UC",
+      "authors": "C Lesniewska-Choquet, AM Atto, G Mauris, G Mercier",
+      "publication": "2017 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE), 1-6, 2017",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5557467347451564833",
+        "serpapi_link": "https://serpapi.com/search.json?cites=5557467347451564833&engine=google_scholar&hl=en",
+        "cites_id": "5557467347451564833"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Change analysis of dual polarimetric sentinel-1 SAR image time series using stationary wavelet transform and change detection matrix",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "jUEAlrcAAAAJ:u5HHmVD_uO8C",
+      "authors": "TT Le, AM Atto, E Trouvé",
+      "publication": "2015 8th International Workshop on the Analysis of Multitemporal Remote …, 2015",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=385994335147598370",
+        "serpapi_link": "https://serpapi.com/search.json?cites=385994335147598370&engine=google_scholar&hl=en",
+        "cites_id": "385994335147598370"
+      },
+      "year": "2015"
+    },
+    {
+      "title": "Wavelet transforms of non-stationary random processes: Contributing factors for stationarity and decorrelation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:8AbLer7MMksC",
+      "citation_id": "jUEAlrcAAAAJ:8AbLer7MMksC",
+      "authors": "AM Atto, Y Berthoumieu",
+      "publication": "Preprint,[Available Online], 2011",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1755445218254446865",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1755445218254446865&engine=google_scholar&hl=en",
+        "cites_id": "1755445218254446865"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Optimal SURE parameters for sigmoidal wavelet shrinkage",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:j3f4tGmQtD8C",
+      "citation_id": "jUEAlrcAAAAJ:j3f4tGmQtD8C",
+      "authors": "AM Atto, D Pastor, G Mercier",
+      "publication": "2009 17th European Signal Processing Conference, 40-44, 2009",
+      "cited_by": {
+        "value": 3,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13400071000687778564",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13400071000687778564&engine=google_scholar&hl=en",
+        "cites_id": "13400071000687778564"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Fractional order stochastic image integration models and deep learning of multi-fractional interactions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:UeHWp8X0CEIC",
+      "citation_id": "jUEAlrcAAAAJ:UeHWp8X0CEIC",
+      "authors": "AM Atto",
+      "publication": "HAL archivesouvertes, Available online, 2017",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1063544407249815413",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1063544407249815413&engine=google_scholar&hl=en",
+        "cites_id": "1063544407249815413"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "A subspace approach for shrinkage parameter selection in undersampled configuration for Regularised Tyler Estimators",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:u-x6o8ySG0sC",
+      "citation_id": "jUEAlrcAAAAJ:u-x6o8ySG0sC",
+      "authors": "Q Hoarau, A Breloy, G Ginolhac, AM Atto, JM Nicolas",
+      "publication": "2017 IEEE International Conference on Acoustics, Speech and Signal …, 2017",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=449629835440064199",
+        "serpapi_link": "https://serpapi.com/search.json?cites=449629835440064199&engine=google_scholar&hl=en",
+        "cites_id": "449629835440064199"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Simulation of image time series from dynamical fractional brownian fields",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:iH-uZ7U-co4C",
+      "citation_id": "jUEAlrcAAAAJ:iH-uZ7U-co4C",
+      "authors": "AM Atto, L Fillatre, M Antonini, I Nikiforov",
+      "publication": "2014 IEEE International Conference on Image Processing (ICIP), 6086-6090, 2014",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14306676595234140725",
+        "serpapi_link": "https://serpapi.com/search.json?cites=14306676595234140725&engine=google_scholar&hl=en",
+        "cites_id": "14306676595234140725"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "SCHATTEN MATRIX NORM BASED POLARIMETRIC SAR DATA REGULARIZATION. APPLICATION OVER CHAMONIX MONT-BLANC",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:hFOr9nPyWt4C",
+      "citation_id": "jUEAlrcAAAAJ:hFOr9nPyWt4C",
+      "authors": "TT Le, A Atto, E Trouvé",
+      "publication": "International Workshop on Science and Applications of SAR Polarimetry and …, 2013",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11728906861474787179",
+        "serpapi_link": "https://serpapi.com/search.json?cites=11728906861474787179&engine=google_scholar&hl=en",
+        "cites_id": "11728906861474787179"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "Vector and matrix LP norms in polarimetric radar filtering",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:M3NEmzRMIkIC",
+      "citation_id": "jUEAlrcAAAAJ:M3NEmzRMIkIC",
+      "authors": "AM Atto, G Mercier, TT Le, E Trouvé",
+      "publication": "2012 IEEE International Geoscience and Remote Sensing Symposium, 1441-1444, 2012",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16115497152256295076",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16115497152256295076&engine=google_scholar&hl=en",
+        "cites_id": "16115497152256295076"
+      },
+      "year": "2012"
+    },
+    {
+      "title": "Structuring of large and heterogeneous texture databases",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "jUEAlrcAAAAJ:_FxGoFyzp5QC",
+      "authors": "AM Atto, Y Berthoumieu",
+      "publication": "2011 IEEE Statistical Signal Processing Workshop (SSP), 589-592, 2011",
+      "cited_by": {
+        "value": 2,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3075128702114288154",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3075128702114288154&engine=google_scholar&hl=en",
+        "cites_id": "3075128702114288154"
+      },
+      "year": "2011"
+    },
+    {
+      "title": "Explaining the decisions and the functioning of a convolutional spatiotemporal land cover classifier with channel attention and redescription mining",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:fQNAKQ3IYiAC",
+      "citation_id": "jUEAlrcAAAAJ:fQNAKQ3IYiAC",
+      "authors": "E Pelous, N Méger, A Benoit, A Atto, D Ienco, H Courteille, ...",
+      "publication": "ISPRS Journal of Photogrammetry and Remote Sensing 215, 256-270, 2024",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6564292182899626783",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6564292182899626783&engine=google_scholar&hl=en",
+        "cites_id": "6564292182899626783"
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Toward Generalized Artificial Intelligence by Assessment Aggregation With Applications to Standard and Extreme Classifications",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:K3LRdlH-MEoC",
+      "citation_id": "jUEAlrcAAAAJ:K3LRdlH-MEoC",
+      "authors": "AM Atto",
+      "publication": "IEEE Transactions on Neural Networks and Learning Systems, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12113471625781490066",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12113471625781490066&engine=google_scholar&hl=en",
+        "cites_id": "12113471625781490066"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Deep Semantic Fusion of Sentinel-1 and Sentinel-2 Snow Products for Snow Monitoring in Mountainous Regions",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:vRqMK49ujn8C",
+      "citation_id": "jUEAlrcAAAAJ:vRqMK49ujn8C",
+      "authors": "TT Lê, A Atto, E Trouvé, F Karbou",
+      "publication": "IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium …, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17491255100695951735",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17491255100695951735&engine=google_scholar&hl=en",
+        "cites_id": "17491255100695951735"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "CNN classification of wet snow by physical snowpack model labeling",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:738O_yMBCRsC",
+      "citation_id": "jUEAlrcAAAAJ:738O_yMBCRsC",
+      "authors": "M Gallet, A Atto, E Trouvé, F Karbou",
+      "publication": "IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium …, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16368603374721441338",
+        "serpapi_link": "https://serpapi.com/search.json?cites=16368603374721441338&engine=google_scholar&hl=en",
+        "cites_id": "16368603374721441338"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Stochastic Hyperkernel Convolution Trains and h-Counting Processes",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:u9iWguZQMMsC",
+      "citation_id": "jUEAlrcAAAAJ:u9iWguZQMMsC",
+      "authors": "AM Atto, B Vidakovic, A Pinheiro",
+      "publication": "IEEE Access 11, 16934-16942, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3032537722298038728",
+        "serpapi_link": "https://serpapi.com/search.json?cites=3032537722298038728&engine=google_scholar&hl=en",
+        "cites_id": "3032537722298038728"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Convolutional Fractional Stochastic Fields and their Deep Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:OU6Ihb5iCvQC",
+      "citation_id": "jUEAlrcAAAAJ:OU6Ihb5iCvQC",
+      "authors": "AM Atto",
+      "publication": "ISTE Group, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10023683436718083809",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10023683436718083809&engine=google_scholar&hl=en",
+        "cites_id": "10023683436718083809"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Deep Convolutional Neural HyperSpaces and Deep Functional Analysis",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:uWQEDVKXjbEC",
+      "citation_id": "jUEAlrcAAAAJ:uWQEDVKXjbEC",
+      "authors": "AM Atto",
+      "publication": "ISTE Group, 2023",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9935043952492338010",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9935043952492338010&engine=google_scholar&hl=en",
+        "cites_id": "9935043952492338010"
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Multiclass Multilabel Change of State Transfer Learning from Image Time Series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:fPk4N6BV_jEC",
+      "citation_id": "jUEAlrcAAAAJ:fPk4N6BV_jEC",
+      "authors": "M Abdourrahmane, H Hadhri, F Vernier, E Trouvé",
+      "publication": "Change Detection and Image Time Series Analysis 2: Supervised Methods, 223, 2021",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6412287339210687352",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6412287339210687352&engine=google_scholar&hl=en",
+        "cites_id": "6412287339210687352"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Parametric rectified power sigmoid units: Learning nonlinear neural transfer analytical forms",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:pqnbT2bcN3wC",
+      "citation_id": "jUEAlrcAAAAJ:pqnbT2bcN3wC",
+      "authors": "AM Atto, S Galichet, D Pastor, N Méger",
+      "publication": "arXiv preprint arXiv:2101.09948, 2021",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10552775403739651154",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10552775403739651154&engine=google_scholar&hl=en",
+        "cites_id": "10552775403739651154"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Robust detection and estimation of Change-Points in a time series of multivariate images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:70eg2SAEIzsC",
+      "citation_id": "jUEAlrcAAAAJ:70eg2SAEIzsC",
+      "authors": "A Mian, JP Ovarlez, G Ginolhac, A Atto",
+      "publication": "2018 26th European Signal Processing Conference (EUSIPCO), 1097-1101, 2018",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10533176005212422271",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10533176005212422271&engine=google_scholar&hl=en",
+        "cites_id": "10533176005212422271"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "ARFBF morphological analysis-Application to the discrimination of catalyst active phases",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:aqlVkmm33-oC",
+      "citation_id": "jUEAlrcAAAAJ:aqlVkmm33-oC",
+      "authors": "Z Tan, M Moreaud, O Alata, AM Atto",
+      "publication": "Image Analysis and Stereology 37 (1), 21-34, 2018",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7952998733825048279",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7952998733825048279&engine=google_scholar&hl=en",
+        "cites_id": "7952998733825048279"
+      },
+      "year": "2018"
+    },
+    {
+      "title": "Comparison of Probability-Possibility Transformations by Dissimilarity Measures in a Context of Change Detection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:TQgYirikUcIC",
+      "citation_id": "jUEAlrcAAAAJ:TQgYirikUcIC",
+      "authors": "C Lesniewska-Choquet, G Mauris, A Atto",
+      "publication": "LFA: Rencontres francophones sur la Logique Floue et ses Applications, 2017",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12703611186490467084",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12703611186490467084&engine=google_scholar&hl=en",
+        "cites_id": "12703611186490467084"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Traitement automatique de\" time lapse\": application à la surveillance de glaciers alpins",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:ns9cj8rnVeAC",
+      "citation_id": "jUEAlrcAAAAJ:ns9cj8rnVeAC",
+      "authors": "H Hadhri, F Vernier, A Atto, E Trouvé",
+      "publication": "ORASIS 2017, 2017",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9229118019007014677",
+        "serpapi_link": "https://serpapi.com/search.json?cites=9229118019007014677&engine=google_scholar&hl=en",
+        "cites_id": "9229118019007014677"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Ondelettes et processus stochastiques",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:9yKSN-GCB0IC",
+      "citation_id": "jUEAlrcAAAAJ:9yKSN-GCB0IC",
+      "authors": "AM Atto",
+      "publication": "Lavoisier Hermes, 2017",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=804960800106412732",
+        "serpapi_link": "https://serpapi.com/search.json?cites=804960800106412732&engine=google_scholar&hl=en",
+        "cites_id": "804960800106412732"
+      },
+      "year": "2017"
+    },
+    {
+      "title": "Best basis for joint representation: The median of marginal best bases for low cost information exchanges in distributed signal representation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:qxL8FJ1GzNcC",
+      "citation_id": "jUEAlrcAAAAJ:qxL8FJ1GzNcC",
+      "authors": "AM Atto, K Salamatian, P Bolon",
+      "publication": "Information Sciences 283, 153-164, 2014",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7844492027041008621",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7844492027041008621&engine=google_scholar&hl=en",
+        "cites_id": "7844492027041008621"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Uniformly most powerful detection for integrate and fire time encoding",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:blknAaTinKkC",
+      "citation_id": "jUEAlrcAAAAJ:blknAaTinKkC",
+      "authors": "L Fillatre, I Nikiforov, M Antonini, A Atto",
+      "publication": "2014 22nd European Signal Processing Conference (EUSIPCO), 1103-1107, 2014",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17062579040247087404",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17062579040247087404&engine=google_scholar&hl=en",
+        "cites_id": "17062579040247087404"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "Adaptive multitemporal filtering of polarimetric SAR images",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:qjMakFHDy7sC",
+      "citation_id": "jUEAlrcAAAAJ:qjMakFHDy7sC",
+      "authors": "TT Le, AM Atto, E Trouvé",
+      "publication": "2014 IEEE Geoscience and Remote Sensing Symposium, 4560-4563, 2014",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1055577900715709432",
+        "serpapi_link": "https://serpapi.com/search.json?cites=1055577900715709432&engine=google_scholar&hl=en",
+        "cites_id": "1055577900715709432"
+      },
+      "year": "2014"
+    },
+    {
+      "title": "TEMPORAL ADAPTIVE FILTERING OF SAR IMAGE TIME SERIES BASED ON THE DETECTION OF STABLE AND CHANGE AREAS",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:7PzlFSSx8tAC",
+      "citation_id": "jUEAlrcAAAAJ:7PzlFSSx8tAC",
+      "authors": "TT Le, A Atto, E Trouvé, JM Nicolas",
+      "publication": "5th TerraSAR-X/4th TanDEM-X Science Team Meeting-2013, 4 pages, 2013",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10692404698124412356",
+        "serpapi_link": "https://serpapi.com/search.json?cites=10692404698124412356&engine=google_scholar&hl=en",
+        "cites_id": "10692404698124412356"
+      },
+      "year": "2013"
+    },
+    {
+      "title": "General framework on change detection in a sparse domain",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:HDshCWvjkbEC",
+      "citation_id": "jUEAlrcAAAAJ:HDshCWvjkbEC",
+      "authors": "AM Atto, G Mercier, D Pastor",
+      "publication": "2009 IEEE International Geoscience and Remote Sensing Symposium 4, IV-781-IV-784, 2009",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12590397973095357562",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12590397973095357562&engine=google_scholar&hl=en",
+        "cites_id": "12590397973095357562"
+      },
+      "year": "2009"
+    },
+    {
+      "title": "Analyse en ondelettes et par paquets d'ondelettes de processus aléatoires stationnaires, et application à l'estimation non-paramétrique",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:_Qo2XoVZTnwC",
+      "citation_id": "jUEAlrcAAAAJ:_Qo2XoVZTnwC",
+      "authors": "A Atto",
+      "publication": "Ecole Nationale Supérieure des Télécommunications de Bretagne-ENSTB …, 2008",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13134138594379610264",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13134138594379610264&engine=google_scholar&hl=en",
+        "cites_id": "13134138594379610264"
+      },
+      "year": "2008"
+    },
+    {
+      "title": "On the asymptotic decorrelation of the wavelet packet coefficients of a wide-sense stationary random process",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:Tyk-4Ss8FVUC",
+      "citation_id": "jUEAlrcAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "AM Atto, D Pastor, A Isar",
+      "publication": "ECT 2006: International symposium on electronics and telecommunications, ., 2006",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6804193904129116772",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6804193904129116772&engine=google_scholar&hl=en",
+        "cites_id": "6804193904129116772"
+      },
+      "year": "2006"
+    },
+    {
+      "title": "Can Machine Learning Help for the Operational Management of Rockfall Hazard on Linear Stakes?",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:tS2w5q8j5-wC",
+      "citation_id": "jUEAlrcAAAAJ:tS2w5q8j5-wC",
+      "authors": "MA CHANUT, H Courteille, C Levy, M Gasc-Barbier, A Atto, L Meignan, ...",
+      "publication": "Available at SSRN 4635528, 0",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13041085085724000521",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13041085085724000521&engine=google_scholar&hl=en",
+        "cites_id": "13041085085724000521"
+      },
+      "year": ""
+    },
+    {
+      "title": "Time Distributed Deep Learning models for Purely Exogenous Forecasting. Application to Water Table Depth Prediction using Weather Image Time Series",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:eJXPG6dFmWUC",
+      "citation_id": "jUEAlrcAAAAJ:eJXPG6dFmWUC",
+      "authors": "M Salis, AM Atto, S Ferraris, R Meo",
+      "publication": "arXiv preprint arXiv:2409.13284, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "DEM-assisted neural network for SAR-to-optical image translation",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:VOx2b1Wkg3QC",
+      "citation_id": "jUEAlrcAAAAJ:VOx2b1Wkg3QC",
+      "authors": "A Bralet, TN Ngo, E Trouvé, J Chanussot, AM Atto",
+      "publication": "IGARSS 2024-2024 IEEE International Geoscience and Remote Sensing Symposium …, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Managing Rockfall Hazard on Strategic Linear Stakes: How Can Machine Learning Help to Better Predict Periods of Increased Rockfall Activity?",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:LPZeul_q3PIC",
+      "citation_id": "jUEAlrcAAAAJ:LPZeul_q3PIC",
+      "authors": "MA Chanut, H Courteille, C Lévy, A Atto, L Meignan, E Trouvé, ...",
+      "publication": "Sustainability 16 (9), 3802, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Renyi Divergences Learning for explainable classification of SAR Image Pairs",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:5Ul4iDaHHb8C",
+      "citation_id": "jUEAlrcAAAAJ:5Ul4iDaHHb8C",
+      "authors": "M Gallet, A Mian, A Atto",
+      "publication": "ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and …, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Détection de changements et analyse des séries temporelles d’images 2: Méthodes supervisées",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:sSrBHYA8nusC",
+      "citation_id": "jUEAlrcAAAAJ:sSrBHYA8nusC",
+      "authors": "AM Atto, F Bovolo, L Bruzzone",
+      "publication": "ISTE Group, 2024",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "What’s Behind This Water Table Depth Forecasting? RISE Application for Spatial, Temporal, and Spatio-Temporal Explanations",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:D_sINldO8mEC",
+      "citation_id": "jUEAlrcAAAAJ:D_sINldO8mEC",
+      "authors": "M Salis, G Sartor, M Pellegrino, S Ferraris, AM Atto, R Meo",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2024"
+    },
+    {
+      "title": "Impact de la stratégie de décodage sur la traduction de modalité radar-optique d'images de télédétection",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:08ZZubdj9fEC",
+      "citation_id": "jUEAlrcAAAAJ:08ZZubdj9fEC",
+      "authors": "A Bralet, A Atto, J Chanussot, E Trouvé",
+      "publication": "GRETSI 2023-XXIXème Colloque Francophone de Traitement du Signal et des …, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Apprentissage explicable d’un ensemble de divergences pour la similarité inter-classe de données SAR",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:tOudhMTPpwUC",
+      "citation_id": "jUEAlrcAAAAJ:tOudhMTPpwUC",
+      "authors": "M Gallet, A Atto, E Trouvé, F Karbou",
+      "publication": "GRETSI, XXIXème Colloque Francophone de Traitement du Signal et des Images, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Temporal Evolution of X and C Band Sar Backscattering In The Mont-Blanc Massif",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:l7t_Zn2s7bgC",
+      "citation_id": "jUEAlrcAAAAJ:l7t_Zn2s7bgC",
+      "authors": "S Kaushik, M Gallet, Y Yan, A Atto, L Ravanel, E Trouvé",
+      "publication": "IGARSS 2023-2023 IEEE International Geoscience and Remote Sensing Symposium …, 2023",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Neural Transfer Function Library Deriving From Parametric Probability Signatures",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:XiSMed-E-HIC",
+      "citation_id": "jUEAlrcAAAAJ:XiSMed-E-HIC",
+      "authors": "AM Atto",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2023"
+    },
+    {
+      "title": "Towards a multi-Modal, multi-Temporal and multi-Phenomena dataset for natural phenomena observation through deep learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:UxriW0iASnsC",
+      "citation_id": "jUEAlrcAAAAJ:UxriW0iASnsC",
+      "authors": "A Bralet, AM Atto, J Chanussot, E Trouvé",
+      "publication": "6ème colloque\" Mesure de la Déformation par Imagerie Satellitaire (MDIS)\", 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Land cover classification of the Alps from InSAR temporal coherence matrices",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:CHSYGLWDkRkC",
+      "citation_id": "jUEAlrcAAAAJ:CHSYGLWDkRkC",
+      "authors": "S Giffard-Roisin, SE Boudaour, MP Doin, Y Yan, A Atto",
+      "publication": "Frontiers in Remote Sensing 3, 932491, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Seuils et distances pour la détection de neige avec les séries d’images Sentinel-1",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:KxtntwgDAa4C",
+      "citation_id": "jUEAlrcAAAAJ:KxtntwgDAa4C",
+      "authors": "F KARBOU, G JAMES, P DURAND, AM ATTO",
+      "publication": "Détection de changements et analyse des séries temporelles d’images 1 …, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Clustering fonctionnel de séries d’images par entropies relatives",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:nb7KW1ujOQ8C",
+      "citation_id": "jUEAlrcAAAAJ:nb7KW1ujOQ8C",
+      "authors": "AM ATTO, F KARBOU, S GIFFARD-ROISIN",
+      "publication": "Détection de changements et analyse des séries temporelles d’images 1 …, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Analyse d’ordre fractionnaire et prédiction de trajectoire de cyclones",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:P5F9QuxV20EC",
+      "citation_id": "jUEAlrcAAAAJ:P5F9QuxV20EC",
+      "authors": "AM ATTO, A PINHEIRO",
+      "publication": "Détection de changements et analyse des séries temporelles d’images 1 …, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Altruistic Collaborative Learning",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:abG-DnoFyZgC",
+      "citation_id": "jUEAlrcAAAAJ:abG-DnoFyZgC",
+      "authors": "AM Atto",
+      "publication": "IEEE Transactions on Neural Networks and Learning Systems 35 (2), 1954-1964, 2022",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Unsupervised Functional Information Clustering in Extreme Environments from Filter Banks and Relative Entropy",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:cFHS6HbyZ2cC",
+      "citation_id": "jUEAlrcAAAAJ:cFHS6HbyZ2cC",
+      "authors": "AM Atto, F Karbou, S G iffard-R oisin, L Bombrun",
+      "publication": "Change Detection and Image Time Series Analysis 1: Unsupervised Methods, 109-125, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Fractional Field Image Time Series Modeling and Application to Cyclone Tracking",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:dfsIfKJdRG4C",
+      "citation_id": "jUEAlrcAAAAJ:dfsIfKJdRG4C",
+      "authors": "AM Atto, A Pinheiro, G Ginolhac, P Morettin",
+      "publication": "Change Detection and Image Time Series Analysis 1: Unsupervised Methods, 145-165, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Fractional Field Image Application Time Series to Cyclone Modeling Tracking",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:4OULZ7Gr8RgC",
+      "citation_id": "jUEAlrcAAAAJ:4OULZ7Gr8RgC",
+      "authors": "AM ATTO",
+      "publication": "Change Detection and Image Time-Series Analysis 1: Unervised Methods, 145, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "2021 Index IEEE Transactions on Neural Networks and Learning Systems Vol. 32",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:pyW8ca7W8N0C",
+      "citation_id": "jUEAlrcAAAAJ:pyW8ca7W8N0C",
+      "authors": "A Abbas, M Abbasi, MM Abdelsamea, A Abusorrah, E Adeli, RK Agarwal, ...",
+      "publication": "IEEE Transactions on Neural Networks and Learning Systems 32 (12), 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Contribution of Artificial Intelligence models for the management of rockfall risks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&pagesize=100&citation_for_view=jUEAlrcAAAAJ:1sJd4Hv_s6UC",
+      "citation_id": "jUEAlrcAAAAJ:1sJd4Hv_s6UC",
+      "authors": "MA Chanut, C Lévy, L Meignan, M Gasc-Barbier, S Galichet, A Atto, ...",
+      "publication": "5th RSS Rock Slope Stability Symposium, 2021",
+      "cited_by": {
+        "value": null
+      },
+      "year": "2021"
+    },
+    {
+        "title": "Wavelet Spatio-Temporal Change Detection on multi-temporal PolSAR images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:ZHo1McVdvXMC",
+        "citation_id": "jUEAlrcAAAAJ:ZHo1McVdvXMC",
+        "authors": "R Fonseca, A Pinheiro, A Atto",
+        "publication": "arXiv preprint arXiv:2103.14444, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "Démonstrateur d'utilisation de l'Intelligence Artificielle pour la gestion opérationnelle des risques naturels gravitaires géologiques Projet RINA",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:B3FOqHPlNUQC",
+        "citation_id": "jUEAlrcAAAAJ:B3FOqHPlNUQC",
+        "authors": "MA Chanut, C Lévy, L Meignan, M Gasc, E Trouvé, AM Atto, N Méger, ...",
+        "publication": "Cerema, 2021",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2021"
+      },
+      {
+        "title": "2020 Index IEEE Transactions on Fuzzy Systems Vol. 28",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:SeFeTyx0c_EC",
+        "citation_id": "jUEAlrcAAAAJ:SeFeTyx0c_EC",
+        "authors": "M Abdel-Basset, H Agahi, A Aggarwal, M Aggarwal, LT Aguilar, ...",
+        "publication": "IEEE Transactions on Fuzzy Systems 28 (12), 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "Construction de distributions de possibilité bivariées à partir de distributions marginales connues",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:zA6iFVUQeVQC",
+        "citation_id": "jUEAlrcAAAAJ:zA6iFVUQeVQC",
+        "authors": "C Lesniewska-Choquet, G Mauris, AM Atto",
+        "publication": "Rencontres francophones sur la logique floue et ses applications LFA 2020, 91-97, 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "A Geometrical Wavelet Framework for the Time-Series Analysis of Full-Polarimetric Features",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:M05iB0D1s5AC",
+        "citation_id": "jUEAlrcAAAAJ:M05iB0D1s5AC",
+        "authors": "D Pirrone, AM Atto, E Trouvé",
+        "publication": "2020 IEEE Radar Conference (RadarConf20), 1-6, 2020",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2020"
+      },
+      {
+        "title": "2019 Index IEEE Transactions on Signal Processing Vol. 67",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:RYcK_YlVTxYC",
+        "citation_id": "jUEAlrcAAAAJ:RYcK_YlVTxYC",
+        "authors": "D Abbott, Y Abdoush, LD Abreu, P Abry, P Addabbo, A Adibi, H Aftab, ...",
+        "publication": "IEEE Transactions on Signal Processing 67 (24), 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "2019 Index IEEE Transactions on Geoscience and Remote Sensing Vol. 57",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:vV6vV6tmYwMC",
+        "citation_id": "jUEAlrcAAAAJ:vV6vV6tmYwMC",
+        "authors": "D Aaron, H Abedi, A Abelev, C Abeynayake, N Acito, AM Adams, ...",
+        "publication": "IEEE Transactions on Geoscience and Remote Sensing 57 (12), 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Transformation possibiliste de lois de probabilités elliptiques",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:rO6llkc54NcC",
+        "citation_id": "jUEAlrcAAAAJ:rO6llkc54NcC",
+        "authors": "C Lesniewska-Choquet, G Mauris, A Atto",
+        "publication": "Rencontres francophones sur la logique floue et ses applications LFA 2019, 2019",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2019"
+      },
+      {
+        "title": "Geometric Multi-Wavelet Total Variation for SAR Image Time Series Analysis",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:NMxIlDl6LWMC",
+        "citation_id": "jUEAlrcAAAAJ:NMxIlDl6LWMC",
+        "authors": "AM Atto, A Kemavo, JP Rudant, G Mercier",
+        "publication": "2018 21st International Conference on Information Fusion (FUSION), 1-5, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Utilisation des séries temporelles d’images Sentinel-1 pour l’observation des glaciers des Alpes",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:JV2RwH3_ST0C",
+        "citation_id": "jUEAlrcAAAAJ:JV2RwH3_ST0C",
+        "authors": "Y Yan, E Trouvé, M Jauvin, R Prebet, A Hippert-Ferrer, N Meger, A Atto, ...",
+        "publication": "PNTS 2018, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Hilbert Based Video To Timed-Image Filling and Learning To Recognize Visual Violence",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:g5m5HwL7SMYC",
+        "citation_id": "jUEAlrcAAAAJ:g5m5HwL7SMYC",
+        "authors": "AM ATTO, A Benoît, P Lambert",
+        "publication": "HAL 2018, 2018",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2018"
+      },
+      {
+        "title": "Détection de changement sur images SAR monovariées par analyse temps-fréquence linéaire",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:3fE2CSJIrl8C",
+        "citation_id": "jUEAlrcAAAAJ:3fE2CSJIrl8C",
+        "authors": "A Mian, JP Ovarlez, G Ginolhac, A Atto",
+        "publication": "GRETSI 2017, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Estimateur de Tyler régularisé dans le cas sous-déterminé. Application à la détection d'objets enfouis",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:5nxA0vEk-isC",
+        "citation_id": "jUEAlrcAAAAJ:5nxA0vEk-isC",
+        "authors": "Q Hoarau, A Breloy, G Ginolhac, A Atto, JM Nicolas",
+        "publication": "GRETSI 2017, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Inverse Formulation of Temporal Closure and Proposed Solutions for Offset Tracking of Natural Scenes",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:UebtZRa9Y70C",
+        "citation_id": "jUEAlrcAAAAJ:UebtZRa9Y70C",
+        "authors": "H Hadhri, E Trouvé, A Atto, F Vernier",
+        "publication": "MultiTemp 2017, 2017",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2017"
+      },
+      {
+        "title": "Wavelet statistical analysis in multitemporal SAR images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:dhFuZR0502QC",
+        "citation_id": "jUEAlrcAAAAJ:dhFuZR0502QC",
+        "authors": "A Pinheiro, A Atto, E Trouvé",
+        "publication": "31st International Workshop on Statistical Modelling, 117, 2016",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2016"
+      },
+      {
+        "title": "Wavelet Operators and Multiplicative Observation Models-Application to Change-Enhanced Regularization of SAR Image Time Series",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:8k81kl-MbHgC",
+        "citation_id": "jUEAlrcAAAAJ:8k81kl-MbHgC",
+        "authors": "A Atto, E Trouvé, JM Nicolas, TT Le",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2016"
+      },
+      {
+        "title": "Analyse des Séquences de Processus et Champs Aléatoires d'Ondelettes",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:hMod-77fHWUC",
+        "citation_id": "jUEAlrcAAAAJ:hMod-77fHWUC",
+        "authors": "A Atto",
+        "publication": "Université Grenoble Alpes, 2015",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2015"
+      },
+      {
+        "title": "Convolution mixture of FBF and modulated FBF and application to HRTEM images",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:LkGwnXOMwfcC",
+        "citation_id": "jUEAlrcAAAAJ:LkGwnXOMwfcC",
+        "authors": "Z Tan, O Alata, M Moreaud, A Atto",
+        "publication": "Gretsi 2015, 2015",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2015"
+      },
+      {
+        "title": "Wavelet Operators and Multiplicative Observation Models-Application to Joint Change-Detection and Regularization of SAR Image Time Series",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:roLk4NBRz8UC",
+        "citation_id": "jUEAlrcAAAAJ:roLk4NBRz8UC",
+        "authors": "A Atto, E Trouvé, JM Nicolas, TT Le",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2014"
+      },
+      {
+        "title": "Geometric Wavelet Approximations and Differencing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:zYLM7Y9cAGgC",
+        "citation_id": "jUEAlrcAAAAJ:zYLM7Y9cAGgC",
+        "authors": "A Atto, E Trouvé, JM Nicolas",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2014"
+      },
+      {
+        "title": "Matrice de Divergences Multi-Temporelles et Analyse des Séries Chronologiques d'Images SAR",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:mB3voiENLucC",
+        "citation_id": "jUEAlrcAAAAJ:mB3voiENLucC",
+        "authors": "A Atto, E Trouvé, Y Berthoumieu, G Mercier",
+        "publication": "GDR-ISIS-Journée\" Techniques et algorithmes pour les séries d'images multi …, 2012",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2012"
+      },
+      {
+        "title": "Sparseness-based non-parametric detection and estimation of random signals in noise",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:L8Ckcad2t8MC",
+        "citation_id": "jUEAlrcAAAAJ:L8Ckcad2t8MC",
+        "authors": "D Pastor, A Atto",
+        "publication": "Spars, 2011",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2011"
+      },
+      {
+        "title": "Stochasticity: A Feature for Analyzing and Understanding Textures, with Applications to Classification and Content-Based Image Retrieval",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:Se3iqnhoufwC",
+        "citation_id": "jUEAlrcAAAAJ:Se3iqnhoufwC",
+        "authors": "AM ATTO, Y Berthoumieu, R Mégret",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "2010 Index IEEE Transactions on Signal Processing Vol. 58",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:QIV2ME_5wuYC",
+        "citation_id": "jUEAlrcAAAAJ:QIV2ME_5wuYC",
+        "authors": "A Abdelkader, H Abeida, TD Abhayapala, E Aboutanios, YI Abramovich, ...",
+        "publication": "IEEE Transactions on Signal Processing 58 (12), 6439, 2010",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "2010 Index IEEE Transactions on Information Theory Vol. 56",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:Wp0gIr-vW9MC",
+        "citation_id": "jUEAlrcAAAAJ:Wp0gIr-vW9MC",
+        "authors": "E Abbe, K Abdel-Ghaffar, KAS Abdel-Ghaffar, F Abdelkefi, T Abualrub, ...",
+        "publication": "IEEE Transactions on Information Theory 56 (12), 6517, 2010",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2010"
+      },
+      {
+        "title": "Sparsity Measure and the Detection of Significant Data",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:YFjsv_pBGBYC",
+        "citation_id": "jUEAlrcAAAAJ:YFjsv_pBGBYC",
+        "authors": "A Atto, D Pastor, G Mercier",
+        "publication": "SPARS'09-Signal Processing with Adaptive Sparse Structured Representations, 2009",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2009"
+      },
+      {
+        "title": "Wavelet Packet Analysis of Stationary Random Processes, and Applications to Non-Parametric Estimation",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:f2IySw72cVMC",
+        "citation_id": "jUEAlrcAAAAJ:f2IySw72cVMC",
+        "authors": "A Atto",
+        "publication": "HAL 2008, 2008",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2008"
+      },
+      {
+        "title": "Statistics for sparse transforms: some recent results with application to speech and image processing",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:d1gkVwhDpl0C",
+        "citation_id": "jUEAlrcAAAAJ:d1gkVwhDpl0C",
+        "authors": "D Pastor, AM Atto",
+        "publication": "Fractals and Related Fields: Conference in honor of Jacques Peyrière, ., 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "Detection threshold for soft thresholding",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:O3NaXMp0MMsC",
+        "citation_id": "jUEAlrcAAAAJ:O3NaXMp0MMsC",
+        "authors": "AM Atto, D Pastor, G Mercier",
+        "publication": "Traitement Algorithmique et Matériel de la Communication, de l'Information …, 2007",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2007"
+      },
+      {
+        "title": "On the asymptotic decorrelation of the wavelet packet coefficients of a wide-sense stationary random process [articol]",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:EUQCXRtRnyEC",
+        "citation_id": "jUEAlrcAAAAJ:EUQCXRtRnyEC",
+        "authors": "AM Atto, D Pastor, A Isar",
+        "publication": "Timişoara: Editura Politehnica, 2006",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Asymptotic analysis of the autocorrelation function of the wavelet packet coefficients of a band-limited wide-sense stationary random process",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:NaGl4SEjCO4C",
+        "citation_id": "jUEAlrcAAAAJ:NaGl4SEjCO4C",
+        "authors": "AM Atto, D Pastor, A Isar",
+        "publication": "Dépt. Signal et Communications (Institut Mines-Télécom-Télécom Bretagne-UEB …, 2006",
+        "cited_by": {
+          "value": null
+        },
+        "year": "2006"
+      },
+      {
+        "title": "Représentation des Textures et des Signaux Aléatoires",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:bFI3QPDXJZMC",
+        "citation_id": "jUEAlrcAAAAJ:bFI3QPDXJZMC",
+        "authors": "A ATTO, Y BERTHOUMIEU",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Unified analytic forms for Convolutional Neural Networks and Wavelet Filter Banks",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:D03iK_w7-QYC",
+        "citation_id": "jUEAlrcAAAAJ:D03iK_w7-QYC",
+        "authors": "MA Abdourrahmane",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Towards Generalized Artificial Intelligence by Assessment Aggregation with Applications to Standard and Extreme Classifications",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:a0OBvERweLwC",
+        "citation_id": "jUEAlrcAAAAJ:a0OBvERweLwC",
+        "authors": "MA Abdourrahmane",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Parametric Rectified Power Sigmoid Units",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:HoB7MX3m0LUC",
+        "citation_id": "jUEAlrcAAAAJ:HoB7MX3m0LUC",
+        "authors": "AM ATTO, S GALICHET, D PASTOR, N MEGER",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Stochasticity: A Feature for Analyzing and Understanding Textures",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:R3hNpaxXUhUC",
+        "citation_id": "jUEAlrcAAAAJ:R3hNpaxXUhUC",
+        "authors": "AM ATTO, Y BERTHOUMIEU, R MÉGRET",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "CHANGE ANALYSIS USING MULTITEMPORAL SENTINEL-1 SAR IMAGES",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:ZeXyd9-uunAC",
+        "citation_id": "jUEAlrcAAAAJ:ZeXyd9-uunAC",
+        "authors": "LE Thu Trang, AM ATTO, E TROUV",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "MultivariatePossibilityDistributions",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:9ZlFYXVOiuMC",
+        "citation_id": "jUEAlrcAAAAJ:9ZlFYXVOiuMC",
+        "authors": "C Lesniewska-Choquet, AM Atto, G Mauris, G Mercier",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      },
+      {
+        "title": "Inverse Formulation of Temporal Closure and Proposed Solutions for Offset Tracking of Natural Scenes",
+        "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jUEAlrcAAAAJ&cstart=100&pagesize=100&citation_for_view=jUEAlrcAAAAJ:IjCSPb-OGe4C",
+        "citation_id": "jUEAlrcAAAAJ:IjCSPb-OGe4C",
+        "authors": "H Hela, E Trouvé, A Atto, F Vernier",
+        "cited_by": {
+          "value": null
+        },
+        "year": ""
+      }
+  ]
