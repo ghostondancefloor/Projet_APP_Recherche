@@ -137,7 +137,19 @@ def generate_sankey(chercheur_name):
 st.set_page_config(layout="wide")
 st.sidebar.title("Filtres")
 
-page = st.sidebar.radio("Choisissez une page", ["Page 1", "Page 2"])
+# Controle de navegação por páginas com session_state
+if "page" not in st.session_state:
+    st.session_state.page = 1
+
+
+def next_page():
+    if st.session_state.page < 2:
+        st.session_state.page += 1
+
+
+def previous_page():
+    if st.session_state.page > 1:
+        st.session_state.page -= 1
 
 
 years = sorted(df["year"].unique())
@@ -196,7 +208,7 @@ st.title("        ")
 
 # -------------------------------------------------------
 
-if page == "Page 1":
+if st.session_state.page == 1:
     # Visualisation 1
     filtered_df = df[df["year"] == str(selected_year)]
     fig_map = px.choropleth(
@@ -347,7 +359,8 @@ if page == "Page 1":
     st.plotly_chart(podium_fig, use_container_width=True)
 
 
-elif page == "Page 2":
+elif st.session_state.page == 2:
+
     # Visualisation 8
     fig_dashboard = go.Figure()
 
@@ -428,3 +441,13 @@ elif page == "Page 2":
         st.warning(
             f"Aucune publication trouvée pour {selected_dashboard_researcher} entre {start_year} et {end_year}."
         )
+
+col_prev, col_spacer, col_next = st.columns([2, 6, 2])
+
+with col_prev:
+    if st.session_state.page > 1:
+        st.button("← Page précédente", on_click=previous_page)
+
+with col_next:
+    if st.session_state.page < 2:
+        st.button("Page suivante →", on_click=next_page)
