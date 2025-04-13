@@ -284,11 +284,14 @@ if st.session_state.page == 1:
             size=10,
             colorbar=dict(
                 thickness=15,
-                title=dict(text="Node Connections"),  # ✅ structure correcte
-                xanchor="left",
-            ),
-        ),
+                title=dict(
+                    text="Node Connections"  # ✅ structure correcte
+                ),
+                xanchor="left"
+            )
+        )
     )
+
 
     node_text = [f"{node}" for node in G.nodes()]
     node_trace.marker.color = [len(list(G.neighbors(node))) for node in G.nodes()]
