@@ -6,11 +6,11 @@ from fastapi.middleware.cors import CORSMiddleware
 import jwt
 from datetime import datetime, timedelta
 from typing import Dict , List, Optional
-
+import os
 # MongoDB config
-MONGO_URI = "mongodb://localhost:27017"
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://mongo:27017")
 client = AsyncIOMotorClient(MONGO_URI)
-db = client["research_db_structure"]
+db = client["projet-app"]
 
 # JWT config
 SECRET_KEY = "supersecretkey"
@@ -80,4 +80,14 @@ async def get_institutions(token: dict = Depends(verify_token)):
 @app.get("/api/collaborations", response_model=List[Dict])
 async def get_collaborations(token: dict = Depends(verify_token)):
     cursor = db.collaborations.find({}, {"_id": 0})
+    return [doc async for doc in cursor]
+
+@app.get("/api/sankey", response_model=List[Dict])
+async def get_sankey(token: dict = Depends(verify_token)):
+    cursor = db.sankey_data.find({}, {"_id": 0})
+    return [doc async for doc in cursor]
+
+@app.get("/api/graph", response_model=List[Dict])
+async def get_graph(token: dict = Depends(verify_token)):
+    cursor = db.graph_data.find({}, {"_id": 0})
     return [doc async for doc in cursor]
