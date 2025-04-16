@@ -1,65 +1,60 @@
 import streamlit as st
 import pandas as pd
-import json
 import plotly.express as px
 import plotly.graph_objects as go
 from collections import Counter
 import random
 import networkx as nx
-from pymongo import MongoClient
+import requests
 from datetime import datetime
 
+# Configuration de l'application
 st.set_page_config(layout="wide")
 
-# Ensuite, vous pouvez définir les fonctions et charger les données
+# Configuration de l'API
+API_URL = "http://localhost:8000"  # Adresse de votre API FastAPI
+API_USERNAME = "admin"
+API_PASSWORD = "password"
+
+# Fonction pour obtenir le token JWT
 @st.cache_resource
-def get_mongodb_connection():
-    client = MongoClient("mongodb://localhost:27017/")
-    db = client["research_db_structure"]
-    return db
+def get_api_token():
+    try:
+        response = requests.post(
+            f"{API_URL}/token",
+            data={"username": API_USERNAME, "password": API_PASSWORD},
+            headers={"Content-Type": "application/x-www-form-urlencoded"}
+        )
+        response.raise_for_status()
+        return response.json()["access_token"]
+    except Exception as e:
+        st.error(f"Erreur de connexion à l'API: {str(e)}")
+        return None
 
-# Fonction pour récupérer les données depuis MongoDB
+# Fonction générique pour appeler l'API
 @st.cache_data
-def get_stats_pays_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection stats_pays
-    data = list(db.stats_pays.find({}, {"_id": 0}))
-    return data
+def call_api(endpoint):
+    token = get_api_token()
+    if not token:
+        return []
+    
+    try:
+        response = requests.get(
+            f"{API_URL}/{endpoint}",
+            headers={"Authorization": f"Bearer {token}"}
+        )
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
+        st.error(f"Erreur lors de l'appel à l'API ({endpoint}): {str(e)}")
+        return []
 
-@st.cache_data
-def get_chercheurs_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection chercheurs
-    data = list(db.chercheurs.find({}, {"_id": 0}))
-    return data
-
-@st.cache_data
-def get_publications_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection publications
-    data = list(db.publications.find({}, {"_id": 0}))
-    return data
-
-@st.cache_data
-def get_institutions_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection institutions
-    data = list(db.institutions.find({}, {"_id": 0}))
-    return data
-
-@st.cache_data
-def get_collaborations_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection collaborations
-    data = list(db.collaborations.find({}, {"_id": 0}))
-    return data
-
-# Récupération des données
-stats_pays_data = get_stats_pays_data()
-chercheurs_data = get_chercheurs_data()
-publications_data = get_publications_data()
-institutions_data = get_institutions_data()
-collaborations_data = get_collaborations_data()
+# Récupération des données via l'API
+stats_pays_data = call_api("api/stats_pays")
+chercheurs_data = call_api("api/chercheurs")
+publications_data = call_api("api/publications")
+institutions_data = call_api("api/institutions")
+collaborations_data = call_api("api/collaborations")
 
 # Conversion des données pays en dataframe
 rows = []
@@ -68,7 +63,6 @@ for entry in stats_pays_data:
     pays = entry.get("pays")
     nombre_publications = entry.get("nombre_publications")
     
-    # Traitement spécial pour la France si nécessaire
     if pays == "France":
         rows.append({"year": year, "country": pays, "count": 0})
     else:
@@ -101,7 +95,7 @@ for pub in publications_data:
     auteurs = pub.get("auteurs", [])
     for auteur in auteurs:
         if annee_str:
-            date_str = f"{annee_str}-01-01"  # Utiliser le premier jour de l'année
+            date_str = f"{annee_str}-01-01"
             all_pubs.append({
                 "customAuthorName": auteur,
                 "publicationDate_s": date_str,
@@ -110,7 +104,7 @@ for pub in publications_data:
             })
 
 df1 = pd.DataFrame(all_pubs)
-df2 = df1.copy()  # Copie pour rester compatible avec le code original
+df2 = df1.copy()
 
 # Prétraitement des dates
 def preprocess_dates(date_str):
@@ -135,11 +129,10 @@ def create_sankey_data():
         nom_chercheur = chercheur.get("nom")
         institutions = chercheur.get("institutions", [])
         for institution in institutions:
-            # Pour simplifier, on utilise un poids fixe, ou vous pourriez calculer un poids basé sur d'autres facteurs
             sankey_data.append({
                 "source": nom_chercheur,
                 "target": institution,
-                "value": 1  # Valeur par défaut, peut être ajustée
+                "value": 1
             })
     return sankey_data
 
@@ -233,6 +226,7 @@ def generate_sankey(chercheur_name):
     )
     return fig
 
+# Interface utilisateur
 st.sidebar.title("Filtres")
 
 if "page" not in st.session_state:
@@ -313,15 +307,12 @@ else:
     researcher_list = ["Aucun chercheur trouvé"]
     selected_dashboard_researcher = researcher_list[0]
 
-# -------------------------------------------------------
-
+# Affichage principal
 st.title("Analyse des publications scientifiques")
 st.title("        ")
 
-# -------------------------------------------------------
-
 if st.session_state.page == 1:
-    # Visualisation 1
+    # Visualisation 1 - Carte des pays collaborateurs
     filtered_df = df[df["year"] == str(selected_year)]
     if not filtered_df.empty:
         fig_map = px.choropleth(
@@ -347,7 +338,7 @@ if st.session_state.page == 1:
     else:
         st.warning(f"Aucune donnée disponible pour l'année {selected_year}")
 
-    # Visualisation 2
+    # Visualisation 2 - Top 5 des pays collaborateurs
     if not filtered_df.empty:
         top_5 = filtered_df.sort_values(by="count", ascending=False).head(5)
         fig_bar = px.bar(
@@ -403,9 +394,7 @@ if st.session_state.page == 1:
                     size=10,
                     colorbar=dict(
                         thickness=15,
-                        title=dict(
-                            text="Node Connections"
-                        ),
+                        title=dict(text="Node Connections"),
                         xanchor="left"
                     )
                 )
@@ -577,6 +566,7 @@ elif st.session_state.page == 2:
     else:
         st.warning("Aucun chercheur sélectionné")
 
+# Navigation entre pages
 col_prev, col_spacer, col_next = st.columns([2, 6, 2])
 
 with col_prev:
