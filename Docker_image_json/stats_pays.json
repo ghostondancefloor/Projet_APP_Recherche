@@ -1,0 +1,5024 @@
+[
+  {
+    "pays": "France",
+    "annee": "2009",
+    "nombre_publications": 190,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321808"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2009",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321811"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2009",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321813"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2009",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321816"
+  },
+  {
+    "pays": "Croatia",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321817"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2009",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321818"
+  },
+  {
+    "pays": "Turkey",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321820"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321821"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2009",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321822"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2009",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321823"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321844"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321846"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2009",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321847"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2009",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321848"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321849"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321850"
+  },
+  {
+    "pays": "United States",
+    "annee": "2009",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321852"
+  },
+  {
+    "pays": "France",
+    "annee": "2001",
+    "nombre_publications": 56,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321853"
+  },
+  {
+    "pays": "Vietnam",
+    "annee": "2001",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321855"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2001",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321856"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2001",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321857"
+  },
+  {
+    "pays": "France",
+    "annee": "2018",
+    "nombre_publications": 269,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321859"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2018",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321860"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2018",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321861"
+  },
+  {
+    "pays": "Singapore",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321862"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2018",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321864"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321865"
+  },
+  {
+    "pays": "United States",
+    "annee": "2018",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321866"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2018",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321867"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2018",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321868"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2018",
+    "nombre_publications": 13,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321870"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2018",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321872"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321873"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321874"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2018",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321876"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321878"
+  },
+  {
+    "pays": "Denmark",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321880"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321881"
+  },
+  {
+    "pays": "China",
+    "annee": "2018",
+    "nombre_publications": 16,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321882"
+  },
+  {
+    "pays": "Oman",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321883"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321885"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321886"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2018",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321887"
+  },
+  {
+    "pays": "Mexico",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321888"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321889"
+  },
+  {
+    "pays": "Finland",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321890"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321891"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321893"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "2018",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321894"
+  },
+  {
+    "pays": "Russia",
+    "annee": "2018",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321895"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2018",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321897"
+  },
+  {
+    "pays": "France",
+    "annee": "2002",
+    "nombre_publications": 44,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321898"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2002",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321900"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2002",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321901"
+  },
+  {
+    "pays": "United States",
+    "annee": "2002",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321902"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2002",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321903"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2002",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321904"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2002",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321905"
+  },
+  {
+    "pays": "France",
+    "annee": "1999",
+    "nombre_publications": 40,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321907"
+  },
+  {
+    "pays": "United States",
+    "annee": "1999",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321908"
+  },
+  {
+    "pays": "France",
+    "annee": "2014",
+    "nombre_publications": 251,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321909"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321911"
+  },
+  {
+    "pays": "Slovenia",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321912"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2014",
+    "nombre_publications": 14,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321913"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2014",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321914"
+  },
+  {
+    "pays": "Singapore",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321915"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2014",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321917"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321919"
+  },
+  {
+    "pays": "Serbia",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321920"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2014",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321922"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2014",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321923"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321924"
+  },
+  {
+    "pays": "United States",
+    "annee": "2014",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321925"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2014",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321926"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321928"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321929"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321930"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321940"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321941"
+  },
+  {
+    "pays": "China",
+    "annee": "2014",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321942"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2014",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321943"
+  },
+  {
+    "pays": "India",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321945"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2014",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321946"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321947"
+  },
+  {
+    "pays": "Iran",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321948"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2014",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321949"
+  },
+  {
+    "pays": "Mexico",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321951"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321952"
+  },
+  {
+    "pays": "Montenegro",
+    "annee": "2014",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321953"
+  },
+  {
+    "pays": "Iceland",
+    "annee": "2014",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321955"
+  },
+  {
+    "pays": "Turkey",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321956"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321957"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321959"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2014",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321960"
+  },
+  {
+    "pays": "France",
+    "annee": "2019",
+    "nombre_publications": 234,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321961"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2019",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321963"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2019",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321964"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2019",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321965"
+  },
+  {
+    "pays": "United States",
+    "annee": "2019",
+    "nombre_publications": 16,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321967"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2019",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321968"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2019",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321969"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321970"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321971"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2019",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321972"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2019",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321973"
+  },
+  {
+    "pays": "North Carolina",
+    "annee": "2019",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321974"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2019",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321976"
+  },
+  {
+    "pays": "China",
+    "annee": "2019",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321977"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321979"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321980"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2019",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321981"
+  },
+  {
+    "pays": "Iran",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321982"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321984"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2019",
+    "nombre_publications": 14,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321985"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2019",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321986"
+  },
+  {
+    "pays": "France",
+    "annee": "2023",
+    "nombre_publications": 213,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321987"
+  },
+  {
+    "pays": "Israel",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321988"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321989"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2023",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321990"
+  },
+  {
+    "pays": "Finland",
+    "annee": "2023",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321992"
+  },
+  {
+    "pays": "United States",
+    "annee": "2023",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321993"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2023",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321994"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2023",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321995"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2023",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321996"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2023",
+    "nombre_publications": 13,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321997"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321998"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2023",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.321999"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2023",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322000"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2023",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322003"
+  },
+  {
+    "pays": "United Arab Emirates",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322004"
+  },
+  {
+    "pays": "China",
+    "annee": "2023",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322007"
+  },
+  {
+    "pays": "Serbia",
+    "annee": "2023",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322008"
+  },
+  {
+    "pays": "Cyprus",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322009"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2023",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322010"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2023",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322011"
+  },
+  {
+    "pays": "Saudi Arabia",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322012"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2023",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322013"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2023",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322015"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2023",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322017"
+  },
+  {
+    "pays": "Belarus",
+    "annee": "2023",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322018"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322019"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322020"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322021"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2023",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322022"
+  },
+  {
+    "pays": "France",
+    "annee": "2022",
+    "nombre_publications": 239,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322023"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2022",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322024"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2022",
+    "nombre_publications": 12,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322026"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2022",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322028"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2022",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322029"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2022",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322030"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2022",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322031"
+  },
+  {
+    "pays": "United States",
+    "annee": "2022",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322032"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2022",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322034"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2022",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322035"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2022",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322036"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2022",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322037"
+  },
+  {
+    "pays": "China",
+    "annee": "2022",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322038"
+  },
+  {
+    "pays": "Denmark",
+    "annee": "2022",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322039"
+  },
+  {
+    "pays": "Nepal",
+    "annee": "2022",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322040"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2022",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322041"
+  },
+  {
+    "pays": "Poland",
+    "annee": "2022",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322042"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2022",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322043"
+  },
+  {
+    "pays": "Serbia",
+    "annee": "2022",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322045"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2022",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322047"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2022",
+    "nombre_publications": 15,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322048"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2022",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322049"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2022",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322050"
+  },
+  {
+    "pays": "Belarus",
+    "annee": "2022",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322052"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2022",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322053"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2022",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322054"
+  },
+  {
+    "pays": "France",
+    "annee": "2010",
+    "nombre_publications": 274,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322056"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2010",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322057"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2010",
+    "nombre_publications": 26,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322058"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2010",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322059"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322060"
+  },
+  {
+    "pays": "United States",
+    "annee": "2010",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322061"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2010",
+    "nombre_publications": 17,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322063"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2010",
+    "nombre_publications": 12,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322064"
+  },
+  {
+    "pays": "Slovenia",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322065"
+  },
+  {
+    "pays": "South Korea",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322066"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2010",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322067"
+  },
+  {
+    "pays": "China",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322068"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2010",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322069"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322070"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322071"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2010",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322072"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2010",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322074"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322076"
+  },
+  {
+    "pays": "Jordan",
+    "annee": "2010",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322077"
+  },
+  {
+    "pays": "France",
+    "annee": "1997",
+    "nombre_publications": 39,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322079"
+  },
+  {
+    "pays": "United States",
+    "annee": "1997",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322080"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "1997",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322081"
+  },
+  {
+    "pays": "France",
+    "annee": "2012",
+    "nombre_publications": 248,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322082"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2012",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322083"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2012",
+    "nombre_publications": 14,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322086"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2012",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322087"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2012",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322088"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2012",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322089"
+  },
+  {
+    "pays": "China",
+    "annee": "2012",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322090"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2012",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322091"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322092"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322094"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2012",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322095"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322096"
+  },
+  {
+    "pays": "Turkey",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322097"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2012",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322098"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322100"
+  },
+  {
+    "pays": "India",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322101"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322103"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2012",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322104"
+  },
+  {
+    "pays": "South Korea",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322105"
+  },
+  {
+    "pays": "United States",
+    "annee": "2012",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322106"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322107"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322108"
+  },
+  {
+    "pays": "Montenegro",
+    "annee": "2012",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322109"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322110"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322111"
+  },
+  {
+    "pays": "North Carolina",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322112"
+  },
+  {
+    "pays": "Burkina Faso",
+    "annee": "2012",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322114"
+  },
+  {
+    "pays": "Mali",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322115"
+  },
+  {
+    "pays": "Niger",
+    "annee": "2012",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322116"
+  },
+  {
+    "pays": "France",
+    "annee": "2007",
+    "nombre_publications": 167,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322117"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2007",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322118"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2007",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322120"
+  },
+  {
+    "pays": "Turkey",
+    "annee": "2007",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322121"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2007",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322123"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2007",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322124"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2007",
+    "nombre_publications": 17,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322126"
+  },
+  {
+    "pays": "United States",
+    "annee": "2007",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322127"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2007",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322128"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2007",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322129"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2007",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322130"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2007",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322132"
+  },
+  {
+    "pays": "France",
+    "annee": "2003",
+    "nombre_publications": 64,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322133"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2003",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322134"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2003",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322141"
+  },
+  {
+    "pays": "France",
+    "annee": "2015",
+    "nombre_publications": 254,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322142"
+  },
+  {
+    "pays": "Indonesia",
+    "annee": "2015",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322143"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2015",
+    "nombre_publications": 16,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322144"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2015",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322145"
+  },
+  {
+    "pays": "Hong Kong",
+    "annee": "2015",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322152"
+  },
+  {
+    "pays": "China",
+    "annee": "2015",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322154"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322155"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2015",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322156"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2015",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322157"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2015",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322158"
+  },
+  {
+    "pays": "South Africa",
+    "annee": "2015",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322159"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322161"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2015",
+    "nombre_publications": 13,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322162"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2015",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322163"
+  },
+  {
+    "pays": "United States",
+    "annee": "2015",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322164"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2015",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322165"
+  },
+  {
+    "pays": "India",
+    "annee": "2015",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322166"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322167"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322168"
+  },
+  {
+    "pays": "Slovenia",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322169"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2015",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322170"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2015",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322172"
+  },
+  {
+    "pays": "Montenegro",
+    "annee": "2015",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322173"
+  },
+  {
+    "pays": "Iceland",
+    "annee": "2015",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322174"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322175"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2015",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322176"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322177"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2015",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322179"
+  },
+  {
+    "pays": "Cameroon",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322180"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322181"
+  },
+  {
+    "pays": "Russia",
+    "annee": "2015",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322182"
+  },
+  {
+    "pays": "France",
+    "annee": "2000",
+    "nombre_publications": 29,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322183"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2000",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322184"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2000",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322186"
+  },
+  {
+    "pays": "France",
+    "annee": "2017",
+    "nombre_publications": 252,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322187"
+  },
+  {
+    "pays": "China",
+    "annee": "2017",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322189"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2017",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322190"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2017",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322191"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2017",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322192"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2017",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322193"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2017",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322194"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322195"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322196"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322197"
+  },
+  {
+    "pays": "United Arab Emirates",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322198"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2017",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322200"
+  },
+  {
+    "pays": "India",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322201"
+  },
+  {
+    "pays": "Cameroon",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322202"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2017",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322203"
+  },
+  {
+    "pays": "Iran",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322204"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2017",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322205"
+  },
+  {
+    "pays": "United States",
+    "annee": "2017",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322206"
+  },
+  {
+    "pays": "Lebanon",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322207"
+  },
+  {
+    "pays": "New Zealand",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322209"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2017",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322210"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2017",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322211"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2017",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322212"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2017",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322213"
+  },
+  {
+    "pays": "South Korea",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322214"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2017",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322215"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322217"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322218"
+  },
+  {
+    "pays": "Vietnam",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322219"
+  },
+  {
+    "pays": "Bulgaria",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322220"
+  },
+  {
+    "pays": "Denmark",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322221"
+  },
+  {
+    "pays": "Israel",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322222"
+  },
+  {
+    "pays": "Poland",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322223"
+  },
+  {
+    "pays": "Iceland",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322225"
+  },
+  {
+    "pays": "Finland",
+    "annee": "2017",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322226"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322227"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2017",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322228"
+  },
+  {
+    "pays": "Singapore",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322229"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2017",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322230"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322232"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322233"
+  },
+  {
+    "pays": "Russia",
+    "annee": "2017",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322234"
+  },
+  {
+    "pays": "France",
+    "annee": "2008",
+    "nombre_publications": 139,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322235"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2008",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322236"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2008",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322237"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2008",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322238"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2008",
+    "nombre_publications": 20,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322240"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2008",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322241"
+  },
+  {
+    "pays": "United States",
+    "annee": "2008",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322242"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2008",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322243"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2008",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322244"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2008",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322246"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2008",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322247"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2008",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322248"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2008",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322249"
+  },
+  {
+    "pays": "India",
+    "annee": "2008",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322250"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2008",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322252"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2008",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322253"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2008",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322254"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322255"
+  },
+  {
+    "pays": "France",
+    "annee": "2024",
+    "nombre_publications": 161,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322256"
+  },
+  {
+    "pays": "India",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322257"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322258"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2024",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322259"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2024",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322260"
+  },
+  {
+    "pays": "China",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322262"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322263"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322264"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322265"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2024",
+    "nombre_publications": 13,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322266"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322267"
+  },
+  {
+    "pays": "United States",
+    "annee": "2024",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322268"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322270"
+  },
+  {
+    "pays": "Lebanon",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322271"
+  },
+  {
+    "pays": "Kuwait",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322272"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2024",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322273"
+  },
+  {
+    "pays": "Serbia",
+    "annee": "2024",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322274"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322275"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322277"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322278"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2024",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322279"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322280"
+  },
+  {
+    "pays": "ZZ",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322281"
+  },
+  {
+    "pays": "Slovakia",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322282"
+  },
+  {
+    "pays": "Slovenia",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322284"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322285"
+  },
+  {
+    "pays": "Israel",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322286"
+  },
+  {
+    "pays": "Croatia",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322287"
+  },
+  {
+    "pays": "Albania",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322288"
+  },
+  {
+    "pays": "Lithuania",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322289"
+  },
+  {
+    "pays": "Denmark",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322290"
+  },
+  {
+    "pays": "Iceland",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322291"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322292"
+  },
+  {
+    "pays": "Finland",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322294"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2024",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322295"
+  },
+  {
+    "pays": "Bolivia",
+    "annee": "2024",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322296"
+  },
+  {
+    "pays": "France",
+    "annee": "2006",
+    "nombre_publications": 181,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322297"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2006",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322298"
+  },
+  {
+    "pays": "Croatia",
+    "annee": "2006",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322299"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2006",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322300"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2006",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322301"
+  },
+  {
+    "pays": "Luxembourg",
+    "annee": "2006",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322303"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2006",
+    "nombre_publications": 14,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322304"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2006",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322305"
+  },
+  {
+    "pays": "United States",
+    "annee": "2006",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322306"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2006",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322307"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "2006",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322308"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2006",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322309"
+  },
+  {
+    "pays": "Turkey",
+    "annee": "2006",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322310"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2006",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322311"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2006",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322312"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2006",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322314"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2006",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322315"
+  },
+  {
+    "pays": "France",
+    "annee": "2013",
+    "nombre_publications": 205,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322316"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2013",
+    "nombre_publications": 13,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322317"
+  },
+  {
+    "pays": "Hong Kong",
+    "annee": "2013",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322320"
+  },
+  {
+    "pays": "China",
+    "annee": "2013",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322321"
+  },
+  {
+    "pays": "Singapore",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322322"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2013",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322323"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2013",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322324"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322325"
+  },
+  {
+    "pays": "United States",
+    "annee": "2013",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322326"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2013",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322328"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322329"
+  },
+  {
+    "pays": "India",
+    "annee": "2013",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322330"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2013",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322331"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2013",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322332"
+  },
+  {
+    "pays": "South Korea",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322333"
+  },
+  {
+    "pays": "Montenegro",
+    "annee": "2013",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322334"
+  },
+  {
+    "pays": "Iceland",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322335"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322336"
+  },
+  {
+    "pays": "Qatar",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322339"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322340"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2013",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322342"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322343"
+  },
+  {
+    "pays": "North Carolina",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322344"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322345"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2013",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322346"
+  },
+  {
+    "pays": "France",
+    "annee": "2016",
+    "nombre_publications": 219,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322347"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2016",
+    "nombre_publications": 15,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322348"
+  },
+  {
+    "pays": "China",
+    "annee": "2016",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322349"
+  },
+  {
+    "pays": "Hong Kong",
+    "annee": "2016",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322350"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2016",
+    "nombre_publications": 13,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322352"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2016",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322353"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322354"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2016",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322355"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2016",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322356"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322358"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2016",
+    "nombre_publications": 11,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322359"
+  },
+  {
+    "pays": "North Carolina",
+    "annee": "2016",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322360"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2016",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322362"
+  },
+  {
+    "pays": "India",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322363"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2016",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322364"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322366"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2016",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322367"
+  },
+  {
+    "pays": "United States",
+    "annee": "2016",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322368"
+  },
+  {
+    "pays": "Israel",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322369"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2016",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322370"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2016",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322371"
+  },
+  {
+    "pays": "Montenegro",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322372"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2016",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322373"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "2016",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322374"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2016",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322376"
+  },
+  {
+    "pays": "France",
+    "annee": "2011",
+    "nombre_publications": 266,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322377"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2011",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322378"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2011",
+    "nombre_publications": 31,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322379"
+  },
+  {
+    "pays": "French Polynesia",
+    "annee": "2011",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322380"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2011",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322381"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2011",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322382"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2011",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322383"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2011",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322385"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2011",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322386"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322387"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322389"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2011",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322391"
+  },
+  {
+    "pays": "China",
+    "annee": "2011",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322392"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322393"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322394"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2011",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322395"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322397"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2011",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322398"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322399"
+  },
+  {
+    "pays": "United States",
+    "annee": "2011",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322400"
+  },
+  {
+    "pays": "France",
+    "annee": "2020",
+    "nombre_publications": 188,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322402"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2020",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322403"
+  },
+  {
+    "pays": "United States",
+    "annee": "2020",
+    "nombre_publications": 14,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322404"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2020",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322405"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2020",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322407"
+  },
+  {
+    "pays": "Finland",
+    "annee": "2020",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322408"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2020",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322410"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322411"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322412"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322413"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322414"
+  },
+  {
+    "pays": "Costa Rica",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322416"
+  },
+  {
+    "pays": "Algeria",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322417"
+  },
+  {
+    "pays": "China",
+    "annee": "2020",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322418"
+  },
+  {
+    "pays": "Lebanon",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322419"
+  },
+  {
+    "pays": "Czechia",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322420"
+  },
+  {
+    "pays": "Russia",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322421"
+  },
+  {
+    "pays": "Sweden",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322422"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322424"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2020",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322428"
+  },
+  {
+    "pays": "Poland",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322429"
+  },
+  {
+    "pays": "Norway",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322430"
+  },
+  {
+    "pays": "Bulgaria",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322432"
+  },
+  {
+    "pays": "Latvia",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322433"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322434"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322435"
+  },
+  {
+    "pays": "Burkina Faso",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322437"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2020",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322438"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2020",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322440"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2020",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322441"
+  },
+  {
+    "pays": "Chile",
+    "annee": "2020",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322443"
+  },
+  {
+    "pays": "France",
+    "annee": "2021",
+    "nombre_publications": 191,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322444"
+  },
+  {
+    "pays": "China",
+    "annee": "2021",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322445"
+  },
+  {
+    "pays": "Argentina",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322446"
+  },
+  {
+    "pays": "United States",
+    "annee": "2021",
+    "nombre_publications": 15,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322447"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2021",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322448"
+  },
+  {
+    "pays": "Portugal",
+    "annee": "2021",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322449"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2021",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322450"
+  },
+  {
+    "pays": "Reggio Emilia",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322452"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2021",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322453"
+  },
+  {
+    "pays": "Russia",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322454"
+  },
+  {
+    "pays": "United Arab Emirates",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322456"
+  },
+  {
+    "pays": "United Kingdom",
+    "annee": "2021",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322457"
+  },
+  {
+    "pays": "Australia",
+    "annee": "2021",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322458"
+  },
+  {
+    "pays": "Slovenia",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322459"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322461"
+  },
+  {
+    "pays": "Germany",
+    "annee": "2021",
+    "nombre_publications": 9,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322462"
+  },
+  {
+    "pays": "Brazil",
+    "annee": "2021",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322464"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2021",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322465"
+  },
+  {
+    "pays": "Serbia",
+    "annee": "2021",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322466"
+  },
+  {
+    "pays": "Taiwan",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322467"
+  },
+  {
+    "pays": "Netherlands",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322468"
+  },
+  {
+    "pays": "Ghana",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322469"
+  },
+  {
+    "pays": "Vietnam",
+    "annee": "2021",
+    "nombre_publications": 6,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322471"
+  },
+  {
+    "pays": "Nepal",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322472"
+  },
+  {
+    "pays": "Israel",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322473"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2021",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322474"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2021",
+    "nombre_publications": 5,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322475"
+  },
+  {
+    "pays": "Denmark",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322476"
+  },
+  {
+    "pays": "Austria",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322477"
+  },
+  {
+    "pays": "Belarus",
+    "annee": "2021",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322481"
+  },
+  {
+    "pays": "Canada",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322482"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "2021",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322483"
+  },
+  {
+    "pays": "France",
+    "annee": "2005",
+    "nombre_publications": 106,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322485"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2005",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322486"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2005",
+    "nombre_publications": 10,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322488"
+  },
+  {
+    "pays": "Italy",
+    "annee": "2005",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322489"
+  },
+  {
+    "pays": "United States",
+    "annee": "2005",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322490"
+  },
+  {
+    "pays": "Spain",
+    "annee": "2005",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322492"
+  },
+  {
+    "pays": "Greece",
+    "annee": "2005",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322493"
+  },
+  {
+    "pays": "Israel",
+    "annee": "2005",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322494"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2005",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322495"
+  },
+  {
+    "pays": "Belgium",
+    "annee": "2005",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322497"
+  },
+  {
+    "pays": "France",
+    "annee": "1994",
+    "nombre_publications": 48,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322498"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "1994",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322499"
+  },
+  {
+    "pays": "Cameroon",
+    "annee": "1994",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322500"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "1994",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322501"
+  },
+  {
+    "pays": "France",
+    "annee": "1996",
+    "nombre_publications": 46,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322502"
+  },
+  {
+    "pays": "France",
+    "annee": "2004",
+    "nombre_publications": 87,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322503"
+  },
+  {
+    "pays": "Romania",
+    "annee": "2004",
+    "nombre_publications": 8,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322505"
+  },
+  {
+    "pays": "India",
+    "annee": "2004",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322506"
+  },
+  {
+    "pays": "Tunisia",
+    "annee": "2004",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322507"
+  },
+  {
+    "pays": "Ireland",
+    "annee": "2004",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322508"
+  },
+  {
+    "pays": "Switzerland",
+    "annee": "2004",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322509"
+  },
+  {
+    "pays": "United States",
+    "annee": "2004",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322511"
+  },
+  {
+    "pays": "Japan",
+    "annee": "2004",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322512"
+  },
+  {
+    "pays": "France",
+    "annee": "1998",
+    "nombre_publications": 54,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322513"
+  },
+  {
+    "pays": "France",
+    "annee": "1991",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322514"
+  },
+  {
+    "pays": "France",
+    "annee": "1995",
+    "nombre_publications": 37,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322516"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "1995",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322517"
+  },
+  {
+    "pays": "Cameroon",
+    "annee": "1995",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322518"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "1995",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322520"
+  },
+  {
+    "pays": "France",
+    "annee": "1993",
+    "nombre_publications": 20,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322522"
+  },
+  {
+    "pays": "Senegal",
+    "annee": "1993",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322523"
+  },
+  {
+    "pays": "Cameroon",
+    "annee": "1993",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322524"
+  },
+  {
+    "pays": "Morocco",
+    "annee": "1993",
+    "nombre_publications": 2,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322525"
+  },
+  {
+    "pays": "France",
+    "annee": "1989",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322527"
+  },
+  {
+    "pays": "France",
+    "annee": "1987",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322528"
+  },
+  {
+    "pays": "France",
+    "annee": "1985",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322529"
+  },
+  {
+    "pays": "France",
+    "annee": "1986",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322530"
+  },
+  {
+    "pays": "France",
+    "annee": "1984",
+    "nombre_publications": 4,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322532"
+  },
+  {
+    "pays": "France",
+    "annee": "1983",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322533"
+  },
+  {
+    "pays": "France",
+    "annee": "1992",
+    "nombre_publications": 7,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322534"
+  },
+  {
+    "pays": "France",
+    "annee": "1988",
+    "nombre_publications": 3,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322535"
+  },
+  {
+    "pays": "France",
+    "annee": "1974",
+    "nombre_publications": 1,
+    "nombre_chercheurs": null,
+    "nombre_citations": null,
+    "principales_institutions": [],
+    "date_creation": "2025-04-15T20:19:48.322537"
+  }
+]
