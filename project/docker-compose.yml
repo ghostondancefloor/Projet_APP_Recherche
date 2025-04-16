@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  mongodb:
+    build:
+      context: ./mongodb
+      dockerfile: Dockerfile
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=research_db_structure
+    volumes:
+      - mongo-data:/data/db
+  
+  streamlit-app:
+    build:
+      context: ./streamlit-app
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo-data:
