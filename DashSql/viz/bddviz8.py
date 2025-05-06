@@ -2,6 +2,8 @@ import plotly.graph_objects as go
 import mysql.connector
 from mysql.connector import Error
 import pandas as pd
+import os 
+
 
 def lire_chercheurs_autorises(fichier):
     """
@@ -20,12 +22,13 @@ def get_top_articles_by_researcher(researcher_name=None, limit=5):
     Récupère les articles les plus cités pour un chercheur donné
     """
     try:
+                # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -241,11 +244,3 @@ def create_improved_top_articles_chart(researcher_name=None):
     
     return fig
 
-# Exemple d'utilisation
-selected_researcher = "Abdourrahmane ATTO"  # Remplacer par le nom du chercheur ou None pour tous
-fig_top_articles = create_improved_top_articles_chart(selected_researcher)
-
-if fig_top_articles:
-    fig_top_articles.show()
-else:
-    print(f"Aucune donnée d'articles trouvée pour {selected_researcher if selected_researcher else 'les chercheurs sélectionnés'}")

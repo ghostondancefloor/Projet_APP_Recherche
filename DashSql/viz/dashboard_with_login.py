@@ -20,15 +20,17 @@ st.set_page_config(
 def connecter_db():
     try:
         conn = mysql.connector.connect(
-            host="localhost",
-            user="root",          # Utilisateur par défaut pour WAMP
-            password="",          # Mot de passe par défaut pour WAMP
-            database="bdd"
+            host=os.getenv("DB_HOST", "db"),
+            user=os.getenv("DB_USER", "user"),
+            password=os.getenv("DB_PASS", "userpass"),
+            database=os.getenv("DB_NAME", "dashboarddb"),
+            port=int(os.getenv("DB_PORT", "3306"))
         )
         return conn
     except mysql.connector.Error as err:
         st.error(f"Erreur de connexion à la base de données: {err}")
         return None
+
 
 # Fonction pour vérifier les identifiants et récupérer les infos du chercheur
 def verifier_identifiants(email, mot_de_passe):

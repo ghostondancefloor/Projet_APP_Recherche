@@ -2,6 +2,7 @@ import plotly.express as px
 import pandas as pd
 import mysql.connector
 from mysql.connector import Error
+import os
 
 def get_top5_countries_data(year):
     """
@@ -10,11 +11,11 @@ def get_top5_countries_data(year):
     try:
         # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -123,11 +124,3 @@ def create_top5_countries_chart(year):
     
     return fig
 
-# Exemple d'utilisation
-selected_year = 2020  # Remplacer par l'année souhaitée
-fig_top5 = create_top5_countries_chart(selected_year)
-
-if fig_top5:
-    fig_top5.show()
-else:
-    print(f"Aucune donnée trouvée pour l'année {selected_year}")

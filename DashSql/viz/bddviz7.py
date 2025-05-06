@@ -2,6 +2,8 @@ import plotly.express as px
 import mysql.connector
 from mysql.connector import Error
 import pandas as pd
+import os 
+
 
 def lire_chercheurs_autorises(fichier):
     """
@@ -20,12 +22,13 @@ def get_institute_count_per_researcher(professor_list=None):
     Récupère le nombre d'institutions distinctes avec lesquelles chaque chercheur a collaboré
     """
     try:
+                # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -149,10 +152,3 @@ def create_simple_institutions_chart():
     
     return fig
 
-# Créer et afficher le graphique
-fig_institutions = create_simple_institutions_chart()
-
-if fig_institutions:
-    fig_institutions.show()
-else:
-    print("Aucune donnée de collaboration trouvée.")

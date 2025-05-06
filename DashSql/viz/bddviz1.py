@@ -3,6 +3,7 @@ import plotly.graph_objects as go
 import pandas as pd
 import mysql.connector
 from mysql.connector import Error
+import os 
 
 def get_country_collaboration_data(year):
     """
@@ -10,13 +11,15 @@ def get_country_collaboration_data(year):
     """
     try:
         # Configurer la connexion à la base de données
+
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"  # Remplacer par le nom réel de votre base
-        )
-        
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306"))
+)
+
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
             
@@ -226,11 +229,3 @@ def create_enhanced_map(year):
     
     return fig
 
-# Exemple d'utilisation
-selected_year = 2020  # Remplacer par l'année souhaitée
-fig_map = create_enhanced_map(selected_year)
-
-if fig_map:
-    fig_map.show()
-else:
-    print(f"Aucune donnée trouvée pour l'année {selected_year}")

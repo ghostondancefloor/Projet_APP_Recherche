@@ -3,6 +3,8 @@ import plotly.graph_objects as go
 import pandas as pd
 import mysql.connector
 from mysql.connector import Error
+import os 
+
 
 def get_top_universities(chercheur_nom, start_year, end_year):
     """
@@ -12,12 +14,13 @@ def get_top_universities(chercheur_nom, start_year, end_year):
         return None
         
     try:
+                # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -151,13 +154,3 @@ def create_perfected_university_chart(chercheur_nom, start_year, end_year):
     
     return fig
 
-# Exemple d'utilisation
-selected_researcher = "Ilham ALLOUI"  # Remplacer par le nom du chercheur
-start_year = 2010
-end_year = 2022
-fig_university = create_perfected_university_chart(selected_researcher, start_year, end_year)
-
-if fig_university:
-    fig_university.show()
-else:
-    print(f"Aucune donnée d'université trouvée pour {selected_researcher} entre {start_year} et {end_year}")

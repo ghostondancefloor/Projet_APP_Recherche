@@ -2,15 +2,18 @@ import plotly.graph_objects as go
 import mysql.connector
 from mysql.connector import Error
 import pandas as pd
+import os 
+
 
 def get_top_researchers_by_citations(limit=3):
     try:
+                # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -73,7 +76,4 @@ if top_3_researchers:
         width=800
     )
     
-    # Afficher la figure
-    podium_fig.show()
-else:
-    print("Aucune donnée de citations trouvée.")
+   

@@ -6,6 +6,7 @@ import mysql.connector
 from mysql.connector import Error
 import numpy as np
 import colorsys
+import os
 
 def get_publications_by_year(start_year, end_year, chercheur_nom=None):
     """
@@ -15,11 +16,11 @@ def get_publications_by_year(start_year, end_year, chercheur_nom=None):
     try:
         # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -319,14 +320,3 @@ def create_perfected_publications_chart(start_year, end_year, chercheur_nom=None
     
 
     return fig
-
-# Exemple d'utilisation
-start_year = 2010
-end_year = 2022
-selected_researcher = "Ilham ALLOUI"  # ou "Tous les chercheurs" ou None
-fig_pub = create_perfected_publications_chart(start_year, end_year, selected_researcher)
-
-if fig_pub:
-    fig_pub.show()
-else:
-    print(f"Aucune donnée trouvée pour la période {start_year}-{end_year}")

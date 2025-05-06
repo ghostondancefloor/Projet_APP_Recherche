@@ -4,6 +4,7 @@ import mysql.connector
 from mysql.connector import Error
 import random
 import colorsys
+import os
 
 def generate_harmonic_colors(n_colors, saturation=0.7, value=0.9):
     """
@@ -28,13 +29,13 @@ def get_sankey_data(chercheur_nom):
         return []
         
     try:
-        # Configurer la connexion à la base de données
+                # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -299,11 +300,3 @@ def generate_improved_sankey(chercheur_nom):
     
     return fig
 
-# Exemple d'utilisation
-selected_researcher = "Ilham ALLOUI"  # Remplacer par le nom du chercheur
-fig_sankey = generate_improved_sankey(selected_researcher)
-
-if fig_sankey:
-    fig_sankey.show()
-else:
-    print(f"Aucune donnée trouvée pour {selected_researcher}")

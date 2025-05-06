@@ -6,6 +6,8 @@ import pandas as pd
 from tqdm import tqdm
 import sys
 import math
+import os 
+
 
 # 🔹 1. Lire la liste de chercheurs autorisés
 def lire_chercheurs_autorises(fichier):
@@ -20,12 +22,13 @@ def lire_chercheurs_autorises(fichier):
 # 🔹 2. Récupérer le graphe de collaboration
 def get_collaboration_network(chercheurs_autorises):
     try:
+                # Configurer la connexion à la base de données
         connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="",
-            database="bdd"
-        )
+        host=os.getenv("DB_HOST", "db"),
+        user=os.getenv("DB_USER", "user"),
+        password=os.getenv("DB_PASS", "userpass"),
+        database=os.getenv("DB_NAME", "dashboarddb"),
+        port=int(os.getenv("DB_PORT", "3306")))
         
         if connection.is_connected():
             cursor = connection.cursor(dictionary=True)
@@ -215,8 +218,3 @@ def create_enhanced_network_graph():
     
     return fig_graph
 
-# 🔹 5. Lancer le tout
-fig_graph = create_enhanced_network_graph()
-
-if fig_graph:
-    fig_graph.show()
