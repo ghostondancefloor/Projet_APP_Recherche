@@ -288,8 +288,9 @@ if st.session_state['connecte']:
         st.header("Top 3 chercheurs par citations")
         with st.spinner('Chargement des données...'):
             viz9 = import_visualization_module("bddviz9")
-            if viz9 and hasattr(viz9, 'create_perfected_university_chart'):
-                fig_top3 = viz9.get_top_researchers_by_citations(3, chercheurs_autorises)
+            if viz9 and hasattr(viz9, 'create_top3_researchers_chart'):
+                fig_top3 = viz9.create_top3_researchers_chart()
+
                 if fig_top3:
                     st.plotly_chart(fig_top3, use_container_width=True)
                 else:
