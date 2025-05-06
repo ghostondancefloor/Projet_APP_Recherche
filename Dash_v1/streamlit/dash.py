@@ -412,6 +412,86 @@ elif st.session_state.page == 2:
                 title=f"Publications de {selected_researcher}"
             )
             st.plotly_chart(fig_pub, use_container_width=True)
+    # --- Visualisation 8: Top 5 Articles Most Cited per Researcher ---
+    if not dfs["dashboard_df"].empty:
+        if selected_researcher != "Aucun chercheur trouvé":
+            top_articles = dfs["dashboard_df"][
+                dfs["dashboard_df"]["researcher"] == selected_researcher
+            ].sort_values(by="value of cited by", ascending=False).head(5)
+
+            if not top_articles.empty:
+                fig_top_articles = px.bar(
+                    top_articles,
+                    x="value of cited by",
+                    y="title",
+                    orientation="h",
+                    title=f"Top 5 Articles les Plus Cités de {selected_researcher}",
+                    labels={"value of cited by": "Citations", "title": "Titre de l'article"},
+                )
+                fig_top_articles.update_layout(yaxis=dict(autorange="reversed"))
+                st.plotly_chart(fig_top_articles, use_container_width=True)
+
+    # --- Visualisation 9: Top 3 Researchers by Total Citations ---
+    if not dfs["dashboard_df"].empty:
+        top_3 = (
+            dfs["dashboard_df"]
+            .groupby("researcher")["value of cited by"]
+            .sum()
+            .reset_index()
+            .sort_values(by="value of cited by", ascending=False)
+            .head(3)
+        )
+
+        if not top_3.empty:
+            fig_top3 = go.Figure(
+                go.Bar(
+                    x=top_3["researcher"],
+                    y=top_3["value of cited by"],
+                    marker=dict(color=["gold", "silver", "brown"]),
+                )
+            )
+            fig_top3.update_layout(
+                title="Top 3 Chercheurs par Citations",
+                xaxis_title="Chercheur",
+                yaxis_title="Nombre de Citations",
+                height=500,
+            )
+            st.plotly_chart(fig_top3, use_container_width=True)
+
+    # --- Visualisation 7: Number of Institutes per Researcher ---
+    if dfs["sankey_data"]:
+        collab_count = {}
+        for entry in dfs["sankey_data"]:
+            source = entry["source"]
+            target = entry["target"]
+            collab_count.setdefault(source, set()).add(target)
+
+        collab_df = pd.DataFrame(
+            [{"researcher": k, "num_institutes": len(v)} for k, v in collab_count.items()]
+        )
+
+        if not collab_df.empty:
+            fig_inst = px.bar(
+                collab_df.sort_values(by="num_institutes", ascending=False),
+                x="researcher",
+                y="num_institutes",
+                title="Nombre d'Instituts Collaborés par Chercheur",
+                labels={"researcher": "Chercheur", "num_institutes": "Instituts"},
+            )
+            st.plotly_chart(fig_inst, use_container_width=True)
+
+    # --- Visualisation 4: Top Universities by Researcher (Pie Chart) ---
+    if selected_researcher != "Aucun chercheur trouvé":
+        university_counts = analyze_data(selected_researcher, start_year, end_year)
+        if university_counts:
+            df_uni = pd.DataFrame(university_counts, columns=["Université", "Nombre"])
+            fig_pie = px.pie(
+                df_uni,
+                names="Université",
+                values="Nombre",
+                title=f"Top Universités pour {selected_researcher}",
+            )
+            st.plotly_chart(fig_pie, use_container_width=True)
 
 # Navigation
 col1, col2 = st.columns([1, 1])

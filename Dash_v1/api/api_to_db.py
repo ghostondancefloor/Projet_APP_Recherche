@@ -89,5 +89,24 @@ async def get_sankey(token: dict = Depends(verify_token)):
 
 @app.get("/api/graph", response_model=List[Dict])
 async def get_graph(token: dict = Depends(verify_token)):
-    cursor = db.graph_data.find({}, {"_id": 0})
-    return [doc async for doc in cursor]
+    chercheurs_cursor = db.chercheurs.find({}, {"_id": 0})
+    chercheurs_data = [doc async for doc in chercheurs_cursor]
+
+    all_names = set(c["nom"] for c in chercheurs_data)
+    edges = {}
+    
+    for chercheur in chercheurs_data:
+        source = chercheur["nom"]
+        for collaborator in chercheur.get("collaborateurs", []):
+            if collaborator != source and collaborator in all_names:
+                key = tuple(sorted([source, collaborator]))
+                edges[key] = edges.get(key, 0) + 1
+
+    graph_edges = [
+        {"source": source, "target": target, "weight": weight}
+        for (source, target), weight in edges.items()
+    ]
+
+    return graph_edges
+
+
