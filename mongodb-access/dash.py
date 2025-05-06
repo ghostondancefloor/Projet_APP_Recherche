@@ -1,4 +1,3 @@
-import streamlit as st
 import pandas as pd
 import json
 import plotly.express as px
@@ -6,60 +5,82 @@ import plotly.graph_objects as go
 from collections import Counter
 import random
 import networkx as nx
-from pymongo import MongoClient
+import requests
 from datetime import datetime
+import streamlit as st
 
 st.set_page_config(layout="wide")
 
-# Ensuite, vous pouvez définir les fonctions et charger les données
-@st.cache_resource
-def get_mongodb_connection():
-    client = MongoClient("mongodb://localhost:27017/")
-    db = client["research_db_structure"]
-    return db
+# API Configuration
+API_BASE_URL = "http://localhost:8000"  # Change this to match your FastAPI server address
+API_TOKEN = None
 
-# Fonction pour récupérer les données depuis MongoDB
+# Function to handle authentication and get token
+def get_api_token():
+    if "api_token" not in st.session_state:
+        try:
+            response = requests.post(
+                f"{API_BASE_URL}/token",
+                data={"username": "admin", "password": "password"},
+            )
+            if response.status_code == 200:
+                token_data = response.json()
+                st.session_state.api_token = token_data["access_token"]
+            else:
+                st.error(f"Erreur d'authentification: {response.status_code}")
+                return None
+        except requests.RequestException as e:
+            st.error(f"Erreur de connexion à l'API: {str(e)}")
+            return None
+    
+    return st.session_state.api_token
+
+# Function to make authenticated API requests
+def api_request(endpoint):
+    token = get_api_token()
+    if not token:
+        st.error("Non authentifié. Impossible de récupérer les données.")
+        return None
+    
+    headers = {"Authorization": f"Bearer {token}"}
+    try:
+        response = requests.get(f"{API_BASE_URL}{endpoint}", headers=headers)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            st.error(f"Erreur API ({response.status_code}): {response.text}")
+            return None
+    except requests.RequestException as e:
+        st.error(f"Erreur lors de la requête API: {str(e)}")
+        return None
+
+# Functions to retrieve data from API
 @st.cache_data
 def get_stats_pays_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection stats_pays
-    data = list(db.stats_pays.find({}, {"_id": 0}))
-    return data
+    return api_request("/api/stats_pays")
 
 @st.cache_data
 def get_chercheurs_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection chercheurs
-    data = list(db.chercheurs.find({}, {"_id": 0}))
-    return data
+    return api_request("/api/chercheurs")
 
 @st.cache_data
 def get_publications_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection publications
-    data = list(db.publications.find({}, {"_id": 0}))
-    return data
+    return api_request("/api/publications")
 
 @st.cache_data
 def get_institutions_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection institutions
-    data = list(db.institutions.find({}, {"_id": 0}))
-    return data
+    return api_request("/api/institutions")
 
 @st.cache_data
 def get_collaborations_data():
-    db = get_mongodb_connection()
-    # Récupérer les données de la collection collaborations
-    data = list(db.collaborations.find({}, {"_id": 0}))
-    return data
+    return api_request("/api/collaborations")
 
 # Récupération des données
-stats_pays_data = get_stats_pays_data()
-chercheurs_data = get_chercheurs_data()
-publications_data = get_publications_data()
-institutions_data = get_institutions_data()
-collaborations_data = get_collaborations_data()
+stats_pays_data = get_stats_pays_data() or []
+chercheurs_data = get_chercheurs_data() or []
+publications_data = get_publications_data() or []
+institutions_data = get_institutions_data() or []
+collaborations_data = get_collaborations_data() or []
 
 # Conversion des données pays en dataframe
 rows = []
