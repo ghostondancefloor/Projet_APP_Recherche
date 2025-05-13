@@ -11,42 +11,73 @@ import streamlit as st
 
 st.set_page_config(layout="wide")
 
-# API Configuration
-API_BASE_URL = "http://api:8000"  
-API_TOKEN = None
+if "login_success" not in st.session_state:
+    st.session_state.login_success = False
 
-# Function to handle authentication and get token
-def get_api_token():
-    if "api_token" not in st.session_state:
-        try:
-            response = requests.post(
-                f"{API_BASE_URL}/token",
-                data={"username": "admin", "password": "password"},
-            )
-            if response.status_code == 200:
-                token_data = response.json()
-                st.session_state.api_token = token_data["access_token"]
-            else:
-                st.error(f"Erreur d'authentification: {response.status_code}")
-                return None
-        except requests.RequestException as e:
-            st.error(f"Erreur de connexion à l'API: {str(e)}")
-            return None
+# API Configuration
+API_BASE_URL = "http://api:8000"  # Change this to match your FastAPI server address
+
+def login_page():
+    st.title("Connexion")
     
-    return st.session_state.api_token
+    # Add debug information for development
+    st.markdown("### Informations de débogage")
+    st.write(f"API URL: {API_BASE_URL}")
+    
+    with st.form("login_form"):
+        username = st.text_input("Nom d'utilisateur")
+        password = st.text_input("Mot de passe", type="password")
+        submitted = st.form_submit_button("Se connecter")
+        if submitted:
+            st.info(f"Tentative de connexion pour l'utilisateur: {username}")
+            
+            try:
+                response = requests.post(
+                    f"{API_BASE_URL}/token",
+                    data={"username": username, "password": password},
+                )
+                
+                # Display response details for debugging
+                st.write(f"Status code: {response.status_code}")
+                
+                if response.status_code == 200:
+                    token_data = response.json()
+                    st.session_state.api_token = token_data["access_token"]
+                    st.session_state.username = username
+                    st.session_state.login_success = True  # mark as logged in
+                    st.success("Connexion réussie! Redirection vers le tableau de bord...")
+                    st.experimental_rerun()
+                else:
+                    st.error(f"Échec de la connexion. Vérifiez vos identifiants. (Erreur: {response.status_code})")
+                    if response.text:
+                        st.error(f"Détails: {response.text}")
+            except Exception as e:
+                st.error(f"Erreur de connexion: {e}")
+                st.error("Vérifiez que l'API est accessible.")
+
+if not st.session_state.get("login_success"):
+    login_page()
+    st.stop()
 
 # Function to make authenticated API requests
 def api_request(endpoint):
-    token = get_api_token()
-    if not token:
-        st.error("Non authentifié. Impossible de récupérer les données.")
+    if "api_token" not in st.session_state:
+        st.error("Non authentifié. Veuillez vous connecter.")
+        st.session_state.login_success = False
+        st.experimental_rerun()
         return None
     
+    token = st.session_state.api_token
     headers = {"Authorization": f"Bearer {token}"}
     try:
         response = requests.get(f"{API_BASE_URL}{endpoint}", headers=headers)
         if response.status_code == 200:
             return response.json()
+        elif response.status_code == 401:
+            st.error("Session expirée. Veuillez vous reconnecter.")
+            st.session_state.login_success = False
+            st.experimental_rerun()
+            return None
         else:
             st.error(f"Erreur API ({response.status_code}): {response.text}")
             return None
@@ -54,26 +85,36 @@ def api_request(endpoint):
         st.error(f"Erreur lors de la requête API: {str(e)}")
         return None
 
-# Functions to retrieve data from API
-@st.cache_data
+# Functions to retrieve data from API with caching
+@st.cache_data(ttl=300)  # Cache for 5 minutes
 def get_stats_pays_data():
     return api_request("/api/stats_pays")
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def get_chercheurs_data():
     return api_request("/api/chercheurs")
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def get_publications_data():
     return api_request("/api/publications")
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def get_institutions_data():
     return api_request("/api/institutions")
 
-@st.cache_data
+@st.cache_data(ttl=300)
 def get_collaborations_data():
     return api_request("/api/collaborations")
+
+@st.cache_data(ttl=300)
+def get_current_user_data():
+    return api_request("/api/me")
+
+# Affichage du nom d'utilisateur connecté
+user_data = get_current_user_data()
+if user_data:
+    st.sidebar.success(f"Connecté en tant que: {user_data.get('username', 'Utilisateur')}")
+    st.sidebar.button("Déconnexion", on_click=lambda: st.session_state.clear())
 
 # Récupération des données
 stats_pays_data = get_stats_pays_data() or []
@@ -137,17 +178,19 @@ df2 = df1.copy()  # Copie pour rester compatible avec le code original
 def preprocess_dates(date_str):
     if pd.isna(date_str):
         return None
-    if len(date_str) == 4:
-        return f"{date_str}-01-01"
-    elif len(date_str) == 7:
-        return f"{date_str}-01"
+    if isinstance(date_str, str):
+        if len(date_str) == 4:
+            return f"{date_str}-01-01"
+        elif len(date_str) == 7:
+            return f"{date_str}-01"
     return date_str
 
 for df_tmp in [df1, df2]:
-    df_tmp["publicationDate_s"] = df_tmp["publicationDate_s"].apply(preprocess_dates)
-    df_tmp["publicationDate_s"] = pd.to_datetime(df_tmp["publicationDate_s"], errors="coerce")
-    df_tmp["publicationYear"] = df_tmp["publicationDate_s"].dt.year
-    df_tmp["publicationMonth"] = df_tmp["publicationDate_s"].dt.to_period("M")
+    if not df_tmp.empty:
+        df_tmp["publicationDate_s"] = df_tmp["publicationDate_s"].apply(preprocess_dates)
+        df_tmp["publicationDate_s"] = pd.to_datetime(df_tmp["publicationDate_s"], errors="coerce")
+        df_tmp["publicationYear"] = df_tmp["publicationDate_s"].dt.year
+        df_tmp["publicationMonth"] = df_tmp["publicationDate_s"].dt.to_period("M")
 
 # Créer des données Sankey
 def create_sankey_data():
@@ -179,8 +222,6 @@ def create_graph_data():
                 "target": target,
                 "weight": weight
             })
-    if graph_data == [] : 
-        st.warning(f"Aucune donnée disponible pour l'année {selected_year}")    
     return graph_data
 
 graph_data = create_graph_data()
@@ -454,7 +495,7 @@ if st.session_state.page == 1:
     else:
         st.warning("Aucune donnée de collaboration disponible")
 
-    # Visualisation 7 - Nombre d'instituts par chercheur
+    # Visualisation 7 - Nombre d'instituts par chercheur (générale - non filtrée par utilisateur)
     if sankey_data:
         collab_count = {}
 
@@ -488,8 +529,9 @@ if st.session_state.page == 1:
     else:
         st.warning("Aucune donnée de collaboration disponible")
 
-    # Visualisation 9 - Top 3 chercheurs par citations
+    # Visualisation 9 - Top 3 chercheurs par citations (générale - non filtrée par utilisateur)
     if not top_3_researchers.empty:
+        # Utilisation des données non filtrées par utilisateur pour ce graphique
         podium_fig = go.Figure()
 
         podium_fig.add_trace(
@@ -543,7 +585,7 @@ elif st.session_state.page == 2:
     else:
         st.warning(f"Aucune donnée disponible pour {selected_dashboard_researcher}")
 
-    # Visualisation 3 - Publications par année
+    # Visualisation 3 - Publications par année (spécifique à l'utilisateur sélectionné)
     filtered_df1 = df1[
         (df1["publicationYear"] >= start_year) & (df1["publicationYear"] <= end_year)
     ]
@@ -571,14 +613,14 @@ elif st.session_state.page == 2:
     else:
         st.warning(f"Aucune publication trouvée pour la période sélectionnée")
 
-    # Diagramme Sankey
+    # Diagramme Sankey (spécifique à l'utilisateur sélectionné)
     if selected_dashboard_researcher != "Aucun chercheur trouvé" and sankey_data:
         fig_sankey = generate_sankey(selected_dashboard_researcher)
         st.plotly_chart(fig_sankey, use_container_width=True)
     else:
         st.warning(f"Aucune donnée de collaboration disponible pour {selected_dashboard_researcher}")
 
-    # Visualisation 4 - Top Universités pour un chercheur
+    # Visualisation 4 - Top Universités pour un chercheur (spécifique à l'utilisateur sélectionné)
     if selected_dashboard_researcher != "Aucun chercheur trouvé":
         university_counts = analyze_data(selected_dashboard_researcher, start_year, end_year)
         if university_counts:

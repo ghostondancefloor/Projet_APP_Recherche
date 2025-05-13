@@ -4,3 +4,4 @@ motor
 python-jose[cryptography]
 python-multipart
 PyJWT
+passlib

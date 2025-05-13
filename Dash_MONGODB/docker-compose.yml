@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   mongo:
-    image: danlimao/research_db_structure:v1
+    image: danlimao/project_app:latest
     container_name: research_db_container
     restart: always
     ports:

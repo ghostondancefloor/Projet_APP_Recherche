@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-pydantic
-python-jose[cryptography]
-PyJWT
-requests
-python-multipart
-pandas
-motor
