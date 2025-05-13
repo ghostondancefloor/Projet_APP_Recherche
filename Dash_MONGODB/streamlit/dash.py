@@ -1,5 +1,5 @@
-import streamlit as st
 import pandas as pd
+import json
 import plotly.express as px
 import plotly.graph_objects as go
 from collections import Counter
@@ -7,54 +7,80 @@ import random
 import networkx as nx
 import requests
 from datetime import datetime
+import streamlit as st
 
-# Configuration de l'application
 st.set_page_config(layout="wide")
 
-# Configuration de l'API
-API_URL = "http://localhost:8000"  # Adresse de votre API FastAPI
-API_USERNAME = "admin"
-API_PASSWORD = "password"
+# API Configuration
+API_BASE_URL = "http://api:8000"  
+API_TOKEN = None
 
-# Fonction pour obtenir le token JWT
-@st.cache_resource
+# Function to handle authentication and get token
 def get_api_token():
-    try:
-        response = requests.post(
-            f"{API_URL}/token",
-            data={"username": API_USERNAME, "password": API_PASSWORD},
-            headers={"Content-Type": "application/x-www-form-urlencoded"}
-        )
-        response.raise_for_status()
-        return response.json()["access_token"]
-    except Exception as e:
-        st.error(f"Erreur de connexion à l'API: {str(e)}")
-        return None
+    if "api_token" not in st.session_state:
+        try:
+            response = requests.post(
+                f"{API_BASE_URL}/token",
+                data={"username": "admin", "password": "password"},
+            )
+            if response.status_code == 200:
+                token_data = response.json()
+                st.session_state.api_token = token_data["access_token"]
+            else:
+                st.error(f"Erreur d'authentification: {response.status_code}")
+                return None
+        except requests.RequestException as e:
+            st.error(f"Erreur de connexion à l'API: {str(e)}")
+            return None
+    
+    return st.session_state.api_token
 
-# Fonction générique pour appeler l'API
-@st.cache_data
-def call_api(endpoint):
+# Function to make authenticated API requests
+def api_request(endpoint):
     token = get_api_token()
     if not token:
-        return []
+        st.error("Non authentifié. Impossible de récupérer les données.")
+        return None
     
+    headers = {"Authorization": f"Bearer {token}"}
     try:
-        response = requests.get(
-            f"{API_URL}/{endpoint}",
-            headers={"Authorization": f"Bearer {token}"}
-        )
-        response.raise_for_status()
-        return response.json()
-    except Exception as e:
-        st.error(f"Erreur lors de l'appel à l'API ({endpoint}): {str(e)}")
-        return []
+        response = requests.get(f"{API_BASE_URL}{endpoint}", headers=headers)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            st.error(f"Erreur API ({response.status_code}): {response.text}")
+            return None
+    except requests.RequestException as e:
+        st.error(f"Erreur lors de la requête API: {str(e)}")
+        return None
 
-# Récupération des données via l'API
-stats_pays_data = call_api("api/stats_pays")
-chercheurs_data = call_api("api/chercheurs")
-publications_data = call_api("api/publications")
-institutions_data = call_api("api/institutions")
-collaborations_data = call_api("api/collaborations")
+# Functions to retrieve data from API
+@st.cache_data
+def get_stats_pays_data():
+    return api_request("/api/stats_pays")
+
+@st.cache_data
+def get_chercheurs_data():
+    return api_request("/api/chercheurs")
+
+@st.cache_data
+def get_publications_data():
+    return api_request("/api/publications")
+
+@st.cache_data
+def get_institutions_data():
+    return api_request("/api/institutions")
+
+@st.cache_data
+def get_collaborations_data():
+    return api_request("/api/collaborations")
+
+# Récupération des données
+stats_pays_data = get_stats_pays_data() or []
+chercheurs_data = get_chercheurs_data() or []
+publications_data = get_publications_data() or []
+institutions_data = get_institutions_data() or []
+collaborations_data = get_collaborations_data() or []
 
 # Conversion des données pays en dataframe
 rows = []
@@ -63,6 +89,7 @@ for entry in stats_pays_data:
     pays = entry.get("pays")
     nombre_publications = entry.get("nombre_publications")
     
+    # Traitement spécial pour la France si nécessaire
     if pays == "France":
         rows.append({"year": year, "country": pays, "count": 0})
     else:
@@ -95,7 +122,7 @@ for pub in publications_data:
     auteurs = pub.get("auteurs", [])
     for auteur in auteurs:
         if annee_str:
-            date_str = f"{annee_str}-01-01"
+            date_str = f"{annee_str}-01-01"  # Utiliser le premier jour de l'année
             all_pubs.append({
                 "customAuthorName": auteur,
                 "publicationDate_s": date_str,
@@ -104,7 +131,7 @@ for pub in publications_data:
             })
 
 df1 = pd.DataFrame(all_pubs)
-df2 = df1.copy()
+df2 = df1.copy()  # Copie pour rester compatible avec le code original
 
 # Prétraitement des dates
 def preprocess_dates(date_str):
@@ -129,10 +156,11 @@ def create_sankey_data():
         nom_chercheur = chercheur.get("nom")
         institutions = chercheur.get("institutions", [])
         for institution in institutions:
+            # Pour simplifier, on utilise un poids fixe, ou vous pourriez calculer un poids basé sur d'autres facteurs
             sankey_data.append({
                 "source": nom_chercheur,
                 "target": institution,
-                "value": 1
+                "value": 1  # Valeur par défaut, peut être ajustée
             })
     return sankey_data
 
@@ -151,6 +179,8 @@ def create_graph_data():
                 "target": target,
                 "weight": weight
             })
+    if graph_data == [] : 
+        st.warning(f"Aucune donnée disponible pour l'année {selected_year}")    
     return graph_data
 
 graph_data = create_graph_data()
@@ -226,7 +256,6 @@ def generate_sankey(chercheur_name):
     )
     return fig
 
-# Interface utilisateur
 st.sidebar.title("Filtres")
 
 if "page" not in st.session_state:
@@ -307,12 +336,15 @@ else:
     researcher_list = ["Aucun chercheur trouvé"]
     selected_dashboard_researcher = researcher_list[0]
 
-# Affichage principal
+# -------------------------------------------------------
+
 st.title("Analyse des publications scientifiques")
 st.title("        ")
 
+# -------------------------------------------------------
+
 if st.session_state.page == 1:
-    # Visualisation 1 - Carte des pays collaborateurs
+    # Visualisation 1
     filtered_df = df[df["year"] == str(selected_year)]
     if not filtered_df.empty:
         fig_map = px.choropleth(
@@ -338,7 +370,7 @@ if st.session_state.page == 1:
     else:
         st.warning(f"Aucune donnée disponible pour l'année {selected_year}")
 
-    # Visualisation 2 - Top 5 des pays collaborateurs
+    # Visualisation 2
     if not filtered_df.empty:
         top_5 = filtered_df.sort_values(by="count", ascending=False).head(5)
         fig_bar = px.bar(
@@ -394,7 +426,9 @@ if st.session_state.page == 1:
                     size=10,
                     colorbar=dict(
                         thickness=15,
-                        title=dict(text="Node Connections"),
+                        title=dict(
+                            text="Node Connections"
+                        ),
                         xanchor="left"
                     )
                 )
@@ -566,7 +600,6 @@ elif st.session_state.page == 2:
     else:
         st.warning("Aucun chercheur sélectionné")
 
-# Navigation entre pages
 col_prev, col_spacer, col_next = st.columns([2, 6, 2])
 
 with col_prev:

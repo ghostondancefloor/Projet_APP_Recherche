@@ -1,9 +1,6 @@
 fastapi
-uvicorn
-pydantic
-python-jose[cryptography]
-PyJWT
-requests
-python-multipart
-pandas
+uvicorn[standard]
 motor
+python-jose[cryptography]
+python-multipart
+PyJWT

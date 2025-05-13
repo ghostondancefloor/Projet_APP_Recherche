@@ -1,0 +1,48 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: danlimao/research_db_structure:v1
+    container_name: research_db_container
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data
+    networks:
+      - internal_network
+
+  api:
+    build:
+      context: ./api
+    container_name: api_service
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/research_db_structure
+    networks:
+      - internal_network
+
+  streamlit:
+    build:
+      context: ./streamlit
+    container_name: streamlit_service
+    restart: always
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+    environment:
+      - API_BASE_URL=http://api:8000
+    networks:
+      - internal_network
+
+volumes:
+  mongodb_data:
+
+networks:
+  internal_network:
+    driver: bridge

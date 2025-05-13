@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"titre":{"$numberInt":"1"}},"name":"titre_1"},{"v":{"$numberInt":"2"},"key":{"annee":{"$numberInt":"1"}},"name":"annee_1"}],"uuid":"20d04cd0c49d40febc7ccd4fc1c38ab3","collectionName":"publications","type":"collection"}
