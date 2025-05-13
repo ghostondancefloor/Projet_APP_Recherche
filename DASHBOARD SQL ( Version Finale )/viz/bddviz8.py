@@ -176,11 +176,11 @@ def create_improved_top_articles_chart(researcher_name=None):
     
     # Mise en page du graphique
     fig.update_layout(
-        title=dict(
-            text="<b>Top 5 des articles les plus cités par chercheur</b>",
-            font=dict(size=20, color="#333333"),
-            x=0.5
-        ),
+        # title=dict(
+        #     text="<b>Top 5 des articles les plus cités par chercheur</b>",
+        #     font=dict(size=20, color="#333333"),
+        #     x=0.5
+        # ),
         xaxis=dict(
             title=dict(
                 text="Nombre de citations",
@@ -235,11 +235,11 @@ def create_improved_top_articles_chart(researcher_name=None):
     # Si un seul chercheur est sélectionné, ajuster le titre
     if len(researchers) == 1:
         fig.update_layout(
-            title=dict(
-                text=f"<b>Top 5 des articles les plus cités de {researchers[0]}</b>",
-                font=dict(size=20, color="#333333"),
-                x=0.5
-            )
+            # title=dict(
+            #     text=f"<b>Top 5 des articles les plus cités de {researchers[0]}</b>",
+            #     font=dict(size=20, color="#333333"),
+            #     x=0.5
+            # )
         )
     
     return fig

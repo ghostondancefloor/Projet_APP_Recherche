@@ -297,26 +297,26 @@ def create_perfected_publications_chart(start_year, end_year, chercheur_nom=None
     total_citations = int(df['total_citations'].sum())
     avg_citations_per_pub = total_citations / total_publications if total_publications > 0 else 0
     
-    fig.add_annotation(
-        x=0.25,
-        y=1,
-        xref="paper",
-        yref="paper",
-        text=(f"<b>Résumé</b>: {total_publications} publications | "
-              f"{mean_per_year:.1f} pub/an | "
-              f"{total_citations} citations | "
-              f"{avg_citations_per_pub:.1f} citations/pub"),
-        showarrow=False,
-        font=dict(size=13, color="#34495e"),
-        align="left",
-        bgcolor="rgba(255, 255, 255, 0.8)",
-        bordercolor="#d3d3d3",
-        borderwidth=1,
-        borderpad=6,
-        xanchor="left",
-        yanchor="top",
-        yshift=-10
-    )
+    # fig.add_annotation(
+    #     x=0.25,
+    #     y=1,
+    #     xref="paper",
+    #     yref="paper",
+    #     text=(f"<b>Résumé</b>: {total_publications} publications | "
+    #           f"{mean_per_year:.1f} pub/an | "
+    #           f"{total_citations} citations | "
+    #           f"{avg_citations_per_pub:.1f} citations/pub"),
+    #     showarrow=False,
+    #     font=dict(size=13, color="#34495e"),
+    #     align="left",
+    #     bgcolor="rgba(255, 255, 255, 0.8)",
+    #     bordercolor="#d3d3d3",
+    #     borderwidth=1,
+    #     borderpad=6,
+    #     xanchor="left",
+    #     yanchor="top",
+    #     yshift=-10
+    # )
     
 
     return fig

@@ -80,141 +80,97 @@ def create_enhanced_network_graph():
         return None
     
     G = nx.Graph()
-    
-    # Ajouter les arêtes au graphe avec leurs poids
     for edge in tqdm(graph_data, desc="Ajout des arêtes au graphe", file=sys.stdout):
-        source = edge["source"]
-        target = edge["target"]
-        weight = edge["weight"]
+        source, target, weight = edge["source"], edge["target"], edge["weight"]
         G.add_edge(source, target, weight=weight)
     
-    # Calculer les degrés de centralité pour influencer le placement des nœuds
     degree_centrality = nx.degree_centrality(G)
-    # Normaliser pour que 0 soit le moins central et 1 le plus central
-    max_centrality = max(degree_centrality.values()) if degree_centrality else 1
+    max_centrality = max(degree_centrality.values()) or 1
     for node in G.nodes():
-        G.nodes[node]['centrality'] = degree_centrality[node] / max_centrality if max_centrality > 0 else 0
-    
-    # Utiliser un layout avec plus d'itérations et un k plus grand pour étaler davantage le graphe
-    # Plus la valeur de k est grande, plus les nœuds seront espacés
-    # 1.5 est une valeur qui donne un bon étalement sans être excessif
-    pos = nx.spring_layout(G, weight='weight', k=1.5/math.sqrt(len(G.nodes())), 
-                          iterations=200, seed=42)
-    
-    # Préparer les positions des nœuds
-    x_nodes = [pos[node][0] for node in G.nodes()]
-    y_nodes = [pos[node][1] for node in G.nodes()]
-    
-    # Préparer les données pour les arêtes
-    edge_weights = [G.get_edge_data(u, v)['weight'] for u, v in G.edges()]
-    max_weight = max(edge_weights) if edge_weights else 1
-    min_weight = min(edge_weights) if edge_weights else 0
-    
-    # Créer des couleurs pour les arêtes basées sur leur poids (intensité de collaboration)
-    edge_colors = []
-    for weight in edge_weights:
-        # Normaliser entre 0 et 1
-        normalized = (weight - min_weight) / (max_weight - min_weight) if max_weight > min_weight else 0.5
-        # Créer une couleur avec une intensité variable
-        edge_colors.append(f"rgba(70, 130, 180, {0.3 + 0.7*normalized})")
-    
-    # Largeur des arêtes normalisée entre 0.5 et 5 selon le poids
-    normalized_weights = [0.5 + 4.5 * ((weight - min_weight) / (max_weight - min_weight)) 
-                         if max_weight > min_weight else 1 for weight in edge_weights]
-    
-    # Créer des traces distinctes pour chaque arête
+        G.nodes[node]['centrality'] = degree_centrality[node] / max_centrality
+
+    pos = nx.spring_layout(G, weight='weight', k=20, iterations=300, seed=42)
+
     edge_traces = []
-    i = 0
-    for u, v in G.edges():
-        edge_trace = go.Scatter(
+    edge_weights = [G[u][v]['weight'] for u, v in G.edges()]
+    max_weight = max(edge_weights) or 1
+    min_weight = min(edge_weights)
+
+    for i, (u, v) in enumerate(G.edges()):
+        weight = G[u][v]['weight']
+        norm_weight = (weight - min_weight) / (max_weight - min_weight) if max_weight > min_weight else 0.5
+        color = f"rgba(100, 100, 250, {0.2 + 0.6 * norm_weight})"
+        width = 0.5 + 5 * norm_weight
+
+        edge_traces.append(go.Scatter(
             x=[pos[u][0], pos[v][0], None],
             y=[pos[u][1], pos[v][1], None],
-            line=dict(width=normalized_weights[i], color=edge_colors[i]),
-            hoverinfo="text",
-            text=f"<b>{u} — {v}</b><br>{G.get_edge_data(u, v)['weight']} publications",
+            line=dict(width=width, color=color),
             mode="lines",
+            hoverinfo="text",
+            text=f"<b>{u} ↔ {v}</b><br>{weight} co-publications",
             opacity=0.8
-        )
-        edge_traces.append(edge_trace)
-        i += 1
-    
-    # Calculer les tailles des nœuds basées sur leur centralité (nœuds importants plus grands)
+        ))
+
+    x_nodes = [pos[node][0] for node in G.nodes()]
+    y_nodes = [pos[node][1] for node in G.nodes()]
     node_sizes = []
     node_colors = []
     node_texts = []
-    
+
     for node in G.nodes():
-        # Taille basée sur le nombre de connexions (de 15 à 50)
-        size = 15 + 35 * G.nodes[node]['centrality']
+        centrality = G.nodes[node]['centrality']
+        size = 18 + 30 * centrality
         node_sizes.append(size)
-        
-        # Couleur basée sur la centralité (du plus foncé au plus clair)
-        color_intensity = G.nodes[node]['centrality']
-        node_colors.append(f"rgba(31, 119, 180, {0.6 + 0.4*color_intensity})")
-        
-        # Texte d'information
-        connections = len(list(G.neighbors(node)))
-        node_texts.append(f"<b>{node}</b><br>Collaborations: {connections}")
-    
-    # Tracer les nœuds avec une meilleure apparence
+        node_colors.append(centrality)
+        node_texts.append(f"<b>{node}</b><br>Centralité : {centrality:.2f}<br>Liens : {G.degree[node]}")
+
+    # Tracer les nœuds sans nom visible par défaut
     node_trace = go.Scatter(
         x=x_nodes,
         y=y_nodes,
-        mode="markers+text",
+        mode="markers",
+        hovertext=node_texts,
         hoverinfo="text",
         marker=dict(
             showscale=True,
-            colorscale="Blues",
+            colorscale="YlGnBu",
             reversescale=False,
-            size=node_sizes,
             color=node_colors,
+            size=node_sizes,
             colorbar=dict(
                 thickness=15,
-                title=dict(
-                    text="Centralité",
-                    font=dict(size=12)
-                ),
+                title="Centralité",
                 xanchor="left"
             ),
-            line=dict(width=1, color="white")
-        ),
-        text=[node for node in G.nodes()],
-        hovertext=node_texts,
-        textposition="top center",
-        textfont=dict(size=10, color="black", family="Arial"),
+            line=dict(width=1, color='white')
+        )
     )
-    
-    # Créer la figure avec une meilleure mise en page - TAILLE PLEINE PAGE
+
     fig_graph = go.Figure(
         data=edge_traces + [node_trace],
         layout=go.Layout(
-            title=dict(
-                text="Réseau de collaborations entre chercheurs",
-                font=dict(size=20, color="#2c3e50", family="Arial"),
-                x=0.5
-            ),
             showlegend=False,
             hovermode="closest",
+            margin=dict(l=10, r=10, t=60, b=10),
             xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
             yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
-            height=900,       # Hauteur augmentée
-            width=1400,       # Largeur augmentée pour occuper toute la page
-            margin=dict(l=5, r=5, t=50, b=5),   # Marges minimales
+            height=2000,
+            width=3600,
             paper_bgcolor="white",
-            plot_bgcolor="rgba(240,240,240,0.8)",
+            plot_bgcolor="rgba(245, 247, 250, 0.95)",
             annotations=[
                 dict(
-                    text=f"Nombre de chercheurs: {len(G.nodes())}<br>Nombre de collaborations: {len(G.edges())}",
+                    text=f"👥 {len(G.nodes())} chercheurs — 🔁 {len(G.edges())} collaborations",
                     showarrow=False,
                     xref="paper", yref="paper",
                     x=0.01, y=0.01,
-                    font=dict(size=10, color="#7f7f7f"),
+                    font=dict(size=11, color="gray"),
                     bgcolor="white",
                     borderpad=4
                 )
             ]
         )
     )
-    
-    return fig_graph
 
+    return fig_graph

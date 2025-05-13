@@ -251,12 +251,12 @@ def generate_improved_sankey(chercheur_nom):
 
     # Mise en page améliorée
     fig.update_layout(
-        title=dict(
-            text=f"<b>Collaborations de {chercheur_nom} avec les institutions</b>",
-            font=dict(size=20, color="#2c3e50", family="Arial"),
-            x=0.5,
-            xanchor="center"
-        ),
+        # title=dict(
+        #     text=f"<b>Collaborations de {chercheur_nom} avec les institutions</b>",
+        #     font=dict(size=20, color="#2c3e50", family="Arial"),
+        #     x=0.5,
+        #     xanchor="center"
+        # ),
         font=dict(size=14, color="#34495e", family="Arial"),
         height=700,
         width=1000,

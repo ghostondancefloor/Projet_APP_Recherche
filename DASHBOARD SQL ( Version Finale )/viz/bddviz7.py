@@ -102,7 +102,6 @@ def create_simple_institutions_chart():
         df,
         x='professor',
         y='num_institutes',
-        title='Nombre d\'institutions collaborées par chercheur',
         labels={'professor': 'Chercheur', 'num_institutes': 'Nombre d\'institutions'},
         text='num_institutes',
         color='num_institutes',

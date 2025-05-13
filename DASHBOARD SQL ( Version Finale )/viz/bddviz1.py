@@ -126,7 +126,7 @@ def create_enhanced_map(year):
         color="count",
         hover_name="country",
         custom_data=["hover_text"],
-        title=f"Carte des pays collaborateurs en {year}",
+        # title=f"Carte des pays collaborateurs en {year}",
         color_continuous_scale="Plasma",
         range_color=[0, df_other['count'].max()],
         labels={"count": "Nombre de publications"},
@@ -174,12 +174,12 @@ def create_enhanced_map(year):
     
     # Mise en page générale
     fig.update_layout(
-        title=dict(
-            text=f"<b>Collaborations internationales en {year}</b>",
-            font=dict(size=24, color="RebeccaPurple"),
-            x=0.5,
-            xanchor="center"
-        ),
+        # title=dict(
+        #     text=f"<b>Collaborations internationales en {year}</b>",
+        #     font=dict(size=24, color="RebeccaPurple"),
+        #     x=0.5,
+        #     xanchor="center"
+        # ),
         coloraxis_colorbar=dict(
             title="Nombre de publications",
             tickformat="d",

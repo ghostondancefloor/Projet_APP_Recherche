@@ -60,7 +60,7 @@ def create_top3_researchers_chart():
     ))
 
     podium_fig.update_layout(
-        title="Top 3 Chercheurs par Citations",
+        # title="Top 3 Chercheurs par Citations",
         xaxis=dict(title="Chercheur"),
         yaxis=dict(title="Citations Totales"),
         height=600,

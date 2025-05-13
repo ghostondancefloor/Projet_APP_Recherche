@@ -72,7 +72,7 @@ def create_top5_countries_chart(year):
         y="count",
         color="count",
         color_continuous_scale="Blues",
-        title=f"Top 5 des pays collaborateurs en {year}",
+        # title=f"Top 5 des pays collaborateurs en {year}",
         labels={"country": "Pays", "count": "Nombre de publications"},
         text="count"
     )
