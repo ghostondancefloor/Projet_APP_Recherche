@@ -108,6 +108,7 @@ Unpack the `.rar` file you received (e.g., to `C:\mongo-dump`). Ensure the struc
 
 ```bash
 docker cp C:\mongo-dump research_db_container:/dump
+docker cp C:\Users\ikram\OneDrive\Desktop\Projet_APP_Recherche\Dash_MONGODB\mongo-dump research_db_container:/dump
 ```
 
 #### 5. Restore the Database from Dump
