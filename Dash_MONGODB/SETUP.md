@@ -61,19 +61,32 @@ cp .env.example .env
 
 You can edit `.env` if needed, but defaults should work fine.
 
-### Step 4: Start Services
+### Step 4: Build Docker Images (First Time Only)
+
+**First time setup** - Build the optimized Docker images:
+
+```bash
+docker-compose build
+```
+
+This takes **2-3 minutes** on first run. You'll see:
+- Building API image (~302MB final size)
+- Building Streamlit image (~810MB final size)
+
+**Subsequent runs**: Images are cached, so this step is instant (0.5s).
+
+### Step 5: Start Services
 
 ```bash
 docker-compose up -d
 ```
 
 This will:
-- Build optimized Docker images (takes 2-3 minutes first time)
 - Create MongoDB volume
-- Auto-import database with all users and data
-- Start API and Streamlit services
+- Auto-import database with all users and data (from `mongo-dump/`)
+- Start all 3 services (mongo, api, streamlit)
 
-### Step 5: Wait for Services to Start
+### Step 6: Wait for Services to Start
 
 ```bash
 # Check status (wait for "healthy" status)
@@ -86,7 +99,7 @@ api_service         Up X minutes (healthy)
 streamlit_service   Up X minutes (healthy)
 ```
 
-### Step 6: Access the Dashboard
+### Step 7: Access the Dashboard
 
 Open your browser: **http://localhost:8501**
 
@@ -216,6 +229,23 @@ This is normal on first build. Optimized images:
 - Streamlit: ~810MB
 
 Subsequent builds use cache and are much faster.
+
+**Want to rebuild from scratch?** (Removes cached layers):
+```bash
+docker-compose build --no-cache
+```
+
+**Remove old images completely** (Forces fresh build next time):
+```bash
+# List images
+docker images | grep dash_mongodb
+
+# Remove specific images
+docker rmi dash_mongodb-api dash_mongodb-streamlit
+
+# Or remove all unused images
+docker image prune -a
+```
 
 ### ❌ Database has no data / 0 users
 
