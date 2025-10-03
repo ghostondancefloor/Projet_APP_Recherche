@@ -2,11 +2,42 @@
 
 This guide helps you set up the Research Dashboard on your local machine after pulling from Git.
 
-**✅ Verified Working**: This guide has been tested with a fresh Docker environment. All 39 users can login with password `123`.
+**✅ Verified Working**: This guide has been tested with a fresh Docker environment. All 39 users can login with password `123### ❌ Database has no data / 0 users
 
----
+**This is the issue if auto-import didn't work!**
 
-## ⚠️ CRITICAL: Clean Docker Environment First!
+**Quick Fix** - Run the import script:
+```bash
+./import-db.sh
+```
+
+**OR** manually import:
+```bash
+docker-compose exec -T mongo mongorestore --db=research_db_structure /docker-entrypoint-initdb.d/research_db_structure/ --drop
+```
+
+**Verify data was imported:**
+```bash
+docker-compose exec -T mongo mongosh research_db_structure --quiet --eval "db.users.countDocuments({})"
+# Should show: 39
+```
+
+**For completely fresh start:**
+```bash
+# Complete cleanup
+docker-compose down -v
+docker volume rm dash_mongodb_mongodb_data
+
+# Verify mongo-dump exists
+ls -la mongo-dump/research_db_structure/
+# Should show: users.bson, chercheurs.bson, publications.bson, etc.
+
+# Fresh start
+docker-compose up -d
+
+# Wait for services to be healthy, then import
+./import-db.sh
+```CAL: Clean Docker Environment First!
 
 **If you've run this project before**, you MUST clean up old Docker data first to avoid authentication errors!
 
@@ -97,6 +128,21 @@ Wait until you see:
 ```
 api_service         Up X minutes (healthy)
 streamlit_service   Up X minutes (healthy)
+```
+
+### Step 6b: Import Database (If Auto-Import Didn't Work)
+
+**If the database didn't auto-import** (you can't login), run this script:
+
+```bash
+./import-db.sh
+```
+
+This will manually import all the database collections and users.
+
+**Alternative - Manual command**:
+```bash
+docker-compose exec -T mongo mongorestore --db=research_db_structure /docker-entrypoint-initdb.d/research_db_structure/ --drop
 ```
 
 ### Step 7: Access the Dashboard
