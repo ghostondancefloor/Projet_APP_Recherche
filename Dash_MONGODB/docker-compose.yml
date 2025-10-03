@@ -8,9 +8,12 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - ./data:/data
+      - mongodb_data:/data/db  # Named volume for persistent data storage
+      - ./mongo-dump:/docker-entrypoint-initdb.d:ro  # Auto-import data on first run (read-only)
     networks:
       - internal_network
+    environment:
+      - MONGO_INITDB_DATABASE=research_db_structure  # Default database name
 
   api:
     build:

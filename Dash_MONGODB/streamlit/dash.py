@@ -46,7 +46,7 @@ def login_page():
                     st.session_state.username = username
                     st.session_state.login_success = True  # mark as logged in
                     st.success("Connexion réussie! Redirection vers le tableau de bord...")
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error(f"Échec de la connexion. Vérifiez vos identifiants. (Erreur: {response.status_code})")
                     if response.text:
@@ -64,7 +64,7 @@ def api_request(endpoint):
     if "api_token" not in st.session_state:
         st.error("Non authentifié. Veuillez vous connecter.")
         st.session_state.login_success = False
-        st.experimental_rerun()
+        st.rerun()
         return None
     
     token = st.session_state.api_token
@@ -76,7 +76,7 @@ def api_request(endpoint):
         elif response.status_code == 401:
             st.error("Session expirée. Veuillez vous reconnecter.")
             st.session_state.login_success = False
-            st.experimental_rerun()
+            st.rerun()
             return None
         else:
             st.error(f"Erreur API ({response.status_code}): {response.text}")
