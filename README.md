@@ -53,7 +53,6 @@ Streamlit Dashboard (Port 8501)
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd Dash_MONGODB
 ```
 
 2. Start the services:
