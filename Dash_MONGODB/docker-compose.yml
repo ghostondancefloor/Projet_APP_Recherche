@@ -16,6 +16,8 @@ services:
       - .env
     environment:
       - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    entrypoint: ["/docker-entrypoint-initdb.d/docker-entrypoint-wrapper.sh"]
+    command: []
 
   api:
     build:
