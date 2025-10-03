@@ -11,17 +11,17 @@ from passlib.context import CryptContext
 from bson.objectid import ObjectId
 
 # MongoDB config
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://mongo:27017")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://mongo:27017/research_db_structure")
 client = AsyncIOMotorClient(MONGO_URI)
 
 # Log de débogage pour l'URI MongoDB
 print(f"Connecting to MongoDB at: {MONGO_URI}")
 db = client["research_db_structure"]
 
-# JWT config
-SECRET_KEY = "supersecretkey"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+# JWT config - read from environment variables
+SECRET_KEY = os.getenv("JWT_SECRET_KEY", "supersecretkey")
+ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "30"))
 
 # Configuration de l'encryption des mots de passe
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
