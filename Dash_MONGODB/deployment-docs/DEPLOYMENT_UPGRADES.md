@@ -100,30 +100,195 @@ Then manually restore database from backups located in `./backups/`
 
 ## Upgrade 2: Environment Configuration System
 
-**Date:** Planned  
+**Date:** October 3, 2025  
 **Priority:** High  
-**Status:** Not Started
+**Status:** Completed
 
-### Planned Improvements
+### What We Achieved
 
-Create a proper environment variable management system to separate development and production configurations.
+Implemented a comprehensive environment variable management system that separates configuration from code, improves security, and enables easy switching between development and production environments.
 
-**Current Issues:**
-- Hardcoded values in docker-compose.yml
-- No separation between development and production settings
-- Secrets exposed in version control
+### Before vs After
 
-**Planned Changes:**
-- Create .env file for environment-specific variables
-- Move sensitive data to environment variables
-- Create separate production configuration
-- Add .env to .gitignore for security
+**Before (Hardcoded Configuration):**
+```yaml
+# docker-compose.yml
+services:
+  mongo:
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=research_db_structure
+  
+  api:
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/research_db_structure
 
-**Expected Benefits:**
-- Clean separation of concerns
-- Improved security for secrets
-- Easier environment switching
-- Better configuration management
+# api/api_to_db.py
+SECRET_KEY = "supersecretkey"
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+```
+- Configuration values hardcoded in multiple files
+- Secrets visible in version control
+- No environment separation
+- Difficult to change between dev/prod
+
+**After (Environment-Based Configuration):**
+```yaml
+# docker-compose.yml
+services:
+  mongo:
+    ports:
+      - "${MONGO_PORT:-27017}:27017"
+    env_file:
+      - .env
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+  
+  api:
+    ports:
+      - "${API_PORT:-8000}:8000"
+    env_file:
+      - .env
+    environment:
+      - MONGO_URI=${MONGO_URI}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - JWT_ALGORITHM=${JWT_ALGORITHM}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES}
+
+# api/api_to_db.py
+SECRET_KEY = os.getenv("JWT_SECRET_KEY", "supersecretkey")
+ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
+ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "30"))
+```
+- All configuration in `.env` file
+- Secrets excluded from git (.gitignore)
+- Environment-specific configurations possible
+- Easy production deployment
+
+### Files Created
+
+1. **`.env`** - Main configuration file (gitignored)
+   - Contains all environment variables
+   - Development defaults
+   - Not committed to version control
+
+2. **`.env.example`** - Configuration template
+   - Documents all available variables
+   - Safe to commit (no secrets)
+   - Instructions for deployment
+
+### What This Means
+
+**Security Improvements:**
+- Secrets no longer in version control
+- JWT secret key can be changed per environment
+- Production configurations isolated from development
+
+**Operational Benefits:**
+- Single source of truth for configuration
+- Easy to switch between environments
+- Simplified deployment process
+- Better configuration documentation
+
+**Flexibility Gains:**
+- Different settings for dev/staging/production
+- Team members can customize local settings
+- Port conflicts easily resolved
+- Database URIs environment-specific
+
+### Configuration Variables
+
+| Variable | Purpose | Default |
+|----------|---------|---------|
+| MONGO_INITDB_DATABASE | Database name | research_db_structure |
+| MONGO_HOST | MongoDB hostname | mongo |
+| MONGO_PORT | MongoDB port | 27017 |
+| API_PORT | API server port | 8000 |
+| JWT_SECRET_KEY | JWT signing secret | (must change) |
+| JWT_ALGORITHM | JWT algorithm | HS256 |
+| ACCESS_TOKEN_EXPIRE_MINUTES | Token lifetime | 30 |
+| STREAMLIT_PORT | Dashboard port | 8501 |
+| API_BASE_URL | API endpoint | http://api:8000 |
+| MONGO_URI | Full MongoDB URI | (constructed) |
+
+### Files Modified
+
+1. **docker-compose.yml**
+   - Added `env_file` directives to all services
+   - Replaced hardcoded values with `${VARIABLE}` syntax
+   - Added default values using `${VAR:-default}` pattern
+
+2. **api/api_to_db.py**
+   - Updated to use `os.getenv()` for all configuration
+   - Added fallback defaults for development
+   - Improved configuration logging
+
+3. **.gitignore**
+   - Added `.env` to prevent secret exposure
+   - Added `.env.local` and `.env.*.local` patterns
+   - Kept `.env.example` for documentation
+
+### Verification Results
+
+All environment configuration tests passed:
+- Services start successfully with `.env` file
+- Environment variables loaded correctly in containers
+- API responds with configured settings
+- Database connection uses environment variables
+- All services communicate properly
+
+**Verified Commands:**
+```bash
+# Check environment variables in API container
+docker-compose exec api printenv | grep -E "(MONGO_URI|JWT_SECRET_KEY)"
+
+# Result:
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+JWT_ALGORITHM=HS256
+MONGO_URI=mongodb://mongo:27017/research_db_structure
+JWT_SECRET_KEY=supersecretkey
+```
+
+### Deployment Instructions
+
+For new deployments:
+
+1. Copy environment template:
+```bash
+cp .env.example .env
+```
+
+2. Edit `.env` with production values:
+```bash
+# Change JWT secret to strong random value
+JWT_SECRET_KEY=$(openssl rand -hex 32)
+```
+
+3. Start services:
+```bash
+docker-compose up -d
+```
+
+### Rollback Procedure
+
+If issues occur:
+
+1. Restore hardcoded values in docker-compose.yml
+2. Restore hardcoded values in api/api_to_db.py
+3. Remove env_file directives
+4. Restart services
+
+### Future Considerations
+
+- Add environment-specific .env files (.env.production, .env.staging)
+- Implement secrets management system (Docker Secrets, Vault)
+- Add configuration validation on startup
+- Create configuration migration scripts
+- Document all environment variables in code comments
 
 ---
 

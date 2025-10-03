@@ -109,10 +109,59 @@ Base URL: http://localhost:8000
 
 ## Configuration
 
-**Environment Variables:**
-- MONGO_URI: MongoDB connection string
-- JWT_SECRET_KEY: Secret for JWT tokens
-- API_BASE_URL: FastAPI service URL
+**Environment Files:**
+
+The application uses environment files for configuration management:
+
+- `.env` - Main configuration file (not committed to git)
+- `.env.example` - Template with documentation
+
+**Setup:**
+
+1. Copy the example file:
+```bash
+cp .env.example .env
+```
+
+2. Edit `.env` with your configuration:
+```bash
+# MongoDB Configuration
+MONGO_INITDB_DATABASE=research_db_structure
+MONGO_HOST=mongo
+MONGO_PORT=27017
+
+# API Configuration
+API_PORT=8000
+JWT_SECRET_KEY=your-secret-key-here-change-this-in-production
+JWT_ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Streamlit Configuration
+STREAMLIT_PORT=8501
+API_BASE_URL=http://api:8000
+
+# MongoDB URI
+MONGO_URI=mongodb://${MONGO_HOST}:${MONGO_PORT}/${MONGO_INITDB_DATABASE}
+```
+
+**Security Notes:**
+- Never commit `.env` file to version control
+- Change `JWT_SECRET_KEY` to a strong random value in production
+- Use different secrets for development and production environments
+
+**Environment Variables Reference:**
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| MONGO_INITDB_DATABASE | Database name | research_db_structure |
+| MONGO_HOST | MongoDB host | mongo |
+| MONGO_PORT | MongoDB port | 27017 |
+| API_PORT | API server port | 8000 |
+| JWT_SECRET_KEY | JWT signing secret | (change in production) |
+| JWT_ALGORITHM | JWT algorithm | HS256 |
+| ACCESS_TOKEN_EXPIRE_MINUTES | Token lifetime | 30 |
+| STREAMLIT_PORT | Dashboard port | 8501 |
+| API_BASE_URL | API endpoint URL | http://api:8000 |
 
 **Ports:**
 - 27017: MongoDB
