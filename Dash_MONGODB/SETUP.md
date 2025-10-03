@@ -2,6 +2,8 @@
 
 This guide helps you set up the Research Dashboard on your local machine after pulling from Git.
 
+**✅ Verified Working**: This guide has been tested with a fresh Docker environment. All 39 users can login with password `123`.
+
 ---
 
 ## ⚠️ CRITICAL: Clean Docker Environment First!
