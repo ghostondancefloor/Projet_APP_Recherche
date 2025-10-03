@@ -1,7 +1,0 @@
-streamlit
-pandas
-mysql-connector-python
-plotly
-networkx
-matplotlib
-tqdm

@@ -1,2 +1,10 @@
-/mongodb-access/venv
-/Dash_v1/api/__pycache__
+# Backup directories
+backups/
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+
+# Keep example environment files
+!.env.example
