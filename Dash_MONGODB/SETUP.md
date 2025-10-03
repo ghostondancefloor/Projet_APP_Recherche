@@ -4,15 +4,18 @@ This guide helps you set up the Research Dashboard on your local machine after p
 
 **✅ Verified Working**: This guide has been tested with a fresh Docker environment. All 39 users can login with password `123### ❌ Database has no data / 0 users
 
-**This is the issue if auto-import didn't work!**
+**Very rare** - auto-import should work automatically on all platforms.
 
-**Quick Fix** - Run the import script:
+**Quick check - verify import happened:**
 ```bash
-./import-db.sh
+docker-compose logs mongo | grep -i "import\|initialized"
+# Should see: "Database is empty, importing data..." or "Database already initialized with 39 users"
 ```
 
-**OR** manually import:
+**If database is truly empty, manually import:**
 ```bash
+./import-db.sh
+# OR manually:
 docker-compose exec -T mongo mongorestore --db=research_db_structure /docker-entrypoint-initdb.d/research_db_structure/ --drop
 ```
 
@@ -20,23 +23,6 @@ docker-compose exec -T mongo mongorestore --db=research_db_structure /docker-ent
 ```bash
 docker-compose exec -T mongo mongosh research_db_structure --quiet --eval "db.users.countDocuments({})"
 # Should show: 39
-```
-
-**For completely fresh start:**
-```bash
-# Complete cleanup
-docker-compose down -v
-docker volume rm dash_mongodb_mongodb_data
-
-# Verify mongo-dump exists
-ls -la mongo-dump/research_db_structure/
-# Should show: users.bson, chercheurs.bson, publications.bson, etc.
-
-# Fresh start
-docker-compose up -d
-
-# Wait for services to be healthy, then import
-./import-db.sh
 ```CAL: Clean Docker Environment First!
 
 **If you've run this project before**, you MUST clean up old Docker data first to avoid authentication errors!
@@ -114,8 +100,10 @@ docker-compose up -d
 
 This will:
 - Create MongoDB volume
-- Auto-import database with all users and data (from `mongo-dump/`)
+- **Automatically import database** with all users and data (works on all platforms!)
 - Start all 3 services (mongo, api, streamlit)
+
+**The database import is fully automated** - you don't need to run any manual commands!
 
 ### Step 6: Wait for Services to Start
 
@@ -130,20 +118,7 @@ api_service         Up X minutes (healthy)
 streamlit_service   Up X minutes (healthy)
 ```
 
-### Step 6b: Import Database (If Auto-Import Didn't Work)
-
-**If the database didn't auto-import** (you can't login), run this script:
-
-```bash
-./import-db.sh
-```
-
-This will manually import all the database collections and users.
-
-**Alternative - Manual command**:
-```bash
-docker-compose exec -T mongo mongorestore --db=research_db_structure /docker-entrypoint-initdb.d/research_db_structure/ --drop
-```
+**Note**: First startup takes ~15-20 seconds while MongoDB initializes and imports data.
 
 ### Step 7: Access the Dashboard
 
