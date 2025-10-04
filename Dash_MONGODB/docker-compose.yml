@@ -2,22 +2,21 @@ version: "3.9"
 
 services:
   mongo:
-    image: danlimao/project_app:latest
+    build:
+      context: .
+      dockerfile: mongo.Dockerfile
     container_name: research_db_container
     restart: always
     ports:
       - "${MONGO_PORT:-27017}:27017"
     volumes:
       - mongodb_data:/data/db  # Named volume for persistent data storage
-      - ./mongo-dump:/docker-entrypoint-initdb.d:ro  # Auto-import data on first run (read-only)
     networks:
       - internal_network
     env_file:
       - .env
     environment:
       - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
-    entrypoint: ["/docker-entrypoint-initdb.d/docker-entrypoint-wrapper.sh"]
-    command: []
 
   api:
     build:

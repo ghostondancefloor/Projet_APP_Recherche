@@ -1,0 +1,5 @@
+# Mark shell scripts as executable
+*.sh text eol=lf
+
+# Ensure BSON files are treated as binary
+*.bson binary
