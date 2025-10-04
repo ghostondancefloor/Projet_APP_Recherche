@@ -1,202 +1,402 @@
-# Research Dashboard - MongoDB Version# Research Dashboard - MongoDB Version
+# Research Dashboard - MongoDB Version# Research Dashboard - MongoDB Version# Research Dashboard - MongoDB Version
 
 
 
-A containerized research analytics dashboard built with FastAPI, Streamlit, and MongoDB for tracking publications, researchers, collaborations, and institutional data.A containerized research analytics dashboard built with FastAPI, Streamlit, and MongoDB for tracking publications, researchers, collaborations, and institutional data.
+A containerized research analytics dashboard built with FastAPI, Streamlit, and MongoDB for tracking publications, researchers, collaborations, and institutional data.
 
 
 
-------
+---A containerized research analytics dashboard built with FastAPI, Streamlit, and MongoDB for tracking publications, researchers, collaborations, and institutional data.A containerized research analytics dashboard built with FastAPI, Streamlit, and MongoDB for tracking publications, researchers, collaborations, and institutional data.
 
 
 
-## 🚀 Quick Start## ⚠️ IMPORTANT for Team Members
+## 🚀 Quick Start
 
 
 
-### First Time Setup**After cloning this repository, you MUST run the setup script first:**
+```bash------
 
+# 1. Clone and navigate
 
-
-```bash```bash
-
-# 1. Clone the repository./setup.sh
-
-git clone <repository-url>```
+git clone <repository-url>
 
 cd Dash_MONGODB
 
-**Why?** Git doesn't preserve executable permissions on shell scripts. Without this, the database won't initialize automatically and will be empty.
+## 🚀 Quick Start## ⚠️ IMPORTANT for Team Members
 
-# 2. Run setup script (fixes permissions & creates .env)
+# 2. Create environment file
 
-./setup.shSee [`QUICKSTART.md`](QUICKSTART.md) for the fastest path to get running.
+cp .env.example .env
 
 
 
-# 3. Build and start services---
+# 3. Build and start### First Time Setup**After cloning this repository, you MUST run the setup script first:**
 
 docker-compose build
 
-docker-compose up -d## Quick Start
+docker-compose up -d
 
 
 
-# 4. Wait 60 seconds for database initialization### For Team Members (First Time Setup)
+# 4. Wait 60 seconds for database initialization```bash```bash
 
 
 
-# 5. Access the dashboard```bash
+# 5. Open dashboard# 1. Clone the repository./setup.sh
 
-open http://localhost:8501# 1. Run the setup script (IMPORTANT - fixes permissions!)
+open http://localhost:8501
 
-```./setup.sh
-
-
-
-**Default Login:**# 2. Build and start services
-
-- Username: `Flavien VERNIER`docker-compose build
-
-- Password: `123`docker-compose up -d
+```git clone <repository-url>```
 
 
 
-### If Database is Empty# 3. Wait 30-60 seconds for database initialization
+**Login:** Username: `Flavien VERNIER` | Password: `123`cd Dash_MONGODB
 
 
 
-```bash# 4. Access the dashboard
-
-./import-db.shopen http://localhost:8501
-
-``````
+> **Fixed!** Scripts are now executable via Dockerfile. No setup.sh needed!**Why?** Git doesn't preserve executable permissions on shell scripts. Without this, the database won't initialize automatically and will be empty.
 
 
 
----**Default Login:**
-
-- Username: `Flavien VERNIER` (or any researcher name)
-
-## 📋 Prerequisites- Password: `123`
+---# 2. Run setup script (fixes permissions & creates .env)
 
 
 
-- Docker Desktop installed and running### If Database is Empty After Starting
+## 📋 Prerequisites./setup.shSee [`QUICKSTART.md`](QUICKSTART.md) for the fastest path to get running.
+
+
+
+- Docker Desktop running
 
 - Docker Compose v2.0+
 
-- 4GB RAM minimum```bash
+- 4GB RAM minimum# 3. Build and start services---
 
-- 10GB disk space# Run the manual import script
+- 10GB disk space
 
-./import-db.sh
-
----```
-
-
-
-## 🏗️ Architecture---
-
-
-
-```## Architecture
-
-┌─────────────────────────────────────────┐
-
-│   Streamlit Dashboard (Port 8501)      │This application uses a three-tier containerized architecture:
-
-│   - Interactive UI                      │
-
-│   - Data Visualizations                 │```
-
-└────────────────┬────────────────────────┘MongoDB (Port 27017)
-
-                 │    ↓
-
-┌────────────────▼────────────────────────┐FastAPI REST API (Port 8000)
-
-│   FastAPI Backend (Port 8000)          │    ↓
-
-│   - REST API                            │Streamlit Dashboard (Port 8501)
-
-│   - JWT Authentication                  │```
-
-└────────────────┬────────────────────────┘
-
-                 │**Services:**
-
-┌────────────────▼────────────────────────┐- **MongoDB:** Database with persistent volume storage
-
-│   MongoDB Database (Port 27017)        │- **FastAPI:** REST API with JWT authentication
-
-│   - Persistent Storage                  │- **Streamlit:** Interactive web dashboard
-
-│   - Auto-initialization                 │
-
-└─────────────────────────────────────────┘---
-
-```
-
-## Prerequisites
+docker-compose build
 
 ---
 
-- Docker Desktop installed and running
+docker-compose up -d## Quick Start
 
-## 📊 Database- Docker Compose v2.0 or higher
+## 🏗️ Architecture
 
-- 4GB RAM available for containers
 
-**Collections:**- 10GB disk space for data
 
-- `chercheurs`: 181 researchers
+```
 
-- `publications`: 4,527 publications---
+Streamlit (8501) → FastAPI (8000) → MongoDB (27017)# 4. Wait 60 seconds for database initialization### For Team Members (First Time Setup)
 
-- `institutions`: 1,264 institutions
+```
 
-- `collaborations`: 131 collaborations## Installation
+
+
+**Services:**
+
+- **MongoDB:** Database with auto-initialization from BSON dumps# 5. Access the dashboard```bash
+
+- **FastAPI:** REST API with JWT authentication  
+
+- **Streamlit:** Interactive dashboardopen http://localhost:8501# 1. Run the setup script (IMPORTANT - fixes permissions!)
+
+
+
+---```./setup.sh
+
+
+
+## 📊 Database
+
+
+
+**Collections:****Default Login:**# 2. Build and start services
+
+- `users`: 39 authentication users (all password: `123`)
+
+- `chercheurs`: 181 researchers- Username: `Flavien VERNIER`docker-compose build
+
+- `publications`: 4,527 publications
+
+- `institutions`: 1,264 institutions- Password: `123`docker-compose up -d
+
+- `collaborations`: 131 collaborations
 
 - `stats_pays`: 558 country statistics
+
+
+
+---### If Database is Empty# 3. Wait 30-60 seconds for database initialization
+
+
+
+## 🔧 Common Commands
+
+
+
+```bash```bash# 4. Access the dashboard
+
+# Start
+
+docker-compose up -d./import-db.shopen http://localhost:8501
+
+
+
+# Stop``````
+
+docker-compose down
+
+
+
+# View logs
+
+docker-compose logs -f---**Default Login:**
+
+
+
+# Rebuild- Username: `Flavien VERNIER` (or any researcher name)
+
+docker-compose build --no-cache
+
+## 📋 Prerequisites- Password: `123`
+
+# Verify database
+
+docker-compose exec -T mongo mongosh research_db_structure --quiet --eval "db.users.countDocuments({})"
+
+# Should return: 39
+
+- Docker Desktop installed and running### If Database is Empty After Starting
+
+# Full reset
+
+docker-compose down -v- Docker Compose v2.0+
+
+docker-compose up -d
+
+```- 4GB RAM minimum```bash
+
+
+
+---- 10GB disk space# Run the manual import script
+
+
+
+## 🌐 Access./import-db.sh
+
+
+
+- **Dashboard:** http://localhost:8501---```
+
+- **API Docs:** http://localhost:8000/docs
+
+- **Health:** http://localhost:8000/health
+
+
+
+---## 🏗️ Architecture---
+
+
+
+## 📁 Structure
+
+
+
+``````## Architecture
+
+Dash_MONGODB/
+
+├── api/                    # FastAPI backend┌─────────────────────────────────────────┐
+
+├── streamlit/             # Streamlit dashboard
+
+├── mongo-dump/            # Database initialization│   Streamlit Dashboard (Port 8501)      │This application uses a three-tier containerized architecture:
+
+│   ├── docker-entrypoint-wrapper.sh
+
+│   └── research_db_structure/*.bson│   - Interactive UI                      │
+
+├── docs/                  # Documentation
+
+│   ├── TROUBLESHOOTING.md│   - Data Visualizations                 │```
+
+│   └── SETUP_CHECKLIST.md
+
+├── docker-compose.yml└────────────────┬────────────────────────┘MongoDB (Port 27017)
+
+├── mongo.Dockerfile       # Custom MongoDB image
+
+├── .env.example                 │    ↓
+
+├── setup.sh              # Optional safety net
+
+├── import-db.sh          # Manual DB import┌────────────────▼────────────────────────┐FastAPI REST API (Port 8000)
+
+└── README.md
+
+```│   FastAPI Backend (Port 8000)          │    ↓
+
+
+
+---│   - REST API                            │Streamlit Dashboard (Port 8501)
+
+
+
+## ⚠️ Troubleshooting│   - JWT Authentication                  │```
+
+
+
+### Database Empty (Rare)└────────────────┬────────────────────────┘
+
+
+
+```bash                 │**Services:**
+
+./import-db.sh
+
+```┌────────────────▼────────────────────────┐- **MongoDB:** Database with persistent volume storage
+
+
+
+### Login Fails│   MongoDB Database (Port 27017)        │- **FastAPI:** REST API with JWT authentication
+
+
+
+```bash│   - Persistent Storage                  │- **Streamlit:** Interactive web dashboard
+
+# Verify database has users
+
+docker-compose exec -T mongo mongosh research_db_structure --quiet --eval "db.users.countDocuments({})"│   - Auto-initialization                 │
+
+```
+
+└─────────────────────────────────────────┘---
+
+### Port in Use
+
+```
+
+Edit `.env`:
+
+```env## Prerequisites
+
+MONGO_PORT=27018
+
+API_PORT=8001---
+
+STREAMLIT_PORT=8502
+
+```- Docker Desktop installed and running
+
+
+
+**More help:** See [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)## 📊 Database- Docker Compose v2.0 or higher
+
+
+
+---- 4GB RAM available for containers
+
+
+
+## 🔄 Maintenance**Collections:**- 10GB disk space for data
+
+
+
+### Update- `chercheurs`: 181 researchers
+
+
+
+```bash- `publications`: 4,527 publications---
+
+git pull
+
+docker-compose down- `institutions`: 1,264 institutions
+
+docker-compose build
+
+docker-compose up -d- `collaborations`: 131 collaborations## Installation
+
+```
+
+- `stats_pays`: 558 country statistics
+
+### Backup
 
 - `users`: 39 authentication users1. Clone the repository:
 
 ```bash
 
-**Data Location:**git clone <repository-url>
+docker-compose exec -T mongo mongodump --db=research_db_structure --out=/data/backup```bash
 
-- Persistent Volume: `dash_mongodb_mongodb_data`cd Dash_MONGODB
+docker cp research_db_container:/data/backup ./backups/backup-$(date +%Y%m%d)
 
-- Initialization Dump: `./mongo-dump/research_db_structure/````
+```**Data Location:**git clone <repository-url>
 
 
 
----2. Start the services:
+---- Persistent Volume: `dash_mongodb_mongodb_data`cd Dash_MONGODB
 
-```bash
 
-## 🔧 Common Commandsdocker-compose up -d
 
-```
+## 📚 Documentation- Initialization Dump: `./mongo-dump/research_db_structure/````
 
-```bash
 
-# Start services3. Verify all containers are running:
 
-docker-compose up -d```bash
+- [Troubleshooting Guide](docs/TROUBLESHOOTING.md)
 
-docker-compose ps
+- [Setup Checklist](docs/SETUP_CHECKLIST.md)
 
-# Stop services```
+- [API Docs](http://localhost:8000/docs) (when running)---2. Start the services:
 
-docker-compose down
 
-4. The database will auto-initialize from dump files on first run
+
+---```bash
+
+
+
+## 🛠️ Technical Notes## 🔧 Common Commandsdocker-compose up -d
+
+
+
+### Why No Setup Script Needed?```
+
+
+
+The `mongo.Dockerfile` now handles all permissions:```bash
+
+```dockerfile
+
+RUN chmod +x /usr/local/bin/docker-entrypoint-wrapper.sh \# Start services3. Verify all containers are running:
+
+    /docker-entrypoint-initdb.d/init-db.sh
+
+```docker-compose up -d```bash
+
+
+
+This bakes executable permissions into the Docker image, solving the "Git doesn't preserve permissions" issue.docker-compose ps
+
+
+
+### Custom MongoDB Image# Stop services```
+
+
+
+We build a custom MongoDB image that:docker-compose down
+
+1. Copies initialization scripts with correct permissions
+
+2. Includes database dump files (BSON)4. The database will auto-initialize from dump files on first run
+
+3. Automatically initializes on first run
 
 # View logs
 
+---
+
 docker-compose logs -f---
+
+**Questions?** Check `docs/` folder or contact the team.
 
 
 
