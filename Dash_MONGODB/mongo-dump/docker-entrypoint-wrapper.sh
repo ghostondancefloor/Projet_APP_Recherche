@@ -22,10 +22,15 @@ USER_COUNT=$(mongosh research_db_structure --quiet --eval "db.users.countDocumen
 if [ "$USER_COUNT" = "0" ]; then
     echo "Database is empty, importing data..."
     mongorestore --db=research_db_structure /docker-entrypoint-initdb.d/research_db_structure/
-    echo "Database import completed! Users imported: $(mongosh research_db_structure --quiet --eval 'db.users.countDocuments({})')"
+    
+    # Verify import succeeded
+    sleep 2
+    FINAL_COUNT=$(mongosh research_db_structure --quiet --eval 'db.users.countDocuments({})' 2>/dev/null || echo "0")
+    echo "Database import completed! Users imported: $FINAL_COUNT"
 else
     echo "Database already initialized with $USER_COUNT users"
 fi
 
 # Keep MongoDB running in foreground
+wait
 wait
