@@ -1,0 +1,1 @@
+# fichier pour gérer l'affichage de la partie 'résumé IA pour un chercheur'
