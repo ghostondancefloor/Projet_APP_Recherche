@@ -17,6 +17,14 @@ services:
       - .env
     environment:
       - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'       # Maximum 2 CPU cores
+          memory: 2G        # Maximum 2GB RAM
+        reservations:
+          cpus: '0.5'       # Minimum 0.5 CPU cores
+          memory: 512M      # Minimum 512MB RAM
 
   api:
     build:
@@ -36,6 +44,14 @@ services:
       - JWT_SECRET_KEY=${JWT_SECRET_KEY}
       - JWT_ALGORITHM=${JWT_ALGORITHM}
       - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES}
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'       # Maximum 1 CPU core
+          memory: 1G        # Maximum 1GB RAM
+        reservations:
+          cpus: '0.25'      # Minimum 0.25 CPU cores
+          memory: 256M      # Minimum 256MB RAM
 
   streamlit:
     build:
@@ -52,6 +68,14 @@ services:
       - .env
     environment:
       - API_BASE_URL=${API_BASE_URL}
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'       # Maximum 1.5 CPU cores
+          memory: 1.5G      # Maximum 1.5GB RAM
+        reservations:
+          cpus: '0.25'      # Minimum 0.25 CPU cores
+          memory: 256M      # Minimum 256MB RAM
 
 volumes:
   mongodb_data:

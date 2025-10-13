@@ -70,8 +70,21 @@ Make sure you have these installed before starting:
 
 - **Docker Desktop** - Must be running before you start the services
 - **Docker Compose** - Version 2.0 or higher
-- **4GB of available RAM** - For running all three containers
+- **4GB of available RAM** - Minimum for running all three containers
 - **10GB of disk space** - For Docker images and database
+
+**Resource Allocation:**
+
+The application uses the following resource limits:
+
+| Service | CPU Limit | Memory Limit | CPU Reserved | Memory Reserved |
+|---------|-----------|--------------|--------------|-----------------|
+| MongoDB | 2.0 cores | 2GB | 0.5 cores | 512MB |
+| FastAPI | 1.0 core | 1GB | 0.25 cores | 256MB |
+| Streamlit | 1.5 cores | 1.5GB | 0.25 cores | 256MB |
+| **Total** | **4.5 cores** | **4.5GB** | **1.0 core** | **1GB** |
+
+**Note:** These limits can be adjusted in `docker-compose.yml` under the `deploy.resources` section for each service.
 
 To verify Docker is ready:
 
@@ -248,6 +261,43 @@ docker-compose build --no-cache
 docker-compose up -d --build
 ```
 
+### Monitoring Resources
+
+```bash
+# View resource usage for all containers
+docker stats
+
+# View resource usage for specific container
+docker stats research_db_container
+docker stats api_service
+docker stats streamlit_service
+
+# Check resource limits
+docker inspect research_db_container | grep -A 10 "Memory"
+```
+
+### Adjusting Resource Limits
+
+To modify resource limits, edit `docker-compose.yml` and change the values under `deploy.resources`:
+
+```yaml
+deploy:
+  resources:
+    limits:
+      cpus: '2.0'      # Adjust CPU limit
+      memory: 2G       # Adjust memory limit
+    reservations:
+      cpus: '0.5'      # Adjust CPU reservation
+      memory: 512M     # Adjust memory reservation
+```
+
+Then restart the services:
+
+```bash
+docker-compose down
+docker-compose up -d
+```
+
 ---
 
 ## Accessing Services
@@ -325,6 +375,17 @@ Make sure Docker Desktop has enough resources:
 - At least 4GB RAM allocated
 - At least 2 CPU cores
 - Sufficient disk space available
+
+**Check current resource usage:**
+
+```bash
+docker stats --no-stream
+```
+
+If containers are hitting their limits, you may need to:
+1. Increase limits in `docker-compose.yml`
+2. Allocate more resources to Docker Desktop (Preferences → Resources)
+3. Close other resource-intensive applications
 
 **For more detailed troubleshooting, see \`docs/TROUBLESHOOTING.md\`**
 
