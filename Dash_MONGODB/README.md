@@ -7,6 +7,8 @@ A containerized research analytics dashboard built with FastAPI, Streamlit, and 
 ## Table of Contents
 
 - [Quick Start](#quick-start)
+  - [Docker Compose (Recommended for Development)](#docker-compose-recommended-for-development)
+  - [Kubernetes (Production & Learning)](#kubernetes-production--learning)
 - [What This Application Does](#what-this-application-does)
 - [Prerequisites](#prerequisites)
 - [System Architecture](#system-architecture)
@@ -14,6 +16,7 @@ A containerized research analytics dashboard built with FastAPI, Streamlit, and 
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Common Commands](#common-commands)
+- [Kubernetes Deployment](#kubernetes-deployment)
 - [Accessing Services](#accessing-services)
 - [Troubleshooting](#troubleshooting)
 - [Maintenance](#maintenance)
@@ -25,6 +28,10 @@ A containerized research analytics dashboard built with FastAPI, Streamlit, and 
 ---
 
 ## Quick Start
+
+Choose your deployment method:
+
+### Docker Compose (Recommended for Development)
 
 After cloning this repository, follow these steps:
 
@@ -49,6 +56,26 @@ Then open your browser to **http://localhost:8501**
 
 The database will automatically populate with all research data (39 users, 181 researchers, 4,527 publications, and more).
 
+### Kubernetes (Production & Learning)
+
+For production deployments or learning Kubernetes:
+
+```bash
+# 1. Ensure Kubernetes is running (Docker Desktop or Minikube)
+kubectl cluster-info
+
+# 2. Navigate to the k8s directory
+cd k8s
+
+# 3. Run the automated deployment script
+./deploy.sh
+
+# 4. Access the dashboard
+# Open http://localhost:8501 in your browser
+```
+
+For detailed Kubernetes instructions, see the [Kubernetes Deployment](#kubernetes-deployment) section below.
+
 ---
 
 ## What This Application Does
@@ -66,12 +93,21 @@ This dashboard helps you explore and analyze scientific research data:
 
 ## Prerequisites
 
+### For Docker Compose (Development)
+
 Make sure you have these installed before starting:
 
 - **Docker Desktop** - Must be running before you start the services
 - **Docker Compose** - Version 2.0 or higher
 - **4GB of available RAM** - Minimum for running all three containers
 - **10GB of disk space** - For Docker images and database
+
+### For Kubernetes (Production/Learning)
+
+- **Docker Desktop with Kubernetes enabled**, OR **Minikube**
+- **kubectl** - Kubernetes command-line tool
+- **4.5GB of available RAM** - For all pods
+- **10GB of disk space** - For images and persistent volumes
 
 **Resource Allocation:**
 
@@ -84,7 +120,7 @@ The application uses the following resource limits:
 | Streamlit | 1.5 cores | 1.5GB | 0.25 cores | 256MB |
 | **Total** | **4.5 cores** | **4.5GB** | **1.0 core** | **1GB** |
 
-**Note:** These limits can be adjusted in `docker-compose.yml` under the `deploy.resources` section for each service.
+**Note:** These limits can be adjusted in `docker-compose.yml` or the Kubernetes manifests in `k8s/` directory.
 
 To verify Docker is ready:
 
@@ -297,6 +333,115 @@ Then restart the services:
 docker-compose down
 docker-compose up -d
 ```
+
+---
+
+## Kubernetes Deployment
+
+### Why Kubernetes?
+
+Kubernetes provides:
+- **High Availability**: Automatic pod restart if containers fail
+- **Scalability**: Easy horizontal scaling of API and dashboard replicas
+- **Load Balancing**: Built-in load balancing across pods
+- **Rolling Updates**: Zero-downtime deployments
+- **Resource Management**: CPU and memory limits/requests
+- **Production-Ready**: Industry-standard orchestration platform
+
+### Prerequisites
+
+- Docker Desktop with Kubernetes enabled, OR
+- Minikube installed and running
+- kubectl CLI tool installed
+
+### Quick Deploy
+
+```bash
+# 1. Navigate to k8s directory
+cd k8s
+
+# 2. Run automated deployment
+./deploy.sh
+
+# 3. Monitor deployment
+kubectl get pods -n research-dashboard --watch
+
+# 4. Access dashboard at http://localhost:8501
+```
+
+### Manual Deployment
+
+If you prefer step-by-step deployment:
+
+```bash
+cd k8s
+
+# 1. Create namespace
+kubectl apply -f namespace.yaml
+
+# 2. Create secrets
+kubectl apply -f secrets.yaml
+
+# 3. Create persistent storage
+kubectl apply -f mongodb-pv.yaml
+
+# 4. Deploy MongoDB
+kubectl apply -f mongodb-deployment.yaml
+kubectl wait --for=condition=ready pod -l app=mongodb -n research-dashboard --timeout=120s
+
+# 5. Deploy API
+kubectl apply -f api-deployment.yaml
+kubectl wait --for=condition=ready pod -l app=api -n research-dashboard --timeout=90s
+
+# 6. Deploy Streamlit
+kubectl apply -f streamlit-deployment.yaml
+kubectl wait --for=condition=ready pod -l app=streamlit -n research-dashboard --timeout=90s
+```
+
+### Kubernetes Architecture
+
+**Deployed Resources:**
+- **Namespace**: `research-dashboard` (isolated environment)
+- **Secrets**: JWT keys and MongoDB password
+- **Persistent Volume**: 5Gi for MongoDB data
+- **Deployments**:
+  - MongoDB: 1 replica with persistent storage
+  - API: 2 replicas with load balancing
+  - Streamlit: 2 replicas with load balancing
+- **Services**:
+  - `mongodb-service`: ClusterIP (internal)
+  - `api-service`: ClusterIP (internal)
+  - `streamlit-service`: LoadBalancer (external access)
+
+### Useful Kubernetes Commands
+
+```bash
+# View all resources
+kubectl get all -n research-dashboard
+
+# Check pod status
+kubectl get pods -n research-dashboard
+
+# View logs
+kubectl logs -n research-dashboard -l app=api --tail=50
+
+# Scale deployments
+kubectl scale deployment api --replicas=5 -n research-dashboard
+
+# Restart a deployment (rolling update)
+kubectl rollout restart deployment streamlit -n research-dashboard
+
+# Exec into a pod
+kubectl exec -it -n research-dashboard <pod-name> -- /bin/bash
+
+# Delete everything
+kubectl delete namespace research-dashboard
+```
+
+### Learning Resources
+
+For a comprehensive Kubernetes learning guide with exercises and best practices, see:
+- **[k8s/README.md](k8s/README.md)** - Complete Kubernetes tutorial and reference
 
 ---
 

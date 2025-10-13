@@ -1,0 +1,64 @@
+# Streamlit Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit
+  labels:
+    app: streamlit
+spec:
+  replicas: 2  # 2 replicas for high availability
+  selector:
+    matchLabels:
+      app: streamlit
+  template:
+    metadata:
+      labels:
+        app: streamlit
+    spec:
+      containers:
+      - name: streamlit
+        image: dash_mongodb-streamlit:latest
+        imagePullPolicy: Never  # Use local image
+        ports:
+        - containerPort: 8501
+          name: http
+        env:
+        - name: API_BASE_URL
+          value: "http://api-service:8000"
+        resources:
+          limits:
+            cpu: "1.5"
+            memory: "1.5Gi"
+          requests:
+            cpu: "0.25"
+            memory: "256Mi"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8501
+          initialDelaySeconds: 60
+          periodSeconds: 10
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8501
+          initialDelaySeconds: 30
+          periodSeconds: 5
+---
+# Streamlit Service - Exposed to external traffic
+apiVersion: v1
+kind: Service
+metadata:
+  name: streamlit-service
+  labels:
+    app: streamlit
+spec:
+  type: LoadBalancer  # Exposes to localhost on Docker Desktop
+  ports:
+  - port: 8501
+    targetPort: 8501
+    protocol: TCP
+    name: http
+  selector:
+    app: streamlit

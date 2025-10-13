@@ -8,14 +8,15 @@ import networkx as nx
 import requests
 from datetime import datetime
 import streamlit as st
+import os
 
 st.set_page_config(layout="wide")
 
 if "login_success" not in st.session_state:
     st.session_state.login_success = False
 
-# API Configuration
-API_BASE_URL = "http://api:8000"  # Change this to match your FastAPI server address
+# API Configuration - Read from environment variable or use default
+API_BASE_URL = os.getenv("API_BASE_URL", "http://api:8000")
 
 def login_page():
     st.title("Connexion")
