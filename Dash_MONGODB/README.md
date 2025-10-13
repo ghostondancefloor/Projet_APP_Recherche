@@ -442,6 +442,7 @@ kubectl delete namespace research-dashboard
 
 For a comprehensive Kubernetes learning guide with exercises and best practices, see:
 - **[k8s/README.md](k8s/README.md)** - Complete Kubernetes tutorial and reference
+- **[k8s/ARCHITECTURE.md](k8s/ARCHITECTURE.md)** - Visual architecture diagrams with Mermaid
 
 ---
 

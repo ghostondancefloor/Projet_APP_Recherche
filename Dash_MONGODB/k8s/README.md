@@ -2,7 +2,12 @@
 
 This directory contains Kubernetes manifests for deploying the Research Dashboard application.
 
-## 📚 What You'll Learn
+## � Documentation
+
+- **[Architecture Diagrams](ARCHITECTURE.md)** - Visual diagrams of the Kubernetes architecture
+- **[Main README](../README.md)** - Project overview and Docker Compose setup
+
+## �📚 What You'll Learn
 
 By deploying this application to Kubernetes, you'll learn:
 
