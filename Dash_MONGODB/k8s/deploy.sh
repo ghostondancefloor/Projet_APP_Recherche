@@ -6,7 +6,7 @@
 set -e  # Exit on error
 
 echo "======================================"
-echo " Research Dashboard K8s Deployment"
+echo "Research Dashboard K8s Deployment"
 echo "======================================"
 echo ""
 
@@ -55,8 +55,25 @@ echo ""
 
 # Step 5: Create persistent volumes
 echo -e "${YELLOW}Step 5: Creating persistent volumes...${NC}"
+
+# Check if PV exists and is in Released state
+PV_STATUS=$(kubectl get pv mongodb-pv -o jsonpath='{.status.phase}' 2>/dev/null || echo "NotFound")
+if [ "$PV_STATUS" = "Released" ]; then
+    echo "WARNING: Detected PersistentVolume in Released state. Cleaning up..."
+    kubectl delete pv mongodb-pv
+    echo "Old PersistentVolume deleted"
+fi
+
+# Check if PVC exists in wrong namespace
+PVC_IN_DEFAULT=$(kubectl get pvc mongodb-pvc -n default -o name 2>/dev/null || echo "")
+if [ -n "$PVC_IN_DEFAULT" ]; then
+    echo "WARNING: Detected PVC in default namespace. Cleaning up..."
+    kubectl delete pvc mongodb-pvc -n default
+    echo "PVC removed from default namespace"
+fi
+
 kubectl apply -f mongodb-pv.yaml -n research-dashboard
-echo -e "${GREEN} Done - Persistent volumes created${NC}"
+echo -e "${GREEN}Done - Persistent volumes created${NC}"
 echo ""
 
 # Step 6: Deploy MongoDB
@@ -64,7 +81,7 @@ echo -e "${YELLOW}Step 6: Deploying MongoDB...${NC}"
 kubectl apply -f mongodb-deployment.yaml -n research-dashboard
 echo "Waiting for MongoDB to be ready (this may take 30-60 seconds)..."
 kubectl wait --for=condition=ready pod -l app=mongodb -n research-dashboard --timeout=120s
-echo -e "${GREEN}✓ MongoDB deployed${NC}"
+echo -e "${GREEN}Done - MongoDB deployed${NC}"
 echo ""
 
 # Step 7: Deploy API
@@ -72,7 +89,7 @@ echo -e "${YELLOW}Step 7: Deploying FastAPI...${NC}"
 kubectl apply -f api-deployment.yaml -n research-dashboard
 echo "Waiting for API to be ready..."
 kubectl wait --for=condition=ready pod -l app=api -n research-dashboard --timeout=120s
-echo -e "${GREEN}✓ API deployed${NC}"
+echo -e "${GREEN}Done - API deployed${NC}"
 echo ""
 
 # Step 8: Deploy Streamlit
@@ -80,16 +97,16 @@ echo -e "${YELLOW}Step 8: Deploying Streamlit dashboard...${NC}"
 kubectl apply -f streamlit-deployment.yaml -n research-dashboard
 echo "Waiting for Streamlit to be ready..."
 kubectl wait --for=condition=ready pod -l app=streamlit -n research-dashboard --timeout=120s
-echo -e "${GREEN}✓ Streamlit deployed${NC}"
+echo -e "${GREEN}Done - Streamlit deployed${NC}"
 echo ""
 
 # Step 9: Show status
 echo -e "${YELLOW}Step 9: Deployment status...${NC}"
 echo ""
-echo " Pods:"
+echo "Pods:"
 kubectl get pods -n research-dashboard
 echo ""
-echo " Services:"
+echo "Services:"
 kubectl get services -n research-dashboard
 echo ""
 
