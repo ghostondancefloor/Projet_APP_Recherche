@@ -6,7 +6,7 @@
 set -e  # Exit on error
 
 echo "======================================"
-echo "🚀 Research Dashboard K8s Deployment"
+echo " Research Dashboard K8s Deployment"
 echo "======================================"
 echo ""
 
@@ -19,9 +19,9 @@ NC='\033[0m' # No Color
 # Step 1: Check if Kubernetes is running
 echo -e "${YELLOW}Step 1: Checking Kubernetes cluster...${NC}"
 if kubectl cluster-info &> /dev/null; then
-    echo -e "${GREEN}✓ Kubernetes cluster is running${NC}"
+    echo -e "${GREEN}Done - Kubernetes cluster is running${NC}"
 else
-    echo -e "${RED}✗ Kubernetes cluster is not accessible${NC}"
+    echo -e "${RED}Failed - Kubernetes cluster is not accessible${NC}"
     echo "Please enable Kubernetes in Docker Desktop"
     exit 1
 fi
@@ -33,9 +33,9 @@ echo "This may take a few minutes..."
 cd ..
 docker-compose build
 if [ $? -eq 0 ]; then
-    echo -e "${GREEN}✓ Docker images built successfully${NC}"
+    echo -e "${GREEN}Done - Docker images built successfully${NC}"
 else
-    echo -e "${RED}✗ Failed to build Docker images${NC}"
+    echo -e "${RED}Failed - Failed to build Docker images${NC}"
     exit 1
 fi
 cd k8s
@@ -44,19 +44,19 @@ echo ""
 # Step 3: Create namespace
 echo -e "${YELLOW}Step 3: Creating namespace...${NC}"
 kubectl apply -f namespace.yaml
-echo -e "${GREEN}✓ Namespace created${NC}"
+echo -e "${GREEN} Done - Namespace created${NC}"
 echo ""
 
 # Step 4: Create secrets
 echo -e "${YELLOW}Step 4: Creating secrets...${NC}"
 kubectl apply -f secrets.yaml -n research-dashboard
-echo -e "${GREEN}✓ Secrets created${NC}"
+echo -e "${GREEN}Done - Secrets created${NC}"
 echo ""
 
 # Step 5: Create persistent volumes
 echo -e "${YELLOW}Step 5: Creating persistent volumes...${NC}"
 kubectl apply -f mongodb-pv.yaml -n research-dashboard
-echo -e "${GREEN}✓ Persistent volumes created${NC}"
+echo -e "${GREEN} Done - Persistent volumes created${NC}"
 echo ""
 
 # Step 6: Deploy MongoDB
@@ -86,16 +86,16 @@ echo ""
 # Step 9: Show status
 echo -e "${YELLOW}Step 9: Deployment status...${NC}"
 echo ""
-echo "📊 Pods:"
+echo " Pods:"
 kubectl get pods -n research-dashboard
 echo ""
-echo "🌐 Services:"
+echo " Services:"
 kubectl get services -n research-dashboard
 echo ""
 
 # Step 10: Get access URL
 echo -e "${GREEN}======================================"
-echo "✓ Deployment Complete!"
+echo " Done - Deployment Complete!"
 echo "======================================${NC}"
 echo ""
 echo "Access your dashboard at:"
