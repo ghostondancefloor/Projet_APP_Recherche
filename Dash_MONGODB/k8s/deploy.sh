@@ -112,11 +112,29 @@ echo ""
 
 # Step 10: Get access URL
 echo -e "${GREEN}======================================"
-echo " Done - Deployment Complete!"
+echo "✓ Deployment Complete!"
 echo "======================================${NC}"
 echo ""
-echo "Access your dashboard at:"
-echo "  http://localhost:8501"
+
+# Get Mac IP address for network access
+MAC_IP=$(ifconfig | grep "inet " | grep -v 127.0.0.1 | awk '{print $2}' | head -n 1)
+
+echo "Access your dashboard:"
+echo "  Local:   http://localhost:30501"
+if [ -n "$MAC_IP" ]; then
+    echo -e "  Network: ${GREEN}http://$MAC_IP:30501${NC}"
+fi
+echo ""
+echo "Multi-host testing (from other devices on your network):"
+if [ -n "$MAC_IP" ]; then
+    echo "  1. From laptop/phone browser: http://$MAC_IP:30501"
+fi
+echo "  2. Test load balancing: for i in {1..10}; do curl -s http://$MAC_IP:30501 > /dev/null && echo \"Request \$i: OK\"; done"
+echo "  3. View which pods handle requests: kubectl logs -n research-dashboard -l app=streamlit --tail=20"
+echo ""
+echo "Test high availability:"
+echo "  kubectl delete pod -n research-dashboard -l app=streamlit --force | head -n 1"
+echo "  (Dashboard should remain accessible during pod restart)"
 echo ""
 echo "Useful commands:"
 echo "  kubectl get pods -n research-dashboard              # List all pods"
@@ -125,7 +143,7 @@ echo "  kubectl describe pod <pod-name> -n research-dashboard # Pod details"
 echo "  kubectl exec -it <pod-name> -n research-dashboard -- /bin/bash  # Enter pod shell"
 echo ""
 echo "To scale your application:"
-echo "  kubectl scale deployment api --replicas=3 -n research-dashboard"
+echo "  kubectl scale deployment streamlit --replicas=5 -n research-dashboard"
 echo ""
 echo "To delete everything:"
 echo "  kubectl delete namespace research-dashboard"

@@ -46,7 +46,7 @@ spec:
           initialDelaySeconds: 30
           periodSeconds: 5
 ---
-# Streamlit Service - Exposed to external traffic
+# Streamlit Service - Exposed to external traffic via NodePort
 apiVersion: v1
 kind: Service
 metadata:
@@ -54,10 +54,11 @@ metadata:
   labels:
     app: streamlit
 spec:
-  type: LoadBalancer  # Exposes to localhost on Docker Desktop
+  type: NodePort  # Exposes to network for multi-host access
   ports:
   - port: 8501
     targetPort: 8501
+    nodePort: 30501  # Fixed port accessible from any device on network
     protocol: TCP
     name: http
   selector:
