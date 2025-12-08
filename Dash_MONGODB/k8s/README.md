@@ -1,359 +1,424 @@
 # Kubernetes Deployment Guide
 
-This directory contains Kubernetes manifests for deploying the Research Dashboard application.
+This directory contains Kubernetes manifests for deploying the Research Dashboard application with MongoDB, FastAPI, and Streamlit components.
 
-## � Documentation
+## Table of Contents
 
-- **[Architecture Diagrams](ARCHITECTURE.md)** - Visual diagrams of the Kubernetes architecture
-- **[Main README](../README.md)** - Project overview and Docker Compose setup
-
-## �📚 What You'll Learn
-
-By deploying this application to Kubernetes, you'll learn:
-
-1. **Pods** - The smallest deployable units (containers)
-2. **Deployments** - Managing multiple pod replicas
-3. **Services** - Networking and load balancing
-4. **PersistentVolumes** - Storage management
-5. **Secrets** - Managing sensitive data
-6. **ConfigMaps** - Managing configuration
-7. **Namespaces** - Resource organization
-8. **Scaling** - Horizontal pod autoscaling
-9. **Health Checks** - Liveness and readiness probes
-10. **Resource Limits** - CPU and memory management
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Quick Start](#quick-start)
+- [Network Access](#network-access)
+- [File Structure](#file-structure)
+- [Manual Deployment](#manual-deployment)
+- [Operations](#operations)
+- [Testing Kubernetes Features](#testing-kubernetes-features)
+- [Troubleshooting](#troubleshooting)
+- [Reference](#reference)
 
 ---
 
-## 🚀 Quick Start
+## Overview
 
-### Prerequisites
+This Kubernetes deployment demonstrates:
+
+- **Container Orchestration**: Multi-container application management
+- **High Availability**: Multiple pod replicas with automatic failover
+- **Load Balancing**: Traffic distribution across pod replicas
+- **Persistent Storage**: Data retention across pod restarts
+- **Secrets Management**: Secure handling of sensitive configuration
+- **Resource Management**: CPU and memory limits/requests
+- **Health Monitoring**: Liveness and readiness probes
+- **Network Access**: Multi-host connectivity via NodePort
+
+### Architecture
+
+- **MongoDB**: 1 replica with 5Gi persistent storage
+- **FastAPI**: 2 replicas for API load balancing
+- **Streamlit**: 2 replicas for dashboard high availability
+- **Service Type**: NodePort for network accessibility (port 30501)
+
+---
+
+## Prerequisites
 
 1. **Docker Desktop** with Kubernetes enabled
-2. **kubectl** CLI installed (comes with Docker Desktop)
-3. Docker images built: `docker-compose build`
+2. **kubectl** CLI (included with Docker Desktop)
+3. **Docker Compose** for building images
 
-### Deploy Everything (Easy Mode)
+**Verify installation:**
+```bash
+kubectl version --client
+kubectl cluster-info
+```
+
+---
+
+## Quick Start
+
+### Automated Deployment
 
 ```bash
 cd k8s
 ./deploy.sh
 ```
 
-This script will:
-- ✅ Check if Kubernetes is running
-- ✅ Build Docker images
-- ✅ Create namespace
-- ✅ Deploy MongoDB with persistent storage
-- ✅ Deploy FastAPI (2 replicas)
-- ✅ Deploy Streamlit (2 replicas)
-- ✅ Wait for all pods to be ready
+The script performs the following:
+1. Validates Kubernetes cluster connectivity
+2. Builds Docker images for all services
+3. Creates the `research-dashboard` namespace
+4. Configures secrets for authentication
+5. Provisions persistent storage for MongoDB
+6. Deploys MongoDB, API, and Streamlit services
+7. Waits for all pods to reach ready state
+8. Displays access URLs and network information
 
-### Access the Dashboard
+### Access URLs
 
-Once deployed, access at: **http://localhost:8501**
+**Local Access:**
+```
+http://localhost:30501
+```
+
+**Network Access (from other devices):**
+```
+http://<YOUR_IP>:30501
+```
+
+The deployment script automatically displays your network IP address.
 
 ---
 
-## 📁 File Structure
+## Network Access
+
+### Multi-Host Configuration
+
+This deployment uses **NodePort** service type, exposing the application on port 30501 across all cluster nodes. This enables access from any device on the same network.
+
+### Finding Your IP Address
+
+**macOS/Linux:**
+```bash
+ifconfig | grep "inet " | grep -v 127.0.0.1
+```
+
+**Alternative:**
+Check the output of `./deploy.sh` which automatically displays your IP.
+
+### Accessing from Other Devices
+
+Ensure all devices are on the same network, then access:
+```
+http://192.168.1.100:30501  # Replace with your actual IP
+```
+
+**Supported Devices:**
+- Laptops (Windows, macOS, Linux)
+- Mobile devices (iOS, Android)
+- Tablets
+- Any device with a web browser
+
+---
+
+## File Structure
 
 ```
 k8s/
-├── namespace.yaml              # Creates 'research-dashboard' namespace
-├── secrets.yaml                # Stores JWT secrets and passwords
-├── mongodb-pv.yaml            # Persistent Volume for MongoDB data
-├── mongodb-deployment.yaml    # MongoDB Deployment + Service
-├── api-deployment.yaml        # FastAPI Deployment + Service
-├── streamlit-deployment.yaml  # Streamlit Deployment + Service
+├── namespace.yaml              # Namespace definition
+├── secrets.yaml                # JWT secrets and credentials
+├── mongodb-pv.yaml            # PersistentVolume and PVC
+├── mongodb-deployment.yaml    # MongoDB deployment and service
+├── api-deployment.yaml        # FastAPI deployment and service
+├── streamlit-deployment.yaml  # Streamlit deployment and service
 ├── deploy.sh                  # Automated deployment script
+├── ARCHITECTURE.md            # Architecture diagrams
 └── README.md                  # This file
 ```
 
 ---
 
-## 🎓 Manual Deployment (Learning Mode)
+## Manual Deployment
 
-If you want to learn by doing each step manually:
+For learning purposes, you can deploy each component individually:
 
-### Step 1: Create Namespace
+### 1. Create Namespace
 
 ```bash
 kubectl apply -f namespace.yaml
-```
-
-**What this does:** Creates a logical partition for your app resources.
-
-**Verify:**
-```bash
 kubectl get namespaces
 ```
 
-### Step 2: Create Secrets
+Creates the `research-dashboard` namespace for resource isolation.
+
+### 2. Configure Secrets
 
 ```bash
 kubectl apply -f secrets.yaml -n research-dashboard
-```
-
-**What this does:** Stores sensitive data (passwords, keys) securely.
-
-**Verify:**
-```bash
 kubectl get secrets -n research-dashboard
-kubectl describe secret app-secrets -n research-dashboard
 ```
 
-### Step 3: Create Persistent Storage
+Stores JWT tokens and database credentials securely.
+
+### 3. Provision Storage
 
 ```bash
 kubectl apply -f mongodb-pv.yaml -n research-dashboard
-```
-
-**What this does:** Creates storage for MongoDB data that persists even if pods restart.
-
-**Verify:**
-```bash
 kubectl get pv
 kubectl get pvc -n research-dashboard
 ```
 
-### Step 4: Deploy MongoDB
+Creates a 5Gi persistent volume for MongoDB data.
+
+### 4. Deploy MongoDB
 
 ```bash
 kubectl apply -f mongodb-deployment.yaml -n research-dashboard
-```
-
-**What this does:** 
-- Creates 1 MongoDB pod
-- Creates a Service to allow other pods to connect
-- Mounts persistent storage
-
-**Verify:**
-```bash
-kubectl get pods -n research-dashboard
-kubectl get services -n research-dashboard
-kubectl logs <mongodb-pod-name> -n research-dashboard
-```
-
-**Wait for MongoDB to be ready:**
-```bash
 kubectl wait --for=condition=ready pod -l app=mongodb -n research-dashboard --timeout=120s
 ```
 
-### Step 5: Deploy FastAPI
+Deploys MongoDB with persistent storage and internal ClusterIP service.
+
+### 5. Deploy API Service
 
 ```bash
 kubectl apply -f api-deployment.yaml -n research-dashboard
+kubectl wait --for=condition=ready pod -l app=api -n research-dashboard --timeout=120s
 ```
 
-**What this does:**
-- Creates 2 API pods (for load balancing)
-- Creates a Service
-- Sets up health checks
+Deploys 2 FastAPI replicas with load balancing.
 
-**Verify:**
-```bash
-kubectl get pods -n research-dashboard -l app=api
-kubectl logs <api-pod-name> -n research-dashboard
-```
-
-### Step 6: Deploy Streamlit
+### 6. Deploy Dashboard
 
 ```bash
 kubectl apply -f streamlit-deployment.yaml -n research-dashboard
+kubectl wait --for=condition=ready pod -l app=streamlit -n research-dashboard --timeout=120s
 ```
 
-**What this does:**
-- Creates 2 Streamlit pods
-- Creates a LoadBalancer Service (accessible from your machine)
+Deploys 2 Streamlit replicas with NodePort service on port 30501.
 
-**Verify:**
-```bash
-kubectl get pods -n research-dashboard -l app=streamlit
-kubectl get services -n research-dashboard
-```
-
-### Step 7: Access the Application
-
-```bash
-# Get the service URL
-kubectl get service streamlit-service -n research-dashboard
-
-# Should show:
-# TYPE: LoadBalancer
-# EXTERNAL-IP: localhost
-# PORT: 8501
-```
-
-Open: **http://localhost:8501**
-
----
-
-## 🔍 Monitoring & Debugging
-
-### View All Resources
+### 7. Verify Deployment
 
 ```bash
 kubectl get all -n research-dashboard
+kubectl get service streamlit-service -n research-dashboard
 ```
 
-### Check Pod Status
+Expected output:
+```
+TYPE: NodePort
+PORT(S): 8501:30501/TCP
+```
+
+---
+
+## Operations
+
+### Viewing Resources
 
 ```bash
-# List all pods
+# All resources in namespace
+kubectl get all -n research-dashboard
+
+# Specific resource types
 kubectl get pods -n research-dashboard
+kubectl get services -n research-dashboard
+kubectl get deployments -n research-dashboard
 
-# Detailed pod information
+# Detailed information
 kubectl describe pod <pod-name> -n research-dashboard
+kubectl describe service <service-name> -n research-dashboard
+```
 
-# View pod logs
+### Viewing Logs
+
+```bash
+# Single pod logs
 kubectl logs <pod-name> -n research-dashboard
 
 # Follow logs in real-time
 kubectl logs -f <pod-name> -n research-dashboard
 
-# View logs from all replicas of a deployment
+# All replicas of a deployment
 kubectl logs -f deployment/api -n research-dashboard
+
+# Previous container (after crash)
+kubectl logs <pod-name> --previous -n research-dashboard
 ```
 
-### Check Services
+### Resource Monitoring
 
 ```bash
-# List services
-kubectl get services -n research-dashboard
-
-# Service details
-kubectl describe service api-service -n research-dashboard
-```
-
-### Check Resource Usage
-
-```bash
-# CPU and Memory usage
+# Pod resource usage
 kubectl top pods -n research-dashboard
+
+# Node resource usage
 kubectl top nodes
 ```
 
-### Enter a Pod (Shell Access)
+### Shell Access
 
 ```bash
-# Enter MongoDB pod
+# MongoDB shell
 kubectl exec -it <mongodb-pod-name> -n research-dashboard -- mongosh
 
-# Enter API pod
-kubectl exec -it <api-pod-name> -n research-dashboard -- /bin/bash
+# Bash shell (API/Streamlit pods)
+kubectl exec -it <pod-name> -n research-dashboard -- /bin/bash
 ```
 
----
-
-## 📊 Scaling Your Application
-
-### Scale API Pods
+### Scaling
 
 ```bash
-# Scale up to 5 replicas
-kubectl scale deployment api --replicas=5 -n research-dashboard
+# Scale deployment
+kubectl scale deployment streamlit --replicas=5 -n research-dashboard
 
-# Scale down to 1 replica
-kubectl scale deployment api --replicas=1 -n research-dashboard
-
-# Verify
-kubectl get pods -n research-dashboard -l app=api
-```
-
-### Scale Streamlit Pods
-
-```bash
-# Scale to 3 replicas
-kubectl scale deployment streamlit --replicas=3 -n research-dashboard
-
-# Watch pods being created
+# Watch scaling progress
 kubectl get pods -n research-dashboard -w
-```
 
-### Auto-scaling (Advanced)
-
-Create a Horizontal Pod Autoscaler:
-
-```bash
-# Auto-scale API based on CPU usage (50% threshold)
+# Auto-scaling (HPA)
 kubectl autoscale deployment api --cpu-percent=50 --min=2 --max=10 -n research-dashboard
-
-# Check autoscaler status
 kubectl get hpa -n research-dashboard
 ```
 
----
-
-## 🔄 Rolling Updates
-
-Update your application without downtime:
-
-### Update API Image
+### Rolling Updates
 
 ```bash
-# Rebuild image with changes
+# Rebuild image
 docker-compose build api
 
-# Update deployment
+# Restart deployment
 kubectl rollout restart deployment/api -n research-dashboard
 
-# Watch the rollout
+# Monitor rollout
 kubectl rollout status deployment/api -n research-dashboard
 
-# Check rollout history
+# View history
 kubectl rollout history deployment/api -n research-dashboard
 
-# Rollback if needed
+# Rollback
 kubectl rollout undo deployment/api -n research-dashboard
 ```
 
----
-
-## 🧹 Cleanup
-
-### Delete Everything
+### Cleanup
 
 ```bash
-# Delete the entire namespace (removes all resources)
+# Delete entire namespace (all resources)
 kubectl delete namespace research-dashboard
-```
 
-### Delete Specific Resources
-
-```bash
-# Delete just one deployment
-kubectl delete deployment api -n research-dashboard
-
-# Delete a service
-kubectl delete service api-service -n research-dashboard
+# Delete specific resources
+kubectl delete deployment <name> -n research-dashboard
+kubectl delete service <name> -n research-dashboard
 ```
 
 ---
 
-## 🐛 Troubleshooting
+## Testing Kubernetes Features
 
-### Pods Not Starting
+### Load Balancing
+
+Test traffic distribution across 2 Streamlit replicas:
 
 ```bash
-# Check pod events
-kubectl describe pod <pod-name> -n research-dashboard
+# Send multiple requests
+for i in {1..10}; do
+  curl -s http://YOUR_IP:30501 > /dev/null && echo "Request $i: OK"
+done
 
-# Common issues:
-# - ImagePullBackOff: Image not found (build images first)
-# - CrashLoopBackOff: Container keeps crashing (check logs)
-# - Pending: Not enough resources
+# View which pods handled requests
+kubectl logs -n research-dashboard -l app=streamlit --tail=20
 ```
 
-### Can't Access Dashboard
+### High Availability
+
+Test zero-downtime during pod failures:
+
+**Terminal 1 (Simulate failure):**
+```bash
+kubectl delete pod -n research-dashboard -l app=streamlit --force | head -n 1
+```
+
+**Terminal 2 (Continuous access test):**
+```bash
+while true; do
+  curl -s http://YOUR_IP:30501 > /dev/null && echo "Success" || echo "Failed"
+  sleep 1
+done
+```
+
+Expected result: No failed requests. Traffic automatically routes to healthy pods.
+
+### Horizontal Scaling
 
 ```bash
-# Check if service is running
-kubectl get service streamlit-service -n research-dashboard
+# Scale up
+kubectl scale deployment streamlit --replicas=5 -n research-dashboard
 
-# Check if pods are ready
+# Verify distribution
 kubectl get pods -n research-dashboard -l app=streamlit
 
-# Check service endpoint
+# Generate load from multiple devices
+ab -n 1000 -c 10 http://YOUR_IP:30501/
+```
+
+---
+
+## Troubleshooting
+
+### Pod Issues
+
+**Pods not starting:**
+```bash
+kubectl describe pod <pod-name> -n research-dashboard
+kubectl logs <pod-name> -n research-dashboard
+```
+
+**Common errors:**
+- `ImagePullBackOff`: Run `docker-compose build` first
+- `CrashLoopBackOff`: Check logs for application errors
+- `Pending`: Insufficient resources or PVC binding issues
+
+**PersistentVolume issues:**
+```bash
+# Check PV status
+kubectl get pv
+
+# Check PVC status
+kubectl get pvc -n research-dashboard
+
+# If PV is in "Released" state, delete and recreate
+kubectl delete pv mongodb-pv
+kubectl apply -f mongodb-pv.yaml -n research-dashboard
+```
+
+### Service Access Issues
+
+**Cannot access locally:**
+```bash
+# Verify service
+kubectl get service streamlit-service -n research-dashboard
+
+# Check endpoints
 kubectl get endpoints streamlit-service -n research-dashboard
+
+# Test connectivity
+curl http://localhost:30501
+```
+
+**Cannot access from network:**
+```bash
+# Verify NodePort service type
+kubectl get service streamlit-service -n research-dashboard
+# Should show: TYPE=NodePort, PORT(S)=8501:30501/TCP
+
+# Check macOS firewall
+sudo pfctl -s rules | grep 30501
+
+# Temporarily disable firewall (testing only)
+sudo pfctl -d
+
+# Verify network connectivity
+ping <OTHER_DEVICE_IP>
+
+# Test from local machine with network IP
+curl http://<YOUR_MAC_IP>:30501
 ```
 
 ### Database Issues
@@ -362,85 +427,82 @@ kubectl get endpoints streamlit-service -n research-dashboard
 # Check MongoDB logs
 kubectl logs <mongodb-pod-name> -n research-dashboard
 
-# Enter MongoDB and check data
+# Verify data
 kubectl exec -it <mongodb-pod-name> -n research-dashboard -- mongosh
 > use research_db_structure
+> show collections
 > db.users.countDocuments()
 ```
 
 ---
 
-## 📖 Learning Resources
+## Reference
 
-### Essential Commands Cheat Sheet
+### Essential Commands
 
 ```bash
-# Get resources
-kubectl get pods -n research-dashboard
-kubectl get services -n research-dashboard
-kubectl get deployments -n research-dashboard
-kubectl get all -n research-dashboard
+# Resource Management
+kubectl get <resource> -n research-dashboard
+kubectl describe <resource> <name> -n research-dashboard
+kubectl delete <resource> <name> -n research-dashboard
 
-# Describe (detailed info)
-kubectl describe pod <name> -n research-dashboard
-kubectl describe service <name> -n research-dashboard
-
-# Logs
+# Pod Management
+kubectl exec -it <pod-name> -n research-dashboard -- <command>
 kubectl logs <pod-name> -n research-dashboard
-kubectl logs -f <pod-name> -n research-dashboard  # Follow
-kubectl logs <pod-name> --previous -n research-dashboard  # Previous crash
+kubectl port-forward <pod-name> <local-port>:<pod-port> -n research-dashboard
 
-# Execute commands
-kubectl exec -it <pod-name> -n research-dashboard -- /bin/bash
+# File Operations
+kubectl cp <pod-name>:/remote/path ./local/path -n research-dashboard
 
-# Port forwarding (access internal services)
-kubectl port-forward service/api-service 8000:8000 -n research-dashboard
-
-# Copy files
-kubectl cp <pod-name>:/path/to/file ./local-file -n research-dashboard
-
-# Delete
-kubectl delete pod <name> -n research-dashboard
-kubectl delete deployment <name> -n research-dashboard
+# Deployment Operations
+kubectl scale deployment <name> --replicas=<count> -n research-dashboard
+kubectl rollout restart deployment/<name> -n research-dashboard
+kubectl rollout status deployment/<name> -n research-dashboard
+kubectl rollout undo deployment/<name> -n research-dashboard
 ```
 
 ### Key Concepts
 
-1. **Pod** = One or more containers running together
-2. **Deployment** = Manages multiple pod replicas
-3. **Service** = Stable network endpoint for pods
-4. **ReplicaSet** = Ensures desired number of pods running
-5. **Label** = Key-value pair for organizing resources
-6. **Selector** = Queries resources by labels
-7. **Namespace** = Virtual cluster for isolation
+| Concept | Description |
+|---------|-------------|
+| **Pod** | Smallest deployable unit containing one or more containers |
+| **Deployment** | Manages pod replicas and rolling updates |
+| **Service** | Stable network endpoint for pod access |
+| **ReplicaSet** | Ensures specified number of pod replicas are running |
+| **Namespace** | Virtual cluster for resource isolation |
+| **Label** | Key-value pairs for resource organization |
+| **Selector** | Query mechanism for labels |
+| **NodePort** | Service type exposing pods on static port (30000-32767) |
+| **PersistentVolume** | Storage resource independent of pod lifecycle |
+| **PersistentVolumeClaim** | Request for storage by a pod |
+
+### Service Types
+
+| Type | Description | Use Case |
+|------|-------------|----------|
+| **ClusterIP** | Internal cluster access only | API, MongoDB |
+| **NodePort** | Exposed on static port on all nodes | Dashboard (development/testing) |
+| **LoadBalancer** | Cloud provider load balancer | Production external access |
+
+### Best Practices
+
+- Always specify namespace in commands
+- Use resource requests and limits
+- Implement health checks (liveness/readiness probes)
+- Store sensitive data in Secrets
+- Use labels for resource organization
+- Monitor resource usage regularly
+- Test backups and restore procedures
+- Document custom configurations
+
+### Additional Resources
+
+- **Kubernetes Documentation**: https://kubernetes.io/docs/
+- **kubectl Reference**: https://kubectl.docs.kubernetes.io/
+- **Architecture Diagrams**: [ARCHITECTURE.md](ARCHITECTURE.md)
+- **Main Project README**: [../README.md](../README.md)
 
 ---
 
-## 🎯 Next Steps
-
-After getting comfortable, try:
-
-1. **Add Ingress** - Single entry point for multiple services
-2. **Setup Monitoring** - Prometheus + Grafana
-3. **Add CI/CD** - GitHub Actions → Kubernetes
-4. **Multi-environment** - Dev, Staging, Production namespaces
-5. **StatefulSets** - For database clustering
-6. **Network Policies** - Control traffic between pods
-7. **Resource Quotas** - Limit resource usage per namespace
-
----
-
-## 💡 Tips
-
-- Use `-n research-dashboard` in all commands (or set default namespace)
-- Watch resources with `-w` flag: `kubectl get pods -w`
-- Use `kubectl explain <resource>` for documentation
-- Tab completion: `kubectl completion zsh` (add to .zshrc)
-
----
-
-**Questions?** Check the main README.md or Kubernetes documentation:
-- https://kubernetes.io/docs/
-- https://kubectl.docs.kubernetes.io/
-
-Happy Learning! 🚀
+**Version**: v1.1-multi-host  
+**Last Updated**: December 2025
