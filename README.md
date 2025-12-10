@@ -2,6 +2,8 @@
 
 A containerized research analytics dashboard built with FastAPI, Streamlit, and MongoDB for tracking publications, researchers, collaborations, and institutional data.
 
+> **Note**: This repository has been restructured. All application files are now at the root level for easier access. The full project history and archived experiments are preserved in the `backup-main` branch.
+
 ---
 
 ## Table of Contents
@@ -76,6 +78,10 @@ cd k8s
 
 For detailed Kubernetes instructions, see the [Kubernetes Deployment](#kubernetes-deployment) section below.
 
+**Multi-Host Access:**
+
+For accessing the dashboard from other computers on your network, see the [k8s/README.md](k8s/README.md) for NodePort configuration.
+
 ---
 
 ## What This Application Does
@@ -120,7 +126,7 @@ The application uses the following resource limits:
 | Streamlit | 1.5 cores | 1.5GB | 0.25 cores | 256MB |
 | **Total** | **4.5 cores** | **4.5GB** | **1.0 core** | **1GB** |
 
-**Note:** These limits can be adjusted in `docker-compose.yml` or the Kubernetes manifests in `k8s/` directory.
+**Note:** These limits can be adjusted in `docker-compose.yml` (at repository root) or the Kubernetes manifests in the `k8s/` directory.
 
 To verify Docker is ready:
 
@@ -190,7 +196,7 @@ The database automatically loads with real research data:
 ```bash
 # 1. Clone the repository
 git clone <repository-url>
-cd Dash_MONGODB
+cd Projet_APP_Recherche
 
 # 2. Create environment configuration
 cp .env.example .env
@@ -533,7 +539,7 @@ If containers are hitting their limits, you may need to:
 2. Allocate more resources to Docker Desktop (Preferences → Resources)
 3. Close other resource-intensive applications
 
-**For more detailed troubleshooting, see \`docs/TROUBLESHOOTING.md\`**
+**For detailed Kubernetes troubleshooting, see [k8s/README.md](k8s/README.md)**
 
 ---
 
@@ -583,7 +589,7 @@ docker-compose exec -T mongo mongorestore --db=research_db_structure /path/to/ba
 ## Project Structure
 
 ```
-Dash_MONGODB/
+Projet_APP_Recherche/
 ├── README.md                          # This file
 ├── docker-compose.yml                 # Orchestrates all services
 ├── mongo.Dockerfile                   # Custom MongoDB with auto-init
@@ -608,9 +614,21 @@ Dash_MONGODB/
 │       ├── publications.bson         # Publication data
 │       └── ...                       # Other collections
 │
-└── docs/                              # Additional documentation
-    ├── TROUBLESHOOTING.md            # Detailed problem solving
-    └── SETUP_CHECKLIST.md            # Verification steps
+├── k8s/                               # Kubernetes deployment
+│   ├── README.md                     # Kubernetes guide
+│   ├── deploy.sh                     # Automated deployment
+│   ├── docs/                         # K8s documentation
+│   │   ├── ARCHITECTURE.md           # System diagrams
+│   │   ├── DEPLOYMENT_EXPLAINED.md   # Technical deep-dive
+│   │   └── README.md                 # Documentation index
+│   └── *.yaml                        # K8s manifests
+│
+├── deployment-docs/                   # Deployment guides
+│   ├── DEPLOYMENT_CHECKLIST.md       # Pre-deployment checks
+│   └── DEPLOYMENT_UPGRADES.md        # Upgrade procedures
+│
+└── backups/                           # Database backups
+    └── backup-YYYYMMDD-HHMMSS/       # Timestamped backups
 ```
 
 ---
@@ -712,8 +730,9 @@ If you encounter issues:
    ```
 
 4. **Review documentation**
-   - \`docs/TROUBLESHOOTING.md\` - Common problems and solutions
-   - \`docs/SETUP_CHECKLIST.md\` - Step-by-step verification
+   - [k8s/README.md](k8s/README.md) - Kubernetes deployment guide
+   - [k8s/docs/DEPLOYMENT_EXPLAINED.md](k8s/docs/DEPLOYMENT_EXPLAINED.md) - Architecture deep-dive
+   - [k8s/docs/ARCHITECTURE.md](k8s/docs/ARCHITECTURE.md) - Visual diagrams
 
 5. **Start fresh if needed**
    ```bash
