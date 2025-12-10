@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: streamlit
+  namespace: research-dashboard
   labels:
     app: streamlit
 spec:
@@ -17,7 +18,7 @@ spec:
     spec:
       containers:
       - name: streamlit
-        image: projetapprecherche-streamlit:latest
+        image: projet_app_recherche-streamlit:latest
         imagePullPolicy: Never  # Use local image
         ports:
         - containerPort: 8501
@@ -51,6 +52,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: streamlit-service
+  namespace: research-dashboard
   labels:
     app: streamlit
 spec:

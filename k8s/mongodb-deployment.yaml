@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mongodb
+  namespace: research-dashboard
   labels:
     app: mongodb
 spec:
@@ -17,7 +18,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: projetapprecherche-mongo:latest  # Uses our custom built image
+        image: projet_app_recherche-mongo:latest  # Uses our custom built image
         imagePullPolicy: Never  # Use local image
         ports:
         - containerPort: 27017
@@ -45,6 +46,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: mongodb-service
+  namespace: research-dashboard
   labels:
     app: mongodb
 spec:
