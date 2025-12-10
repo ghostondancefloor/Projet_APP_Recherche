@@ -10,7 +10,7 @@ A containerized research analytics dashboard built with FastAPI, Streamlit, and 
 
 - [Quick Start](#quick-start)
   - [Docker Compose (Recommended for Development)](#docker-compose-recommended-for-development)
-  - [Kubernetes (Production & Learning)](#kubernetes-production--learning)
+  - [Kubernetes (Production)](#kubernetes-production)
 - [What This Application Does](#what-this-application-does)
 - [Prerequisites](#prerequisites)
 - [System Architecture](#system-architecture)
@@ -58,9 +58,9 @@ Then open your browser to **http://localhost:8501**
 
 The database will automatically populate with all research data (39 users, 181 researchers, 4,527 publications, and more).
 
-### Kubernetes (Production & Learning)
+### Kubernetes (Production)
 
-For production deployments or learning Kubernetes:
+For production deployments:
 
 ```bash
 # 1. Ensure Kubernetes is running (Docker Desktop or Minikube)
@@ -108,7 +108,7 @@ Make sure you have these installed before starting:
 - **4GB of available RAM** - Minimum for running all three containers
 - **10GB of disk space** - For Docker images and database
 
-### For Kubernetes (Production/Learning)
+### For Kubernetes (Production)
 
 - **Docker Desktop with Kubernetes enabled**, OR **Minikube**
 - **kubectl** - Kubernetes command-line tool
@@ -443,12 +443,6 @@ kubectl exec -it -n research-dashboard <pod-name> -- /bin/bash
 # Delete everything
 kubectl delete namespace research-dashboard
 ```
-
-### Learning Resources
-
-For a comprehensive Kubernetes learning guide with exercises and best practices, see:
-- **[k8s/README.md](k8s/README.md)** - Complete Kubernetes tutorial and reference
-- **[k8s/ARCHITECTURE.md](k8s/ARCHITECTURE.md)** - Visual architecture diagrams with Mermaid
 
 ---
 
