@@ -5,16 +5,19 @@
 set -e
 
 # Start MongoDB in background using original entrypoint
-docker-entrypoint.sh mongod --bind_ip_all &
+/usr/local/bin/docker-entrypoint.sh mongod --bind_ip_all &
+MONGO_PID=$!
 
 # Wait for MongoDB to be ready
 echo "Waiting for MongoDB to start..."
-until mongosh --quiet --eval "db.adminCommand('ping')" > /dev/null 2>&1; do
+for i in {1..30}; do
+    if mongosh --quiet --eval "db.adminCommand('ping')" > /dev/null 2>&1; then
+        echo "MongoDB is ready!"
+        break
+    fi
     sleep 2
     echo "Waiting for MongoDB..."
 done
-
-echo "MongoDB is ready!"
 
 # Check if database needs initialization
 USER_COUNT=$(mongosh research_db_structure --quiet --eval "db.users.countDocuments({})" 2>/dev/null || echo "0")
@@ -32,5 +35,4 @@ else
 fi
 
 # Keep MongoDB running in foreground
-wait
-wait
+wait $MONGO_PID
