@@ -2,6 +2,15 @@
 
 This directory contains Kubernetes manifests for deploying the Research Dashboard application with MongoDB, FastAPI, and Streamlit components.
 
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| **[README.md](README.md)** (this file) | Deployment guide, operations, troubleshooting |
+| **[Deployment Explained](docs/DEPLOYMENT_EXPLAINED.md)** | Technical architecture & networking deep-dive |
+| **[Architecture Diagrams](docs/ARCHITECTURE.md)** | Visual system design with Mermaid diagrams |
+| **[Documentation Index](docs/)** | Complete documentation overview |
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -499,10 +508,17 @@ kubectl rollout undo deployment/<name> -n research-dashboard
 
 - **Kubernetes Documentation**: https://kubernetes.io/docs/
 - **kubectl Reference**: https://kubectl.docs.kubernetes.io/
-- **Architecture Diagrams**: [ARCHITECTURE.md](ARCHITECTURE.md)
+- **Architecture Deep-Dive**: [docs/DEPLOYMENT_EXPLAINED.md](docs/DEPLOYMENT_EXPLAINED.md)
+- **Visual Diagrams**: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - **Main Project README**: [../README.md](../README.md)
 
 ---
+
+**Navigation:**
+- [← Back to Main Project](../README.md)
+- [Architecture Explanation →](docs/DEPLOYMENT_EXPLAINED.md)
+- [Visual Diagrams →](docs/ARCHITECTURE.md)
+- [Documentation Index →](docs/)
 
 **Version**: v1.1-multi-host  
 **Last Updated**: December 2025

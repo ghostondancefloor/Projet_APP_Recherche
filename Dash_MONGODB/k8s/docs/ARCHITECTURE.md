@@ -2,6 +2,9 @@
 
 This document provides visual diagrams of the Kubernetes deployment architecture for the Research Dashboard application.
 
+> **Deployment Guide**: See [README.md](../README.md) for setup instructions.  
+> **Technical Details**: See [DEPLOYMENT_EXPLAINED.md](DEPLOYMENT_EXPLAINED.md) for architecture explanation.
+
 ---
 
 ## Table of Contents
@@ -571,9 +574,13 @@ kubectl scale deployment streamlit --replicas=1 -n research-dashboard
 
 ## Related Documentation
 
-- **[Main README](../README.md)** - Project overview and setup
-- **[Kubernetes README](README.md)** - Detailed K8s guide and tutorials
-- **[Deployment Script](deploy.sh)** - Automated deployment
+- **[Deployment Guide](../README.md)** - Setup instructions and operations
+- **[Documentation Index](README.md)** - All documentation files
+- **[Technical Deep-Dive](DEPLOYMENT_EXPLAINED.md)** - Architecture and networking details
+
+---
+
+**Navigation**: [↑ Main README](../README.md) | [Documentation Index](README.md) | [Deployment Explained](DEPLOYMENT_EXPLAINED.md)
 
 ---
 
