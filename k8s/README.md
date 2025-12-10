@@ -51,8 +51,14 @@ This Kubernetes deployment demonstrates:
 ## Prerequisites
 
 1. **Docker Desktop** with Kubernetes enabled
+   - macOS/Linux: [Docker Desktop](https://www.docker.com/products/docker-desktop)
+   - Windows: [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)
 2. **kubectl** CLI (included with Docker Desktop)
 3. **Docker Compose** for building images
+
+**For Windows users:**
+- Use `deploy.bat` instead of `deploy.sh`
+- Or use Git Bash/WSL to run the bash script
 
 **Verify installation:**
 ```bash
@@ -66,9 +72,16 @@ kubectl cluster-info
 
 ### Automated Deployment
 
+**For macOS/Linux:**
 ```bash
 cd k8s
 ./deploy.sh
+```
+
+**For Windows:**
+```cmd
+cd k8s
+deploy.bat
 ```
 
 The script performs the following:
