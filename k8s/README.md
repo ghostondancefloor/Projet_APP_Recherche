@@ -290,8 +290,10 @@ kubectl get hpa -n research-dashboard
 ### Rolling Updates
 
 ```bash
-# Rebuild image
+# Rebuild image (from repository root)
+cd ..
 docker-compose build api
+cd k8s
 
 # Restart deployment
 kubectl rollout restart deployment/api -n research-dashboard
@@ -380,7 +382,7 @@ kubectl logs <pod-name> -n research-dashboard
 ```
 
 **Common errors:**
-- `ImagePullBackOff`: Run `docker-compose build` first
+- `ImagePullBackOff`: Run `docker-compose build` from repository root first
 - `CrashLoopBackOff`: Check logs for application errors
 - `Pending`: Insufficient resources or PVC binding issues
 

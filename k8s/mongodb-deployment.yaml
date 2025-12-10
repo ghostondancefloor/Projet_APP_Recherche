@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: dash_mongodb-mongo:latest  # Uses our custom built image
+        image: projetapprecherche-mongo:latest  # Uses our custom built image
         imagePullPolicy: Never  # Use local image
         ports:
         - containerPort: 27017

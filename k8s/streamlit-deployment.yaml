@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: streamlit
-        image: dash_mongodb-streamlit:latest
+        image: projetapprecherche-streamlit:latest
         imagePullPolicy: Never  # Use local image
         ports:
         - containerPort: 8501

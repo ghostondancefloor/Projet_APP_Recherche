@@ -316,9 +316,9 @@ graph TD
         end
         
         subgraph "Pods Details"
-            C1[Container: mongodb<br/>Image: dash_mongodb-mongo:latest<br/>CPU: 2 cores, RAM: 2GB]
-            C2[Container: api<br/>Image: dash_mongodb-api:latest<br/>CPU: 1 core, RAM: 1GB]
-            C3[Container: streamlit<br/>Image: dash_mongodb-streamlit:latest<br/>CPU: 1.5 cores, RAM: 1.5GB]
+            C1[Container: mongodb<br/>Image: projetapprecherche-mongo:latest<br/>CPU: 2 cores, RAM: 2GB]
+            C2[Container: api<br/>Image: projetapprecherche-api:latest<br/>CPU: 1 core, RAM: 1GB]
+            C3[Container: streamlit<br/>Image: projetapprecherche-streamlit:latest<br/>CPU: 1.5 cores, RAM: 1.5GB]
         end
     end
     

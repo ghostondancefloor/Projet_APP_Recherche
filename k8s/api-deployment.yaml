@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: dash_mongodb-api:latest  # We'll build this locally
+        image: projetapprecherche-api:latest  # We'll build this locally
         imagePullPolicy: Never  # Use local image (important for Docker Desktop)
         ports:
         - containerPort: 8000
