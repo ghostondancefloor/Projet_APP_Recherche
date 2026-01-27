@@ -19,6 +19,7 @@ A containerized research analytics dashboard built with FastAPI, Streamlit, and 
 - [Configuration](#configuration)
 - [Common Commands](#common-commands)
 - [Kubernetes Deployment](#kubernetes-deployment)
+- [Monitoring (Prometheus + Grafana)](#monitoring-prometheus--grafana)
 - [Accessing Services](#accessing-services)
 - [Troubleshooting](#troubleshooting)
 - [Maintenance](#maintenance)
@@ -443,6 +444,69 @@ kubectl exec -it -n research-dashboard <pod-name> -- /bin/bash
 # Delete everything
 kubectl delete namespace research-dashboard
 ```
+
+---
+
+## Monitoring (Prometheus + Grafana)
+
+The application includes a complete monitoring stack for observability and alerting.
+
+### Features
+
+- **Real-time metrics** from FastAPI and MongoDB
+- **Pre-built dashboards** for API performance and database health
+- **Alerting rules** for critical conditions (high error rates, service down, etc.)
+- **15-day data retention** for historical analysis
+
+### Quick Start
+
+#### Docker Compose (Development)
+
+Monitoring services are included in docker-compose.yml:
+
+```bash
+docker-compose up -d
+
+# Access:
+# - Grafana:    http://localhost:3000 (admin/admin123)
+# - Prometheus: http://localhost:9090
+```
+
+#### Kubernetes (Production)
+
+```bash
+cd k8s/monitoring
+chmod +x deploy-monitoring.sh
+./deploy-monitoring.sh
+```
+
+### Available Dashboards
+
+| Dashboard | Metrics |
+|-----------|---------|
+| **FastAPI Dashboard** | Request rate, response time (P50/P90/P99), error rates, requests by endpoint |
+| **MongoDB Dashboard** | Connections, operations/sec, memory usage, database status |
+
+### Key Metrics 
+
+| Metric | Description |
+|--------|-------------|
+| `http_requests_total` | Total HTTP requests by method, endpoint, status |
+| `http_request_duration_seconds` | Request latency histogram |
+| `mongodb_up` | MongoDB availability (1=up, 0=down) |
+| `mongodb_ss_connections` | Current/available connections |
+| `mongodb_ss_opcounters` | Operations per second |
+
+### Alerting
+
+Pre-configured alerts include:
+- **HighErrorRate**: API error rate > 5%
+- **HighResponseTime**: P95 latency > 2 seconds  
+- **APIDown**: API unreachable for 1 minute
+- **MongoDBDown**: Database unreachable
+- **MongoDBHighConnections**: Connection pool > 80%
+
+For detailed monitoring documentation, see [k8s/monitoring/README.md](k8s/monitoring/README.md).
 
 ---
 

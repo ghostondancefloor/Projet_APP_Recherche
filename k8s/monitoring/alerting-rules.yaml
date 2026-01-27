@@ -1,0 +1,200 @@
+# Prometheus Alerting Rules for Research Dashboard
+# These rules define conditions that trigger alerts
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: prometheus-alerting-rules
+  namespace: research-dashboard
+  labels:
+    app: prometheus
+data:
+  alerting-rules.yml: |
+    groups:
+      # =======================================================================
+      # API Alerts
+      # =======================================================================
+      - name: api-alerts
+        rules:
+          # High Error Rate
+          - alert: HighErrorRate
+            expr: |
+              sum(rate(http_requests_total{status=~"5.."}[5m])) 
+              / sum(rate(http_requests_total[5m])) > 0.05
+            for: 5m
+            labels:
+              severity: critical
+              service: api
+            annotations:
+              summary: "High error rate detected"
+              description: "API error rate is above 5% (current: {{ $value | humanizePercentage }})"
+              runbook: "Check API logs and database connectivity"
+
+          # High Response Time
+          - alert: HighResponseTime
+            expr: |
+              histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m])) > 2
+            for: 5m
+            labels:
+              severity: warning
+              service: api
+            annotations:
+              summary: "High API response time"
+              description: "95th percentile response time is above 2 seconds (current: {{ $value | humanizeDuration }})"
+              runbook: "Check database performance and API resource usage"
+
+          # API Down
+          - alert: APIDown
+            expr: up{job="fastapi"} == 0
+            for: 1m
+            labels:
+              severity: critical
+              service: api
+            annotations:
+              summary: "FastAPI service is down"
+              description: "FastAPI service has been unreachable for more than 1 minute"
+              runbook: "Check pod status and container logs"
+
+          # High Request Rate (potential DDoS or traffic spike)
+          - alert: HighRequestRate
+            expr: sum(rate(http_requests_total[1m])) > 1000
+            for: 2m
+            labels:
+              severity: warning
+              service: api
+            annotations:
+              summary: "Unusually high request rate"
+              description: "Request rate is above 1000 req/s (current: {{ $value | humanize }} req/s)"
+              runbook: "Check if this is expected traffic or potential attack"
+
+      # =======================================================================
+      # MongoDB Alerts
+      # =======================================================================
+      - name: mongodb-alerts
+        rules:
+          # MongoDB Down
+          - alert: MongoDBDown
+            expr: mongodb_up == 0
+            for: 1m
+            labels:
+              severity: critical
+              service: mongodb
+            annotations:
+              summary: "MongoDB is down"
+              description: "MongoDB instance has been unreachable for more than 1 minute"
+              runbook: "Check MongoDB pod status and persistent volume"
+
+          # High MongoDB Connections
+          - alert: MongoDBHighConnections
+            expr: |
+              mongodb_ss_connections{conn_type="current"} 
+              / mongodb_ss_connections{conn_type="available"} > 0.8
+            for: 5m
+            labels:
+              severity: warning
+              service: mongodb
+            annotations:
+              summary: "MongoDB connection pool nearly exhausted"
+              description: "MongoDB is using more than 80% of available connections"
+              runbook: "Consider increasing max connections or optimizing connection usage"
+
+          # High MongoDB Memory Usage
+          - alert: MongoDBHighMemory
+            expr: mongodb_ss_mem_resident > 1500
+            for: 10m
+            labels:
+              severity: warning
+              service: mongodb
+            annotations:
+              summary: "MongoDB high memory usage"
+              description: "MongoDB resident memory is above 1.5GB (current: {{ $value }}MB)"
+              runbook: "Review query patterns and consider adding indexes"
+
+          # MongoDB Slow Queries
+          - alert: MongoDBSlowQueries
+            expr: rate(mongodb_ss_opcounters{type="query"}[5m]) < 1 and mongodb_up == 1
+            for: 5m
+            labels:
+              severity: info
+              service: mongodb
+            annotations:
+              summary: "MongoDB very low query rate"
+              description: "MongoDB query rate is unusually low, might indicate connectivity issues"
+
+      # =======================================================================
+      # Kubernetes Pod Alerts
+      # =======================================================================
+      - name: kubernetes-alerts
+        rules:
+          # Pod Restart Loop
+          - alert: PodRestartLoop
+            expr: increase(kube_pod_container_status_restarts_total[1h]) > 3
+            for: 5m
+            labels:
+              severity: warning
+            annotations:
+              summary: "Pod {{ $labels.pod }} is restarting frequently"
+              description: "Pod has restarted more than 3 times in the last hour"
+              runbook: "Check pod logs for crash reasons"
+
+          # Pod Not Ready
+          - alert: PodNotReady
+            expr: |
+              kube_pod_status_ready{condition="true"} == 0
+            for: 5m
+            labels:
+              severity: warning
+            annotations:
+              summary: "Pod {{ $labels.pod }} is not ready"
+              description: "Pod has been in not-ready state for more than 5 minutes"
+              runbook: "Check pod events and readiness probe"
+
+          # High CPU Usage
+          - alert: HighCPUUsage
+            expr: |
+              sum(rate(container_cpu_usage_seconds_total{container!=""}[5m])) by (pod) 
+              / sum(kube_pod_container_resource_limits{resource="cpu"}) by (pod) > 0.9
+            for: 10m
+            labels:
+              severity: warning
+            annotations:
+              summary: "High CPU usage on pod {{ $labels.pod }}"
+              description: "Pod is using more than 90% of CPU limit"
+              runbook: "Consider scaling or increasing CPU limits"
+
+          # High Memory Usage
+          - alert: HighMemoryUsage
+            expr: |
+              sum(container_memory_working_set_bytes{container!=""}) by (pod) 
+              / sum(kube_pod_container_resource_limits{resource="memory"}) by (pod) > 0.9
+            for: 10m
+            labels:
+              severity: warning
+            annotations:
+              summary: "High memory usage on pod {{ $labels.pod }}"
+              description: "Pod is using more than 90% of memory limit"
+              runbook: "Check for memory leaks or increase memory limits"
+
+      # =======================================================================
+      # Prometheus Self-Monitoring
+      # =======================================================================
+      - name: prometheus-alerts
+        rules:
+          # Prometheus Target Down
+          - alert: PrometheusTargetDown
+            expr: up == 0
+            for: 5m
+            labels:
+              severity: warning
+            annotations:
+              summary: "Prometheus target {{ $labels.job }} is down"
+              description: "Target has been unreachable for more than 5 minutes"
+
+          # Prometheus Config Reload Failed
+          - alert: PrometheusConfigReloadFailed
+            expr: prometheus_config_last_reload_successful == 0
+            for: 5m
+            labels:
+              severity: warning
+            annotations:
+              summary: "Prometheus config reload failed"
+              description: "Prometheus failed to reload its configuration"

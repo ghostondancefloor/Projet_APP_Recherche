@@ -6,3 +6,4 @@ python-multipart
 PyJWT
 passlib
 requests
+prometheus-fastapi-instrumentator
