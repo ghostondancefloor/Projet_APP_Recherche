@@ -45,10 +45,46 @@ kubectl apply -f secrets.yaml
 echo [OK] Secrets created
 echo.
 
-REM Step 5: Create persistent volumes
+REM Step 5: Clean up any stuck PVC and create persistent volumes
 echo Step 5: Creating persistent volumes...
+echo Cleaning up any stuck PVC...
+kubectl delete pvc mongodb-pvc -n research-dashboard --ignore-not-found=true --timeout=30s 2>nul
+kubectl delete pv mongodb-pv --ignore-not-found=true --timeout=30s 2>nul
+timeout /t 3 /nobreak >nul
+
 kubectl apply -f mongodb-pv.yaml
-echo [OK] Persistent volumes created
+echo Waiting for PVC to be bound...
+
+set /a pvc_count=0
+:wait_pvc_loop
+for /f "tokens=*" %%i in ('kubectl get pvc mongodb-pvc -n research-dashboard -o jsonpath^="{.status.phase}" 2^>nul') do set pvc_status=%%i
+if "!pvc_status!"=="Bound" (
+    echo [OK] PVC is Bound!
+    goto pvc_bound
+)
+set /a pvc_count+=1
+if !pvc_count! geq 12 (
+    echo [ERROR] PVC failed to bind after 60 seconds
+    echo.
+    echo Current PVC status:
+    kubectl get pvc -n research-dashboard
+    echo.
+    echo Current PV status:
+    kubectl get pv
+    echo.
+    echo Try these fixes:
+    echo   1. kubectl delete pvc mongodb-pvc -n research-dashboard --force
+    echo   2. kubectl delete pv mongodb-pv --force
+    echo   3. Reset Docker Desktop Kubernetes: Settings ^> Kubernetes ^> Reset
+    echo.
+    pause
+    exit /b 1
+)
+echo   Waiting for PVC... (!pvc_count!/12)
+timeout /t 5 /nobreak >nul
+goto wait_pvc_loop
+
+:pvc_bound
 echo.
 
 REM Step 6: Deploy MongoDB
@@ -57,7 +93,14 @@ kubectl apply -f mongodb-deployment.yaml
 echo Waiting for MongoDB to be ready (this may take 30-60 seconds)...
 kubectl wait --for=condition=ready pod -l app=mongodb -n research-dashboard --timeout=120s
 if %errorlevel% neq 0 (
-    echo [WARNING] MongoDB may not be ready yet. Check with: kubectl get pods -n research-dashboard
+    echo [WARNING] MongoDB may not be ready yet.
+    echo Checking pod status...
+    kubectl get pods -n research-dashboard -l app=mongodb
+    echo.
+    echo Checking pod events...
+    kubectl describe pod -l app=mongodb -n research-dashboard | findstr -i "error\|warning\|failed\|events" 2>nul
+    echo.
+    echo Check with: kubectl get pods -n research-dashboard
 ) else (
     echo [OK] MongoDB deployed
 )
