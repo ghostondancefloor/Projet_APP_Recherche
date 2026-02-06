@@ -1,0 +1,9 @@
+# Namespace for the Research Dashboard application
+# Namespaces help organize resources in Kubernetes
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: research-dashboard
+  labels:
+    name: research-dashboard
+    environment: learning

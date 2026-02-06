@@ -1,0 +1,60 @@
+# MongoDB Deployment - Defines the MongoDB pod(s)
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb
+  namespace: research-dashboard
+  labels:
+    app: mongodb
+spec:
+  replicas: 1  # Start with 1 replica for learning
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: projet_app_recherche-mongo:latest  # Uses our custom built image
+        imagePullPolicy: Never  # Use local image
+        ports:
+        - containerPort: 27017
+          name: mongodb
+        env:
+        - name: MONGO_INITDB_DATABASE
+          value: "research_db_structure"
+        resources:
+          limits:
+            cpu: "2.0"
+            memory: "2Gi"
+          requests:
+            cpu: "0.5"
+            memory: "512Mi"
+        volumeMounts:
+        - name: mongodb-storage
+          mountPath: /data/db
+      volumes:
+      - name: mongodb-storage
+        persistentVolumeClaim:
+          claimName: mongodb-pvc
+---
+# MongoDB Service - Exposes MongoDB within the cluster
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-service
+  namespace: research-dashboard
+  labels:
+    app: mongodb
+spec:
+  type: ClusterIP  # Internal only - not exposed outside cluster
+  ports:
+  - port: 27017
+    targetPort: 27017
+    protocol: TCP
+    name: mongodb
+  selector:
+    app: mongodb

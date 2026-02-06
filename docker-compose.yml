@@ -1,0 +1,85 @@
+version: "3.9"
+
+services:
+  mongo:
+    build:
+      context: .
+      dockerfile: mongo.Dockerfile
+    container_name: research_db_container
+    restart: always
+    ports:
+      - "${MONGO_PORT:-27017}:27017"
+    volumes:
+      - mongodb_data:/data/db  # Named volume for persistent data storage
+    networks:
+      - internal_network
+    env_file:
+      - .env
+    environment:
+      - MONGO_INITDB_DATABASE=${MONGO_INITDB_DATABASE}
+    deploy:
+      resources:
+        limits:
+          cpus: '6'       # Maximum 4 CPU cores
+          memory: 6G        # Maximum 6GB RAM --> needed for AI model processing
+        reservations:
+          cpus: '0.5'       # Minimum 0.5 CPU cores
+          memory: 512M      # Minimum 512MB RAM
+
+  api:
+    build:
+      context: ./api
+    container_name: api_service
+    restart: always
+    ports:
+      - "${API_PORT:-8000}:8000"
+    depends_on:
+      - mongo
+    networks:
+      - internal_network
+    env_file:
+      - .env
+    environment:
+      - MONGO_URI=${MONGO_URI}
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY}
+      - JWT_ALGORITHM=${JWT_ALGORITHM}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES}
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'       # Maximum 1 CPU core
+          memory: 1G        # Maximum 1GB RAM
+        reservations:
+          cpus: '0.25'      # Minimum 0.25 CPU cores
+          memory: 256M      # Minimum 256MB RAM
+
+  streamlit:
+    build:
+      context: ./streamlit
+    container_name: streamlit_service
+    restart: always
+    ports:
+      - "${STREAMLIT_PORT:-8501}:8501"
+    depends_on:
+      - api
+    networks:
+      - internal_network
+    env_file:
+      - .env
+    environment:
+      - API_BASE_URL=${API_BASE_URL}
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'       # Maximum 1.5 CPU cores
+          memory: 3G      # Maximum 3GB RAM
+        reservations:
+          cpus: '0.25'      # Minimum 0.25 CPU cores
+          memory: 256M      # Minimum 256MB RAM
+
+volumes:
+  mongodb_data:
+
+networks:
+  internal_network:
+    driver: bridge

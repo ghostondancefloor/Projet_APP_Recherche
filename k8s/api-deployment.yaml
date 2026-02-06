@@ -1,0 +1,75 @@
+# FastAPI Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: research-dashboard
+  labels:
+    app: api
+spec:
+  replicas: 2  # 2 replicas for learning load balancing
+  selector:
+    matchLabels:
+      app: api
+  template:
+    metadata:
+      labels:
+        app: api
+    spec:
+      containers:
+      - name: api
+        image: projet_app_recherche-api:latest  # We'll build this locally
+        imagePullPolicy: Never  # Use local image (important for Docker Desktop)
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        - name: MONGO_URI
+          value: "mongodb://mongodb-service:27017/research_db_structure"
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: app-secrets
+              key: jwt-secret-key
+        - name: JWT_ALGORITHM
+          value: "HS256"
+        - name: ACCESS_TOKEN_EXPIRE_MINUTES
+          value: "30"
+        resources:
+          limits:
+            cpu: "1.0"
+            memory: "1Gi"
+          requests:
+            cpu: "0.25"
+            memory: "256Mi"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8000
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8000
+          initialDelaySeconds: 10
+          periodSeconds: 5
+---
+# FastAPI Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: api-service
+  namespace: research-dashboard
+  labels:
+    app: api
+spec:
+  type: ClusterIP  # Internal only
+  ports:
+  - port: 8000
+    targetPort: 8000
+    protocol: TCP
+    name: http
+  selector:
+    app: api

@@ -1,0 +1,28 @@
+# PersistentVolume - Storage for MongoDB data
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: mongodb-pv
+  labels:
+    type: local
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 5Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/data/mongodb"  # Local path for data storage
+---
+# PersistentVolumeClaim - Request for storage
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mongodb-pvc
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi

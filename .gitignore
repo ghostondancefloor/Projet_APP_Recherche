@@ -1,2 +1,4 @@
 /mongodb-access/venv
 /Dash_v1/api/__pycache__
+
+.env
