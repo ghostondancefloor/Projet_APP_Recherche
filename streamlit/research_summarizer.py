@@ -98,7 +98,8 @@ class ResearchSummarizer:
         embeddings = self.embedder.encode(titles, show_progress_bar=False)
         
         # adaptation du nombre de clusters en fonction du nombre d'articles
-        k = min(self.n_clusters, len(titles))
+        #k = min(self.n_clusters, len(titles))
+        k = max(3, min(8, len(titles) // 15))
         if k < 2:
             labels = [0] * len(titles)
         else:
@@ -225,7 +226,8 @@ class ResearchSummarizer:
         else:
             try:
                 text_for_title = " ".join(themes.values())
-                titre = self.generer_resume(text_for_title, prompt="Generate a concise and catchy title for a research summary based on the following themes")
+                start="This researcher has worked on : "
+                titre = start + self.generer_resume(text_for_title, prompt="Generate a concise and catchy title for a research summary based on the following themes")
 
             except Exception as e:
                 print(f"Erreur lors de la génération du résumé : {e}")
