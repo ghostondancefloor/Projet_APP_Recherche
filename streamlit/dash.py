@@ -1,14 +1,13 @@
 import pandas as pd
-import json
 import plotly.express as px
 import plotly.graph_objects as go
 from collections import Counter
 import random
 import networkx as nx
 import requests
-from datetime import datetime
 import streamlit as st
 import os
+from research_summarizer import ResearchSummarizer
 
 st.set_page_config(layout="wide")
 
@@ -17,6 +16,14 @@ if "login_success" not in st.session_state:
 
 # API Configuration - Read from environment variable or use default
 API_BASE_URL = os.getenv("API_BASE_URL", "http://api:8000")
+@st.cache_resource
+def chargement_models():
+    return ResearchSummarizer(api_url=API_BASE_URL, n_clusters=5)
+resume_chercheurs = chargement_models()
+
+@st.cache_data
+def recuperer_presentation(researcher_name, token):
+    return resume_chercheurs.creer_presentation(researcher_name, token)
 
 def login_page():
     st.title("Connexion")
@@ -318,7 +325,7 @@ if not df.empty and 'year' in df.columns:
         "Sélectionnez une année",
         min_value=int(min(years)) if years else 2000,
         max_value=int(max(years)) if years else 2023,
-        value=int(min(years)) if years else 2000,
+        value=int(max(years)) if years else 2000,
         step=1,
     )
 else:
@@ -381,11 +388,18 @@ else:
 # -------------------------------------------------------
 
 st.title("Analyse des publications scientifiques")
-st.title("        ")
 
 # -------------------------------------------------------
 
 if st.session_state.page == 1:
+    # affichage du résumé du chercheur sélectionné
+    st.write(f"Présentation de {selected_dashboard_researcher} :")
+    summary_container = st.empty()
+
+    if selected_dashboard_researcher != "Aucun chercheur trouvé":
+        summary_container.info("Génération en cours...")
+    
+    # partie qui s'affiche immédiatement
     # Visualisation 1
     filtered_df = df[df["year"] == str(selected_year)]
     if not filtered_df.empty:
@@ -554,6 +568,22 @@ if st.session_state.page == 1:
         st.plotly_chart(podium_fig, use_container_width=True)
     else:
         st.warning("Aucune donnée de citation disponible")
+
+    
+    # chargement du résumé du chercheur sélectionné
+    if selected_dashboard_researcher != "Aucun chercheur trouvé":       
+        resume = recuperer_presentation(selected_dashboard_researcher, st.session_state.api_token)
+        summary_container.empty()
+        try:
+            with summary_container.container():
+                st.write(f"{resume['article_count']} articles analysés.")
+                st.write(resume['global_summary'])
+                with st.expander("Détails par thématiques"):
+                    for cid, text in resume['themes'].items():
+                        st.write(f"**Thème {cid + 1}** : {text}")
+
+        except Exception as e:
+            summary_container.error(f"Erreur lors de la génération du résumé : {e}")                   
 
 elif st.session_state.page == 2:
     # Visualisation 8 - Articles les plus cités par chercheur

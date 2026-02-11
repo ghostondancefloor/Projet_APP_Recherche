@@ -12,7 +12,26 @@ WORKDIR /app
 
 # Copy and install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir --user -r requirements.txt
+
+# ----------------------------------------------------------------------
+# - Utilisation du cache BuildKit (--mount=type=cache) pour stocker les téléchargements pip.
+# - Ajout de --extra-index-url pour trouver la version CPU de PyTorch.
+# - Augmentation du timeout (--timeout 3000) pour les gros téléchargements.
+# ----------------------------------------------------------------------
+RUN --mount=type=cache,target=/root/.cache/pip \
+    pip install \
+    --verbose \
+    --no-cache-dir \
+    --user \
+    --extra-index-url https://download.pytorch.org/whl/cpu \
+    -r requirements.txt
+
+# Chargement des modèles
+COPY download_models.py .
+# permettre au builder d'accéder aux librairies
+ENV PATH=/root/.local/bin:$PATH
+# lancer le téléchargement
+RUN python download_models.py
 
 # Stage 2: Runtime - Minimal final image
 FROM python:3.10-slim
@@ -24,6 +43,9 @@ WORKDIR /app
 
 # Copy Python packages from builder stage
 COPY --from=builder /root/.local /home/streamlituser/.local
+
+# Récupérer les modèles téléchargés
+COPY --from=builder --chown=streamlituser:streamlituser /app/models_local /app/models_local
 
 # Copy application code
 COPY --chown=streamlituser:streamlituser . .
