@@ -4,7 +4,7 @@ import requests
 from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 from typing import List, Tuple, Dict
-from transformers import BartTokenizer, BartForConditionalGeneration
+from transformers import BartTokenizer, BartForConditionalGeneration, T5Tokenizer, T5ForConditionalGeneration
 import os
 
 class ResearchSummarizer:
@@ -28,6 +28,7 @@ class ResearchSummarizer:
         base_dir = "/app/models_local"
         path_embed = f"{base_dir}/embedding"
         path_bart = f"{base_dir}/bart"
+        path_t5 = f"{base_dir}/t5"
 
         try:
             # calcul des embedding
@@ -46,9 +47,20 @@ class ResearchSummarizer:
 
             self.bartTokenizer = BartTokenizer.from_pretrained(source_bart)
             self.bartModel = BartForConditionalGeneration.from_pretrained(source_bart)
+
+            # chargement du modèle t5
+            if os.path.exists(path_t5):
+                print(f"-> Chargement Local : {path_t5}")
+                source_t5 = path_t5
+            else:
+                print("problème lors du chargement local de T5")
+
+            self.t5Tokenizer = T5Tokenizer.from_pretrained(source_t5)
+            self.t5Model = T5ForConditionalGeneration.from_pretrained(source_t5)
     
             # Déplacement sur GPU si disponible
             self.bartModel.to(self.device)
+            self.t5Model.to(self.device)
             print("Modèles IA chargés avec succès.")
 
         except Exception as e:
@@ -116,7 +128,7 @@ class ResearchSummarizer:
         # paramétrage du modèle
         summary_ids = self.bartModel.generate(
             inputs["input_ids"], 
-            num_beams=4, 
+            num_beams=2, 
             max_length=max_len, 
             min_length=min_len,
             no_repeat_ngram_size=3, #pour éviter les répétitions
@@ -128,6 +140,31 @@ class ResearchSummarizer:
         # décode le résumé
         decoded_texts = self.bartTokenizer.batch_decode(summary_ids, skip_special_tokens=True)
         return decoded_texts
+    
+    def generer_resume(self, content:str, prompt:str) -> str:      
+      
+        prompt = (f"{prompt} : {content}")
+
+        inputs=self.t5Tokenizer(
+            prompt,
+            return_tensors="pt",
+            max_length=1024,
+            truncation=True
+        ).to(self.device)
+
+        summary_ids = self.t5Model.generate(
+            inputs["input_ids"],
+            do_sample=False, # On repasse en déterministe pour éviter les coupures de mots
+            num_beams=4,
+            max_length=150,
+            min_length=40,
+            no_repeat_ngram_size=3,
+            repetition_penalty=5.0,
+            early_stopping=True
+        )
+        
+            
+        return self.t5Tokenizer.decode(summary_ids[0], skip_special_tokens=True)
    
     
     def generer_presentation_bart(self, df: pd.DataFrame) -> Tuple[Dict[int, str], str]:
@@ -161,7 +198,7 @@ class ResearchSummarizer:
         # association des résumés aux identifiants des clusters
         themes = {}
         for cid, txt in zip(cluster_ids, summaries_list):
-            themes[cid] = txt
+            themes[cid] = self.generer_resume(txt, prompt="Rewrite as a natural sentence")
 
         return themes
     
@@ -180,8 +217,19 @@ class ResearchSummarizer:
 
         # création du résumé
         themes = self.generer_presentation_bart(df)
-        titre = "Prochaine feature"
 
+        # titre
+        if isinstance(themes, tuple):
+            titre="Erreur lors de la génération"
+
+        else:
+            try:
+                text_for_title = " ".join(themes.values())
+                titre = self.generer_resume(text_for_title, prompt="Generate a concise and catchy title for a research summary based on the following themes")
+
+            except Exception as e:
+                print(f"Erreur lors de la génération du résumé : {e}")
+                titre=f"Erreur lors de la génération du titre : {e}"
         return {
             "name": researcher_name,
             "article_count": len(titles),

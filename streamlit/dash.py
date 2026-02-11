@@ -7,7 +7,7 @@ import networkx as nx
 import requests
 import streamlit as st
 import os
-from research_summarizer_bart import ResearchSummarizer
+from research_summarizer import ResearchSummarizer
 
 st.set_page_config(layout="wide")
 
