@@ -3,13 +3,3 @@ pandas
 requests
 plotly
 networkx
-
-torch>=2.6.0+cpu
-
-# ai summary
-sentencepiece
-transformers>=4.30.0
-sentence-transformers
-scikit-learn
-langdetect
-protobuf

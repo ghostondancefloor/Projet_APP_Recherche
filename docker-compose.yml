@@ -20,8 +20,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '6'       # Maximum 4 CPU cores
-          memory: 6G        # Maximum 6GB RAM --> needed for AI model processing
+          cpus: '2.0'       # Maximum 2 CPU cores
+          memory: 2G        # Maximum 2GB RAM
         reservations:
           cpus: '0.5'       # Minimum 0.5 CPU cores
           memory: 512M      # Minimum 512MB RAM
@@ -72,7 +72,7 @@ services:
       resources:
         limits:
           cpus: '1.5'       # Maximum 1.5 CPU cores
-          memory: 3G      # Maximum 3GB RAM
+          memory: 1.5G      # Maximum 1.5GB RAM
         reservations:
           cpus: '0.25'      # Minimum 0.25 CPU cores
           memory: 256M      # Minimum 256MB RAM
