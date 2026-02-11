@@ -13,3 +13,5 @@ sentence-transformers
 scikit-learn
 langdetect
 protobuf
+
+groq

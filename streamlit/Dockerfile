@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 
 # Copy and install Python dependencies
-COPY requirements.txt .
+COPY streamlit/requirements.txt .
 
 # ----------------------------------------------------------------------
 # - Utilisation du cache BuildKit (--mount=type=cache) pour stocker les téléchargements pip.
@@ -27,7 +27,7 @@ RUN --mount=type=cache,target=/root/.cache/pip \
     -r requirements.txt
 
 # Chargement des modèles
-COPY download_models.py .
+COPY streamlit/download_models.py .
 # permettre au builder d'accéder aux librairies
 ENV PATH=/root/.local/bin:$PATH
 # lancer le téléchargement
@@ -47,8 +47,11 @@ COPY --from=builder /root/.local /home/streamlituser/.local
 # Récupérer les modèles téléchargés
 COPY --from=builder --chown=streamlituser:streamlituser /app/models_local /app/models_local
 
-# Copy application code
-COPY --chown=streamlituser:streamlituser . .
+# Copy MCP server code FIRST (depuis la racine du contexte)
+COPY --chown=streamlituser:streamlituser mcp_server/ ./mcp_server/
+
+# Copy application code (depuis streamlit/ vers /app)
+COPY --chown=streamlituser:streamlituser streamlit/ ./
 
 # Update PATH to include user-installed packages
 ENV PATH=/home/streamlituser/.local/bin:$PATH

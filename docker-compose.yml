@@ -55,7 +55,8 @@ services:
 
   streamlit:
     build:
-      context: ./streamlit
+      context: .
+      dockerfile: ./streamlit/Dockerfile
     container_name: streamlit_service
     restart: always
     ports:
@@ -68,6 +69,7 @@ services:
       - .env
     environment:
       - API_BASE_URL=${API_BASE_URL}
+      - GROQ_API_KEY=${GROQ_API_KEY}
     deploy:
       resources:
         limits:

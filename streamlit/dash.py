@@ -8,6 +8,7 @@ import requests
 import streamlit as st
 import os
 from research_summarizer import ResearchSummarizer
+from mcp_server.mcp_service import get_mcp_manager, initialize_mcp_session_state, add_mcp_message, get_mcp_messages, clear_mcp_messages
 
 st.set_page_config(layout="wide")
 
@@ -119,10 +120,10 @@ def get_current_user_data():
     return api_request("/api/me")
 
 # Affichage du nom d'utilisateur connecté
-user_data = get_current_user_data()
-if user_data:
-    st.sidebar.success(f"Connecté en tant que: {user_data.get('username', 'Utilisateur')}")
-    st.sidebar.button("Déconnexion", on_click=lambda: st.session_state.clear())
+# user_data = get_current_user_data()
+# if user_data:
+#     st.sidebar.success(f"Connecté en tant que: {user_data.get('username', 'Utilisateur')}")
+#     st.sidebar.button("Déconnexion", on_click=lambda: st.session_state.clear())
 
 # Récupération des données
 stats_pays_data = get_stats_pays_data() or []
@@ -317,21 +318,173 @@ def next_page():
 def previous_page():
     if st.session_state.page > 1:
         st.session_state.page -= 1
+        
+@st.dialog("Assistant IA - Recherche Intelligente", width="large")
+def chat_assistant_dialog():
+    st.markdown("""
+    Utilisez l'assistant alimenté par IA pour poser des questions sur la base de données de recherche.
+    L'assistant utilise le serveur MCP pour interroger les données de manière intelligente.
+    """)
+    
+    # Initialize MCP service and session state
+    try:
+        initialize_mcp_session_state()
+        mcp = get_mcp_manager()
+        
+        # Display available MCP tools
+        with st.expander("Outils MCP disponibles", expanded=False):
+            st.markdown("""
+            L'assistant a accès aux outils suivants pour interroger la base de données :
+            """)
+            
+            tools = [
+                {
+                    "name": "📊 get_global_stats",
+                    "description": "Obtenir les statistiques globales de la base de données (nombre total de chercheurs, publications, institutions, etc.)",
+                },
+                {
+                    "name": "🔍 search_chercheur",
+                    "description": "Rechercher un chercheur par son nom et obtenir ses informations (publications, collaborateurs, institutions)",
+                },
+                {
+                    "name": "🏆 get_top_chercheurs",
+                    "description": "Obtenir le classement des chercheurs avec le plus de publications",
+                },
+                {
+                    "name": "📄 search_publication",
+                    "description": "Rechercher des publications par titre",
+                },
+                {
+                    "name": "⭐ get_top_publications",
+                    "description": "Obtenir les publications les plus citées",
+                },
+                {
+                    "name": "📅 get_publications_by_year",
+                    "description": "Obtenir les publications d'une année spécifique",
+                },
+                {
+                    "name": "🏛️ search_institution",
+                    "description": "Rechercher une institution par nom",
+                },
+                {
+                    "name": "🏢 get_top_institutions",
+                    "description": "Obtenir les institutions avec qui les chercheurs collaborent le plus",
+                },
+                {
+                    "name": "🤝 get_top_collaborations",
+                    "description": "Obtenir les collaborations les plus fortes",
+                },
+                {
+                    "name": "🌍 get_stats_pays",
+                    "description": "Obtenir les statistiques de publications par pays",
+                },
+                {
+                    "name": "📋 list_chercheurs",
+                    "description": "Lister les noms des chercheurs dans la base",
+                }
+            ]
+            
+            # Afficher les outils en 2 colonnes
+            col1, col2 = st.columns(2)
+            
+            for i, tool in enumerate(tools):
+                with col1 if i % 2 == 0 else col2:
+                    st.markdown(f"**{tool['name']}**")
+                    st.caption(tool['description'])
+                    st.markdown("")  # Espace entre les outils
+        # Chat interface
+        st.subheader("💬 Chat")
+        
+        # Container avec hauteur fixe
+        chat_container = st.container(height=400)
+        with chat_container:
+            # Display chat history
+            messages = get_mcp_messages()
+            for message in messages:
+                with st.chat_message(message["role"]):
+                    st.write(message["content"])
+        
+        st.markdown("""
+            <style>
+            div[data-testid="stButton"] button {
+                height: 50px;
+                padding: 0px;
+            }
+            </style>
+        """, unsafe_allow_html=True)
 
-# Configuration des filtres
+        # User input avec bouton effacer à côté
+        col1, col2 = st.columns([6, 1])
+        with col1:
+            user_input = st.chat_input("Posez une question sur la base de données de recherche...")
+        with col2:
+            if st.button("🗑️", use_container_width=True, help="Effacer l'historique", key="clear_btn"):
+                clear_mcp_messages()
+                st.session_state.dialog_open = True
+                st.rerun()
+        if user_input:
+            # Add user message to history
+            add_mcp_message("user", user_input)
+            
+            # Get response from MCP
+            with st.spinner("Traitement de votre question..."):
+                try:
+                    response = mcp.query(user_input)
+                    add_mcp_message("assistant", response)
+                except Exception as e:
+                    error_msg = f"Erreur: {str(e)}"
+                    add_mcp_message("assistant", error_msg)
+            
+            # Mark dialog as open and rerun
+            st.session_state.dialog_open = True
+            st.rerun()
+    
+    except Exception as e:
+        st.error(f"""
+        ❌ Erreur lors de l'initialisation du service MCP:
+        
+        {str(e)}
+        
+        **Vérifiez que:**
+        1. La variable d'environnement `GROQ_API_KEY` est définie
+        2. Les données de la base de recherche sont disponibles
+        3. Le chemin vers les fichiers de données est correct
+        """)
+
+def show_chat_button():
+    # Initialize dialog state
+    if "dialog_open" not in st.session_state:
+        st.session_state.dialog_open = False
+    
+    # Button to open dialog
+    if st.sidebar.button("Ouvrir l'Assistant IA", use_container_width=True):
+        st.session_state.dialog_open = True
+        st.rerun()
+    
+    # Auto-reopen dialog after rerun
+    if st.session_state.dialog_open:
+        st.session_state.dialog_open = False
+        chat_assistant_dialog()
+
+
+# ============= SIDEBAR =============
+
+# Year filter for researchers
 if not df.empty and 'year' in df.columns:
     years = sorted(df["year"].unique())
     selected_year = st.sidebar.slider(
         "Sélectionnez une année",
         min_value=int(min(years)) if years else 2000,
         max_value=int(max(years)) if years else 2023,
-        value=int(max(years)) if years else 2000,
+        value=int(min(years)) if years else 2000,
         step=1,
+        help="Filtrer les chercheurs par année"
     )
 else:
     selected_year = 2000
     years = [2000]
 
+# Publication period filter
 if not df1.empty and 'publicationYear' in df1.columns:
     publication_years_min = int(df1["publicationYear"].min()) if not df1["publicationYear"].isna().all() else 2000
     publication_years_max = int(df1["publicationYear"].max()) if not df1["publicationYear"].isna().all() else 2023
@@ -342,6 +495,7 @@ if not df1.empty and 'publicationYear' in df1.columns:
         max_value=publication_years_max,
         value=(publication_years_min, publication_years_max),
         step=1,
+        help="Filtrer les publications par période"
     )
 else:
     start_year, end_year = 2000, 2023
@@ -384,6 +538,22 @@ else:
     top_3_researchers = pd.DataFrame(columns=["researcher", "value of cited by"])
     researcher_list = ["Aucun chercheur trouvé"]
     selected_dashboard_researcher = researcher_list[0]
+
+# --- AI Assistant Section ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("Intéroger directement la base de données")
+# if st.sidebar.button("Ouvrir l'Assistant IA", use_container_width=True, type="primary"):
+#     chat_assistant_dialog()
+show_chat_button()
+        
+# --- User Section ---
+st.sidebar.markdown("---")
+if st.sidebar.button("Déconnexion", use_container_width=True):
+    st.session_state.clear()
+
+st.sidebar.caption("Projet APP Recherche Scientifique - Dashboard d'Analyse")
+
+
 
 # -------------------------------------------------------
 
