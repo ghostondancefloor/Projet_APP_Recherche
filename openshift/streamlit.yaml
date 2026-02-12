@@ -1,0 +1,88 @@
+# Streamlit Deployment - Adapted from k8s/streamlit-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit
+  labels:
+    app: streamlit
+spec:
+  replicas: 1  # Reduced to 1 for AI model memory constraints
+  selector:
+    matchLabels:
+      app: streamlit
+  template:
+    metadata:
+      labels:
+        app: streamlit
+    spec:
+      containers:
+      - name: streamlit
+        image: image-registry.openshift-image-registry.svc:5000/dilawinc-dev/streamlit:latest
+        ports:
+        - containerPort: 8501
+          name: http
+        env:
+        - name: API_BASE_URL
+          value: "http://api-service:8000"
+        - name: STREAMLIT_SERVER_HEADLESS
+          value: "true"
+        - name: STREAMLIT_SERVER_RUN_ON_SAVE
+          value: "false"
+        - name: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+          value: "false"
+        resources:
+          limits:
+            cpu: "2"
+            memory: "3Gi"
+          requests:
+            cpu: "0.5"
+            memory: "1.5Gi"
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8501
+          initialDelaySeconds: 120
+          periodSeconds: 10
+          timeoutSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /
+            port: 8501
+          initialDelaySeconds: 60
+          periodSeconds: 5
+---
+# Streamlit Service - ClusterIP (Route will expose it)
+apiVersion: v1
+kind: Service
+metadata:
+  name: streamlit-service
+  labels:
+    app: streamlit
+spec:
+  type: ClusterIP
+  sessionAffinity: ClientIP
+  sessionAffinityConfig:
+    clientIP:
+      timeoutSeconds: 3600
+  ports:
+  - port: 8501
+    targetPort: 8501
+    protocol: TCP
+    name: http
+  selector:
+    app: streamlit
+---
+# Route to expose Streamlit externally (OpenShift specific)
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: streamlit
+spec:
+  to:
+    kind: Service
+    name: streamlit-service
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
