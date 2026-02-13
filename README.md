@@ -62,9 +62,13 @@ The application consists of three primary services:
 - Kubernetes 1.24+
 - kubectl configured with cluster access
 - Minimum cluster resources:
-  - 8 CPU cores
-  - 16GB RAM
-  - 20GB storage
+  - 2 CPU cores (requests)
+  - 4GB RAM (requests)
+  - 5GB storage for persistent volumes
+- Recommended cluster resources:
+  - 8 CPU cores (for resource limits)
+  - 10GB RAM (for resource limits)
+  - 10GB storage
 - For local development: Docker Desktop with Kubernetes enabled
 
 ### For OpenShift Deployment
@@ -527,25 +531,35 @@ The application uses six MongoDB collections:
 
 ### Resource Requirements
 
-**Production Recommended:**
+**Production Recommended (Kubernetes with 2 API + 2 Streamlit replicas):**
 
-| Service | CPU | Memory | Storage |
-|---------|-----|--------|---------|
-| MongoDB | 2 cores | 2GB | 5GB |
-| API | 1 core | 1GB | - |
-| Streamlit | 2 cores | 3GB | - |
-| Prometheus | 0.5 cores | 512MB | 10GB |
-| Grafana | 0.5 cores | 256MB | 1GB |
-| **Total** | **6 cores** | **6.75GB** | **16GB** |
+| Service | CPU (Limits) | Memory (Limits) | Storage |
+|---------|--------------|-----------------|---------|
+| MongoDB (1 replica) | 2 cores | 2GB | 5GB |
+| API (2 replicas) | 2 cores | 2GB | - |
+| Streamlit (2 replicas) | 4 cores | 6GB | - |
+| Prometheus (optional) | 0.5 cores | 512MB | 10GB |
+| Grafana (optional) | 0.5 cores | 256MB | 1GB |
+| **Total (without monitoring)** | **8 cores** | **10GB** | **5GB** |
+| **Total (with monitoring)** | **9 cores** | **10.75GB** | **16GB** |
 
-**Development Minimum:**
+**Development Minimum (Kubernetes resource requests):**
+
+| Service | CPU (Requests) | Memory (Requests) |
+|---------|----------------|-------------------|
+| MongoDB (1 replica) | 0.5 cores | 512MB |
+| API (2 replicas) | 0.5 cores | 512MB |
+| Streamlit (2 replicas) | 1 core | 3GB |
+| **Total** | **2 cores** | **4GB** |
+
+**Docker Compose (Single Replicas):**
 
 | Service | CPU | Memory |
 |---------|-----|--------|
-| MongoDB | 0.5 cores | 512MB |
-| API | 0.25 cores | 256MB |
-| Streamlit | 0.5 cores | 1.5GB |
-| **Total** | **1.25 cores** | **2.25GB** |
+| MongoDB | 2 cores | 2GB |
+| API | 1 core | 1GB |
+| Streamlit | 2 cores | 3GB |
+| **Total** | **5 cores** | **6GB** |
 
 ---
 
