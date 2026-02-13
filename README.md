@@ -1,177 +1,423 @@
-# Projet_APP_Recherche
+# Research Dashboard Application
 
-## ⚙️ Setting up the Python Virtual Environment
+A comprehensive research data management and visualization platform built with modern microservices architecture. This application provides authenticated access to research publications, institution data, and collaboration networks with AI-powered summarization capabilities.
 
-Follow these steps to set up and use the virtual environment for this project.
+## Overview
 
-### 1. Clone the Repository
+The Research Dashboard is a containerized application that aggregates and visualizes academic research data. It features:
+
+- **Interactive Dashboard**: Streamlit-based frontend for data exploration and visualization
+- **RESTful API**: FastAPI backend with JWT authentication
+- **AI Summarization**: Automated research paper summarization using BART and T5 models
+- **Data Clustering**: Machine learning-based publication clustering for topic discovery
+- **Scalable Architecture**: Kubernetes-ready with horizontal pod autoscaling
+- **Monitoring Stack**: Integrated Prometheus and Grafana for observability
+
+## Architecture
+
+The application consists of three primary services:
+
+```
+┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+│  Streamlit  │─────▶│   FastAPI   │─────▶│   MongoDB   │
+│  Frontend   │      │     API     │      │  Database   │
+└─────────────┘      └─────────────┘      └─────────────┘
+```
+
+### Components
+
+**Streamlit Frontend** (Port 8501)
+- User authentication interface
+- Interactive data visualizations using Plotly
+- Network graph generation with NetworkX
+- AI-powered research presentation generation
+
+**FastAPI Backend** (Port 8000)
+- JWT-based authentication
+- RESTful endpoints for data access
+- Password hashing with bcrypt
+- Prometheus metrics endpoint
+
+**MongoDB Database** (Port 27017)
+- Research data storage (publications, researchers, institutions)
+- Pre-populated with sample data
+- Automatic initialization on first run
+
+**Monitoring Stack** (Optional)
+- Prometheus: Metrics collection (Port 9090)
+- Grafana: Visualization dashboards (Port 3000)
+- MongoDB Exporter: Database metrics (Port 9216)
+
+## Prerequisites
+
+### For Docker Compose Deployment
+
+- Docker Engine 20.10+
+- Docker Compose 2.0+
+- Minimum 8GB RAM available
+- 10GB free disk space
+
+### For Kubernetes Deployment
+
+- Kubernetes 1.24+
+- kubectl configured with cluster access
+- Minimum cluster resources:
+  - 8 CPU cores
+  - 16GB RAM
+  - 20GB storage
+- For local development: Docker Desktop with Kubernetes enabled
+
+### For OpenShift Deployment
+
+- OpenShift 4.10+ or OKD
+- oc CLI tool installed
+- Active OpenShift cluster access
+- Container build capability enabled
+
+---
+
+## Quick Start
+
+### Clone the Repository
 
 ```bash
 git clone git@github.com:ghostondancefloor/Projet_APP_Recherche.git
-```
-
-If Python is not installed, you can download it from the official site:
-[https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-### 2. Create a Virtual Environment
-
-Navigate to the root of the project and run:
-
-```bash
-python -m venv venv
-```
-
-This creates a `venv/` directory with an isolated Python environment.
-
-### 3. Activate the Virtual Environment
-
-**Windows:**
-
-```bash
-.\venv\Scripts\activate
-```
-
-**MacOS/Linux:**
-
-```bash
-source venv/bin/activate
-```
-
-### 4. Install Project Dependencies
-
-Make sure the environment is activated, then run:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Deactivate When Finished
-
-```bash
-deactivate
-```
-
-### 6. (Optional) Update Requirements File
-
-Freeze current dependencies into `requirements.txt`:
-
-```bash
-pip freeze > requirements.txt
+cd Projet_APP_Recherche
 ```
 
 ---
 
-## 🧪 Setting up the MongoDB Research Database
+## Deployment Options
 
-This guide explains how to run the `research_db_structure` MongoDB image and import the provided data into the container.
+### Option 1: Docker Compose (Recommended for Development)
 
-### 📦 What You Need
+Docker Compose provides the fastest way to run the application locally with all services.
 
-- [Docker](https://www.docker.com/products/docker-desktop) installed
-- Docker Hub access to pull the image: `danlimao/research_db_structure:v2`
-- Extracted `.rar` file containing the MongoDB dump (e.g., to `C:\mongo-dump`)
+#### Step 1: Configure Environment
 
----
-
-### 🚀 MongoDB Setup Steps
-
-#### 1. Create a `docker-compose.yml`
-
-```yaml
-version: "3.8"
-services:
-  mongodb:
-    image: danlimao/research_db_structure:v2
-    container_name: research_db_container
-    ports:
-      - "27017:27017"
-    volumes: []
-```
-
-Save this in your project directory.
-
-#### 2. Start the MongoDB Container
+Copy the example environment file and configure:
 
 ```bash
-docker-compose down
+cp .env.example .env
+```
+
+Edit `.env` with your settings:
+
+```env
+# MongoDB Configuration
+MONGO_PORT=27017
+MONGO_INITDB_DATABASE=research_db_structure
+MONGO_URI=mongodb://mongo:27017/research_db_structure
+
+# API Configuration
+API_PORT=8000
+JWT_SECRET_KEY=your-secret-key-change-in-production
+JWT_ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Streamlit Configuration
+STREAMLIT_PORT=8501
+API_BASE_URL=http://api:8000
+
+# Monitoring (Optional)
+PROMETHEUS_PORT=9090
+GRAFANA_PORT=3000
+GRAFANA_ADMIN_PASSWORD=admin123
+```
+
+#### Step 2: Start Services
+
+```bash
+# Start all services (includes monitoring stack)
 docker-compose up -d
+
+# Or start only core services
+docker-compose up -d mongo api streamlit
 ```
 
-### Containers Won't Start
-
-Check the logs for error messages:
+#### Step 3: Verify Deployment
 
 ```bash
-docker-compose logs
+# Check service status
+docker-compose ps
+
+# View logs
+docker-compose logs -f
+
+# Check MongoDB data initialization
+docker-compose exec mongo mongosh research_db_structure --quiet --eval "db.users.countDocuments({})"
 ```
 
-Common issues:
-- Docker Desktop not running
-- Insufficient memory allocated to Docker
-- Conflicting services using the same ports
+#### Step 4: Access the Application
 
-### Slow Performance
+- Streamlit Dashboard: http://localhost:8501
+- API Documentation: http://localhost:8000/docs
+- Prometheus: http://localhost:9090
+- Grafana: http://localhost:3000
 
-Make sure Docker Desktop has enough resources:
-- At least 4GB RAM allocated
-- At least 2 CPU cores
-- Sufficient disk space available
+**Default Credentials:**
+- Username: `admin`
+- Password: `123` (change in production)
 
-**Check current resource usage:**
+#### Stopping Services
 
 ```bash
-docker stats --no-stream
+# Stop services (preserves data)
+docker-compose stop
+
+# Stop and remove containers (preserves volumes)
+docker-compose down
+
+# Remove everything including data
+docker-compose down -v
 ```
-
-If containers are hitting their limits, you may need to:
-1. Increase limits in `docker-compose.yml`
-2. Allocate more resources to Docker Desktop (Preferences → Resources)
-3. Close other resource-intensive applications
-
-**For detailed Kubernetes troubleshooting, see [k8s/README.md](k8s/README.md)**
 
 ---
 
-## Maintenance
+### Option 2: Kubernetes Deployment
 
-### Updating the Application
+Kubernetes deployment is suitable for production environments and multi-node clusters.
+
+#### Prerequisites Check
 
 ```bash
-# Pull latest changes
-git pull origin backup-main
+# Verify Kubernetes cluster access
+kubectl cluster-info
 
-# Rebuild and restart
-docker-compose down
+# Verify kubectl version
+kubectl version --client
+
+# Check available resources
+kubectl top nodes
+```
+
+#### Step 1: Build Container Images
+
+For local Kubernetes (Docker Desktop):
+
+```bash
+# Build all images
 docker-compose build
-docker-compose up -d
+
+# Verify images are available
+docker images | grep projet_app_recherche
 ```
 
-### Backing Up the Database
+For remote Kubernetes clusters, push images to a container registry:
 
 ```bash
-# Create backup
-docker-compose exec -T mongo mongodump --db=research_db_structure --out=/data/backup
-docker cp research_db_container:/data/backup ./backups/backup-\$(date +%Y%m%d)
+# Tag images
+docker tag projet_app_recherche-mongo:latest your-registry/research-mongo:latest
+docker tag projet_app_recherche-api:latest your-registry/research-api:latest
+docker tag projet_app_recherche-streamlit:latest your-registry/research-streamlit:latest
+
+# Push to registry
+docker push your-registry/research-mongo:latest
+docker push your-registry/research-api:latest
+docker push your-registry/research-streamlit:latest
 ```
 
-### Restoring from Backup
+#### Step 2: Update Image References (Remote Clusters Only)
+
+Edit the deployment files if using a remote registry:
 
 ```bash
-# Restore from backup directory
-docker-compose exec -T mongo mongorestore --db=research_db_structure /path/to/backup --drop
+# Update image references in k8s/*.yaml files
+sed -i 's|projet_app_recherche-|your-registry/research-|g' k8s/*.yaml
+sed -i 's|imagePullPolicy: Never|imagePullPolicy: Always|g' k8s/*.yaml
 ```
 
-### Regular Maintenance Tasks
+#### Step 3: Configure Secrets
 
-**Weekly:**
-- Check container health with \`docker-compose ps\`
-- Review logs for errors
-- Monitor disk space usage
+Edit `k8s/secrets.yaml` with your base64-encoded values:
 
-**Monthly:**
-- Create database backup
-- Review resource usage
-- Update dependencies if needed
+```bash
+# Generate base64 encoded secrets
+echo -n "your-production-secret-key" | base64
+echo -n "your-mongodb-password" | base64
+```
+
+Update the values in `k8s/secrets.yaml`.
+
+#### Step 4: Deploy to Kubernetes
+
+**Automated Deployment:**
+
+```bash
+cd k8s
+./deploy.sh
+```
+
+**Manual Deployment:**
+
+```bash
+# Apply in order
+kubectl apply -f k8s/namespace.yaml
+kubectl apply -f k8s/secrets.yaml
+kubectl apply -f k8s/mongodb-pv.yaml
+kubectl apply -f k8s/mongodb-deployment.yaml
+kubectl apply -f k8s/api-deployment.yaml
+kubectl apply -f k8s/streamlit-deployment.yaml
+```
+
+#### Step 5: Verify Deployment
+
+```bash
+# Check all resources
+kubectl get all -n research-dashboard
+
+# Check pod status
+kubectl get pods -n research-dashboard
+
+# View pod logs
+kubectl logs -n research-dashboard -l app=streamlit --tail=50
+
+# Check persistent volumes
+kubectl get pv,pvc -n research-dashboard
+```
+
+#### Step 6: Access the Application
+
+**For Docker Desktop Kubernetes:**
+
+The application is accessible via NodePort at:
+- Streamlit: http://localhost:30501
+- Streamlit (network): http://YOUR_LOCAL_IP:30501
+
+Get your local IP:
+```bash
+# macOS
+ipconfig getifaddr en0
+
+# Linux
+hostname -I | awk '{print $1}'
+```
+
+**For Cloud Kubernetes:**
+
+Get the LoadBalancer IP:
+```bash
+kubectl get svc streamlit-service -n research-dashboard
+```
+
+Access at: http://EXTERNAL-IP:8501
+
+#### Monitoring Stack (Optional)
+
+Deploy Prometheus and Grafana:
+
+```bash
+cd k8s/monitoring
+./deploy-monitoring.sh
+```
+
+Access monitoring:
+- Prometheus: http://localhost:30090
+- Grafana: http://localhost:30300 (admin/admin)
+
+#### Troubleshooting Kubernetes Deployment
+
+**Pods not starting:**
+```bash
+kubectl describe pod POD_NAME -n research-dashboard
+kubectl logs POD_NAME -n research-dashboard
+```
+
+**Image pull errors:**
+```bash
+# Verify image exists
+docker images | grep research
+
+# Check imagePullPolicy in deployment
+kubectl get deployment -n research-dashboard -o yaml | grep imagePullPolicy
+```
+
+**PVC binding issues:**
+```bash
+kubectl get pv,pvc -n research-dashboard
+kubectl describe pvc mongodb-pvc -n research-dashboard
+```
+
+**Service connectivity:**
+```bash
+# Test API from within cluster
+kubectl run test-pod --rm -it --image=curlimages/curl -n research-dashboard -- sh
+curl http://api-service:8000
+```
+
+---
+
+### Option 3: OpenShift/OKD Deployment
+
+OpenShift provides enterprise-grade container orchestration with built-in CI/CD.
+
+#### Prerequisites
+
+```bash
+# Login to OpenShift cluster
+oc login --token=YOUR_TOKEN --server=https://api.your-cluster.com:6443
+
+# Verify login
+oc whoami
+oc project
+```
+
+#### Step 1: Deploy to OpenShift
+
+The OpenShift manifests include BuildConfigs that automatically build images from the GitHub repository.
+
+```bash
+# Create secrets
+oc apply -f k8s/secrets.yaml
+
+# Create persistent storage
+oc apply -f openshift/mongodb-pvc.yaml
+
+# Create builds
+oc apply -f openshift/builds.yaml
+
+# Start builds
+oc start-build mongodb
+oc start-build api
+oc start-build streamlit
+
+# Monitor builds
+oc get builds -w
+```
+
+#### Step 2: Deploy Applications
+
+```bash
+# Deploy services
+oc apply -f openshift/mongodb.yaml
+oc apply -f openshift/api.yaml
+oc apply -f openshift/streamlit.yaml
+```
+
+#### Step 3: Access Application
+
+```bash
+# Get the route URL
+oc get route streamlit -o jsonpath='{.spec.host}'
+```
+
+Access the application at the provided HTTPS URL.
+
+#### Monitoring OpenShift Deployment
+
+```bash
+# Check pod status
+oc get pods
+
+# View logs
+oc logs deployment/streamlit -f
+
+# Check routes
+oc get routes
+
+# Check build logs
+oc logs build/streamlit-1
+```
 
 ---
 
@@ -179,159 +425,470 @@ docker-compose exec -T mongo mongorestore --db=research_db_structure /path/to/ba
 
 ```
 Projet_APP_Recherche/
-├── README.md                          # This file
-├── docker-compose.yml                 # Orchestrates all services
-├── mongo.Dockerfile                   # Custom MongoDB with auto-init
-├── .env.example                       # Configuration template
-├── import-db.sh                       # Manual database import script
+├── README.md                          # Project documentation
+├── docker-compose.yml                 # Docker Compose orchestration
+├── mongo.Dockerfile                   # MongoDB container with auto-init
+├── .env.example                       # Environment template
+├── presentation.html                  # Project presentation page
 │
-├── api/                               # FastAPI backend service
+├── api/                               # FastAPI backend
 │   ├── api_to_db.py                  # Main API application
-│   ├── Dockerfile                     # API container definition
-│   └── requirements.txt               # Python dependencies
+│   ├── Dockerfile                    # Multi-stage optimized build
+│   └── requirements.txt              # Python dependencies
 │
-├── streamlit/                         # Streamlit dashboard
-│   ├── dash.py                       # Dashboard application
-│   ├── Dockerfile                     # Streamlit container
-│   └── requirements.txt               # Python dependencies
+├── streamlit/                         # Frontend dashboard
+│   ├── dash.py                       # Main dashboard app
+│   ├── research_summarizer.py        # AI summarization engine
+│   ├── download_models.py            # AI model downloader
+│   ├── Dockerfile                    # Multi-stage build with AI models
+│   └── requirements.txt              # Python + ML dependencies
 │
 ├── mongo-dump/                        # Database initialization
-│   ├── docker-entrypoint-wrapper.sh  # Initialization script
-│   └── research_db_structure/        # Database backup files
-│       ├── users.bson                # User data
-│       ├── chercheurs.bson           # Researcher data
-│       ├── publications.bson         # Publication data
-│       └── ...                       # Other collections
+│   ├── docker-entrypoint-wrapper.sh  # Auto-init script
+│   └── research_db_structure/        # BSON backup files
+│       ├── users.bson                # Authentication data
+│       ├── chercheurs.bson          # Researcher profiles
+│       ├── publications.bson        # Publication metadata
+│       ├── institutions.bson        # Institution data
+│       ├── collaborations.bson      # Collaboration networks
+│       └── stats_pays.bson          # Country statistics
 │
-├── k8s/                               # Kubernetes deployment
-│   ├── README.md                     # Kubernetes guide
-│   ├── deploy.sh                     # Automated deployment
-│   ├── docs/                         # K8s documentation
-│   │   ├── ARCHITECTURE.md           # System diagrams
-│   │   ├── DEPLOYMENT_EXPLAINED.md   # Technical deep-dive
-│   │   └── README.md                 # Documentation index
-│   └── *.yaml                        # K8s manifests
+├── k8s/                               # Kubernetes manifests
+│   ├── README.md                     # Kubernetes deployment guide
+│   ├── deploy.sh                     # Automated deployment script
+│   ├── namespace.yaml                # Namespace definition
+│   ├── secrets.yaml                  # Sensitive configuration
+│   ├── mongodb-pv.yaml               # Persistent volume
+│   ├── mongodb-deployment.yaml       # MongoDB StatefulSet
+│   ├── api-deployment.yaml           # API Deployment + Service
+│   ├── streamlit-deployment.yaml     # Streamlit Deployment + Service
+│   ├── docs/                         # Detailed documentation
+│   │   ├── ARCHITECTURE.md          # Architecture diagrams
+│   │   ├── DEPLOYMENT_EXPLAINED.md  # Technical deep-dive
+│   │   └── README.md                # Documentation index
+│   └── monitoring/                   # Observability stack
+│       ├── deploy-monitoring.sh     # Monitoring setup
+│       ├── prometheus-*.yaml        # Prometheus configs
+│       └── grafana-*.yaml           # Grafana configs
 │
-├── deployment-docs/                   # Deployment guides
-│   ├── DEPLOYMENT_CHECKLIST.md       # Pre-deployment checks
-│   └── DEPLOYMENT_UPGRADES.md        # Upgrade procedures
+├── openshift/                         # OpenShift/OKD manifests
+│   ├── builds.yaml                   # BuildConfigs + ImageStreams
+│   ├── mongodb.yaml                  # MongoDB deployment
+│   ├── api.yaml                      # API deployment
+│   └── streamlit.yaml                # Streamlit deployment + Route
+│
+├── deployment-docs/                   # Deployment procedures
+│   ├── DEPLOYMENT_CHECKLIST.md      # Pre-deployment validation
+│   └── DEPLOYMENT_UPGRADES.md       # Upgrade procedures
+│
+├── monitoring/                        # Local monitoring configs
+│   ├── prometheus.yml                # Prometheus configuration
+│   └── grafana/                      # Grafana provisioning
+│       ├── dashboards/              # Pre-built dashboards
+│       └── provisioning/            # Datasource configs
 │
 └── backups/                           # Database backups
-    └── backup-YYYYMMDD-HHMMSS/       # Timestamped backups
+    └── backup-YYYYMMDD-HHMMSS/      # Timestamped snapshots
 ```
 
 ---
 
-## Security Notes
+## Configuration
 
-### Development Environment
+### Environment Variables
 
-- Default password \`123\` is intentionally simple
-- JWT secret key is generic
-- Database has no authentication
-- All services use default ports
+| Variable | Description | Default | Required |
+|----------|-------------|---------|----------|
+| `MONGO_URI` | MongoDB connection string | `mongodb://mongo:27017/research_db_structure` | Yes |
+| `MONGO_PORT` | MongoDB exposed port | `27017` | Yes |
+| `MONGO_INITDB_DATABASE` | Initial database name | `research_db_structure` | Yes |
+| `API_PORT` | API service port | `8000` | Yes |
+| `JWT_SECRET_KEY` | Secret key for JWT tokens | - | Yes |
+| `JWT_ALGORITHM` | JWT signing algorithm | `HS256` | Yes |
+| `ACCESS_TOKEN_EXPIRE_MINUTES` | Token expiration time | `30` | Yes |
+| `STREAMLIT_PORT` | Streamlit service port | `8501` | Yes |
+| `API_BASE_URL` | API endpoint for Streamlit | `http://api:8000` | Yes |
+| `PROMETHEUS_PORT` | Prometheus port | `9090` | No |
+| `GRAFANA_PORT` | Grafana port | `3000` | No |
+| `GRAFANA_ADMIN_PASSWORD` | Grafana admin password | `admin123` | No |
 
-### Production Deployment
+### Database Collections
 
-Before deploying to production:
+The application uses six MongoDB collections:
 
-- Change all passwords to strong values
-- Update \`JWT_SECRET_KEY\` to a random string
+| Collection | Description | Documents |
+|------------|-------------|-----------|
+| `users` | User authentication | Admin accounts |
+| `chercheurs` | Researcher profiles | Names, affiliations, publications |
+| `publications` | Research papers | Titles, authors, metadata |
+| `institutions` | Organizations | Names, locations, stats |
+| `collaborations` | Research networks | Researcher relationships |
+| `stats_pays` | Country statistics | Aggregated metrics |
+
+### Resource Requirements
+
+**Production Recommended:**
+
+| Service | CPU | Memory | Storage |
+|---------|-----|--------|---------|
+| MongoDB | 2 cores | 2GB | 5GB |
+| API | 1 core | 1GB | - |
+| Streamlit | 2 cores | 3GB | - |
+| Prometheus | 0.5 cores | 512MB | 10GB |
+| Grafana | 0.5 cores | 256MB | 1GB |
+| **Total** | **6 cores** | **6.75GB** | **16GB** |
+
+**Development Minimum:**
+
+| Service | CPU | Memory |
+|---------|-----|--------|
+| MongoDB | 0.5 cores | 512MB |
+| API | 0.25 cores | 256MB |
+| Streamlit | 0.5 cores | 1.5GB |
+| **Total** | **1.25 cores** | **2.25GB** |
+
+---
+
+## Maintenance
+
+### Updating the Application
+
+**Docker Compose:**
+
+```bash
+# Pull latest code
+git pull origin main
+
+# Rebuild and restart
+docker-compose down
+docker-compose build --no-cache
+docker-compose up -d
+
+# Verify update
+docker-compose ps
+docker-compose logs -f
+```
+
+**Kubernetes:**
+
+```bash
+# Pull latest code
+git pull origin main
+
+# Rebuild images
+docker-compose build
+
+# Update deployments
+kubectl rollout restart deployment/api -n research-dashboard
+kubectl rollout restart deployment/streamlit -n research-dashboard
+kubectl rollout restart deployment/mongodb -n research-dashboard
+
+# Monitor rollout
+kubectl rollout status deployment/streamlit -n research-dashboard
+```
+
+**OpenShift:**
+
+```bash
+# Trigger new builds
+oc start-build mongodb
+oc start-build api
+oc start-build streamlit
+
+# Monitor builds
+oc get builds -w
+
+# Deployments auto-update when builds complete
+```
+
+### Database Backup
+
+**Docker Compose:**
+
+```bash
+# Create backup
+docker-compose exec -T mongo mongodump \
+  --db=research_db_structure \
+  --out=/data/backup
+
+# Copy to host
+docker cp research_db_container:/data/backup \
+  ./backups/backup-$(date +%Y%m%d-%H%M%S)
+
+# Compress backup
+tar -czf backups/backup-$(date +%Y%m%d-%H%M%S).tar.gz \
+  backups/backup-$(date +%Y%m%d-%H%M%S)
+```
+
+**Kubernetes:**
+
+```bash
+# Create backup
+kubectl exec -n research-dashboard deployment/mongodb -- \
+  mongodump --db=research_db_structure --out=/tmp/backup
+
+# Copy to local
+kubectl cp research-dashboard/POD_NAME:/tmp/backup \
+  ./backups/backup-$(date +%Y%m%d-%H%M%S)
+```
+
+### Database Restore
+
+```bash
+# Restore from backup
+docker-compose exec -T mongo mongorestore \
+  --db=research_db_structure \
+  --drop \
+  /path/to/backup/research_db_structure
+```
+
+### Log Management
+
+**View logs:**
+
+```bash
+# Docker Compose
+docker-compose logs -f [service_name]
+docker-compose logs --tail=100 streamlit
+
+# Kubernetes
+kubectl logs -n research-dashboard -l app=streamlit --tail=100 -f
+kubectl logs -n research-dashboard deployment/api
+
+# OpenShift
+oc logs deployment/streamlit -f
+oc logs build/streamlit-1
+```
+
+### Health Checks
+
+**Docker Compose:**
+
+```bash
+# Check service health
+docker-compose ps
+
+# Test API health
+curl http://localhost:8000/
+
+# Test MongoDB
+docker-compose exec mongo mongosh research_db_structure \
+  --quiet --eval "db.stats()"
+```
+
+**Kubernetes:**
+
+```bash
+# Check pod health
+kubectl get pods -n research-dashboard
+
+# Check readiness/liveness probes
+kubectl describe pod POD_NAME -n research-dashboard
+
+# Test service connectivity
+kubectl run test-pod --rm -it \
+  --image=curlimages/curl \
+  -n research-dashboard -- \
+  curl http://api-service:8000
+```
+
+---
+
+## Development
+
+### Local Development Setup
+
+```bash
+# Create Python virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r api/requirements.txt
+pip install -r streamlit/requirements.txt
+
+# Start MongoDB only
+docker-compose up -d mongo
+
+# Run API locally
+cd api
+uvicorn api_to_db:app --reload --host 0.0.0.0 --port 8000
+
+# Run Streamlit locally (in another terminal)
+cd streamlit
+streamlit run dash.py --server.port 8501
+```
+
+### Testing
+
+**API Tests:**
+
+```bash
+# Test authentication
+curl -X POST http://localhost:8000/token \
+  -d "username=admin&password=123"
+
+# Test authenticated endpoint
+curl -H "Authorization: Bearer YOUR_TOKEN" \
+  http://localhost:8000/api/chercheurs
+```
+
+**Database Tests:**
+
+```bash
+# Connect to MongoDB
+docker-compose exec mongo mongosh research_db_structure
+
+# Count documents
+db.users.countDocuments()
+db.publications.countDocuments()
+db.chercheurs.countDocuments()
+```
+
+### Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit changes: `git commit -am 'Add new feature'`
+4. Push to branch: `git push origin feature/your-feature`
+5. Submit a Pull Request
+
+---
+
+## Security Considerations
+
+### Development vs Production
+
+**Development Default Values (NOT for production):**
+- MongoDB: No authentication
+- Default password: `123`
+- JWT Secret: Generic value
+- HTTP only (no TLS)
+
+**Production Requirements:**
 - Enable MongoDB authentication
-- Use environment-specific configurations
-- Enable HTTPS/TLS
-- Review security settings in all services
-- Restrict network access to services
+- Strong passwords (min 16 characters)
+- Rotate JWT secret key regularly
+- Enable TLS/HTTPS
+- Use secrets management (Vault, Sealed Secrets)
+- Network policies to restrict pod communication
+- Regular security updates
+- Implement rate limiting
+- Enable audit logging
 
----
+### Securing Kubernetes Deployment
 
-## Technical Details
+```bash
+# Create secure JWT secret
+kubectl create secret generic app-secrets \
+  --from-literal=jwt-secret-key=$(openssl rand -base64 32) \
+  -n research-dashboard
 
-### Automatic Database Initialization
+# Enable network policies
+kubectl apply -f k8s/network-policies.yaml
 
-The system uses a custom approach to ensure the database initializes correctly:
-
-1. The \`mongo.Dockerfile\` builds a custom MongoDB image
-2. During build, it sets executable permissions on initialization scripts
-3. When the container starts, \`docker-entrypoint-wrapper.sh\` runs automatically
-4. The script waits for MongoDB to be ready
-5. It checks if the database is empty
-6. If empty, it restores from BSON backup files
-7. All 6 collections are imported with full data
-
-**Why This Matters:**
-
-This approach solves the common problem where Git doesn't preserve file permissions on shell scripts. By setting permissions in the Dockerfile during image build, we guarantee they're correct on every machine.
-
-The \`mongo.Dockerfile\` includes:
-
-```dockerfile
-RUN chmod +x /usr/local/bin/docker-entrypoint-wrapper.sh
+# Use pod security policies
+kubectl apply -f k8s/pod-security-policy.yaml
 ```
 
-This bakes executable permissions into the Docker image, solving the "Git doesn't preserve permissions" issue.
+---
 
-### Technology Stack
+## Troubleshooting
 
-**Docker:**
-- Ensures everyone runs the same environment
-- No "works on my machine" problems
-- Easy to set up and tear down
-- Isolates the application from your system
+### Common Issues
 
-**MongoDB:**
-- Flexible schema for research data
-- Fast queries for large datasets
-- JSON-like documents easy to work with
-- Good for complex nested data structures
+**Service Won't Start**
+- Check Docker Desktop is running and has sufficient resources
+- Verify ports 8000, 8501, 27017 are not in use
+- Check logs: `docker-compose logs [service]`
 
-**FastAPI:**
-- Fast and modern Python framework
-- Automatic API documentation
-- Built-in data validation
-- Easy to test and maintain
+**Database Empty After Start**
+- Wait 30 seconds for initialization to complete
+- Check initialization logs: `docker-compose logs mongo`
+- Verify BSON files exist in `mongo-dump/research_db_structure/`
 
-**Streamlit:**
-- Quick to build interactive dashboards
-- Python-based (matches our backend)
-- Built-in widgets and charts
-- Good for data science applications
+**Cannot Login**
+- Default credentials: `admin` / `123`
+- Verify API is running: `curl http://localhost:8000/`
+- Check API logs for authentication errors
+
+**AI Models Not Loading**
+- Streamlit container needs 4GB+ memory
+- Models are downloaded during image build (large download)
+- Check Streamlit logs for model loading errors
+
+**Kubernetes Pods Pending**
+- Check node resources: `kubectl top nodes`
+- Verify PVC is bound: `kubectl get pvc -n research-dashboard`
+- Check events: `kubectl get events -n research-dashboard --sort-by='.lastTimestamp'`
+
+**Image Pull Errors (Kubernetes)**
+- For local clusters, use `imagePullPolicy: Never`
+- For remote clusters, push images to registry
+- Verify image exists: `docker images | grep research`
+
+### Getting Help
+
+- Review documentation in `k8s/docs/`
+- Check GitHub Issues
+- Review container logs
+- Verify network connectivity between services
 
 ---
 
-## Support
+## Performance Tuning
 
-If you encounter issues:
+### Docker Compose
 
-1. **Check the logs** - Most problems show error messages
-   ```bash
-   docker-compose logs
-   ```
+Adjust resource limits in `docker-compose.yml`:
 
-2. **Verify all services are running**
-   ```bash
-   docker-compose ps
-   ```
+```yaml
+services:
+  streamlit:
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 2G
+```
 
-3. **Check database has data**
-   ```bash
-   docker-compose exec -T mongo mongosh research_db_structure --quiet --eval "db.users.countDocuments({})"
-   ```
+### Kubernetes
 
-4. **Review documentation**
-   - [k8s/README.md](k8s/README.md) - Kubernetes deployment guide
-   - [k8s/docs/DEPLOYMENT_EXPLAINED.md](k8s/docs/DEPLOYMENT_EXPLAINED.md) - Architecture deep-dive
-   - [k8s/docs/ARCHITECTURE.md](k8s/docs/ARCHITECTURE.md) - Visual diagrams
+Adjust HPA (Horizontal Pod Autoscaler):
 
-5. **Start fresh if needed**
-   ```bash
-   docker-compose down -v
-   docker-compose build
-   docker-compose up -d
-   ```
+```bash
+# Scale API based on CPU
+kubectl autoscale deployment api \
+  --cpu-percent=70 \
+  --min=2 \
+  --max=10 \
+  -n research-dashboard
+
+# Monitor scaling
+kubectl get hpa -n research-dashboard -w
+```
 
 ---
 
-**Questions?** Check the \`docs/\` folder or contact the development team.
+## License
 
-**Last Updated:** October 13, 2025
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## Acknowledgments
+
+- Research data provided by academic institutions
+- AI models: BART (Facebook AI), T5 (Google Research)
+- Embedding models: sentence-transformers
+
+---
+
+## Contact
+
+For questions or support, please open an issue on the GitHub repository.
+
+**Last Updated:** February 2026
