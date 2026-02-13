@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectRes - Intelligence Scientifique Universitaire</title>
+    <style>
+        /* --- VARIABLES & RESET --- */
+        :root {
+            --primary-blue: #003366; /* Bleu foncé académique */
+            --polytech-cyan: #00b0f0; /* Cyan du logo Polytech */
+            --slate-grey: #f4f6f8;
+            --text-dark: #1a202c;
+            --text-light: #718096;
+            --white: #ffffff;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--white);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background-color: var(--white);
+            box-shadow: var(--shadow);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo span {
+            color: var(--polytech-cyan);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--polytech-cyan);
+        }
+
+        .cta-button {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 0.6rem 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--polytech-cyan);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #1a202c 100%);
+            color: var(--white);
+            padding: 8rem 2rem 5rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto 2.5rem;
+            color: #e2e8f0;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+
+        .stat-item h3 {
+            font-size: 2.5rem;
+            color: var(--polytech-cyan);
+        }
+
+        /* --- FEATURES SECTION --- */
+        .features {
+            padding: 5rem 2rem;
+            background-color: var(--slate-grey);
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title h2 {
+            font-size: 2.25rem;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+        }
+
+        .grid-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+            border-top: 4px solid var(--polytech-cyan);
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-blue);
+        }
+
+        .card h3 {
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .card p {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* --- ARCHITECTURE SECTION --- */
+        .architecture {
+            padding: 5rem 2rem;
+            background-color: var(--white);
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .tech-badge {
+            background-color: #e2e8f0;
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: 600;
+            color: var(--primary-blue);
+            font-size: 0.9rem;
+        }
+
+        /* --- TEAM SECTION --- */
+        .team {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .team-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            backdrop-filter: blur(5px);
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background-color: #1a202c;
+            color: #718096;
+            padding: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .nav-container { flex-direction: column; gap: 1rem; }
+            nav ul { gap: 1rem; }
+            .hero-stats { flex-direction: column; gap: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Connect<span>Res</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#features">Fonctionnalités</a></li>
+                    <li><a href="#architecture">Technologie</a></li>
+                    <li><a href="#team">Équipe</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="cta-button">Accéder au Dashboard</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>L'Intelligence Artificielle au service de la Recherche</h1>
+        <p>
+            Une plateforme centralisée pour visualiser les collaborations, analyser les publications 
+            et dialoguer avec vos données scientifiques grâce au protocole MCP.
+        </p>
+        <a href="#features" class="cta-button" style="background-color: var(--white); color: var(--primary-blue);">Découvrir le projet</a>
+        
+        <div class="hero-stats">
+            <div class="stat-item">
+                <h3>MCP</h3>
+                <p>Chatbot Contextuel</p>
+            </div>
+            <div class="stat-item">
+                <h3>NLP</h3>
+                <p>Analyse Sémantique</p>
+            </div>
+            <div class="stat-item">
+                <h3>K8s</h3>
+                <p>Haute Disponibilité</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="section-title">
+            <h2>Un Cockpit Scientifique Complet</h2>
+            <p>Transformez des données brutes en décisions stratégiques.</p>
+        </div>
+
+        <div class="grid-container">
+            <div class="card">
+                <div class="card-icon">💬</div>
+                <h3>Assistant Chatbot MCP</h3>
+                <p>
+                    Ne cherchez plus manuellement. Interrogez notre base de données en langage naturel via le 
+                    <strong>Model Context Protocol</strong>. Obtenez instantanément des classements de chercheurs, 
+                    des statistiques globales ou des analyses par pays.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🕸️</div>
+                <h3>Visualisation de Réseaux</h3>
+                <p>
+                    Rendez visible l'invisible. Notre tableau de bord interactif génère des graphes dynamiques 
+                    pour explorer les collaborations entre chercheurs et institutions, révélant les connexions cachées.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🧠</div>
+                <h3>Analyse & Prédictions IA</h3>
+                <p>
+                    Grâce aux modèles NLP (BART, T5), la plateforme génère des résumés automatiques et suggère 
+                    de nouveaux axes de recherche basés sur l'historique des publications existantes.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📂</div>
+                <h3>Données Centralisées</h3>
+                <p>
+                    Accédez à une base unifiée regroupant chercheurs, publications et métadonnées. 
+                    Fini les données isolées : tout est accessible via une API REST sécurisée et documentée.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="architecture" class="architecture">
+        <div class="section-title">
+            <h2>Architecture Robuste & Scalable</h2>
+            <p>Conçu avec les standards industriels pour garantir performance et résilience.</p>
+        </div>
+
+        <div class="grid-container">
+            <div style="flex: 1;">
+                <h3>Microservices & Orchestration</h3>
+                <p style="margin-bottom: 1rem;">
+                    L'application repose sur une architecture conteneurisée optimisée (images réduites de 80%). 
+                    Le déploiement Kubernetes assure l'auto-scaling (HPA) et le self-healing pour une disponibilité maximale.
+                </p>
+                <h3>Pipelines NLP Avancés</h3>
+                <p>
+                    Utilisation conjointe de <strong>BART</strong> pour les résumés abstractifs et de <strong>T5</strong> pour la génération de profils naturels, assurant une analyse sémantique précise des publications.
+                </p>
+            </div>
+            <div style="flex: 1; display: flex; align-items: center; justify-content: center;">
+                <div style="background: #f8fafc; padding: 2rem; border-radius: 10px; border: 1px dashed #cbd5e0; text-align: center;">
+                    <p style="font-weight: bold; color: var(--primary-blue);">Stack Technique</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Kubernetes</span>
+                        <span class="tech-badge">BART (Seq2Seq)</span>
+                        <span class="tech-badge">T5 (Text-to-Text)</span>
+                        <span class="tech-badge">FastAPI</span>
+                        <span class="tech-badge">Streamlit</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">Llama 3.3 (Groq)</span>
+                        <span class="tech-badge">Prometheus</span>
+                        <span class="tech-badge">Grafana</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="section-title" style="margin-bottom: 2rem;">
+            <h2 style="color: var(--white);">L'Équipe Projet</h2>
+            <p style="color: #cbd5e0;">Étudiants Ingénieurs - Polytech Annecy-Chambéry</p>
+        </div>
+        <div class="team-list">
+            <div class="team-member">Walid HASNAOUI</div>
+            <div class="team-member">Axelle ROY</div>
+            <div class="team-member">Ikram IDDOUCH</div>
+            <div class="team-member">Khadija ZAROIL</div>
+        </div>
+        <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+            IDU 2025/2026 - Université Savoie Mont Blanc
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 ConnectRes Project. Tous droits réservés.</p>
+        <p>Développé dans le cadre du Projet APP Recherche - Polytech Annecy-Chambéry.</p>
+    </footer>
+
+</body>
+</html>
