@@ -337,52 +337,7 @@ def chat_assistant_dialog():
             L'assistant a accès aux outils suivants pour interroger la base de données :
             """)
             
-            tools = [
-                {
-                    "name": "📊 get_global_stats",
-                    "description": "Obtenir les statistiques globales de la base de données (nombre total de chercheurs, publications, institutions, etc.)",
-                },
-                {
-                    "name": "🔍 search_chercheur",
-                    "description": "Rechercher un chercheur par son nom et obtenir ses informations (publications, collaborateurs, institutions)",
-                },
-                {
-                    "name": "🏆 get_top_chercheurs",
-                    "description": "Obtenir le classement des chercheurs avec le plus de publications",
-                },
-                {
-                    "name": "📄 search_publication",
-                    "description": "Rechercher des publications par titre",
-                },
-                {
-                    "name": "⭐ get_top_publications",
-                    "description": "Obtenir les publications les plus citées",
-                },
-                {
-                    "name": "📅 get_publications_by_year",
-                    "description": "Obtenir les publications d'une année spécifique",
-                },
-                {
-                    "name": "🏛️ search_institution",
-                    "description": "Rechercher une institution par nom",
-                },
-                {
-                    "name": "🏢 get_top_institutions",
-                    "description": "Obtenir les institutions avec qui les chercheurs collaborent le plus",
-                },
-                {
-                    "name": "🤝 get_top_collaborations",
-                    "description": "Obtenir les collaborations les plus fortes",
-                },
-                {
-                    "name": "🌍 get_stats_pays",
-                    "description": "Obtenir les statistiques de publications par pays",
-                },
-                {
-                    "name": "📋 list_chercheurs",
-                    "description": "Lister les noms des chercheurs dans la base",
-                }
-            ]
+            tools = get_mcp_manager().list_tools()
             
             # Afficher les outils en 2 colonnes
             col1, col2 = st.columns(2)
