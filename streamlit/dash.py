@@ -9,6 +9,11 @@ import streamlit as st
 import os
 from research_summarizer import ResearchSummarizer
 from mcp_server.mcp_service import get_mcp_manager, initialize_mcp_session_state, add_mcp_message, get_mcp_messages, clear_mcp_messages
+import json
+from datetime import datetime
+from mcp_server.researchMCPServer import ResearchMCPServer
+from ai_with_groq import generate_thesis_ideas_from_researcher_data
+
 
 st.set_page_config(layout="wide")
 
@@ -118,6 +123,36 @@ def get_collaborations_data():
 @st.cache_data(ttl=300)
 def get_current_user_data():
     return api_request("/api/me")
+
+# Auto-generate thesis ideas for logged-in user (run once after login)
+if not st.session_state.thesis_generation_started and st.session_state.login_success:
+    st.session_state.thesis_generation_started = True
+    researcher_name = st.session_state.get('username', '')
+    
+    if researcher_name:
+        try:
+            # Create MCP Server instance
+            api_token = st.session_state.get("api_token", "")
+            mcp_server = ResearchMCPServer(api_base_url=API_BASE_URL, api_token=api_token)
+            
+            # Get researcher data
+            researcher_data = mcp_server.search_chercheur(researcher_name)
+            
+            if "error" not in researcher_data:
+                # Generate thesis ideas with default parameters
+                result = generate_thesis_ideas_from_researcher_data(
+                    researcher_data=researcher_data,
+                    model="llama-3.3-70b-versatile",
+                    max_titles=60,
+                    trend_days=180
+                )
+                st.session_state.generated_ideas = result
+                st.session_state.thesis_generation_error = None
+            else:
+                st.session_state.thesis_generation_error = researcher_data['error']
+        except Exception as e:
+            st.session_state.thesis_generation_error = str(e)
+
 
 # Affichage du nom d'utilisateur connecté
 # user_data = get_current_user_data()
@@ -406,6 +441,197 @@ def chat_assistant_dialog():
         3. Le chemin vers les fichiers de données est correct
         """)
 
+def display_thesis_idea(idea, index):
+    """Display a single thesis idea in a nice card format."""
+    with st.container():
+        st.markdown(f"###  Suggestion {index}: {idea.get('title', 'Untitled')}")
+        
+        # Research Question
+        st.markdown("**Problématique:**")
+        st.write(idea.get('research_question', 'N/A'))
+        
+        # Mini Abstract
+        st.markdown("**Abstract:**")
+        st.write(idea.get('mini_abstract', 'N/A'))
+        
+        # Method Plan
+        method_plan = idea.get('method_plan', [])
+        if method_plan:
+            st.markdown("**Méthodologie:**")
+            for i, step in enumerate(method_plan, 1):
+                st.markdown(f"{i}. {step}")
+        
+        # Datasets
+        datasets = idea.get('datasets_or_data', [])
+        if datasets:
+            st.markdown("**Datasets/Data:**")
+            for dataset in datasets:
+                st.markdown(f"- {dataset}")
+        
+        
+        # Evidence IDs
+        evidence_ids = idea.get('evidence_ids', [])
+        if evidence_ids:
+            st.markdown("**Basé sur les articles suivants:**")
+            st.caption(", ".join(evidence_ids[:3]) + ("..." if len(evidence_ids) > 3 else ""))
+        
+        st.markdown("---")
+
+
+
+def ai_generator(): 
+    # Header
+    st.title("Générateur d'idées de thèse")    
+    researcher_name = st.session_state.get('username', '')
+    
+    if not researcher_name:
+        st.error("❌ No user logged in. Please log in first.")
+        st.stop()
+    
+    st.info(f"Génération d'idées de thèse pour: **{researcher_name}**")
+    
+    # Show generation status
+    if not st.session_state.thesis_generation_started:
+        st.info("🔄 Initializing thesis idea generation...")
+        st.stop()
+    
+    # Check if there was an error during auto-generation
+    if st.session_state.thesis_generation_error and not st.session_state.generated_ideas:
+        st.error(f"❌ Error during automatic generation: {st.session_state.thesis_generation_error}")
+        
+        # Offer manual retry with advanced options
+        st.markdown("---")
+        st.markdown("### 🔄 Retry with Custom Settings")
+        
+        with st.expander("⚙️ Advanced Options"):
+            model = st.selectbox(
+                "Groq Model",
+                ["llama-3.3-70b-versatile", "mixtral-8x7b-32768", "llama-3.1-70b-versatile"],
+                help="Select the AI model for generating thesis ideas"
+            )
+            max_titles = st.slider("Max titles to analyze", 20, 100, 60)
+            trend_days = st.slider("Trending period (days)", 90, 365, 180)
+        
+        col1, col2, col3 = st.columns([2, 1, 2])
+        with col2:
+            generate_button = st.button("🔄 Retry Generation", type="primary", use_container_width=True)
+        
+        if generate_button:
+            try:
+                with st.spinner("🔄 Fetching researcher data from database..."):
+                    # Create MCP Server instance
+                    api_token = st.session_state.get("api_token", "")
+                    mcp_server = ResearchMCPServer(api_base_url=API_BASE_URL, api_token=api_token)
+                    
+                    # Get researcher data
+                    researcher_data = mcp_server.search_chercheur(researcher_name)
+                    
+                    if "error" in researcher_data:
+                        st.error(f"❌ {researcher_data['error']}")
+                        st.info("💡 Your profile was not found in the database.")
+                        st.session_state.thesis_generation_error = researcher_data['error']
+                        st.stop()
+                
+                # Display researcher info
+                st.success(f"✅ Found researcher: **{researcher_data.get('nom')}**")
+                
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Publications", researcher_data.get('total_publications', 0))
+                with col2:
+                    st.metric("Collaborateurs", researcher_data.get('total_collaborateurs', 0))
+                with col3:
+                    st.metric("Institutions", researcher_data.get('total_institutions', 0))
+                
+                st.markdown("---")
+                
+                # Generate thesis ideas
+                with st.spinner("🤖 Analyzing publications and generating thesis ideas with AI... This may take 1-2 minutes..."):
+                    result = generate_thesis_ideas_from_researcher_data(
+                        researcher_data=researcher_data,
+                        model=model,
+                        max_titles=max_titles,
+                        trend_days=trend_days
+                    )
+                    
+                    st.session_state.generated_ideas = result
+                    st.session_state.thesis_generation_error = None
+                
+                st.balloons()
+                st.success("✅ Successfully generated 3 thesis ideas!")
+                
+            except Exception as e:
+                error_msg = str(e)
+                st.session_state.thesis_generation_error = error_msg
+                
+                # Handle specific error types with user-friendly messages
+                if "429" in error_msg or "Too Many Requests" in error_msg:
+                    st.error("🚨 **Rate Limit Exceeded**")
+                    st.warning(
+                        "The AI service (Groq API) has rate limits. Please try one of these options:\n\n"
+                        "1. **Wait 1-2 minutes** and try again\n"
+                        "2. **Reduce the number of titles** analyzed in the advanced settings\n"
+                        "3. The system will automatically retry with exponential backoff, but it may take longer"
+                    )
+                    st.info("💡 **Tip:** Groq's free tier has strict rate limits. Consider upgrading your API plan if you need frequent access.")
+                elif "401" in error_msg or "Unauthorized" in error_msg:
+                    st.error("🔑 **Authentication Error**")
+                    st.warning("Your Groq API key may be invalid or expired. Please check your API configuration.")
+                elif "timeout" in error_msg.lower():
+                    st.error("⏱️ **Timeout Error**")
+                    st.warning("The request took too long. Try again with fewer titles or a shorter trending period.")
+                else:
+                    st.error(f"❌ An error occurred: {error_msg}")
+                
+                # Show detailed error for debugging
+                with st.expander("🔍 View detailed error (for debugging)"):
+                    st.exception(e)
+                st.stop()
+
+    # Show loading message if still generating
+    if not st.session_state.generated_ideas and not st.session_state.thesis_generation_error:
+        with st.spinner("🤖 Generating your thesis ideas... This may take 1-2 minutes..."):
+            st.info("⏳ Please wait while we analyze your publications and generate innovative thesis ideas.")
+            # The generation happens in the background after login
+            st.stop()
+    
+    # Display generated ideas
+    if st.session_state.generated_ideas:
+        result = st.session_state.generated_ideas
+        
+        st.markdown("---")
+        st.markdown("## Résultats de l'analyse")
+        
+        # Show domain and topics
+        st.markdown("**Sujets tendance choisis :**")
+        topics = result.get('chosen_trending_topics', [])
+        for topic in topics:
+            st.write(f"• {topic}")
+        
+        # Show author's top topics
+        with st.expander("Principaux sujets de recherche de l'auteur"):
+            author_topics = result.get('top_author_topics', [])
+            for topic_data in author_topics[:10]:
+                topic = topic_data.get('topic', 'Unknown')
+                count = topic_data.get('count', 0)
+                st.write(f"- **{topic}** ({count} publications)")
+        
+        st.markdown("---")
+        st.markdown("## 💡 Idées de thèse générées")
+        
+        # Display the 3 thesis ideas
+        ideas = result.get('ideas', [])
+        if ideas:
+            tabs = st.tabs([f"Idée {i+1}" for i in range(len(ideas))])
+            for i, (tab, idea) in enumerate(zip(tabs, ideas)):
+                with tab:
+                    display_thesis_idea(idea, i+1)
+        else:
+            st.warning("Aucune idée n'a été générée.")
+    else:
+        st.warning("⚠️ Aucune idée de thèse n'a encore été générée. Veuillez vérifier le message d'erreur ci-dessus ou réessayer.")
+
+
 def show_chat_button():
     # Initialize dialog state
     if "dialog_open" not in st.session_state:
@@ -421,8 +647,16 @@ def show_chat_button():
         st.session_state.dialog_open = False
         chat_assistant_dialog()
 
-
-# ============= SIDEBAR =============
+def show_ai_generator_button():
+    # Button to open dialog
+    if st.sidebar.button("Accéder aux suggestions de thèse", use_container_width=True):
+        st.session_state.dialog_open = True
+        st.rerun()
+    
+    # Auto-reopen dialog after rerun
+    if st.session_state.dialog_open:
+        st.session_state.dialog_open = False
+        ai_generator()#  SIDEBAR =============
 
 # Year filter for researchers
 if not df.empty and 'year' in df.columns:
@@ -500,7 +734,12 @@ st.sidebar.subheader("Intéroger directement la base de données")
 # if st.sidebar.button("Ouvrir l'Assistant IA", use_container_width=True, type="primary"):
 #     chat_assistant_dialog()
 show_chat_button()
-        
+#---AI Generator Section ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("Accéder aux idées de thèses générées par l'IA")
+# if st.sidebar.button("Ouvrir l'Assistant IA", use_container_width=True, type="primary"):
+#     chat_assistant_dialog()
+show_ai_generator_button()
 # --- User Section ---
 st.sidebar.markdown("---")
 if st.sidebar.button("Déconnexion", use_container_width=True):
