@@ -1,0 +1,61 @@
+# API ImageStream
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  name: api
+---
+# API BuildConfig
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: api
+spec:
+  source:
+    type: Git
+    git:
+      uri: https://github.com/ghostondancefloor/Projet_APP_Recherche.git
+      ref: main
+    contextDir: api
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile
+  output:
+    to:
+      kind: ImageStreamTag
+      name: api:latest
+  triggers:
+    - type: ConfigChange
+---
+# Streamlit ImageStream
+apiVersion: image.openshift.io/v1
+kind: ImageStream
+metadata:
+  name: streamlit
+---
+# Streamlit BuildConfig
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: streamlit
+spec:
+  source:
+    type: Git
+    git:
+      uri: https://github.com/ghostondancefloor/Projet_APP_Recherche.git
+      ref: main
+    contextDir: streamlit
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile
+  output:
+    to:
+      kind: ImageStreamTag
+      name: streamlit:latest
+  triggers:
+    - type: ConfigChange
+  resources:
+    limits:
+      memory: "4Gi"
+      cpu: "2"
