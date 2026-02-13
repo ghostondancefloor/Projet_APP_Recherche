@@ -188,6 +188,12 @@ Kubernetes deployment is suitable for production environments and multi-node clu
 # Verify Kubernetes cluster access
 kubectl cluster-info
 
+#### Prerequisites Check
+
+```bash
+# Verify Kubernetes cluster access
+kubectl cluster-info
+
 # Verify kubectl version
 kubectl version --client
 
@@ -195,7 +201,32 @@ kubectl version --client
 kubectl top nodes
 ```
 
-#### Step 1: Build Container Images
+#### Quick Start (Automated Deployment)
+
+The `deploy.sh` script handles everything automatically, including building images:
+
+```bash
+cd k8s
+./deploy.sh
+```
+
+The script will:
+1. Check Kubernetes cluster connectivity
+2. Build Docker images using docker-compose
+3. Create namespace and secrets
+4. Create persistent volumes
+5. Deploy MongoDB, API, and Streamlit
+6. Wait for all pods to be ready
+
+**Skip to Step 5 (Verify Deployment) if using the automated script.**
+
+---
+
+#### Manual Deployment (Step-by-Step)
+
+If you prefer manual control or need to customize the deployment:
+
+**Step 1: Build Container Images**
 
 For local Kubernetes (Docker Desktop):
 
@@ -221,7 +252,7 @@ docker push your-registry/research-api:latest
 docker push your-registry/research-streamlit:latest
 ```
 
-#### Step 2: Update Image References (Remote Clusters Only)
+**Step 2: Update Image References (Remote Clusters Only)**
 
 Edit the deployment files if using a remote registry:
 
@@ -231,7 +262,7 @@ sed -i 's|projet_app_recherche-|your-registry/research-|g' k8s/*.yaml
 sed -i 's|imagePullPolicy: Never|imagePullPolicy: Always|g' k8s/*.yaml
 ```
 
-#### Step 3: Configure Secrets
+**Step 3: Configure Secrets (Optional)**
 
 Edit `k8s/secrets.yaml` with your base64-encoded values:
 
@@ -243,16 +274,7 @@ echo -n "your-mongodb-password" | base64
 
 Update the values in `k8s/secrets.yaml`.
 
-#### Step 4: Deploy to Kubernetes
-
-**Automated Deployment:**
-
-```bash
-cd k8s
-./deploy.sh
-```
-
-**Manual Deployment:**
+**Step 4: Deploy Manifests**
 
 ```bash
 # Apply in order
@@ -264,7 +286,11 @@ kubectl apply -f k8s/api-deployment.yaml
 kubectl apply -f k8s/streamlit-deployment.yaml
 ```
 
-#### Step 5: Verify Deployment
+---
+
+#### Verify Deployment
+
+After deployment (automated or manual), verify all components are running:
 
 ```bash
 # Check all resources
@@ -280,7 +306,7 @@ kubectl logs -n research-dashboard -l app=streamlit --tail=50
 kubectl get pv,pvc -n research-dashboard
 ```
 
-#### Step 6: Access the Application
+#### Access the Application
 
 **For Docker Desktop Kubernetes:**
 
