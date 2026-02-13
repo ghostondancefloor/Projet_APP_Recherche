@@ -15,3 +15,5 @@ langdetect
 protobuf
 
 groq
+requests>=2.25.1
+pymongo

@@ -26,8 +26,6 @@ from collections import Counter
 from typing import Any, Dict, List, Optional, Tuple
 
 import requests
-import bson  # From pymongo package
-
 
 
 
@@ -35,7 +33,7 @@ import bson  # From pymongo package
 OPENALEX_BASE = "https://api.openalex.org"
 GROQ_CHAT_COMPLETIONS = "https://api.groq.com/openai/v1/chat/completions"
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Load from .env file
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY")  # Load from .env file
 
 
 
