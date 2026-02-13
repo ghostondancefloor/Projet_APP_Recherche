@@ -16,22 +16,20 @@ RUN pip install --no-cache-dir --user -r requirements.txt
 # Stage 2: Runtime - Minimal final image
 FROM python:3.10-slim
 
-# Create non-root user for security
-RUN useradd -m -u 1000 apiuser
-
 WORKDIR /app
 
-# Copy Python packages from builder stage
-COPY --from=builder /root/.local /home/apiuser/.local
+# Copy Python packages from builder stage to global location
+COPY --from=builder /root/.local /opt/python-packages
 
 # Copy application code
-COPY --chown=apiuser:apiuser . .
+COPY . .
 
-# Update PATH to include user-installed packages
-ENV PATH=/home/apiuser/.local/bin:$PATH
+# Update PATH to include packages and ensure app dir is writable
+ENV PATH=/opt/python-packages/bin:$PATH
+ENV PYTHONPATH=/opt/python-packages/lib/python3.10/site-packages:$PYTHONPATH
 
-# Switch to non-root user
-USER apiuser
+# Make app directory writable for OpenShift arbitrary UID
+RUN chmod -R g+rwX /app && chgrp -R 0 /app
 
 # Expose port
 EXPOSE 8000

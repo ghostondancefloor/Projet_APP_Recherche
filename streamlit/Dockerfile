@@ -36,25 +36,23 @@ RUN python download_models.py
 # Stage 2: Runtime - Minimal final image
 FROM python:3.10-slim
 
-# Create non-root user for security
-RUN useradd -m -u 1000 streamlituser
-
 WORKDIR /app
 
-# Copy Python packages from builder stage
-COPY --from=builder /root/.local /home/streamlituser/.local
+# Copy Python packages from builder stage to global location
+COPY --from=builder /root/.local /opt/python-packages
 
 # Récupérer les modèles téléchargés
-COPY --from=builder --chown=streamlituser:streamlituser /app/models_local /app/models_local
+COPY --from=builder /app/models_local /app/models_local
 
 # Copy application code
-COPY --chown=streamlituser:streamlituser . .
+COPY . .
 
-# Update PATH to include user-installed packages
-ENV PATH=/home/streamlituser/.local/bin:$PATH
+# Update PATH to include packages
+ENV PATH=/opt/python-packages/bin:$PATH
+ENV PYTHONPATH=/opt/python-packages/lib/python3.10/site-packages:$PYTHONPATH
 
-# Switch to non-root user
-USER streamlituser
+# Make directories writable for OpenShift arbitrary UID
+RUN chmod -R g+rwX /app && chgrp -R 0 /app
 
 # Expose port
 EXPOSE 8501
